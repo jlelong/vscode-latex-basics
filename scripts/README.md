@@ -1,4 +1,4 @@
-# Grammar files
+# Grammar generating scripts
 
 ## generate-bailout.js
 
