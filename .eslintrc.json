@@ -1,0 +1,35 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "no-shadow": "off",
+        "no-unused-expressions": "off",
+        "no-unused-vars": "off",
+        "curly": "error",
+        "default-case": "error",
+        "eol-last": "error",
+        "eqeqeq": ["error", "always"],
+        "func-call-spacing": ["error", "never"],
+        "no-caller": "error",
+        "no-constant-condition": ["error", { "checkLoops": false }],
+        "no-eval": "error",
+        "no-invalid-this": "error",
+        "no-multiple-empty-lines": "error",
+        "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+        "no-new-wrappers": "error",
+        "no-trailing-spaces": "error",
+        "no-empty": ["error", { "allowEmptyCatch": true }],
+        "object-shorthand": "error",
+        "one-var": ["error", { "initialized": "never", "uninitialized": "never" }],
+        "prefer-arrow-callback": [ "error", { "allowUnboundThis": false } ],
+        "quotes": ["error", "single", {"avoidEscape": true}],
+        "space-before-function-paren": ["error", {"anonymous": "always", "named": "never", "asyncArrow": "always"}]
+    }
+}
