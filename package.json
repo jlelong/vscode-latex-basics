@@ -1,0 +1,235 @@
+{
+  "name": "vscode-latex-basics",
+  "displayName": "LaTeX grammars",
+  "description": "LaTeX textmate grammars for Visual Studio Code",
+  "icon": "icon.png",
+  "version": "1.0.0",
+  "publisher": "jlelong",
+  "license": "MIT",
+  "homepage": "https://github.com/jlelong/vscode-latex-basics",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlelong/vscode-latex-basics"
+  },
+  "author": {
+    "name": "Jérôme Lelong"
+  },
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "bst",
+    "doctex",
+    "latex",
+    "tex",
+    "bibtex",
+    "rsweave",
+    "syntax",
+    "textmate",
+    "highlighting"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "tex",
+        "aliases": [
+          "TeX",
+          "tex"
+        ],
+        "extensions": [
+          ".sty",
+          ".cls",
+          ".bbx",
+          ".cbx"
+        ],
+        "configuration": "latex-language-configuration.json"
+      },
+      {
+        "id": "doctex",
+        "aliases": [
+          "DocTeX",
+          "doctex"
+        ],
+        "extensions": [
+          ".dtx"
+        ],
+        "configuration": "doctex-language-configuration.json"
+      },
+      {
+        "id": "latex",
+        "aliases": [
+          "LaTeX",
+          "latex"
+        ],
+        "extensions": [
+          ".tex",
+          ".ltx",
+          ".ctx"
+        ],
+        "configuration": "latex-language-configuration.json"
+      },
+      {
+        "id": "bibtex",
+        "aliases": [
+          "BibTeX",
+          "bibtex"
+        ],
+        "extensions": [
+          ".bib"
+        ]
+      },
+      {
+        "id": "bibtex-style",
+        "aliases": [
+          "BibTeX style"
+        ],
+        "extensions": [
+          ".bst"
+        ]
+      },
+      {
+        "id": "latex-expl3",
+        "aliases": [
+          "LaTeX-Expl3"
+        ],
+        "configuration": "latex3-language-configuration.json"
+      },
+      {
+        "id": "jlweave",
+        "aliases": [
+          "Weave.jl"
+        ],
+        "extensions": [
+          ".jnw",
+          ".jtexw"
+        ],
+        "configuration": "latex-weave-language-configuration.json"
+      },
+      {
+        "id": "rsweave",
+        "aliases": [
+          "R Sweave"
+        ],
+        "extensions": [
+          ".rnw",
+          ".Rnw",
+          ".Rtex",
+          ".rtex",
+          ".snw",
+          ".Snw"
+        ],
+        "configuration": "latex-weave-language-configuration.json"
+      },
+      {
+        "id": "cpp_embedded_latex",
+        "configuration": "latex-cpp-embedded-language-configuration.json"
+      },
+      {
+        "id": "markdown_latex_combined",
+        "configuration": "markdown-latex-combined-language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "tex",
+        "scopeName": "text.tex",
+        "path": "./syntaxes/TeX.tmLanguage.json"
+      },
+      {
+        "language": "doctex",
+        "scopeName": "text.tex.doctex",
+        "path": "./syntaxes/DocTeX.tmLanguage.json"
+      },
+      {
+        "language": "latex",
+        "scopeName": "text.tex.latex",
+        "path": "./syntaxes/LaTeX.tmLanguage.json",
+        "embeddedLanguages": {
+          "source.asymptote": "asymptote",
+          "source.cpp": "cpp_embedded_latex",
+          "source.css": "css",
+          "source.dot": "dot",
+          "source.gnuplot": "gnuplot",
+          "text.html": "html",
+          "source.java": "java",
+          "source.js": "javascript",
+          "source.julia": "julia",
+          "source.lua": "lua",
+          "source.python": "python",
+          "source.ruby": "ruby",
+          "source.scala": "scala",
+          "source.ts": "typescript",
+          "text.xml": "xml",
+          "source.yaml": "yaml",
+          "meta.embedded.markdown_latex_combined": "markdown_latex_combined"
+        }
+      },
+      {
+        "language": "bibtex",
+        "scopeName": "text.bibtex",
+        "path": "./syntaxes/Bibtex.tmLanguage.json"
+      },
+      {
+        "language": "bibtex-style",
+        "scopeName": "source.bst",
+        "path": "./syntaxes/BibTeX-style.tmLanguage.json"
+      },
+      {
+        "language": "latex-expl3",
+        "scopeName": "text.tex.latex.expl3",
+        "path": "./syntaxes/LaTeX-Expl3.tmLanguage.json"
+      },
+      {
+        "scopeName": "markdown.latex.codeblock",
+        "path": "./syntaxes/latexblock.tmLanguage.json",
+        "injectTo": [
+          "text.html.markdown"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.latex": "latex",
+          "meta.embedded.block.bibtex": "bibtex"
+        }
+      },
+      {
+        "language": "markdown_latex_combined",
+        "scopeName": "text.tex.markdown_latex_combined",
+        "path": "./syntaxes/markdown-latex-combined.tmLanguage.json"
+      },
+      {
+        "language": "cpp_embedded_latex",
+        "scopeName": "source.cpp.embedded.latex",
+        "path": "./syntaxes/cpp-grammar-bailout.tmLanguage.json",
+        "embeddedLanguages": {
+          "meta.embedded.assembly.cpp": "asm"
+        }
+      },
+      {
+        "language": "jlweave",
+        "scopeName": "text.tex.latex.jlweave",
+        "path": "./syntaxes/JLweave.tmLanguage.json",
+        "embeddedLanguages": {
+          "source.julia": "julia"
+        }
+      },
+      {
+        "language": "rsweave",
+        "scopeName": "text.tex.latex.rsweave",
+        "path": "./syntaxes/RSweave.tmLanguage.json",
+        "embeddedLanguages": {
+          "source.r": "r"
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint --cache --ext .js .",
+    "lint:fix": "eslint --fix --cache --ext .js ."
+  },
+  "devDependencies": {
+    "textmate-bailout": "1.1.0",
+    "sync-request": "6.1.0"
+  }
+}
