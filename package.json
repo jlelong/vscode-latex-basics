@@ -226,7 +226,8 @@
   },
   "scripts": {
     "lint": "eslint --cache --ext .js .",
-    "lint:fix": "eslint --fix --cache --ext .js ."
+    "lint:fix": "eslint --fix --cache --ext .js .",
+    "update-grammar": "node ./scripts/all.js"
   },
   "devDependencies": {
     "eslint": "^8.3.0",

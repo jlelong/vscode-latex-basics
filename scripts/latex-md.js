@@ -39,8 +39,12 @@ function insertLaTeXGrammar(url, latexScope, newScopeName, newGrammarFile) {
     fs.writeFileSync(newGrammarFile, JSON.stringify(grammar))
 }
 
-insertLaTeXGrammar('https://raw.githubusercontent.com/microsoft/vscode/main/extensions/markdown-basics/syntaxes/markdown.tmLanguage.json',
-    'text.tex.latex',
-    'text.tex.markdown_latex_combined',
-    '../syntax/markdown-latex-combined.tmLanguage.json'
-)
+function main() {
+    insertLaTeXGrammar('https://raw.githubusercontent.com/microsoft/vscode/main/extensions/markdown-basics/syntaxes/markdown.tmLanguage.json',
+        'text.tex.latex',
+        'text.tex.markdown_latex_combined',
+        './syntaxes/markdown-latex-combined.tmLanguage.json'
+    )
+}
+
+module.exports = main
