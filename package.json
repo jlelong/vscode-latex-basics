@@ -182,17 +182,6 @@
         "path": "./syntaxes/LaTeX-Expl3.tmLanguage.json"
       },
       {
-        "scopeName": "markdown.latex.codeblock",
-        "path": "./syntaxes/latexblock.tmLanguage.json",
-        "injectTo": [
-          "text.html.markdown"
-        ],
-        "embeddedLanguages": {
-          "meta.embedded.block.latex": "latex",
-          "meta.embedded.block.bibtex": "bibtex"
-        }
-      },
-      {
         "language": "markdown_latex_combined",
         "scopeName": "text.tex.markdown_latex_combined",
         "path": "./syntaxes/markdown-latex-combined.tmLanguage.json"
