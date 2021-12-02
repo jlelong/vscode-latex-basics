@@ -57,5 +57,5 @@
 		"decreaseIndentPattern": "^\\s*\\\\end{(?!document)"
 	},
 	"autoCloseBefore": ";:.,=}])>\\` \n\t$",
-	"wordPattern": "([^\\s`'\"~_!?|$#%^&*\\-=+;:,.<>(){}[\\]\\/]+)"
+	"wordPattern": "([^\\s`'\"~!?|$#%^&*\\-=+;,.<>(){}[\\]\\/]+)"
 }
