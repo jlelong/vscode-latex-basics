@@ -44,7 +44,7 @@
           ".bbx",
           ".cbx"
         ],
-        "configuration": "latex-language-configuration.json"
+        "configuration": "languages/latex-language-configuration.json"
       },
       {
         "id": "doctex",
@@ -55,7 +55,7 @@
         "extensions": [
           ".dtx"
         ],
-        "configuration": "doctex-language-configuration.json"
+        "configuration": "languages/doctex-language-configuration.json"
       },
       {
         "id": "latex",
@@ -68,7 +68,7 @@
           ".ltx",
           ".ctx"
         ],
-        "configuration": "latex-language-configuration.json"
+        "configuration": "languages/latex-language-configuration.json"
       },
       {
         "id": "bibtex",
@@ -94,7 +94,7 @@
         "aliases": [
           "LaTeX-Expl3"
         ],
-        "configuration": "latex3-language-configuration.json"
+        "configuration": "languages/latex3-language-configuration.json"
       },
       {
         "id": "jlweave",
@@ -105,7 +105,7 @@
           ".jnw",
           ".jtexw"
         ],
-        "configuration": "latex-weave-language-configuration.json"
+        "configuration": "languages/latex-weave-language-configuration.json"
       },
       {
         "id": "rsweave",
@@ -120,15 +120,15 @@
           ".snw",
           ".Snw"
         ],
-        "configuration": "latex-weave-language-configuration.json"
+        "configuration": "languages/latex-weave-language-configuration.json"
       },
       {
         "id": "cpp_embedded_latex",
-        "configuration": "latex-cpp-embedded-language-configuration.json"
+        "configuration": "languages/latex-cpp-embedded-language-configuration.json"
       },
       {
         "id": "markdown_latex_combined",
-        "configuration": "markdown-latex-combined-language-configuration.json"
+        "configuration": "languages/markdown-latex-combined-language-configuration.json"
       }
     ],
     "grammars": [
