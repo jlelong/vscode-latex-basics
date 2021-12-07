@@ -163,6 +163,14 @@
           ]
         },
         {
+          "match": "\\\\{|\\\\}",
+          "name": "punctuation.math.bracket.pair.tex"
+        },
+        {
+          "match": "\\\\(left|right|((big|bigg|Big|Bigg)[lr]?))([\\(\\[\\<\\>\\]\\)\\.]|\\\\{|\\\\})",
+          "name": "punctuation.math.bracket.pair.big.tex"
+        },
+        {
           "captures": {
             "1": {
               "name": "punctuation.definition.constant.math.tex"
@@ -247,11 +255,11 @@
           "name": "punctuation.math.end.bracket.curly.tex"
         },
         {
-          "match": "\\(",
+          "match": "(?<!\\\\)\\(",
           "name": "punctuation.math.begin.bracket.round.tex"
         },
         {
-          "match": "\\)",
+          "match": "(?<!\\\\)\\)",
           "name": "punctuation.math.end.bracket.round.tex"
         },
         {
