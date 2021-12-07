@@ -398,7 +398,7 @@
           },
           "contentName": "meta.function.embedded.latex",
           "end": "(\\\\end\\{(?:lstlisting|minted|pyglist)\\})",
-          "name": "meta.embedded.block.generic"
+          "name": "meta.embedded.block.generic.latex"
         }
       ]
     },
