@@ -1679,13 +1679,13 @@
       ]
     },
     {
-      "begin": "\\$\\$",
+      "begin": "(\\$\\$|\\$)",
       "beginCaptures": {
         "0": {
           "name": "punctuation.definition.string.begin.latex"
         }
       },
-      "end": "\\$\\$",
+      "end": "(\\1)",
       "endCaptures": {
         "0": {
           "name": "punctuation.definition.string.end.latex"
