@@ -1,18 +1,20 @@
-const request = require('sync-request')
+const got = require('got')
 const fs = require('fs')
 
-function downloadUrl(url) {
-    var res = request('GET', url)
-    if (res.statusCode === 200) {
-        return res.body.toString('utf-8')
+async function downloadUrl(url) {
+    try {
+        const response = await got(url)
+        return response.body.toString('utf-8')
+    } catch (e) {
+        console.log('Cannot retrieve: ', url)
+        console.log('Error code:', e.response.statusCode)
+        console.log('Error message:', e.response.statusMessage);
     }
-    console.log('Cannot retrieve: ', url)
-    console.log('Request status: ', res.statusCode)
     return undefined
 }
 
-function insertLaTeXGrammar(url, latexScope, newScopeName, newGrammarFile) {
-    const grammar = JSON.parse(downloadUrl(url))
+async function insertLaTeXGrammar(url, latexScope, newScopeName, newGrammarFile) {
+    const grammar = JSON.parse(await downloadUrl(url))
     if(!grammar) {
        return
     }
