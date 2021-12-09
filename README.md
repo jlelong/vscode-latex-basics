@@ -2,7 +2,7 @@
 
 The files contained in this repository were originally part of https://github.com/James-Yu/LaTeX-Workshop. They have been extracted in the hope that they can useful outside of the LaTeX-Workshop extension.
 
-This repository contains `tmLangugage` grammar files for LaTeX and some related programming languages (`TeX`, `DocTeX`, `BibTeX`, `BibTeX Style`, `LaTeX3`). These grammar files specifically target [Visual Studio Code](https://github.com/Microsoft/vscode) as they are accompanied by the corresponding language configuration files. However the grammar files could in principle be consumed by any editor or extension using the TextMate language.
+This repository contains `tmLangugage` grammar files for LaTeX and BibTeX. These grammar files specifically target [Visual Studio Code](https://github.com/Microsoft/vscode) as they are accompanied by the corresponding language configuration files. However, the grammar files could in principle be consumed by any editor or extension using the TextMate language.
 
 The grammar files support various embedded languages
 
