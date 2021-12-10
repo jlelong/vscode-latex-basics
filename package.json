@@ -68,32 +68,6 @@
         ]
       },
       {
-        "id": "jlweave",
-        "aliases": [
-          "Weave.jl"
-        ],
-        "extensions": [
-          ".jnw",
-          ".jtexw"
-        ],
-        "configuration": "languages/latex-language-configuration.json"
-      },
-      {
-        "id": "rsweave",
-        "aliases": [
-          "R Sweave"
-        ],
-        "extensions": [
-          ".rnw",
-          ".Rnw",
-          ".Rtex",
-          ".rtex",
-          ".snw",
-          ".Snw"
-        ],
-        "configuration": "languages/latex-language-configuration.json"
-      },
-      {
         "id": "cpp_embedded_latex",
         "configuration": "languages/latex-cpp-embedded-language-configuration.json"
       },
@@ -148,22 +122,6 @@
         "path": "./syntaxes/cpp-grammar-bailout.tmLanguage.json",
         "embeddedLanguages": {
           "meta.embedded.assembly.cpp": "asm"
-        }
-      },
-      {
-        "language": "jlweave",
-        "scopeName": "text.tex.latex.jlweave",
-        "path": "./syntaxes/JLweave.tmLanguage.json",
-        "embeddedLanguages": {
-          "source.julia": "julia"
-        }
-      },
-      {
-        "language": "rsweave",
-        "scopeName": "text.tex.latex.rsweave",
-        "path": "./syntaxes/RSweave.tmLanguage.json",
-        "embeddedLanguages": {
-          "source.r": "r"
         }
       }
     ]

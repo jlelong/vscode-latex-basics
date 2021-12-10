@@ -9,7 +9,7 @@
 ### Changed
 
 - (#6) Set a single grammar scope to variable-size delimiters to enable bracket pair highlighting and colouring.
-- Remove support for DocTeX, BibTeX-Style and LaTeX3. These languages are directly provided by LaTeX-Workshop.
+- Remove support for DocTeX, BibTeX-Style, LaTeX3 and Weave LaTeX. These languages are directly provided by LaTeX-Workshop.
 
 ### Fixed
 
