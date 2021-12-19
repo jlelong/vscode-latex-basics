@@ -13,8 +13,9 @@
   "author": {
     "name": "Jérôme Lelong"
   },
+  "type": "module",
   "engines": {
-    "vscode": "*"
+    "node": ">=16.0.0"
   },
   "categories": [
     "Programming Languages"

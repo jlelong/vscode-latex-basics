@@ -1,5 +1,5 @@
-const got = require('got')
-const fs = require('fs')
+import got from 'got'
+import { writeFileSync } from 'fs'
 
 async function downloadUrl(url) {
     try {
@@ -38,10 +38,10 @@ async function insertLaTeXGrammar(url, latexScope, newScopeName, newGrammarFile)
     }
     inlineRule.patterns.splice(0, 0, includeLatex)
 
-    fs.writeFileSync(newGrammarFile, JSON.stringify(grammar))
+    writeFileSync(newGrammarFile, JSON.stringify(grammar))
 }
 
-function main() {
+export default function main() {
     insertLaTeXGrammar('https://raw.githubusercontent.com/microsoft/vscode/main/extensions/markdown-basics/syntaxes/markdown.tmLanguage.json',
         'text.tex.latex',
         'text.tex.markdown_latex_combined',
@@ -49,4 +49,3 @@ function main() {
     )
 }
 
-module.exports = main

@@ -1,5 +1,5 @@
-const bailout = require('./generate-bailout')
-const md = require('./latex-md')
+import bailout from './generate-bailout.js'
+import md from './latex-md.js'
 
 bailout()
 md()

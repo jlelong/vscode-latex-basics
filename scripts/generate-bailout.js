@@ -1,6 +1,6 @@
-const duplicateForEmbedding = require('textmate-bailout')
-const got = require('got')
-const fs = require('fs')
+import duplicateForEmbedding from 'textmate-bailout'
+import got from 'got'
+import { writeFileSync } from 'fs'
 
 async function downloadUrl(url) {
     try {
@@ -14,7 +14,7 @@ async function downloadUrl(url) {
     return undefined
 }
 
-async function main() {
+export default async function main() {
     duplicateForEmbedding({
         // url for json-version of a tmLanguage
         url: 'https://raw.githubusercontent.com/jeff-hykin/cpp-textmate-grammar/master/syntaxes/cpp.tmLanguage.json',
@@ -27,8 +27,6 @@ async function main() {
     const cppEmbeddedSyntaxFile = './languages/latex-cpp-embedded-language-configuration.json'
     const res = await downloadUrl(cppSyntaxUrl)
     if (res) {
-        fs.writeFileSync(cppEmbeddedSyntaxFile, res)
+        writeFileSync(cppEmbeddedSyntaxFile, res)
     }
 }
-
-module.exports = main
