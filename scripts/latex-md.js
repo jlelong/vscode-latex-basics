@@ -38,7 +38,7 @@ async function insertLaTeXGrammar(url, latexScope, newScopeName, newGrammarFile)
     }
     inlineRule.patterns.splice(0, 0, includeLatex)
 
-    writeFileSync(newGrammarFile, JSON.stringify(grammar))
+    writeFileSync(newGrammarFile, JSON.stringify(grammar, null, '\t'))
 }
 
 export default function main() {
