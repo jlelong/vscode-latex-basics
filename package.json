@@ -132,11 +132,14 @@
   "scripts": {
     "lint": "eslint --cache --ext .js .",
     "lint:fix": "eslint --fix --cache --ext .js .",
-    "update-grammar": "node ./scripts/all.js"
+    "update-grammar": "node ./scripts/all.js",
+    "build-languages": "node ./scripts/extend-language.js",
+    "build": "update-grammar && build-languages"
   },
   "devDependencies": {
     "eslint": "^8.3.0",
     "got": "11.8.3",
-    "textmate-bailout": "1.1.0"
+    "textmate-bailout": "1.1.0",
+    "vscode-extend-languageconf": "^0.2.2"
   }
 }

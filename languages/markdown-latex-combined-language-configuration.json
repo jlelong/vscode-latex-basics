@@ -1,6 +1,5 @@
 {
 	"comments": {
-		// symbols used for start and end a block comment. Remove this entry if your language does not support block comments
 		"blockComment": [
 			"<!--",
 			"-->"
@@ -68,19 +67,19 @@
 		["$", "$"],
 		["`", "`"],
 		["_", "_"],
-		["*", "*"],
+		["*", "*"]
 	],
 	"indentationRules": {
 		"increaseIndentPattern": "\\\\begin{(?!document)([^}]*)}(?!.*\\\\end{\\1})",
 		"decreaseIndentPattern": "^\\s*\\\\end{(?!document)"
 	},
+	"autoCloseBefore": ";:.,=}])>\\` \n\t$",
+	"wordPattern": "([^\\s`'\"~_!?|$#@%^&*\\-=+;:,.<>(){}[\\]\\/]+)",
 	"folding": {
 		"offSide": true,
 		"markers": {
 			"start": "^\\s*<!--\\s*#?region\\b.*-->",
 			"end": "^\\s*<!--\\s*#?endregion\\b.*-->"
 		}
-	},
-	"autoCloseBefore": ";:.,=}])>\\` \n\t$",
-	"wordPattern": "([^\\s`'\"~_!?|$#@%^&*\\-=+;:,.<>(){}[\\]\\/]+)"
+	}
 }

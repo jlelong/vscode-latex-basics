@@ -1,0 +1,30 @@
+{
+	"extends": "../latex-language-configuration.json",
+	"overrides": {
+		"comments": {
+			"blockComment": [
+				"<!--",
+				"-->"
+			]
+		},
+		"surroundingPairs": [
+			["{", "}"],
+			["[", "]"],
+			["(", ")"],
+			["\"", "\""],
+			["'", "'"],
+			["$", "$"],
+			["`", "`"],
+			["_", "_"],
+			["*", "*"]
+		],
+		"wordPattern": "([^\\s`'\"~_!?|$#@%^&*\\-=+;:,.<>(){}[\\]\\/]+)"
+	},
+	"folding": {
+		"offSide": true,
+		"markers": {
+			"start": "^\\s*<!--\\s*#?region\\b.*-->",
+			"end": "^\\s*<!--\\s*#?endregion\\b.*-->"
+		}
+	}
+}
