@@ -132,9 +132,9 @@
   "scripts": {
     "lint": "eslint --cache --ext .js .",
     "lint:fix": "eslint --fix --cache --ext .js .",
-    "update-grammar": "node ./scripts/all.js",
-    "build-languages": "node ./scripts/extend-language.js",
-    "build": "update-grammar && build-languages"
+    "build-grammars": "node ./build/all-grammars.js",
+    "build-languages": "node ./build/extend-language.js",
+    "build": "$npm_execpath run build-grammars && $npm_execpath run build-languages"
   },
   "devDependencies": {
     "eslint": "^8.3.0",
