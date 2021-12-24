@@ -13,10 +13,6 @@
   "author": {
     "name": "Jérôme Lelong"
   },
-  "type": "module",
-  "engines": {
-    "node": ">=16.0.0"
-  },
   "categories": [
     "Programming Languages"
   ],
@@ -132,14 +128,12 @@
   "scripts": {
     "lint": "eslint --cache --ext .js .",
     "lint:fix": "eslint --fix --cache --ext .js .",
-    "build-grammars": "node ./build/all-grammars.js",
-    "build-languages": "node ./build/extend-language.js",
-    "build": "$npm_execpath run build-grammars && $npm_execpath run build-languages"
+    "build": "node ./build/all.js"
   },
   "devDependencies": {
     "eslint": "^8.3.0",
     "got": "11.8.3",
     "textmate-bailout": "1.1.0",
-    "vscode-extend-languageconf": "^0.2.4"
+    "vscode-extend-language": "^0.1.0"
   }
 }

@@ -1,20 +1,8 @@
-import got from 'got'
-import { writeFileSync } from 'fs'
-
-async function downloadUrl(url) {
-    try {
-        const response = await got(url)
-        return response.body.toString('utf-8')
-    } catch (e) {
-        console.log('Cannot retrieve: ', url)
-        console.log('Error code:', e.response.statusCode)
-        console.log('Error message:', e.response.statusMessage);
-    }
-    return undefined
-}
+const fs = require('fs')
+const vel = require('vscode-extend-language')
 
 async function insertLaTeXGrammar(url, latexScope, newScopeName, newGrammarFile) {
-    const grammar = JSON.parse(await downloadUrl(url))
+    const grammar = JSON.parse(await vel.download(url))
     if(!grammar) {
        return
     }
@@ -38,14 +26,17 @@ async function insertLaTeXGrammar(url, latexScope, newScopeName, newGrammarFile)
     }
     inlineRule.patterns.splice(0, 0, includeLatex)
 
-    writeFileSync(newGrammarFile, JSON.stringify(grammar, null, '\t'))
+    fs.writeFileSync(newGrammarFile, JSON.stringify(grammar, null, '\t'))
 }
 
-export default function main() {
+function main() {
+    console.log('Generating markdown-latex grammar')
     insertLaTeXGrammar('https://raw.githubusercontent.com/microsoft/vscode/main/extensions/markdown-basics/syntaxes/markdown.tmLanguage.json',
         'text.tex.latex',
         'text.tex.markdown_latex_combined',
         './syntaxes/markdown-latex-combined.tmLanguage.json'
     )
+    vel.expandConfigurationFile('./languages/data/markdown-latex-combined.extension.language-configuration.json', './languages/markdown-latex-combined-language-configuration.json')
 }
 
+module.exports = main

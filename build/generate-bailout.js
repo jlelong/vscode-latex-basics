@@ -1,20 +1,9 @@
-import duplicateForEmbedding from 'textmate-bailout'
-import got from 'got'
-import { writeFileSync } from 'fs'
+const fs = require('fs')
+const duplicateForEmbedding = require('textmate-bailout')
+const vel = require('vscode-extend-language')
 
-async function downloadUrl(url) {
-    try {
-        const response = await got(url)
-        return response.body.toString('utf-8')
-    } catch (e) {
-        console.log('Cannot retrieve: ', url)
-        console.log('Error code:', e.response.statusCode)
-        console.log('Error message:', e.response.statusMessage);
-    }
-    return undefined
-}
-
-export default async function main() {
+async function main() {
+    console.log('Generating cpp bailed out grammar')
     duplicateForEmbedding({
         // url for json-version of a tmLanguage
         url: 'https://raw.githubusercontent.com/jeff-hykin/cpp-textmate-grammar/master/syntaxes/cpp.tmLanguage.json',
@@ -25,8 +14,12 @@ export default async function main() {
 
     const cppSyntaxUrl = 'https://raw.githubusercontent.com/microsoft/vscode/main/extensions/cpp/language-configuration.json'
     const cppEmbeddedSyntaxFile = './languages/latex-cpp-embedded-language-configuration.json'
-    const res = await downloadUrl(cppSyntaxUrl)
+    const res = await vel.download(cppSyntaxUrl)
     if (res) {
-        writeFileSync(cppEmbeddedSyntaxFile, res)
+        fs.writeFileSync(cppEmbeddedSyntaxFile, res)
+    } else {
+        console.log('Cannot write the content of', cppSyntaxUrl)
     }
 }
+
+module.exports = main
