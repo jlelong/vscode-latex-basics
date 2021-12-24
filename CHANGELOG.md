@@ -1,15 +1,17 @@
 # Change Log
 
-## [X.X.X] -
+## [1.1.0] - 2021-12-24
 
 ### Added
 
 - (#8) Support for `NiceTabular`.
+- (#11) Declare `\bigl...\bigr` and friends as bracket pairs.
 
 ### Changed
 
 - (#6) Set a single grammar scope to variable-size delimiters to enable bracket pair highlighting and colouring.
 - Remove support for DocTeX, BibTeX-Style, LaTeX3 and Weave LaTeX. These languages are directly provided by LaTeX-Workshop.
+- Use [`vscode-extend-language`](https://github.com/jlelong/vscode-extend-language) to derive `markdown-latex` from `latex`.
 
 ### Fixed
 
