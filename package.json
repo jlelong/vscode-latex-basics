@@ -25,6 +25,9 @@
     "textmate",
     "highlighting"
   ],
+  "engines": {
+    "vscode": "*"
+  },
   "contributes": {
     "languages": [
       {
