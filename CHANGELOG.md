@@ -1,5 +1,11 @@
 # Change Log
 
+## [X.X.X] -
+
+### Added
+
+- (#13) Add big delimiters `|`, `\|`, `[lr][vV]ert`, `\langle...\rangle` to bracket pairs.
+
 ## [1.1.0] - 2021-12-24
 
 ### Added
