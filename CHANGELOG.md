@@ -1,10 +1,11 @@
 # Change Log
 
-## [X.X.X] -
+## [1.2.0] - 2022-01-15
 
 ### Added
 
 - (#13) Add big delimiters `|`, `\|`, `[lr][vV]ert`, `\langle...\rangle` to bracket pairs.
+- (#15) Declare the content of the environments `((?:julia|jl)(?:code|verbatim|block|concode|console|converbatim)` as Julia code.
 
 ## [1.1.0] - 2021-12-24
 
