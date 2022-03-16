@@ -106,6 +106,6 @@
 		"increaseIndentPattern": "\\\\begin{(?!document)([^}]*)}(?!.*\\\\end{\\1})",
 		"decreaseIndentPattern": "^\\s*\\\\end{(?!document)"
 	},
-	"autoCloseBefore": ";:.,=}])>\\` \n\t$",
+	"autoCloseBefore": ";:.,={}])>\\` \n\t$",
 	"wordPattern": "([^\\s`'\"~_!?|$#@%^&*\\-=+;:,.<>(){}[\\]\\/]+)"
 }
