@@ -107,5 +107,8 @@
 		"decreaseIndentPattern": "^\\s*\\\\end{(?!document)"
 	},
 	"autoCloseBefore": ";:.,={}])>\\` \n\t$",
-	"wordPattern": "([^\\s`'\"~_!?|$#@%^&*\\-=+;:,.<>(){}[\\]\\/]+)"
+	"wordPattern": {
+		"pattern": "(\\p{Alphabetic}|\\p{Number}|\\p{Nonspacing_Mark}){2,}",
+		"flags": "u"
+	}
 }
