@@ -110,7 +110,7 @@
 		"markers": {
 			"start": "^\\s*%?\\s*(region|\\\\begingroup)\\b",
 			"end": "^\\s*%?\\s*(endregion|\\\\endgroup)\\b"
-		},
+		}
 	},
 	"autoCloseBefore": ";:.,={}])>\\` \n\t$",
 	"wordPattern": {
