@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.3.0] - 2022-03-30
+
+### Added
+
+- (#21) Enable region folding in TeX and LaTeX files.
+- (#16) Add `{` to `autoCloseBefore`.
+
+### Changed
+
+- (#20) Highlight `\label` with an optional argument.
+- (#17) Adopt an inclusive definition of word pattern.
+
 ## [1.2.0] - 2022-01-15
 
 ### Added
