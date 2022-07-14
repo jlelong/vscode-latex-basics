@@ -477,7 +477,7 @@
 			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 		},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{((?:(?:(?:py|pylab|sympy)(?:code|verbatim|block|concode|console|converbatim))|sageblock|sagesilent|sageverbatim|sageexample|sagecommandline)(?:\\*)?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
+			"begin": "((?:\\s*)\\\\begin\\{((?:(?:(?:py|pylab|sympy)(?:code|verbatim|block|concode|console|converbatim))|sageblock|sagesilent|sageverbatim|sageexample|sagecommandline|python|pythonq|pythonrepl)(?:\\*)?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -1596,7 +1596,7 @@
 					"name": "punctuation.definition.verb.latex"
 				}
 			},
-			"match": "((\\\\)(?:py|pycon|pylab|pylabcon|sympy|sympycon)[cv]?)((?:\\[[^\\[]*?\\])?)(?:(?:([^a-zA-Z\\{])(.*?)(\\4))|(?:(\\{)(.*?)(\\})))",
+			"match": "((\\\\)(?:(?:py|pycon|pylab|pylabcon|sympy|sympycon)[cv]?|pyq|pycq|pyif))((?:\\[[^\\[]*?\\])?)(?:(?:([^a-zA-Z\\{])(.*?)(\\4))|(?:(\\{)(.*?)(\\})))",
 			"name": "meta.function.verb.latex"
 		},
 		{
