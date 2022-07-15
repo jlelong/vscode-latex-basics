@@ -403,7 +403,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#code-env"
+							"include": "#begin-env-tokenzier"
 						}
 					]
 				}
@@ -425,7 +425,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#code-env"
+							"include": "#begin-env-tokenzier"
 						}
 					]
 				}
@@ -444,7 +444,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#code-env"
+							"include": "#begin-env-tokenzier"
 						}
 					]
 				}
@@ -463,7 +463,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#code-env"
+							"include": "#begin-env-tokenzier"
 						}
 					]
 				}
@@ -501,7 +501,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#code-env"
+							"include": "#begin-env-tokenzier"
 						}
 					]
 				}
@@ -520,7 +520,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#code-env"
+							"include": "#begin-env-tokenzier"
 						}
 					]
 				}
@@ -533,7 +533,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#code-env"
+							"include": "#begin-env-tokenzier"
 						}
 					]
 				}
@@ -552,7 +552,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#code-env"
+							"include": "#begin-env-tokenzier"
 						}
 					]
 				}
@@ -571,7 +571,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#code-env"
+							"include": "#begin-env-tokenzier"
 						}
 					]
 				}
@@ -1874,7 +1874,7 @@
 			},
 			"match": "((\\\\)(?:begin|end))(\\{)([a-z]*)(\\})(?:(\\[)(.*)(\\]))?(?:(\\{)([^{}]*)(\\}))?"
 		},
-		"code-env": {
+		"begin-env-tokenzier": {
 			"captures": {
 				"1": {
 					"name": "support.function.be.latex"
@@ -1898,7 +1898,7 @@
 					"name": "punctuation.definition.arguments.optional.end.latex"
 				}
 			},
-			"match": "(?:\\s*)((\\\\)(?:begin|end))(\\{)([a-z]+(?:\\*)?)(\\})(?:(\\[).*(\\]))?"
+			"match": "(?:\\s*)((\\\\)(?:begin|end))(\\{)([a-zA-Z]+\\*?)(\\})(?:(\\[).*(\\]))?"
 		},
 		"definition-label": {
 			"begin": "((\\\\)label)((?:\\[[^\\[]*?\\])*)(\\{)",
