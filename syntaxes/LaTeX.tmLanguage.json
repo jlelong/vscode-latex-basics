@@ -112,7 +112,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#env-mandatory-arg"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -158,7 +158,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -177,7 +177,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -196,7 +196,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -215,7 +215,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -234,7 +234,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -253,7 +253,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -272,7 +272,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -291,7 +291,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -310,7 +310,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -329,7 +329,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -348,7 +348,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -367,7 +367,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -386,7 +386,7 @@
 						"1": {
 							"patterns": [
 								{
-									"include": "#env-mandatory-arg"
+									"include": "#begin-env-tokenizer"
 								}
 							]
 						}
@@ -403,7 +403,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#begin-env-tokenzier"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -425,7 +425,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#begin-env-tokenzier"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -444,7 +444,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#begin-env-tokenzier"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -463,7 +463,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#begin-env-tokenzier"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -482,7 +482,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#env-mandatory-arg"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -501,7 +501,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#begin-env-tokenzier"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -520,7 +520,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#begin-env-tokenzier"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -533,7 +533,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#begin-env-tokenzier"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -552,7 +552,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#begin-env-tokenzier"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -571,7 +571,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#begin-env-tokenzier"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -855,7 +855,7 @@
 				"1": {
 					"patterns": [
 						{
-							"include": "#env-mandatory-arg"
+							"include": "#begin-env-tokenizer"
 						}
 					]
 				}
@@ -1832,7 +1832,7 @@
 				}
 			]
 		},
-		"env-mandatory-arg": {
+		"begin-env-tokenizer": {
 			"captures": {
 				"1": {
 					"name": "support.function.be.latex"
@@ -1872,33 +1872,7 @@
 					"name": "punctuation.definition.arguments.end.latex"
 				}
 			},
-			"match": "((\\\\)(?:begin|end))(\\{)([a-z]*)(\\})(?:(\\[)(.*)(\\]))?(?:(\\{)([^{}]*)(\\}))?"
-		},
-		"begin-env-tokenzier": {
-			"captures": {
-				"1": {
-					"name": "support.function.be.latex"
-				},
-				"2": {
-					"name": "punctuation.definition.function.latex"
-				},
-				"3": {
-					"name": "punctuation.definition.arguments.begin.latex"
-				},
-				"4": {
-					"name": "variable.parameter.function.latex"
-				},
-				"5": {
-					"name": "punctuation.definition.arguments.end.latex"
-				},
-				"6": {
-					"name": "punctuation.definition.arguments.optional.begin.latex"
-				},
-				"7": {
-					"name": "punctuation.definition.arguments.optional.end.latex"
-				}
-			},
-			"match": "(?:\\s*)((\\\\)(?:begin|end))(\\{)([a-zA-Z]+\\*?)(\\})(?:(\\[).*(\\]))?"
+			"match": "\\s*((\\\\)(?:begin|end))(\\{)([a-zA-Z]*\\*?)(\\})(?:(\\[)(.*)(\\]))?(?:(\\{)([^{}]*)(\\}))?"
 		},
 		"definition-label": {
 			"begin": "((\\\\)label)((?:\\[[^\\[]*?\\])*)(\\{)",
