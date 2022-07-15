@@ -26,7 +26,7 @@
     "highlighting"
   ],
   "engines": {
-    "vscode": "*"
+    "vscode": "^1.67.0"
   },
   "contributes": {
     "languages": [
@@ -131,12 +131,17 @@
   "scripts": {
     "lint": "eslint --cache --ext .js .",
     "lint:fix": "eslint --fix --cache --ext .js .",
-    "build": "node ./build/all.js"
+    "build": "node ./build/all.js",
+    "test": "node ./test/runTest.js"
   },
   "devDependencies": {
     "eslint": "^8.3.0",
     "got": "11.8.3",
+    "mocha": "9.2.2",
     "textmate-bailout": "1.1.0",
-    "vscode-extend-language": "^0.1.0"
+    "vscode-extend-language": "^0.1.1",
+    "@vscode/test-electron": "2.1.5",
+    "@types/vscode": "1.67.0",
+    "@types/mocha": "9.1.1"
   }
 }

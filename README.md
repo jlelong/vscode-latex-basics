@@ -26,3 +26,11 @@ The combined Markdown/LaTeX grammar [syntaxes/markdown-latex-combined.tmLanguage
 ### C++ bailed out grammar
 
 The file [syntaxes/cpp-grammar-bailout.tmLanguage.json](syntaxes/cpp-grammar-bailout.tmLanguage.json) is generated from https://github.com/jeff-hykin/better-cpp-syntax and falls under the license described in [cpp-bailout-license.txt](cpp-bailout-license.txt).
+
+## Test
+
+To run the grammar tests
+
+    npm run test
+
+The test cases are stored as markdown files under `test/colorize-fixtures`. Grammar test results are stored under `test/colorize-results`, which are automatically generated from the fixtures.
