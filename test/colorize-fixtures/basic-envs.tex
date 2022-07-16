@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{t1enc}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+\begin{tabular}[lcc]
+  a & b & c
+  \hline
+\end{tabular}
+
+\begin{itemize}
+  \item First item
+  \item A second item on two 
+  lines
+\end{itemize}
+
+\begin{verbatim*}
+  Some multi_line
+  verbatim text
+\end{verbatim*}
+
+\begin{VerbatimOut}{verfile.out}
+  some text to output
+  to a file
+\end{VerbatimOut}
+
+\begin{alltt}
+  Some content \\
+  And a new line
+\end{alltt}
+
+\begin{mpost}
+  Some content
+\end{mpost}
+
+\begin{mpost*}
+  Some content
+\end{mpost*}
+
+\begin{personnalEnv}
+  some more content
+\end{personnalEnv}
+
+\begin{markdown}
+  some markdown _code_
+  with a \LaTeX equation $1 +2 = 3$.
+\end{markdown}
+
+\end{document}

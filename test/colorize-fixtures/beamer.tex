@@ -1,0 +1,108 @@
+\documentclass[10pt,color]{beamer}
+
+\mode
+<handout>
+\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm,landscape]
+\hypersetup{colorlinks=false,%
+bookmarks=false}
+
+\mode
+<beamer>
+\hypersetup{colorlinks=true,linkcolor=blue,%
+bookmarks=false}
+\setbeamercovered{invisible}
+\mode
+<all>
+
+\graphicspath{{.}}
+\usetheme{Singapore}
+\usefonttheme{serif}
+
+\DeclareSymbolFont{lettersA}{U}{txmia}{m}{it}
+\SetSymbolFont{lettersA}{bold}{U}{txmia}{bx}{it}
+\DeclareMathSymbol{\lambdaup}{\mathord}{lettersA}{21}
+
+\makeatletter
+
+% -------------------------------------------------------------%
+
+\def\ee{{\bf e}}
+\def\s{\star}
+\def\l{\ell}
+\def\cv{{\mathcal V}}
+\def\dt{\, dt}
+\def\hh{\widehat{H}}
+\def\esssup{\mathop{\mathrm{ess sup}}\nolimits}
+\DeclareMathOperator{\Span}{span}
+
+% -------------------------------------------------------------%
+\def\red#1{{\color{red} #1}}
+\def\blue#1{{\color{blue} #1}}
+% -------------------------------------------------------------%
+
+
+% -------------------------------------------------------------%
+
+
+% ------------------------------------------------------------------------- %
+% Hypotheses
+
+\definecolor{rose}{rgb}{0.92,0.10,0.12}
+\definecolor{blue}{rgb}{0,0,1}
+
+% ------------------------------------------------------------------------- %
+% Beamer template
+
+\setbeamertemplate{theorem begin}
+{%\setbeamercolor{block body}{bg=red}
+\begin{\inserttheoremblockenv}
+  {%
+  \inserttheoremheadfont
+  \inserttheoremname
+  \inserttheoremnumber
+  \ifx\inserttheoremaddition\empty\else\ (\inserttheoremaddition)\fi%
+      % \inserttheorempunctuation
+  }%
+  }
+  \setbeamertemplate{theorem end}
+  {%
+\end{\inserttheoremblockenv}}
+
+\setbeamertemplate{bibliography item}[triangle]
+
+\setbeamertemplate{frametitle continuation}{(\insertcontinuationcount)}
+\setbeamertemplate{enumerate items}[ball]
+\setbeamertemplate{itemize items}[triangle]
+
+% ------------------------------------------------------------------------- %
+
+
+\title{Analyse de l'abandon sur l'UTMB}
+
+\institute[Université Grenoble Alpes]{Université Grenoble Alpes}
+\date{19 juillet 2019}
+
+\mode
+<beamer>
+
+\mode
+<all>
+
+\AtBeginDocument{\def\figurename{{\scshape Fig.}}}
+\AtBeginDocument{\def\tablename{{\scshape Tab.}}}
+
+\begin{document}
+\maketitle
+
+\begin{frame}[allowframebreaks,allowdisplaybreaks]
+   \frametitle{The frame title}
+  {A Long Equation}
+  \begin{align}
+  \zeta(2) &= 1 + 1/4 + 1/9 + \cdots \\
+  &= ... \\
+  ...
+  &= \pi^2/6.
+  \end{align}
+\end{frame} 
+
+\end{document}
