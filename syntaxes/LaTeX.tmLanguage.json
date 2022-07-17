@@ -153,7 +153,7 @@
 			},
 			"patterns": [
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:cpp|c)\\})",
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:c|cpp)\\})",
 					"captures": {
 						"1": {
 							"patterns": [
@@ -172,7 +172,26 @@
 					"end": "(\\\\end\\{minted\\})"
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{css\\})",
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:asy|asymptote)\\})",
+					"captures": {
+						"1": {
+							"patterns": [
+								{
+									"include": "#begin-env-tokenizer"
+								}
+							]
+						}
+					},
+					"contentName": "source.asy",
+					"patterns": [
+						{
+							"include": "source.asy"
+						}
+					],
+					"end": "(\\\\end\\{minted\\})"
+				},
+				{
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:css)\\})",
 					"captures": {
 						"1": {
 							"patterns": [
@@ -191,7 +210,26 @@
 					"end": "(\\\\end\\{minted\\})"
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{html\\})",
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:hs|haskell)\\})",
+					"captures": {
+						"1": {
+							"patterns": [
+								{
+									"include": "#begin-env-tokenizer"
+								}
+							]
+						}
+					},
+					"contentName": "source.haskell",
+					"patterns": [
+						{
+							"include": "source.haskell"
+						}
+					],
+					"end": "(\\\\end\\{minted\\})"
+				},
+				{
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:html)\\})",
 					"captures": {
 						"1": {
 							"patterns": [
@@ -210,7 +248,26 @@
 					"end": "(\\\\end\\{minted\\})"
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{java\\})",
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:xml)\\})",
+					"captures": {
+						"1": {
+							"patterns": [
+								{
+									"include": "#begin-env-tokenizer"
+								}
+							]
+						}
+					},
+					"contentName": "text.xml",
+					"patterns": [
+						{
+							"include": "text.xml"
+						}
+					],
+					"end": "(\\\\end\\{minted\\})"
+				},
+				{
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:java)\\})",
 					"captures": {
 						"1": {
 							"patterns": [
@@ -224,6 +281,63 @@
 					"patterns": [
 						{
 							"include": "source.java"
+						}
+					],
+					"end": "(\\\\end\\{minted\\})"
+				},
+				{
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:lua)\\})",
+					"captures": {
+						"1": {
+							"patterns": [
+								{
+									"include": "#begin-env-tokenizer"
+								}
+							]
+						}
+					},
+					"contentName": "source.lua",
+					"patterns": [
+						{
+							"include": "source.lua"
+						}
+					],
+					"end": "(\\\\end\\{minted\\})"
+				},
+				{
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:jl|julia)\\})",
+					"captures": {
+						"1": {
+							"patterns": [
+								{
+									"include": "#begin-env-tokenizer"
+								}
+							]
+						}
+					},
+					"contentName": "source.julia",
+					"patterns": [
+						{
+							"include": "source.julia"
+						}
+					],
+					"end": "(\\\\end\\{minted\\})"
+				},
+				{
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:rb|ruby)\\})",
+					"captures": {
+						"1": {
+							"patterns": [
+								{
+									"include": "#begin-env-tokenizer"
+								}
+							]
+						}
+					},
+					"contentName": "source.ruby",
+					"patterns": [
+						{
+							"include": "source.ruby"
 						}
 					],
 					"end": "(\\\\end\\{minted\\})"
@@ -267,26 +381,7 @@
 					"end": "(\\\\end\\{minted\\})"
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{lua\\})",
-					"captures": {
-						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
-						}
-					},
-					"contentName": "source.lua",
-					"patterns": [
-						{
-							"include": "source.lua"
-						}
-					],
-					"end": "(\\\\end\\{minted\\})"
-				},
-				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:python|py)\\})",
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:py|python)\\})",
 					"captures": {
 						"1": {
 							"patterns": [
@@ -305,64 +400,7 @@
 					"end": "(\\\\end\\{minted\\})"
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(julia)\\})",
-					"captures": {
-						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
-						}
-					},
-					"contentName": "source.julia",
-					"patterns": [
-						{
-							"include": "source.julia"
-						}
-					],
-					"end": "(\\\\end\\{minted\\})"
-				},
-				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(ruby)\\})",
-					"captures": {
-						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
-						}
-					},
-					"contentName": "source.ruby",
-					"patterns": [
-						{
-							"include": "source.ruby"
-						}
-					],
-					"end": "(\\\\end\\{minted\\})"
-				},
-				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{xml\\})",
-					"captures": {
-						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
-						}
-					},
-					"contentName": "text.xml",
-					"patterns": [
-						{
-							"include": "text.xml"
-						}
-					],
-					"end": "(\\\\end\\{minted\\})"
-				},
-				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{yaml\\})",
+					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:yaml)\\})",
 					"captures": {
 						"1": {
 							"patterns": [
@@ -398,7 +436,7 @@
 			]
 		},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{(cppcode(?:\\*)?)\\}(?:\\[.*\\])?)",
+			"begin": "(\\s*\\\\begin\\{((?:cppcode)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -412,15 +450,12 @@
 			"patterns": [
 				{
 					"include": "source.cpp.embedded.latex"
-				},
-				{
-					"include": "source.cpp"
 				}
 			],
 			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 		},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{(hscode(?:\\*)?)\\}(?:\\[.*\\])?)",
+			"begin": "(\\s*\\\\begin\\{((?:hscode)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -439,7 +474,7 @@
 			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 		},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{(luacode(?:\\*)?)\\}(?:\\[.*\\])?)",
+			"begin": "(\\s*\\\\begin\\{((?:luacode)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -458,7 +493,7 @@
 			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 		},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{((?:julia|jl)(?:code|verbatim|block|concode|console|converbatim)(?:\\*)?)\\}(?:\\[.*\\])?)",
+			"begin": "(\\s*\\\\begin\\{((?:jlcode|jlverbatim|jlblock|jlconcode|jlconsole|jlconverbatim)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -477,7 +512,26 @@
 			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 		},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{((?:(?:(?:py|pylab|sympy)(?:code|verbatim|block|concode|console|converbatim))|sageblock|sagesilent|sageverbatim|sageexample|sagecommandline|python|pythonq|pythonrepl)(?:\\*)?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
+			"begin": "(\\s*\\\\begin\\{((?:juliacode|juliaverbatim|juliablock|juliaconcode|juliaconsole|juliaconverbatim)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
+			"captures": {
+				"1": {
+					"patterns": [
+						{
+							"include": "#begin-env-tokenizer"
+						}
+					]
+				}
+			},
+			"contentName": "source.julia",
+			"patterns": [
+				{
+					"include": "source.julia"
+				}
+			],
+			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
+		},
+		{
+			"begin": "(\\s*\\\\begin\\{((?:sageblock|sagesilent|sageverbatim|sageexample|sagecommandline|python|pythonq|pythonrepl)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -496,7 +550,64 @@
 			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 		},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{(scalacode(?:\\*)?)\\}(?:\\[.*\\])?)",
+			"begin": "(\\s*\\\\begin\\{((?:pycode|pyverbatim|pyblock|pyconcode|pyconsole|pyconverbatim)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
+			"captures": {
+				"1": {
+					"patterns": [
+						{
+							"include": "#begin-env-tokenizer"
+						}
+					]
+				}
+			},
+			"contentName": "source.python",
+			"patterns": [
+				{
+					"include": "source.python"
+				}
+			],
+			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
+		},
+		{
+			"begin": "(\\s*\\\\begin\\{((?:pylabcode|pylabverbatim|pylabblock|pylabconcode|pylabconsole|pylabconverbatim)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
+			"captures": {
+				"1": {
+					"patterns": [
+						{
+							"include": "#begin-env-tokenizer"
+						}
+					]
+				}
+			},
+			"contentName": "source.python",
+			"patterns": [
+				{
+					"include": "source.python"
+				}
+			],
+			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
+		},
+		{
+			"begin": "(\\s*\\\\begin\\{((?:sympycode|sympyverbatim|sympyblock|sympyconcode|sympyconsole|sympyconverbatim)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
+			"captures": {
+				"1": {
+					"patterns": [
+						{
+							"include": "#begin-env-tokenizer"
+						}
+					]
+				}
+			},
+			"contentName": "source.python",
+			"patterns": [
+				{
+					"include": "source.python"
+				}
+			],
+			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
+		},
+		{
+			"begin": "(\\s*\\\\begin\\{((?:scalacode)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -515,20 +626,7 @@
 			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 		},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{([a-z]*code(?:\\*)?)\\}(?:\\[.*\\])?)",
-			"captures": {
-				"1": {
-					"patterns": [
-						{
-							"include": "#begin-env-tokenizer"
-						}
-					]
-				}
-			},
-			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
-		},
-		{
-			"begin": "((?:\\s*)\\\\begin\\{asy\\}(?:\\[.*\\])?)",
+			"begin": "(\\s*\\\\begin\\{((?:asy|asycode)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -544,10 +642,10 @@
 					"include": "source.asymptote"
 				}
 			],
-			"end": "(\\\\end\\{asy\\}(?:\\s*\\n)?)"
+			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 		},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{dot2tex\\}(?:\\[.*\\])?)",
+			"begin": "(\\s*\\\\begin\\{((?:dot2tex|dotcode)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -563,10 +661,10 @@
 					"include": "source.dot"
 				}
 			],
-			"end": "(\\\\end\\{dot2tex\\}(?:\\s*\\n)?)"
+			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 		},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{gnuplot\\}(?:\\[.*\\])?)",
+			"begin": "(\\s*\\\\begin\\{((?:gnuplot)\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -582,7 +680,20 @@
 					"include": "source.gnuplot"
 				}
 			],
-			"end": "(\\\\end\\{gnuplot\\}(?:\\s*\\n)?)"
+			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
+		},
+		{
+			"begin": "((?:\\s*)\\\\begin\\{([a-z]*code(?:\\*)?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
+			"captures": {
+				"1": {
+					"patterns": [
+						{
+							"include": "#begin-env-tokenizer"
+						}
+					]
+				}
+			},
+			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 		},
 		{
 			"begin": "((\\\\)addplot)(?:\\+?)((?:\\[[^\\[]*\\]))*\\s*(gnuplot)\\s*((?:\\[[^\\[]*\\]))*\\s*(\\{)",
