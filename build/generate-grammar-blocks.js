@@ -114,13 +114,10 @@ function main() {
     var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(language.name, language.language, language.source)).join(',\n')
     var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source)).join(',\n')
 
-    console.log(mintedDefinitions)
-    console.log(codeDefinitions)
-
     let text = fs.readFileSync(path.join(__dirname, '..', 'syntaxes', 'data', 'LaTeX.tmLanguage.json'), {encoding: 'utf8'})
     text = text.replace(/^\s*\{\{includeMintedblocks\}\}/gm, indent(4, mintedDefinitions))
     text = text.replace(/^\s*\{\{includeCodeBlocks\}\}/gm, indent(2, codeDefinitions))
-    fs.writeFileSync(path.join(__dirname, '..', 'syntaxes', 'LaTeX-test.tmLanguage.json'), text)
+    fs.writeFileSync(path.join(__dirname, '..', 'syntaxes', 'LaTeX.tmLanguage.json'), text)
 }
 
 
