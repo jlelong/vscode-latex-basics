@@ -3,7 +3,9 @@ const path = require('path')
 
 const mintedLanguages = [
     {name: 'minted', language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
+    {name: 'minted', language: ['asy', 'asymptote'], source: 'source.asy'},
     {name: 'minted', language: ['css'], source: 'source.css'},
+    {name: 'minted', language: ['hs', 'haskell'], source: 'source.haskell'},
     {name: 'minted', language: ['html'], source: 'text.html'},
     {name: 'minted', language: ['xml'], source: 'text.xml'},
     {name: 'minted', language: ['java'], source: 'source.java'},
@@ -27,8 +29,8 @@ const codeLanguages = [
     {name: ['pylabcode', 'pylabverbatim', 'pylabblock', 'pylabconcode', 'pylabconsole', 'pylabconverbatim'], source: 'source.python'},
     {name: ['sympycode', 'sympyverbatim', 'sympyblock', 'sympyconcode', 'sympyconsole', 'sympyconverbatim'], source: 'source.python'},
     {name: ['scalacode'], source: 'source.scala'},
-    {name: ['asy'], source: 'source.asymptote'},
-    {name: ['dot2tex'], source: 'source.dot'},
+    {name: ['asy', 'asycode'], source: 'source.asymptote'},
+    {name: ['dot2tex', 'dotcode'], source: 'source.dot'},
     {name: ['gnuplot'], source: 'source.gnuplot'}
 ]
 
@@ -50,7 +52,7 @@ function indent(count, text) {
  */
 function generateCodeBlock(envNames, source) {
     var envNameRegex = '(?:' + envNames.join('|') + ')'
-    const beginRule = `(?:\\s*\\\\begin\\{(${envNameRegex}\\*?)\\}(?:\\[.*\\])?)`
+    const beginRule = `(?:\\s*\\\\begin\\{(${envNameRegex}\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)`
 
     const jsonCode = `{
 	"begin": "${beginRule}",
@@ -105,15 +107,6 @@ function generateMintedBlock(envName, language, source) {
 }`
 
     return jsonCode
-}
-
-function buildGrammar(src, dest, searchPattern, replaceString) {
-    try {
-        let text = fs.readFileSync(src, {encoding: 'utf-8'})
-        text = text.replace(searchPattern, replaceString)
-    } catch (error) {
-        console.log(`Cannot read ${src}`)
-    }
 }
 
 function main() {
