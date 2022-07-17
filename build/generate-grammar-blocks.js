@@ -6,7 +6,7 @@ const mintedLanguages = [
     {name: 'minted', language: ['asy', 'asymptote'], source: 'source.asy'},
     {name: 'minted', language: ['css'], source: 'source.css'},
     {name: 'minted', language: ['hs', 'haskell'], source: 'source.haskell'},
-    {name: 'minted', language: ['html'], source: 'text.html'},
+    {name: 'minted', language: ['html'], source: 'text.html.basic', contentName: 'text.html'},
     {name: 'minted', language: ['xml'], source: 'text.xml'},
     {name: 'minted', language: ['java'], source: 'source.java'},
     {name: 'minted', language: ['lua'], source: 'source.lua'},
@@ -45,14 +45,21 @@ function indent(count, text) {
 	return text.replace(/^/gm, indent)
 }
 
+function escapeBackSlash(text) {
+    return text.replaceAll('\\', '\\\\')
+}
+
 /**
  * Generate the json rules for a code block
  * @param {string[]} envNames An array of environments, eg. ['pycode', 'pythoncode'] or ['luacode']
  * @param {string} source The source language to include
  */
-function generateCodeBlock(envNames, source) {
+function generateCodeBlock(envNames, source, contentName=undefined) {
+    if (contentName === undefined) {
+        contentName = source
+    }
     var envNameRegex = '(?:' + envNames.join('|') + ')'
-    const beginRule = `(?:\\s*\\\\begin\\{(${envNameRegex}\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)`
+    const beginRule = `(\\s*\\\\begin\\{(${envNameRegex}\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)`
 
     const jsonCode = `{
 	"begin": "${beginRule}",
@@ -73,7 +80,7 @@ function generateCodeBlock(envNames, source) {
 	],
 	"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
 }`
-    return jsonCode
+    return escapeBackSlash(jsonCode)
 
 }
 
@@ -83,7 +90,10 @@ function generateCodeBlock(envNames, source) {
  * @param {string[]} language A list of languages used to build an alternation
  * @param {string} source The source language to include
  */
-function generateMintedBlock(envName, language, source) {
+function generateMintedBlock(envName, language, source, contentName=undefined) {
+    if (contentName === undefined) {
+        contentName = source
+    }
     var languageRegex = '(?:' + language.join('|') + ')'
 
     const jsonCode = `{
@@ -97,7 +107,7 @@ function generateMintedBlock(envName, language, source) {
 			]
 		}
 	},
-	"contentName": "${source}",
+	"contentName": "${contentName}",
 	"patterns": [
 		{
 			"include": "${source}"
@@ -106,13 +116,13 @@ function generateMintedBlock(envName, language, source) {
 	"end": "(\\\\end\\{${envName}\\})"
 }`
 
-    return jsonCode
+    return escapeBackSlash(jsonCode)
 }
 
 function main() {
 
-    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(language.name, language.language, language.source)).join(',\n')
-    var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source)).join(',\n')
+    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(language.name, language.language, language.source, language?.contentName)).join(',\n')
+    var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join(',\n')
 
     let text = fs.readFileSync(path.join(__dirname, '..', 'syntaxes', 'data', 'LaTeX.tmLanguage.json'), {encoding: 'utf8'})
     text = text.replace(/^\s*\{\{includeMintedblocks\}\}/gm, indent(4, mintedDefinitions))
