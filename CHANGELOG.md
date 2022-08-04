@@ -1,5 +1,23 @@
 # Change Log
 
+## [1.4.0] - 2022-08-03
+
+### Added
+
+- Support ``cite<...>` commands from apacite.
+- (#26) Recognize envs from nicematrix package.
+- (#29) Add pyluatex support.
+
+### Changed
+
+- (#30) Refactor how to tokenize `begin`/`end` statements.
+- (#31) Refactor language embedding support: a new `js` script is responsible for generating the set of rules for every embedded language. This engineering change helps maintenance.
+
+### Fixed
+
+- (#33) Fix typo in word reference alternation.
+- (#34) Remove double checking for `\|`.
+
 ## [1.3.0] - 2022-03-30
 
 ### Added
