@@ -15,7 +15,8 @@ const mintedLanguages = [
     {name: 'minted', language: ['js', 'javascript'], source: 'source.js'},
     {name: 'minted', language: ['ts', 'typescript'], source: 'source.ts'},
     {name: 'minted', language: ['py', 'python'], source: 'source.python'},
-    {name: 'minted', language: ['yaml'], source: 'source.yaml'}
+    {name: 'minted', language: ['yaml'], source: 'source.yaml'},
+    {name: 'minted', language: ['rust'], source: 'source.rust'},
 ]
 
 const codeLanguages = [
