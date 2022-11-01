@@ -121,7 +121,7 @@ function generateMintedBlock(envName, language, source, contentName=undefined) {
 }
 
 function main() {
-
+    console.log('Generating LaTeX.tmLanguage from data/')
     var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(language.name, language.language, language.source, language?.contentName)).join(',\n')
     var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join(',\n')
 
@@ -133,4 +133,3 @@ function main() {
 
 
 module.exports = main
-main()
