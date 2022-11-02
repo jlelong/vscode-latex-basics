@@ -132,6 +132,8 @@
     "lint": "eslint --cache --ext .js .",
     "lint:fix": "eslint --fix --cache --ext .js .",
     "build": "node ./build/all.js",
+    "update-external": "node ./build/all.js update-external",
+    "build-latex": "node ./build/all.js build-latex",
     "test": "node ./test/runTest.js"
   },
   "devDependencies": {
