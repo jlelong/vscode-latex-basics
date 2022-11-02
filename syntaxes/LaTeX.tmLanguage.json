@@ -7,27 +7,16 @@
 			"name": "meta.space-after-command.latex"
 		},
 		{
-			"begin": "((\\\\)(?:usepackage|documentclass))((?:\\[[^\\[]*?\\])*)(\\{)",
+			"begin": "((\\\\)(?:usepackage|documentclass))\\b(?=\\[|\\{)",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.control.preamble.latex"
 				},
 				"2": {
 					"name": "punctuation.definition.function.latex"
-				},
-				"3": {
-					"patterns": [
-						{
-							"include": "#optional-arg"
-						}
-					]
-				},
-				"4": {
-					"name": "punctuation.definition.arguments.begin.latex"
 				}
 			},
-			"contentName": "support.class.latex",
-			"end": "\\}",
+			"end": "(?<=\\})",
 			"endCaptures": {
 				"0": {
 					"name": "punctuation.definition.arguments.end.latex"
@@ -36,7 +25,45 @@
 			"name": "meta.preamble.latex",
 			"patterns": [
 				{
-					"include": "$self"
+					"begin": "(\\G\\[)",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						}
+					},
+					"end": "(\\])",
+					"endCaptures": {
+						"0": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex",
+					"name": "meta.parameter.optional.latex",
+					"patterns": [
+						{
+							"include": "$self"
+						}
+					]
+				},
+				{
+					"begin": "((?:\\G|(?<=\\]))\\{)",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
+					},
+					"end": "(\\})",
+					"endCaptures": {
+						"0": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "support.class.latex",
+					"patterns": [
+						{
+							"include": "$self"
+						}
+					]
 				}
 			]
 		},
@@ -1798,13 +1825,13 @@
 				{
 					"captures": {
 						"1": {
-							"name": "punctuation.definition.optional.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
-							"name": "punctuation.definition.optional.arguments.end.latex"
+							"name": "punctuation.definition.arguments.optional.end.latex"
 						}
 					},
 					"match": "(\\[)([^\\[]*?)(\\])",
