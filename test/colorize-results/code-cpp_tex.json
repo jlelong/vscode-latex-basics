@@ -253,7 +253,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.head.function.definition.cpp",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -697,7 +697,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.head.function.definition.cpp",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1141,7 +1141,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.head.function.definition.cpp",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
