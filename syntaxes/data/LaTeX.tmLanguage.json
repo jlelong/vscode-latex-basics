@@ -25,25 +25,7 @@
 			"name": "meta.preamble.latex",
 			"patterns": [
 				{
-					"begin": "(\\G\\[)",
-					"beginCaptures": {
-						"0": {
-							"name": "punctuation.definition.arguments.optional.begin.latex"
-						}
-					},
-					"end": "(\\])",
-					"endCaptures": {
-						"0": {
-							"name": "punctuation.definition.arguments.optional.end.latex"
-						}
-					},
-					"contentName": "variable.parameter.function.latex",
-					"name": "meta.parameter.optional.latex",
-					"patterns": [
-						{
-							"include": "$self"
-						}
-					]
+					"include": "#multiline-optional-arg"
 				},
 				{
 					"begin": "((?:\\G|(?<=\\]))\\{)",
@@ -1306,6 +1288,27 @@
 					},
 					"match": "(\\[)([^\\[]*?)(\\])",
 					"name": "meta.parameter.optional.latex"
+				}
+			]
+		},
+		"multiline-optional-arg": {
+			"begin": "(\\G\\[)",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.definition.arguments.optional.begin.latex"
+				}
+			},
+			"end": "(\\])",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.arguments.optional.end.latex"
+				}
+			},
+			"contentName": "variable.parameter.function.latex",
+			"name": "meta.parameter.optional.latex",
+			"patterns": [
+				{
+					"include": "$self"
 				}
 			]
 		},
