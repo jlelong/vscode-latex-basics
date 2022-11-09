@@ -148,317 +148,351 @@
 			]
 		},
 		{
-			"begin": "(^\\s*)?(?=\\\\begin\\{(lstlisting|minted|pyglist)\\})",
-			"beginCaptures": {
+			"begin": "(^\\s*)?\\\\begin\\{(lstlisting|minted|pyglist)\\}(?=\\[|\\{)",
+			"end": "\\\\end\\{(?:minted|lstlisting|pyglist)\\}",
+			"captures": {
 				"0": {
-					"name": "punctuation.whitespace.embedded.leading.latex"
-				}
-			},
-			"end": "(?!\\G)(\\s*$\\n?)?",
-			"endCaptures": {
-				"0": {
-					"name": "punctuation.whitespace.embedded.trailing.latex"
+					"patterns": [
+						{
+							"include": "#begin-env-tokenizer"
+						}
+					]
 				}
 			},
 			"patterns": [
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:c|cpp)\\})",
-					"captures": {
+					"include": "#multiline-optional-arg-no-highlight"
+				},
+				{
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:c|cpp))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.cpp.embedded.latex",
 					"patterns": [
 						{
 							"include": "source.cpp.embedded.latex"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:asy|asymptote)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:asy|asymptote))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.asy",
 					"patterns": [
 						{
 							"include": "source.asy"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:css)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:css))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.css",
 					"patterns": [
 						{
 							"include": "source.css"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:hs|haskell)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:hs|haskell))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.haskell",
 					"patterns": [
 						{
 							"include": "source.haskell"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:html)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:html))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "text.html",
 					"patterns": [
 						{
 							"include": "text.html.basic"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:xml)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:xml))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "text.xml",
 					"patterns": [
 						{
 							"include": "text.xml"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:java)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:java))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.java",
 					"patterns": [
 						{
 							"include": "source.java"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:lua)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:lua))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.lua",
 					"patterns": [
 						{
 							"include": "source.lua"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:jl|julia)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:jl|julia))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.julia",
 					"patterns": [
 						{
 							"include": "source.julia"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:rb|ruby)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:rb|ruby))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.ruby",
 					"patterns": [
 						{
 							"include": "source.ruby"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:js|javascript)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:js|javascript))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.js",
 					"patterns": [
 						{
 							"include": "source.js"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:ts|typescript)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:ts|typescript))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.ts",
 					"patterns": [
 						{
 							"include": "source.ts"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:py|python)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:py|python))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.python",
 					"patterns": [
 						{
 							"include": "source.python"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:yaml)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:yaml))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.yaml",
 					"patterns": [
 						{
 							"include": "source.yaml"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{minted\\}(?:\\[.*\\])?\\{(?:rust)\\})",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:rust))(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
 					"contentName": "source.rust",
 					"patterns": [
 						{
 							"include": "source.rust"
 						}
-					],
-					"end": "(\\\\end\\{minted\\})"
+					]
 				},
 				{
-					"begin": "(\\\\begin\\{(?:lstlisting|minted|pyglist)\\}(?:\\[.*\\])?)",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)([a-zA-Z]*)(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
 					"contentName": "meta.function.embedded.latex",
-					"end": "(\\\\end\\{(?:lstlisting|minted|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:lstlisting|minted|pyglist)\\})",
 					"name": "meta.embedded.block.generic.latex"
 				}
 			]
@@ -1821,21 +1855,41 @@
 				}
 			]
 		},
-		"multiline-optional-arg": {
-			"begin": "(\\G\\[)",
+		"multiline-optional-arg-no-highlight": {
+			"begin": "\\G\\[",
 			"beginCaptures": {
 				"0": {
 					"name": "punctuation.definition.arguments.optional.begin.latex"
 				}
 			},
-			"end": "(\\])",
+			"end": "\\]",
 			"endCaptures": {
 				"0": {
 					"name": "punctuation.definition.arguments.optional.end.latex"
 				}
 			},
-			"contentName": "variable.parameter.function.latex",
 			"name": "meta.parameter.optional.latex",
+			"patterns": [
+				{
+					"include": "$self"
+				}
+			]
+		},
+		"multiline-optional-arg": {
+			"begin": "\\G\\[",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.definition.arguments.optional.begin.latex"
+				}
+			},
+			"end": "\\]",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.arguments.optional.end.latex"
+				}
+			},
+			"name": "meta.parameter.optional.latex",
+			"contentName": "variable.parameter.function.latex",
 			"patterns": [
 				{
 					"include": "$self"
