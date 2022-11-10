@@ -1,5 +1,18 @@
 # Change Log
 
+## [1.5.0] - 2022-11-10
+
+### Added
+
+- (#38) Add `\left. ... \right|` and vice-versa as bracket pairs.
+- (#37) Add `tabularray` support.
+- (#36) Recognize multiline options in `\usepackage` commands.
+- (#28) Recognize multiline options in minted and code environments.
+
+### Changed
+
+- Use `arguments.optional` instead of `optional.arguments` in scope names.
+
 ## [1.4.0] - 2022-08-03
 
 ### Added
