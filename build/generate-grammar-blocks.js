@@ -86,15 +86,20 @@ function generateCodeBlock(envNames, source, contentName=undefined) {
         {
             "begin": "(?:\\G|(?<=\\]))(\\{)",
             "beginCaptures": {
-                "1": "punctuation.definition.arguments.begin.latex"
+                "1": {
+                    "name": "punctuation.definition.arguments.begin.latex"
+                }
             },
             "end": "(\\})",
             "endCaptures": {
-                "1": "punctuation.definition.arguments.end.latex"
-            }
+                "1": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                }
+            },
+            "contentName": "variable.parameter.function.latex"
         },
         {
-            "begin": "^\\s*",
+            "begin": "^(?=\\s*)",
             "end": "^\\s*(?=\\\\end\\{${envNameRegex}\\*?\\})",
             "contentName": "${source}",
             "patterns": [

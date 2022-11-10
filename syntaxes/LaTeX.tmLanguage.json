@@ -516,15 +516,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:cppcode)\\*?\\})",
 					"contentName": "source.cpp.embedded.latex",
 					"patterns": [
@@ -554,15 +559,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:hscode)\\*?\\})",
 					"contentName": "source.haskell",
 					"patterns": [
@@ -592,15 +602,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:luacode)\\*?\\})",
 					"contentName": "source.lua",
 					"patterns": [
@@ -630,15 +645,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:jlcode|jlverbatim|jlblock|jlconcode|jlconsole|jlconverbatim)\\*?\\})",
 					"contentName": "source.julia",
 					"patterns": [
@@ -668,15 +688,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:juliacode|juliaverbatim|juliablock|juliaconcode|juliaconsole|juliaconverbatim)\\*?\\})",
 					"contentName": "source.julia",
 					"patterns": [
@@ -706,15 +731,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:sageblock|sagesilent|sageverbatim|sageexample|sagecommandline|python|pythonq|pythonrepl)\\*?\\})",
 					"contentName": "source.python",
 					"patterns": [
@@ -744,15 +774,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:pycode|pyverbatim|pyblock|pyconcode|pyconsole|pyconverbatim)\\*?\\})",
 					"contentName": "source.python",
 					"patterns": [
@@ -782,15 +817,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:pylabcode|pylabverbatim|pylabblock|pylabconcode|pylabconsole|pylabconverbatim)\\*?\\})",
 					"contentName": "source.python",
 					"patterns": [
@@ -820,15 +860,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:sympycode|sympyverbatim|sympyblock|sympyconcode|sympyconsole|sympyconverbatim)\\*?\\})",
 					"contentName": "source.python",
 					"patterns": [
@@ -858,15 +903,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:scalacode)\\*?\\})",
 					"contentName": "source.scala",
 					"patterns": [
@@ -896,15 +946,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:asy|asycode)\\*?\\})",
 					"contentName": "source.asymptote",
 					"patterns": [
@@ -934,15 +989,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:dot2tex|dotcode)\\*?\\})",
 					"contentName": "source.dot",
 					"patterns": [
@@ -972,15 +1032,20 @@
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)",
 					"beginCaptures": {
-						"1": "punctuation.definition.arguments.begin.latex"
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
 					},
 					"end": "(\\})",
 					"endCaptures": {
-						"1": "punctuation.definition.arguments.end.latex"
-					}
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "variable.parameter.function.latex"
 				},
 				{
-					"begin": "^\\s*",
+					"begin": "^(?=\\s*)",
 					"end": "^\\s*(?=\\\\end\\{(?:gnuplot)\\*?\\})",
 					"contentName": "source.gnuplot",
 					"patterns": [
