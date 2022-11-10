@@ -53,7 +53,9 @@ function escapeBackSlash(text) {
 /**
  * Generate the json rules for a code block:
  *  From pythontex `\begin{<env>}[<session>][<fancyvrb setting>]`
- *  From minted `\begin{<env>}{<option list>}`
+ *  From minted `\begin{<env>}[<option list>]{<option list>}`
+ * We match \begin{<env>}[<session>][<option list>]{<option list>} where the
+ * three arguments are actually optional and <session> uses characters from [a-zA-Z0-9_-].
  * @param {string[]} envNames An array of environments, eg. ['pycode', 'pythoncode'] or ['luacode']
  * @param {string} source The source language to include
  */
@@ -62,12 +64,14 @@ function generateCodeBlock(envNames, source, contentName=undefined) {
         contentName = source
     }
     var envNameRegex = '(?:' + envNames.join('|') + ')'
-    const beginRule = `(\\s*\\\\begin\\{(${envNameRegex}\\*?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)`
+    const beginRule = `\\s*\\\\begin\\{${envNameRegex}\\*?\\}(?:\\[[a-zA-Z0-9_-]*\\])?(?=\\[|\\{)`
+    const endRule = `\\s*\\\\end\\{${envNameRegex}\\*?\\}`
 
     const jsonCode = `{
     "begin": "${beginRule}",
+    "end": "${endRule}",
     "captures": {
-        "1": {
+        "0": {
             "patterns": [
                 {
                     "include": "#begin-env-tokenizer"
@@ -75,13 +79,31 @@ function generateCodeBlock(envNames, source, contentName=undefined) {
             ]
         }
     },
-    "contentName": "${source}",
     "patterns": [
         {
-            "include": "${source}"
+            "include": "#multiline-optional-arg-no-highlight"
+        },
+        {
+            "begin": "(?:\\G|(?<=\\]))(\\{)",
+            "beginCaptures": {
+                "1": "punctuation.definition.arguments.begin.latex"
+            },
+            "end": "(\\})",
+            "endCaptures": {
+                "1": "punctuation.definition.arguments.end.latex"
+            }
+        },
+        {
+            "begin": "^\\s*",
+            "end": "^\\s*(?=\\\\end\\{${envNameRegex}\\*?\\})",
+            "contentName": "${source}",
+            "patterns": [
+                {
+                    "include": "${source}"
+                }
+            ]
         }
-    ],
-    "end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
+    ]
 }`
     return escapeBackSlash(jsonCode)
 
