@@ -121,7 +121,7 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
 		"r": {
 			"dark_plus": "support.function: #DCDCAA",
 			"light_plus": "support.function: #795E26",
@@ -133,7 +133,7 @@
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex",
+		"t": "text.tex.latex support.function.be.latex",
 		"r": {
 			"dark_plus": "support.function: #DCDCAA",
 			"light_plus": "support.function: #795E26",
@@ -145,7 +145,7 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -157,7 +157,7 @@
 	},
 	{
 		"c": "asy",
-		"t": "text.tex.latex meta.function.environment.general.latex variable.parameter.function.latex",
+		"t": "text.tex.latex variable.parameter.function.latex",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -169,7 +169,7 @@
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.end.latex",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -180,8 +180,32 @@
 		}
 	},
 	{
-		"c": "{linenos=false, frame=single}",
-		"t": "text.tex.latex meta.function.environment.general.latex",
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF",
+			"hc_light": "default: #292929"
+		}
+	},
+	{
+		"c": "linenos=false, frame=single",
+		"t": "text.tex.latex variable.parameter.function.latex",
+		"r": {
+			"dark_plus": "variable: #9CDCFE",
+			"light_plus": "variable: #001080",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "variable: #9CDCFE",
+			"hc_light": "variable: #001080"
+		}
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -193,7 +217,7 @@
 	},
 	{
 		"c": "  size(250);",
-		"t": "text.tex.latex meta.function.environment.general.latex",
+		"t": "text.tex.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -205,7 +229,7 @@
 	},
 	{
 		"c": "  real a=3;",
-		"t": "text.tex.latex meta.function.environment.general.latex",
+		"t": "text.tex.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -217,7 +241,7 @@
 	},
 	{
 		"c": "  real b=4;",
-		"t": "text.tex.latex meta.function.environment.general.latex",
+		"t": "text.tex.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -229,7 +253,7 @@
 	},
 	{
 		"c": "  real c=hypot(a,b);",
-		"t": "text.tex.latex meta.function.environment.general.latex",
+		"t": "text.tex.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -241,7 +265,7 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
 		"r": {
 			"dark_plus": "support.function: #DCDCAA",
 			"light_plus": "support.function: #795E26",
@@ -253,7 +277,7 @@
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex",
+		"t": "text.tex.latex support.function.be.latex",
 		"r": {
 			"dark_plus": "support.function: #DCDCAA",
 			"light_plus": "support.function: #795E26",
@@ -265,7 +289,7 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -277,7 +301,7 @@
 	},
 	{
 		"c": "asy",
-		"t": "text.tex.latex meta.function.environment.general.latex variable.parameter.function.latex",
+		"t": "text.tex.latex variable.parameter.function.latex",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -289,7 +313,7 @@
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.end.latex",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",

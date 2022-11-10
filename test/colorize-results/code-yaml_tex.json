@@ -181,7 +181,7 @@
 	},
 	{
 		"c": "[",
-		"t": "text.tex.latex punctuation.definition.arguments.optional.begin.latex",
+		"t": "text.tex.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -193,7 +193,7 @@
 	},
 	{
 		"c": "linenos",
-		"t": "text.tex.latex",
+		"t": "text.tex.latex meta.parameter.optional.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -205,7 +205,7 @@
 	},
 	{
 		"c": "]",
-		"t": "text.tex.latex punctuation.definition.arguments.optional.end.latex",
+		"t": "text.tex.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",

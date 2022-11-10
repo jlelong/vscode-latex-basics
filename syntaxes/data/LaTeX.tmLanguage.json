@@ -25,25 +25,7 @@
 			"name": "meta.preamble.latex",
 			"patterns": [
 				{
-					"begin": "(\\G\\[)",
-					"beginCaptures": {
-						"0": {
-							"name": "punctuation.definition.arguments.optional.begin.latex"
-						}
-					},
-					"end": "(\\])",
-					"endCaptures": {
-						"0": {
-							"name": "punctuation.definition.arguments.optional.end.latex"
-						}
-					},
-					"contentName": "variable.parameter.function.latex",
-					"name": "meta.parameter.optional.latex",
-					"patterns": [
-						{
-							"include": "$self"
-						}
-					]
+					"include": "#multiline-optional-arg"
 				},
 				{
 					"begin": "((?:\\G|(?<=\\]))\\{)",
@@ -166,33 +148,37 @@
 			]
 		},
 		{
-			"begin": "(^\\s*)?(?=\\\\begin\\{(lstlisting|minted|pyglist)\\})",
-			"beginCaptures": {
+			"begin": "(^\\s*)?\\\\begin\\{(lstlisting|minted|pyglist)\\}(?=\\[|\\{)",
+			"end": "\\\\end\\{(?:minted|lstlisting|pyglist)\\}",
+			"captures": {
 				"0": {
-					"name": "punctuation.whitespace.embedded.leading.latex"
-				}
-			},
-			"end": "(?!\\G)(\\s*$\\n?)?",
-			"endCaptures": {
-				"0": {
-					"name": "punctuation.whitespace.embedded.trailing.latex"
+					"patterns": [
+						{
+							"include": "#begin-env-tokenizer"
+						}
+					]
 				}
 			},
 			"patterns": [
+				{
+					"include": "#multiline-optional-arg-no-highlight"
+				},
 				{{includeMintedblocks}},
 				{
-					"begin": "(\\\\begin\\{(?:lstlisting|minted|pyglist)\\}(?:\\[.*\\])?)",
-					"captures": {
+					"begin": "(?:\\G|(?<=\\]))(\\{)([a-zA-Z]*)(\\})",
+					"beginCaptures": {
 						"1": {
-							"patterns": [
-								{
-									"include": "#begin-env-tokenizer"
-								}
-							]
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
 					"contentName": "meta.function.embedded.latex",
-					"end": "(\\\\end\\{(?:lstlisting|minted|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:lstlisting|minted|pyglist)\\})",
 					"name": "meta.embedded.block.generic.latex"
 				}
 			]
@@ -1306,6 +1292,47 @@
 					},
 					"match": "(\\[)([^\\[]*?)(\\])",
 					"name": "meta.parameter.optional.latex"
+				}
+			]
+		},
+		"multiline-optional-arg-no-highlight": {
+			"begin": "\\G\\[",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.definition.arguments.optional.begin.latex"
+				}
+			},
+			"end": "\\]",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.arguments.optional.end.latex"
+				}
+			},
+			"name": "meta.parameter.optional.latex",
+			"patterns": [
+				{
+					"include": "$self"
+				}
+			]
+		},
+		"multiline-optional-arg": {
+			"begin": "\\G\\[",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.definition.arguments.optional.begin.latex"
+				}
+			},
+			"end": "\\]",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.arguments.optional.end.latex"
+				}
+			},
+			"name": "meta.parameter.optional.latex",
+			"contentName": "variable.parameter.function.latex",
+			"patterns": [
+				{
+					"include": "$self"
 				}
 			]
 		},

@@ -181,7 +181,7 @@
 	},
 	{
 		"c": "[",
-		"t": "text.tex.latex punctuation.definition.arguments.optional.begin.latex",
+		"t": "text.tex.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -193,7 +193,7 @@
 	},
 	{
 		"c": "linenos",
-		"t": "text.tex.latex",
+		"t": "text.tex.latex meta.parameter.optional.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -205,7 +205,7 @@
 	},
 	{
 		"c": "]",
-		"t": "text.tex.latex punctuation.definition.arguments.optional.end.latex",
+		"t": "text.tex.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -352,9 +352,9 @@
 		"t": "text.tex.latex text.html meta.tag.inline.a.start.html meta.attribute.href.html entity.other.attribute-name.html",
 		"r": {
 			"dark_plus": "entity.other.attribute-name: #9CDCFE",
-			"light_plus": "entity.other.attribute-name: #FF0000",
+			"light_plus": "entity.other.attribute-name: #E50000",
 			"dark_vs": "entity.other.attribute-name: #9CDCFE",
-			"light_vs": "entity.other.attribute-name: #FF0000",
+			"light_vs": "entity.other.attribute-name: #E50000",
 			"hc_black": "entity.other.attribute-name: #9CDCFE",
 			"hc_light": "entity.other.attribute-name: #264F78"
 		}
