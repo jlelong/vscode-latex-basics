@@ -64,7 +64,7 @@ function generateCodeBlock(envNames, source, contentName=undefined) {
         contentName = source
     }
     var envNameRegex = '(?:' + envNames.join('|') + ')'
-    const beginRule = `\\s*\\\\begin\\{${envNameRegex}\\*?\\}(?:\\[[a-zA-Z0-9_-]*\\])?(?=\\[|\\{)`
+    const beginRule = `\\s*\\\\begin\\{${envNameRegex}\\*?\\}(?:\\[[a-zA-Z0-9_-]*\\])?(?=\\[|\\{|\\s*$)`
     const endRule = `\\s*\\\\end\\{${envNameRegex}\\*?\\}`
 
     const jsonCode = `{
