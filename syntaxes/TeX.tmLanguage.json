@@ -7,7 +7,7 @@
 					"name": "punctuation.definition.keyword.tex"
 				}
 			},
-			"match": "(\\\\)(backmatter|else|fi|frontmatter|mainmatter|if(case|cat|dim|eof|false|hbox|hmode|inner|mmode|num|odd|true|undefined|vbox|vmode|void|x)?)(?![a-zA-Z@])",
+			"match": "(\\\\)(backmatter|csname|else|endcsname|fi|frontmatter|mainmatter|unless|if(case|cat|csname|defined|dim|eof|false|fontchar|hbox|hmode|inner|mmode|num|odd|true|vbox|vmode|void|x)?)(?![a-zA-Z@])",
 			"name": "keyword.control.tex"
 		},
 		{
