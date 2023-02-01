@@ -77,13 +77,13 @@
 			"begin": "(\\$\\$|\\$)",
 			"beginCaptures": {
 				"1": {
-					"name": "punctuation.definition.string.begin.tex"
+					"name": "punctuation.definition.math.begin.tex"
 				}
 			},
 			"end": "(\\1)",
 			"endCaptures": {
 				"1": {
-					"name": "punctuation.definition.string.end.tex"
+					"name": "punctuation.definition.math.end.tex"
 				}
 			},
 			"name": "meta.math.block.tex support.class.math.block.tex",

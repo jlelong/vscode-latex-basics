@@ -289,7 +289,7 @@
 	},
 	{
 		"c": "$",
-		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.math.begin.tex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -601,7 +601,7 @@
 	},
 	{
 		"c": "$",
-		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.math.end.tex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -637,7 +637,7 @@
 	},
 	{
 		"c": "$$",
-		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.string.begin.latex",
+		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.math.begin.latex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -925,7 +925,7 @@
 	},
 	{
 		"c": "$$",
-		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.string.end.latex",
+		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.math.end.latex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -949,7 +949,7 @@
 	},
 	{
 		"c": "\\[",
-		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.string.begin.latex",
+		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.math.begin.latex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -1285,7 +1285,7 @@
 	},
 	{
 		"c": "\\]",
-		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.string.end.latex",
+		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.math.end.latex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -1309,7 +1309,7 @@
 	},
 	{
 		"c": "$",
-		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.math.begin.tex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -1669,7 +1669,7 @@
 	},
 	{
 		"c": "$",
-		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.math.end.tex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -1693,7 +1693,7 @@
 	},
 	{
 		"c": "\\[",
-		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.string.begin.latex",
+		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.math.begin.latex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -1789,7 +1789,7 @@
 	},
 	{
 		"c": "\\]",
-		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.string.end.latex",
+		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.math.end.latex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -1813,7 +1813,7 @@
 	},
 	{
 		"c": "\\(",
-		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.string.begin.latex",
+		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.math.begin.latex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -2005,7 +2005,7 @@
 	},
 	{
 		"c": "\\)",
-		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.string.end.latex",
+		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.math.end.latex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -2029,7 +2029,7 @@
 	},
 	{
 		"c": "$",
-		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.math.begin.tex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -2209,7 +2209,7 @@
 	},
 	{
 		"c": "$",
-		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.math.end.tex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -2233,7 +2233,7 @@
 	},
 	{
 		"c": "$$",
-		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.string.begin.latex",
+		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.math.begin.latex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -2413,7 +2413,7 @@
 	},
 	{
 		"c": "$$",
-		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.string.end.latex",
+		"t": "text.tex.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.definition.math.end.latex",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
