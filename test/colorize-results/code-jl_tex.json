@@ -1,1958 +1,654 @@
 [
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "keyword.control: #C586C0",
-			"light_plus": "keyword.control: #AF00DB",
-			"dark_vs": "keyword.control: #569CD6",
-			"light_vs": "keyword.control: #0000FF",
-			"hc_black": "keyword.control: #C586C0",
-			"hc_light": "keyword.control: #B5200D"
-		}
+		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "documentclass",
-		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex",
-		"r": {
-			"dark_plus": "keyword.control: #C586C0",
-			"light_plus": "keyword.control: #AF00DB",
-			"dark_vs": "keyword.control: #569CD6",
-			"light_vs": "keyword.control: #0000FF",
-			"hc_black": "keyword.control: #C586C0",
-			"hc_light": "keyword.control: #B5200D"
-		}
+		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "article",
-		"t": "text.tex.latex meta.preamble.latex support.class.latex",
-		"r": {
-			"dark_plus": "support.class: #4EC9B0",
-			"light_plus": "support.class: #267F99",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.class: #4EC9B0",
-			"hc_light": "support.class: #185E73"
-		}
+		"t": "text.tex.latex meta.preamble.latex support.class.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "document",
-		"t": "text.tex.latex meta.function.begin-document.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex meta.function.begin-document.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "minted",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "[",
-		"t": "text.tex.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
 	},
 	{
 		"c": "linenos",
-		"t": "text.tex.latex meta.parameter.optional.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex meta.parameter.optional.latex"
 	},
 	{
 		"c": "]",
-		"t": "text.tex.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "julia",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "function",
-		"t": "text.tex.latex source.julia keyword.other.julia",
-		"r": {
-			"dark_plus": "keyword: #569CD6",
-			"light_plus": "keyword: #0000FF",
-			"dark_vs": "keyword: #569CD6",
-			"light_vs": "keyword: #0000FF",
-			"hc_black": "keyword: #569CD6",
-			"hc_light": "keyword: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia keyword.other.julia"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "sayhi",
-		"t": "text.tex.latex source.julia entity.name.function.julia",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC"
-		}
+		"t": "text.tex.latex source.julia entity.name.function.julia"
 	},
 	{
 		"c": "()",
-		"t": "text.tex.latex source.julia meta.bracket.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia meta.bracket.julia"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia"
 	},
 	{
 		"c": "This is a test",
-		"t": "text.tex.latex source.julia string.quoted.double.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "return",
-		"t": "text.tex.latex source.julia keyword.control.julia",
-		"r": {
-			"dark_plus": "keyword.control: #C586C0",
-			"light_plus": "keyword.control: #AF00DB",
-			"dark_vs": "keyword.control: #569CD6",
-			"light_vs": "keyword.control: #0000FF",
-			"hc_black": "keyword.control: #C586C0",
-			"hc_light": "keyword.control: #B5200D"
-		}
+		"t": "text.tex.latex source.julia keyword.control.julia"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia"
 	},
 	{
 		"c": "hi",
-		"t": "text.tex.latex source.julia string.quoted.double.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex source.julia keyword.control.end.julia",
-		"r": {
-			"dark_plus": "keyword.control: #C586C0",
-			"light_plus": "keyword.control: #AF00DB",
-			"dark_vs": "keyword.control: #569CD6",
-			"light_vs": "keyword.control: #0000FF",
-			"hc_black": "keyword.control: #C586C0",
-			"hc_light": "keyword.control: #B5200D"
-		}
+		"t": "text.tex.latex source.julia keyword.control.end.julia"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "minted",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "jlcode",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "linenos=false, frame=single",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "function",
-		"t": "text.tex.latex source.julia keyword.other.julia",
-		"r": {
-			"dark_plus": "keyword: #569CD6",
-			"light_plus": "keyword: #0000FF",
-			"dark_vs": "keyword: #569CD6",
-			"light_vs": "keyword: #0000FF",
-			"hc_black": "keyword: #569CD6",
-			"hc_light": "keyword: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia keyword.other.julia"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "sayhi",
-		"t": "text.tex.latex source.julia entity.name.function.julia",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC"
-		}
+		"t": "text.tex.latex source.julia entity.name.function.julia"
 	},
 	{
 		"c": "()",
-		"t": "text.tex.latex source.julia meta.bracket.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia meta.bracket.julia"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia"
 	},
 	{
 		"c": "This is a test",
-		"t": "text.tex.latex source.julia string.quoted.double.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "return",
-		"t": "text.tex.latex source.julia keyword.control.julia",
-		"r": {
-			"dark_plus": "keyword.control: #C586C0",
-			"light_plus": "keyword.control: #AF00DB",
-			"dark_vs": "keyword.control: #569CD6",
-			"light_vs": "keyword.control: #0000FF",
-			"hc_black": "keyword.control: #C586C0",
-			"hc_light": "keyword.control: #B5200D"
-		}
+		"t": "text.tex.latex source.julia keyword.control.julia"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia"
 	},
 	{
 		"c": "hi",
-		"t": "text.tex.latex source.julia string.quoted.double.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex source.julia keyword.control.end.julia",
-		"r": {
-			"dark_plus": "keyword.control: #C586C0",
-			"light_plus": "keyword.control: #AF00DB",
-			"dark_vs": "keyword.control: #569CD6",
-			"light_vs": "keyword.control: #0000FF",
-			"hc_black": "keyword.control: #C586C0",
-			"hc_light": "keyword.control: #B5200D"
-		}
+		"t": "text.tex.latex source.julia keyword.control.end.julia"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "jlcode",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "juliablock*",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "linenos=false, frame=single",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "function",
-		"t": "text.tex.latex source.julia keyword.other.julia",
-		"r": {
-			"dark_plus": "keyword: #569CD6",
-			"light_plus": "keyword: #0000FF",
-			"dark_vs": "keyword: #569CD6",
-			"light_vs": "keyword: #0000FF",
-			"hc_black": "keyword: #569CD6",
-			"hc_light": "keyword: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia keyword.other.julia"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "sayhi",
-		"t": "text.tex.latex source.julia entity.name.function.julia",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC"
-		}
+		"t": "text.tex.latex source.julia entity.name.function.julia"
 	},
 	{
 		"c": "()",
-		"t": "text.tex.latex source.julia meta.bracket.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia meta.bracket.julia"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia"
 	},
 	{
 		"c": "This is a test",
-		"t": "text.tex.latex source.julia string.quoted.double.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "return",
-		"t": "text.tex.latex source.julia keyword.control.julia",
-		"r": {
-			"dark_plus": "keyword.control: #C586C0",
-			"light_plus": "keyword.control: #AF00DB",
-			"dark_vs": "keyword.control: #569CD6",
-			"light_vs": "keyword.control: #0000FF",
-			"hc_black": "keyword.control: #C586C0",
-			"hc_light": "keyword.control: #B5200D"
-		}
+		"t": "text.tex.latex source.julia keyword.control.julia"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia"
 	},
 	{
 		"c": "hi",
-		"t": "text.tex.latex source.julia string.quoted.double.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex source.julia keyword.control.end.julia",
-		"r": {
-			"dark_plus": "keyword.control: #C586C0",
-			"light_plus": "keyword.control: #AF00DB",
-			"dark_vs": "keyword.control: #569CD6",
-			"light_vs": "keyword.control: #0000FF",
-			"hc_black": "keyword.control: #C586C0",
-			"hc_light": "keyword.control: #B5200D"
-		}
+		"t": "text.tex.latex source.julia keyword.control.end.julia"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "juliablock*",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "jlconverbatim",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "linenos=false, frame=single",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "function",
-		"t": "text.tex.latex source.julia keyword.other.julia",
-		"r": {
-			"dark_plus": "keyword: #569CD6",
-			"light_plus": "keyword: #0000FF",
-			"dark_vs": "keyword: #569CD6",
-			"light_vs": "keyword: #0000FF",
-			"hc_black": "keyword: #569CD6",
-			"hc_light": "keyword: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia keyword.other.julia"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "sayhi",
-		"t": "text.tex.latex source.julia entity.name.function.julia",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC"
-		}
+		"t": "text.tex.latex source.julia entity.name.function.julia"
 	},
 	{
 		"c": "()",
-		"t": "text.tex.latex source.julia meta.bracket.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia meta.bracket.julia"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia"
 	},
 	{
 		"c": "This is a test",
-		"t": "text.tex.latex source.julia string.quoted.double.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "return",
-		"t": "text.tex.latex source.julia keyword.control.julia",
-		"r": {
-			"dark_plus": "keyword.control: #C586C0",
-			"light_plus": "keyword.control: #AF00DB",
-			"dark_vs": "keyword.control: #569CD6",
-			"light_vs": "keyword.control: #0000FF",
-			"hc_black": "keyword.control: #C586C0",
-			"hc_light": "keyword.control: #B5200D"
-		}
+		"t": "text.tex.latex source.julia keyword.control.julia"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.begin.julia"
 	},
 	{
 		"c": "hi",
-		"t": "text.tex.latex source.julia string.quoted.double.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia"
 	},
 	{
 		"c": "\"",
-		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia",
-		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
-			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
-		}
+		"t": "text.tex.latex source.julia string.quoted.double.julia punctuation.definition.string.end.julia"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex source.julia keyword.control.end.julia",
-		"r": {
-			"dark_plus": "keyword.control: #C586C0",
-			"light_plus": "keyword.control: #AF00DB",
-			"dark_vs": "keyword.control: #569CD6",
-			"light_vs": "keyword.control: #0000FF",
-			"hc_black": "keyword.control: #C586C0",
-			"hc_light": "keyword.control: #B5200D"
-		}
+		"t": "text.tex.latex source.julia keyword.control.end.julia"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "jlconverbatim",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "juliaconsole",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  a ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "=",
-		"t": "text.tex.latex source.julia keyword.operator.update.julia",
-		"r": {
-			"dark_plus": "keyword.operator: #D4D4D4",
-			"light_plus": "keyword.operator: #000000",
-			"dark_vs": "keyword.operator: #D4D4D4",
-			"light_vs": "keyword.operator: #000000",
-			"hc_black": "keyword.operator: #D4D4D4",
-			"hc_light": "keyword.operator: #000000"
-		}
+		"t": "text.tex.latex source.julia keyword.operator.update.julia"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "rand",
-		"t": "text.tex.latex source.julia support.function.julia",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex source.julia support.function.julia"
 	},
 	{
 		"c": "(",
-		"t": "text.tex.latex source.julia meta.bracket.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia meta.bracket.julia"
 	},
 	{
 		"c": "1024",
-		"t": "text.tex.latex source.julia constant.numeric.julia",
-		"r": {
-			"dark_plus": "constant.numeric: #B5CEA8",
-			"light_plus": "constant.numeric: #098658",
-			"dark_vs": "constant.numeric: #B5CEA8",
-			"light_vs": "constant.numeric: #098658",
-			"hc_black": "constant.numeric: #B5CEA8",
-			"hc_light": "constant.numeric: #096D48"
-		}
+		"t": "text.tex.latex source.julia constant.numeric.julia"
 	},
 	{
 		"c": ")",
-		"t": "text.tex.latex source.julia meta.bracket.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia meta.bracket.julia"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "@btime",
-		"t": "text.tex.latex source.julia support.function.macro.julia",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex source.julia support.function.macro.julia"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": "sum",
-		"t": "text.tex.latex source.julia support.function.julia",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex source.julia support.function.julia"
 	},
 	{
 		"c": "(",
-		"t": "text.tex.latex source.julia meta.bracket.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia meta.bracket.julia"
 	},
 	{
 		"c": "$",
-		"t": "text.tex.latex source.julia keyword.operator.interpolation.julia",
-		"r": {
-			"dark_plus": "keyword.operator: #D4D4D4",
-			"light_plus": "keyword.operator: #000000",
-			"dark_vs": "keyword.operator: #D4D4D4",
-			"light_vs": "keyword.operator: #000000",
-			"hc_black": "keyword.operator: #D4D4D4",
-			"hc_light": "keyword.operator: #000000"
-		}
+		"t": "text.tex.latex source.julia keyword.operator.interpolation.julia"
 	},
 	{
 		"c": "a",
-		"t": "text.tex.latex source.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia"
 	},
 	{
 		"c": ")",
-		"t": "text.tex.latex source.julia meta.bracket.julia",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex source.julia meta.bracket.julia"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "juliaconsole",
-		"t": "text.tex.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex",
-		"r": {
-			"dark_plus": "support.function: #DCDCAA",
-			"light_plus": "support.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
-		}
+		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.begin.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "document",
-		"t": "text.tex.latex meta.function.end-document.latex variable.parameter.function.latex",
-		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
-		}
+		"t": "text.tex.latex meta.function.end-document.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.end.latex",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
-		}
+		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
 	}
 ]
