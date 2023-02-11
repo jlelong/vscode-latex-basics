@@ -1,5 +1,22 @@
 # Change Log
 
+## [1.5.1] - 2023-02-11
+
+### Added
+
+- Declare `\{...\}` as a bracket pair.
+- Highlight `\refcite`. See https://github.com/James-Yu/LaTeX-Workshop/pull/3597.
+
+### Changed
+
+- Allow single letter words. See https://github.com/microsoft/vscode/issues/170588.
+- (#41) Make `[]` optional for code environments.
+
+### Fixed
+
+- (#44) Consistent highlighting of keywords followed by numbers
+- (#43) Update `\if...`- and csname-related TeX primitives
+
 ## [1.5.0] - 2022-11-10
 
 ### Added
