@@ -15,6 +15,10 @@ function assertUnchangedTokens(testFixurePath, done) {
 
     return commands.executeCommand('_workbench.captureSyntaxTokens', Uri.file(testFixurePath)).then(data => {
         try {
+            if (!Array.isArray(data)) {
+                throw Error('Syntax token result is not an array')
+            }
+            data = data.map((value) => { return {c: value.c, t: value.t}})
             let resultsFolderPath = join(dirname(dirname(testFixurePath)), 'colorize-results')
             if (!fs.existsSync(resultsFolderPath)) {
                 fs.mkdirSync(resultsFolderPath)
@@ -25,12 +29,12 @@ function assertUnchangedTokens(testFixurePath, done) {
                 try {
                     assert.deepEqual(data, previousData)
                 } catch (e) {
-                    fs.writeFileSync(resultPath, JSON.stringify(data, null, '\t'), { flag: 'w' })
+                    // fs.writeFileSync(resultPath, JSON.stringify(data, null, '\t'), { flag: 'w' })
                     if (Array.isArray(data) && Array.isArray(previousData) && data.length === previousData.length) {
                         for (let i = 0; i < data.length; i++) {
                             let d = data[i]
                             let p = previousData[i]
-                            if (d.c !== p.c || hasThemeChange(d.r, p.r)) {
+                            if (d.c !== p.c || p.t !== d.t) {
                                 throw e
                             }
                         }

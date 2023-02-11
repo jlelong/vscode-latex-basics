@@ -1,6 +1,7 @@
 {
 	"version": "0.2.0",
-	"configurations": [{
+	"configurations": [
+		{
 			"name": "Run Extension",
 			"type": "extensionHost",
 			"request": "launch",
@@ -8,6 +9,17 @@
 			"args": [
 				"--extensionDevelopmentPath=${workspaceFolder}"
 			]
-		}
+		},
+		{
+            "name": "Run tests ",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "${workspaceFolder}/test/",
+                "--extensionDevelopmentPath=${workspaceFolder}",
+                "--extensionTestsPath=${workspaceFolder}/test/index"
+            ]
+        },
 	]
 }

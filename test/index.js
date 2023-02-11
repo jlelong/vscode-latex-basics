@@ -2,28 +2,35 @@ const path = require('path')
 const Mocha = require('mocha')
 const glob = require('glob')
 
-module.exports.run = function (testsRoot, cb) {
+module.exports.run = function () {
     // Create the mocha test
     const mocha = new Mocha({
         ui: 'tdd'
     })
 
-    glob('**/**.test.js', { cwd: testsRoot }, (err, files) => {
-        if (err) {
-            return cb(err)
-        }
+    const testRoot = path.resolve(__dirname);
+    return new Promise((c, e) => {
+        glob('**/**.test.js', { cwd: testRoot }, (err, files) => {
+            if (err) {
+                return e(err)
+            }
 
-        // Add files to the test suite
-        files.forEach(f => mocha.addFile(path.resolve(testsRoot, f)))
+            // Add files to the test suite
+            files.forEach(f => mocha.addFile(path.resolve(testRoot, f)))
 
-        try {
-            // Run the mocha test
-            mocha.run(failures => {
-                cb(null, failures)
-            })
-        } catch (err) {
-            console.error(err)
-            cb(err)
-        }
+            try {
+                // Run the mocha test
+                mocha.run(failures => {
+                    if (failures > 0) {
+                        e(new Error(`${failures} tests failed.`));
+                    } else {
+                        c();
+                    }
+                })
+            } catch (err) {
+                console.error(err)
+                e(err)
+            }
+        })
     })
 }
