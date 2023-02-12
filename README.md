@@ -33,4 +33,4 @@ To run the grammar tests
 
     npm run test
 
-The test cases are stored as markdown files under `test/colorize-fixtures`. Grammar test results are stored under `test/colorize-results`, which are automatically generated from the fixtures.
+The test cases are stored as `.tex` files under `test/colorize-fixtures`. Grammar test results are stored under `test/colorize-results`, which are automatically generated from the fixtures.
