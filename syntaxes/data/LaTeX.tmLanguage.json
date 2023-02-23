@@ -195,7 +195,9 @@
 					]
 				}
 			},
-			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)"
+			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)",
+			"contentName": "meta.function.embedded.latex",
+			"name":"meta.embedded.block.generic.latex"
 		},
 		{
 			"begin": "((\\\\)addplot)(?:\\+?)((?:\\[[^\\[]*\\]))*\\s*(gnuplot)\\s*((?:\\[[^\\[]*\\]))*\\s*(\\{)",
