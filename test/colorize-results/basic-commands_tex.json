@@ -577,6 +577,26 @@
 	},
 	{
 		"c": "\\",
+		"t": "text.tex.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.latex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "somelabeLWithÄccents",
+		"t": "text.tex.latex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
 		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
