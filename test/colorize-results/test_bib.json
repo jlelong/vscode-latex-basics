@@ -1,0 +1,1490 @@
+[
+	{
+		"c": "@",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "string",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.begin.bibtex"
+	},
+	{
+		"c": "ucp",
+		"t": "text.bibtex meta.string-constant.braces.bibtex variable.other.bibtex"
+	},
+	{
+		"c": " = ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "University of California Press",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "xdata",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "oup2",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "publisher",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Oxford University Press",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "location",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Oxford",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "inproceedings",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "testkey",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "author",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "    ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Sarah Conner",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "booktitle",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Defeating The Terminators",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "title",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "     ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "Genesys Is Skynet",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "year",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "      ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "2015",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "month",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "     ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "oct",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.variable.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "pages",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "     ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "1--4",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "book",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "glasbook",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "author",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Glasserman, Paul",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "title",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "   ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Monte ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "C",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": "arlo ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "%",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex punctuation.definition.comment.bibtex"
+	},
+	{
+		"c": "methods in ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex"
+	},
+	{
+		"c": "             financial engineering",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "series",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Applications of Mathematics (New York)",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.whitespace.comment.leading.bibtex"
+	},
+	{
+		"c": "%",
+		"t": "text.bibtex meta.entry.braces.bibtex comment.line.percentage.bibtex punctuation.definition.comment.bibtex"
+	},
+	{
+		"c": "volume  = {53},",
+		"t": "text.bibtex meta.entry.braces.bibtex comment.line.percentage.bibtex"
+	},
+	{
+		"c": "          ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "note",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "    ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": " Stochastic Modelling and Applied Probability",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "address",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "New York",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "year",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "    ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "2004",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "pages",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "   ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "xiv+596",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "isbn",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "    ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "0-387-00451-3 ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "toto",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "xdata",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "oup",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "publisher",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Oxford University Press",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "location",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Oxford",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "book",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "MR1241645",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "author",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "    ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Rubinstein, Reuven Y. and Shapiro, Alexander",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "title",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "     ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Discrete event systems",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "series",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "    ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Wiley Series in Probability and ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "%",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex punctuation.definition.comment.bibtex"
+	},
+	{
+		"c": "Mathematical Statistics:",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex"
+	},
+	{
+		"c": "               Probability and Mathematical Statistics",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "note",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "      ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Sensitivity analysis and stochastic optimization by the score",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "               function method",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "publisher",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "John Wiley \\& Sons Ltd.",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "address",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "   ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Chichester",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "year",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "      ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "1993",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex constant.numeric.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "pages",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "     ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "xvi+334",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "isbn",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "      ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "0-471-93419-4",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "mrclass",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "   ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "90-02 (60K25 90C15)",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "mrnumber",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "MR1241645 (95k:90004)",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "inproceedings",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "Robots",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "author",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "    ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Sky Net",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "booktitle",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Evil Robots",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "title",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "     ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "The Best Robots",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "year",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "      ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "2015",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "month",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "     ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "sept",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.variable.bibtex"
+	},
+	{
+		"c": ", ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "%",
+		"t": "text.bibtex meta.entry.braces.bibtex comment.line.percentage.bibtex punctuation.definition.comment.bibtex"
+	},
+	{
+		"c": "oct,",
+		"t": "text.bibtex meta.entry.braces.bibtex comment.line.percentage.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "pages",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "     ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "1--4",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	}
+]
