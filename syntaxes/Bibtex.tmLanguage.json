@@ -49,7 +49,7 @@
 			]
 		},
 		{
-			"begin": "((@)i(?i::string))\\s*(\\()\\s*([a-zA-Z]*)",
+			"begin": "((@)(?i:string))\\s*(\\()\\s*([a-zA-Z]*)",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.other.string-constant.bibtex"
@@ -304,6 +304,27 @@
 					]
 				}
 			]
+		},
+		"url": {
+			"captures": {
+				"1": {
+					"name": "support.function.url.bibtex"
+				},
+				"2": {
+					"name": "punctuation.definition.function.bibtex"
+				},
+				"3": {
+					"name": "punctuation.definition.arguments.begin.bibtex"
+				},
+				"4": {
+					"name": "markup.underline.link.bibtex"
+				},
+				"5": {
+					"name": "punctuation.definition.arguments.end.bibtex"
+				}
+			},
+			"match": "(?:\\s*)((\\\\)(?:url|href))(\\{)([^}]*)(\\})",
+			"name": "meta.function.link.url.bibtex"
 		}
 	},
 	"scopeName": "text.bibtex"
