@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.5.2] - 2023-03-28
+
+### Added
+
+- Environments with name matching `[a-zA-Z]*code` are highlighted as minted
+- (#46) Support % as a comment sign for bibtex files
+- (#47) Capture urls in bibtex files
+
+### Changed
+
+- Use class `\p{Alphabetic}` instead of `\w` to allow accents in references and citations in LaTeX grammar.
+
 ## [1.5.1] - 2023-02-11
 
 ### Added

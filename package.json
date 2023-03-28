@@ -2,7 +2,7 @@
   "name": "vscode-latex-basics",
   "displayName": "LaTeX grammars",
   "description": "LaTeX textmate grammars for Visual Studio Code",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "publisher": "jlelong",
   "license": "MIT",
   "homepage": "https://github.com/jlelong/vscode-latex-basics",
