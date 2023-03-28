@@ -364,6 +364,54 @@
 		"t": "text.bibtex meta.entry.braces.bibtex"
 	},
 	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "url",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "     ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "\\",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex support.function.url.bibtex punctuation.definition.function.bibtex"
+	},
+	{
+		"c": "url",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex support.function.url.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.begin.bibtex"
+	},
+	{
+		"c": "http://www.example.com/some-%AC-encoded-%2C-character",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex markup.underline.link.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
 		"c": "}",
 		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
 	},
@@ -536,7 +584,7 @@
 		"t": "text.bibtex meta.entry.braces.bibtex comment.line.percentage.bibtex"
 	},
 	{
-		"c": "          ",
+		"c": "  ",
 		"t": "text.bibtex meta.entry.braces.bibtex"
 	},
 	{
@@ -722,6 +770,42 @@
 	{
 		"c": "}",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "url",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": "     ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "http://www.example.com/some-%AC-encoded-%2C-character",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.end.bibtex"
 	},
 	{
 		"c": "}",
@@ -948,7 +1032,19 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex"
 	},
 	{
-		"c": "               Probability and Mathematical Statistics",
+		"c": "               Probability ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "%",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex punctuation.definition.comment.bibtex"
+	},
+	{
+		"c": " A comment in the middle",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex"
+	},
+	{
+		"c": "               and Mathematical Statistics",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
@@ -1478,6 +1574,58 @@
 	{
 		"c": "1--4",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "howpublished",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "\\",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex support.function.url.bibtex punctuation.definition.function.bibtex"
+	},
+	{
+		"c": "url",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex support.function.url.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.begin.bibtex"
+	},
+	{
+		"c": "http://www.example.com/some-%AC-encoded-%2C-character",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex markup.underline.link.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.end.bibtex"
 	},
 	{
 		"c": "}",
