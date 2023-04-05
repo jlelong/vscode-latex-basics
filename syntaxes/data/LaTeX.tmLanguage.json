@@ -858,7 +858,7 @@
 					"match": "((%).*)$"
 				},
 				{
-					"match": "[\\p{Alphabetic}:.-]+",
+					"match": "[\\p{Alphabetic}\\p{Number}:.-]+",
 					"name": "constant.other.reference.citation.latex"
 				}
 			]
@@ -885,7 +885,7 @@
 			"name": "meta.citation.latex",
 			"patterns": [
 				{
-					"match": "[\\p{Alphabetic}:.]+",
+					"match": "[\\p{Alphabetic}\\p{Number}:.]+",
 					"name": "constant.other.reference.citation.latex"
 				}
 			]
@@ -1371,7 +1371,7 @@
 							]
 						}
 					},
-					"match": "(?:(\\()[^\\)]*(\\))){0,2}(?:(\\[)[^\\]]*(\\])){0,2}(\\{)([\\p{Alphabetic}:.]+)(\\})(.*)"
+					"match": "(?:(\\()[^\\)]*(\\))){0,2}(?:(\\[)[^\\]]*(\\])){0,2}(\\{)([\\p{Alphabetic}\\p{Number}:.]+)(\\})(.*)"
 				}
 			]
 		},
