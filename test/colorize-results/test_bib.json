@@ -12,7 +12,7 @@
 		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.begin.bibtex"
 	},
 	{
-		"c": "ucp",
+		"c": "ucp:2",
 		"t": "text.bibtex meta.string-constant.braces.bibtex variable.other.bibtex"
 	},
 	{
@@ -86,6 +86,22 @@
 	{
 		"c": "}",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "#",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex keyword.operator.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "ucp:2",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.variable.bibtex"
 	},
 	{
 		"c": ",",
