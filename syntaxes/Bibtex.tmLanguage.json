@@ -124,13 +124,13 @@
 							"include": "#percentage_comment"
 						},
 						{
-							"include": "#string_var"
+							"include": "#integer"
 						},
 						{
 							"include": "#string_content"
 						},
 						{
-							"include": "#integer"
+							"include": "#string_var"
 						}
 					]
 				}
@@ -183,13 +183,13 @@
 							"include": "#percentage_comment"
 						},
 						{
-							"include": "#string_var"
+							"include": "#integer"
 						},
 						{
 							"include": "#string_content"
 						},
 						{
-							"include": "#integer"
+							"include": "#string_var"
 						}
 					]
 				}
@@ -203,8 +203,12 @@
 	],
 	"repository": {
 		"integer": {
-			"match": "\\d+",
-			"name": "constant.numeric.bibtex"
+			"match": "\\s*(\\d+)\\s*",
+			"captures": {
+				"1": {
+					"name": "constant.numeric.bibtex"
+				}
+			}
 		},
 		"nested_braces": {
 			"begin": "(?<!\\\\)\\{",
