@@ -148,7 +148,7 @@
 			]
 		},
 		{
-			"begin": "(^\\s*)?\\\\begin\\{(lstlisting|minted|pyglist)\\}(?=\\[|\\{)",
+			"begin": "(^\\s*)?\\\\begin\\{(lstlisting|minted|pyglist)\\}",
 			"end": "\\\\end\\{(?:minted|lstlisting|pyglist)\\}",
 			"captures": {
 				"0": {
@@ -479,6 +479,27 @@
 					]
 				},
 				{
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:octave|matlab))(\\})",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"contentName": "source.matlab",
+					"patterns": [
+						{
+							"include": "source.matlab"
+						}
+					]
+				},
+				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)([a-zA-Z]*)(\\})",
 					"beginCaptures": {
 						"1": {
@@ -494,6 +515,23 @@
 					"contentName": "meta.function.embedded.latex",
 					"end": "^\\s*(?=\\\\end\\{(?:lstlisting|minted|pyglist)\\})",
 					"name": "meta.embedded.block.generic.latex"
+				},
+				{
+					"begin": "(?:\\G|(?<=\\]))(?!\\{)(\\s*)(?!\\})",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "markup.raw.verb.latex",
+					"end": "^\\s*(?=\\\\end\\{(?:lstlisting|minted|pyglist)\\})",
+					"name": "meta.function.verbatim.latex"
 				}
 			]
 		},
