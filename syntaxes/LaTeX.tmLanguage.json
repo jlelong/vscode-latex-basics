@@ -114,6 +114,44 @@
 			]
 		},
 		{
+			"begin": "((\\\\)(caption|captionbox)(?:\\*)?)((?:\\[[^\\[]*?\\])?)(\\{)",
+			"beginCaptures": {
+				"1": {
+					"name": "support.function.caption.latex"
+				},
+				"2": {
+					"name": "punctuation.definition.function.latex"
+				},
+				"4": {
+					"patterns": [
+						{
+							"include": "#optional-arg"
+						}
+					]
+				},
+				"5": {
+					"name": "punctuation.definition.arguments.begin.latex"
+				}
+			},
+			"comment": "based on the rule for sectioning",
+			"contentName": "entity.name.caption.latex",
+			"end": "\\}",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.arguments.end.latex"
+				}
+			},
+			"name": "meta.function.caption.$3.latex",
+			"patterns": [
+				{
+					"include": "text.tex#braces"
+				},
+				{
+					"include": "$base"
+				}
+			]
+		},
+		{
 			"name": "meta.function.environment.songs.latex",
 			"begin": "((?:\\s*)\\\\begin\\{songs\\}\\{.*\\})",
 			"end": "(\\\\end\\{songs\\}(?:\\s*\\n)?)",
