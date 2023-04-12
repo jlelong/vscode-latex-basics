@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			"begin": "((\\\\)(?:include|input))(\\{)",
+			"begin": "((\\\\)(include|input|includegraphics|lstinputlisting)(?:\\*)?)((?:\\[[^\\[]*?\\])?)(\\{)",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.control.include.latex"
@@ -58,17 +58,25 @@
 				"2": {
 					"name": "punctuation.definition.function.latex"
 				},
-				"3": {
+				"4": {
+					"patterns": [
+						{
+							"include": "#optional-arg"
+						}
+					]
+				},
+				"5": {
 					"name": "punctuation.definition.arguments.begin.latex"
 				}
 			},
+			"contentName": "string.unquoted.latex",
 			"end": "\\}",
 			"endCaptures": {
 				"0": {
 					"name": "punctuation.definition.arguments.end.latex"
 				}
 			},
-			"name": "meta.include.latex",
+			"name": "meta.include.$3.latex",
 			"patterns": [
 				{
 					"include": "$self"
