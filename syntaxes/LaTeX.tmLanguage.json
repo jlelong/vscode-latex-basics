@@ -148,35 +148,57 @@
 			]
 		},
 		{
-			"begin": "(^\\s*)?\\\\begin\\{(lstlisting|minted|pyglist)\\}(?=\\[|\\{)",
-			"end": "\\\\end\\{(?:minted|lstlisting|pyglist)\\}",
+			"begin": "(?:\\s*)((\\\\)begin)(\\{)(lstlisting|minted|pyglist|pygmented)(\\})",
+			"end": "(?:\\s*)((\\\\)end)(\\{)(\\4)(\\})(?:\\s*\\n)?",
 			"captures": {
-				"0": {
-					"patterns": [
-						{
-							"include": "#begin-env-tokenizer"
-						}
-					]
+				"1": {
+					"name": "support.function.be.latex"
+				},
+				"2": {
+					"name": "punctuation.definition.function.latex"
+				},
+				"3": {
+					"name": "punctuation.definition.arguments.begin.latex"
+				},
+				"4": {
+					"name": "variable.parameter.function.latex"
+				},
+				"5": {
+					"name": "punctuation.definition.arguments.end.latex"
 				}
 			},
-			"patterns": [
-				{
-					"include": "#multiline-optional-arg-no-highlight"
-				},
-				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:c|cpp))(\\})",
+			"patterns": [				{
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:c|cpp|c\\+\\+)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:c|cpp|c\\+\\+))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.cpp.embedded.latex",
 					"patterns": [
 						{
@@ -185,19 +207,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:asy|asymptote))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:asy|asymptote)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:asy|asymptote))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.asy",
 					"patterns": [
 						{
@@ -206,19 +246,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:css))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:css)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:css))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.css",
 					"patterns": [
 						{
@@ -227,19 +285,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:hs|haskell))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:hs|haskell)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:hs|haskell))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.haskell",
 					"patterns": [
 						{
@@ -248,19 +324,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:html))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:html)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:html))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "text.html",
 					"patterns": [
 						{
@@ -269,19 +363,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:xml))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:xml)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:xml))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "text.xml",
 					"patterns": [
 						{
@@ -290,19 +402,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:java))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:java)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:java))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.java",
 					"patterns": [
 						{
@@ -311,19 +441,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:lua))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:lua)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:lua))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.lua",
 					"patterns": [
 						{
@@ -332,19 +480,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:jl|julia))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:jl|julia)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:jl|julia))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.julia",
 					"patterns": [
 						{
@@ -353,19 +519,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:rb|ruby))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:rb|ruby)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:rb|ruby))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.ruby",
 					"patterns": [
 						{
@@ -374,19 +558,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:js|javascript))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:js|javascript)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:js|javascript))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.js",
 					"patterns": [
 						{
@@ -395,19 +597,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:ts|typescript))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:ts|typescript)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:ts|typescript))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.ts",
 					"patterns": [
 						{
@@ -416,19 +636,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:py|python))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:py|python)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:py|python))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.python",
 					"patterns": [
 						{
@@ -437,19 +675,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:yaml))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:yaml)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:yaml))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.yaml",
 					"patterns": [
 						{
@@ -458,19 +714,37 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)((?:rust))(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:rust)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:rust))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
 					"contentName": "source.rust",
 					"patterns": [
 						{
@@ -479,25 +753,72 @@
 					]
 				},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)([a-zA-Z]*)(\\})",
+					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:octave|matlab)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:octave|matlab))(\\})",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"7": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"8": {
+							"name": "variable.parameter.function.latex"
+						},
+						"9": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"contentName": "meta.function.embedded.latex",
-					"end": "^\\s*(?=\\\\end\\{(?:lstlisting|minted|pyglist)\\})",
-					"name": "meta.embedded.block.generic.latex"
+					"end": "^\\s*(?=\\\\end\\{(?:minted|pygment|lstlisting|pyglist)\\})",
+					"contentName": "source.matlab",
+					"patterns": [
+						{
+							"include": "source.matlab"
+						}
+					]
+				},
+				{
+					"begin": "(?:\\G)(?:(\\[)([^\\[\\]]*)(\\]))?(?:(\\{)([^\\{\\}]*)(\\}))?",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.arguments.optional.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "markup.raw.verbatim.latex",
+					"end": "^\\s*(?=\\\\end\\{(?:lstlisting|minted|pyglist|pygmented)\\})",
+					"name": "meta.function.verbatim.latex"
 				}
 			]
-		},
-		{
+		},		{
 			"begin": "\\s*\\\\begin\\{(?:cppcode)\\*?\\}(?:\\[[a-zA-Z0-9_-]*\\])?(?=\\[|\\{|\\s*$)",
 			"end": "\\s*\\\\end\\{(?:cppcode)\\*?\\}",
 			"captures": {
@@ -1119,7 +1440,7 @@
 			"end": "\\s*(\\};)"
 		},
 		{
-			"begin": "(\\s*\\\\begin\\{((?:fboxv|boxedv|V|v|spv)erbatim\\*?)\\})",
+			"begin": "(\\s*\\\\begin\\{((?:fboxv|boxedv|BV|V|v|spv)erbatim\\*?)\\})",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -1238,7 +1559,7 @@
 			}
 		},
 		{
-			"begin": "(?:\\s*)((\\\\)begin)(\\{)((?:\\+?array|equation|(?:IEEE)?eqnarray|multline|align|aligned|alignat|alignedat|flalign|flaligned|flalignat|split|gather|gathered|\\+?cases|(?:display)?math|\\+?[a-zA-Z]*matrix|[pbBvV]?NiceMatrix|[pbBvV]?NiceArray|(?:(?:arg)?(?:mini|maxi)))(?:\\*|!)?)(\\})(\\s*\\n)?",
+			"begin": "(?:\\s*)((\\\\)begin)(\\{)((?:\\+?array|equation|(?:IEEE)?eqnarray|multline|align|aligned|alignat|alignedat|flalign|flaligned|flalignat|split|gather|gathered|\\+?cases|(?:display)?math|\\+?[a-zA-Z]*matrix|[pbBvV]?NiceMatrix|[pbBvV]?NiceArray|(?:(?:arg)?(?:mini|maxi)))(?:\\*|!)?)(\\})(?:\\s*\\n)?",
 			"captures": {
 				"1": {
 					"name": "support.function.be.latex"

@@ -148,38 +148,52 @@
 			]
 		},
 		{
-			"begin": "(^\\s*)?\\\\begin\\{(lstlisting|minted|pyglist)\\}(?=\\[|\\{)",
-			"end": "\\\\end\\{(?:minted|lstlisting|pyglist)\\}",
+			"begin": "(?:\\s*)((\\\\)begin)(\\{)(lstlisting|minted|pyglist|pygmented)(\\})",
+			"end": "(?:\\s*)((\\\\)end)(\\{)(\\4)(\\})(?:\\s*\\n)?",
 			"captures": {
-				"0": {
-					"patterns": [
-						{
-							"include": "#begin-env-tokenizer"
-						}
-					]
+				"1": {
+					"name": "support.function.be.latex"
+				},
+				"2": {
+					"name": "punctuation.definition.function.latex"
+				},
+				"3": {
+					"name": "punctuation.definition.arguments.begin.latex"
+				},
+				"4": {
+					"name": "variable.parameter.function.latex"
+				},
+				"5": {
+					"name": "punctuation.definition.arguments.end.latex"
 				}
 			},
 			"patterns": [
-				{
-					"include": "#multiline-optional-arg-no-highlight"
-				},
 				{{includeMintedblocks}},
 				{
-					"begin": "(?:\\G|(?<=\\]))(\\{)([a-zA-Z]*)(\\})",
+					"begin": "(?:\\G)(?:(\\[)([^\\[\\]]*)(\\]))?(?:(\\{)([^\\{\\}]*)(\\}))?",
 					"beginCaptures": {
 						"1": {
-							"name": "punctuation.definition.arguments.begin.latex"
+							"name": "punctuation.definition.arguments.optional.begin.latex"
 						},
 						"2": {
 							"name": "variable.parameter.function.latex"
 						},
 						"3": {
+							"name": "punctuation.definition.arguments.optional.end.latex"
+						},
+						"4": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"5": {
+							"name": "variable.parameter.function.latex"
+						},
+						"6": {
 							"name": "punctuation.definition.arguments.end.latex"
 						}
 					},
-					"contentName": "meta.function.embedded.latex",
-					"end": "^\\s*(?=\\\\end\\{(?:lstlisting|minted|pyglist)\\})",
-					"name": "meta.embedded.block.generic.latex"
+					"contentName": "markup.raw.verbatim.latex",
+					"end": "^\\s*(?=\\\\end\\{(?:lstlisting|minted|pyglist|pygmented)\\})",
+					"name": "meta.function.verbatim.latex"
 				}
 			]
 		},
@@ -247,7 +261,7 @@
 			"end": "\\s*(\\};)"
 		},
 		{
-			"begin": "(\\s*\\\\begin\\{((?:fboxv|boxedv|V|v|spv)erbatim\\*?)\\})",
+			"begin": "(\\s*\\\\begin\\{((?:fboxv|boxedv|BV|V|v|spv)erbatim\\*?)\\})",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -366,7 +380,7 @@
 			}
 		},
 		{
-			"begin": "(?:\\s*)((\\\\)begin)(\\{)((?:\\+?array|equation|(?:IEEE)?eqnarray|multline|align|aligned|alignat|alignedat|flalign|flaligned|flalignat|split|gather|gathered|\\+?cases|(?:display)?math|\\+?[a-zA-Z]*matrix|[pbBvV]?NiceMatrix|[pbBvV]?NiceArray|(?:(?:arg)?(?:mini|maxi)))(?:\\*|!)?)(\\})(\\s*\\n)?",
+			"begin": "(?:\\s*)((\\\\)begin)(\\{)((?:\\+?array|equation|(?:IEEE)?eqnarray|multline|align|aligned|alignat|alignedat|flalign|flaligned|flalignat|split|gather|gathered|\\+?cases|(?:display)?math|\\+?[a-zA-Z]*matrix|[pbBvV]?NiceMatrix|[pbBvV]?NiceArray|(?:(?:arg)?(?:mini|maxi)))(?:\\*|!)?)(\\})(?:\\s*\\n)?",
 			"captures": {
 				"1": {
 					"name": "support.function.be.latex"

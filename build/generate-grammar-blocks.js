@@ -2,21 +2,22 @@ const fs = require('fs')
 const path = require('path')
 
 const mintedLanguages = [
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['asy', 'asymptote'], source: 'source.asy'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['css'], source: 'source.css'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['hs', 'haskell'], source: 'source.haskell'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['html'], source: 'text.html.basic', contentName: 'text.html'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['xml'], source: 'text.xml'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['java'], source: 'source.java'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['lua'], source: 'source.lua'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['jl', 'julia'], source: 'source.julia'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['rb', 'ruby'], source: 'source.ruby'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['js', 'javascript'], source: 'source.js'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['ts', 'typescript'], source: 'source.ts'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['py', 'python'], source: 'source.python'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['yaml'], source: 'source.yaml'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['rust'], source: 'source.rust'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['c', 'cpp', 'c\\+\\+'], source: 'source.cpp.embedded.latex'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['asy', 'asymptote'], source: 'source.asy'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['css'], source: 'source.css'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['hs', 'haskell'], source: 'source.haskell'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['html'], source: 'text.html.basic', contentName: 'text.html'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['xml'], source: 'text.xml'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['java'], source: 'source.java'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['lua'], source: 'source.lua'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['jl', 'julia'], source: 'source.julia'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['rb', 'ruby'], source: 'source.ruby'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['js', 'javascript'], source: 'source.js'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['ts', 'typescript'], source: 'source.ts'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['py', 'python'], source: 'source.python'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['yaml'], source: 'source.yaml'},
+    {name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['rust'], source: 'source.rust'},
+	{name: ['minted', 'pygment', 'lstlisting', 'pyglist'], language: ['octave', 'matlab'], source: 'source.matlab'},
 ]
 
 const codeLanguages = [
@@ -124,19 +125,37 @@ function generateMintedBlock(envNames, language, source, contentName=undefined) 
     if (contentName === undefined) {
         contentName = source
     }
-    var languageRegex = '(?:' + language.join('|') + ')'
+    var languageRegex = '(?i:' + language.join('|') + ')'
     var envNameRegex = '(?:' + envNames.join('|') + ')'
 
     const jsonCode = `{
-    "begin": "(?:\\G|(?<=\\]))(\\{)(${languageRegex})(\\})",
+    "begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=${languageRegex}(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)(${languageRegex})(\\})",
     "beginCaptures": {
         "1": {
-            "name": "punctuation.definition.arguments.begin.latex"
+            "name": "punctuation.definition.arguments.optional.begin.latex"
         },
         "2": {
             "name": "variable.parameter.function.latex"
         },
         "3": {
+            "name": "punctuation.definition.arguments.optional.end.latex"
+        },
+		"4": {
+            "name": "punctuation.definition.arguments.optional.begin.latex"
+        },
+        "5": {
+            "name": "variable.parameter.function.latex"
+        },
+        "6": {
+            "name": "punctuation.definition.arguments.optional.end.latex"
+        },
+		"7": {
+            "name": "punctuation.definition.arguments.begin.latex"
+        },
+        "8": {
+            "name": "variable.parameter.function.latex"
+        },
+        "9": {
             "name": "punctuation.definition.arguments.end.latex"
         }
     },
