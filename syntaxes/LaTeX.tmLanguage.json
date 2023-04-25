@@ -2065,7 +2065,7 @@
 		},
 		{
 			"name": "string.quoted.double.latex",
-			"match": "(?!\\\\)(\\`\\`)(?:.*?[^\\\\])(\\'\\'|\\\")",
+			"match": "(?<!\\\\)(\\`\\`)(?:.*?(?<!\\\\))(\\'\\'|\\\")",
 			"captures": {
 				"1": {
 					"name": "punctuation.definition.string.begin.latex"
@@ -2077,7 +2077,7 @@
 		},
 		{
 			"name": "string.quoted.single.latex",
-			"match": "(?!\\\\)(\\`)(?:.*?[^\\\\])(\\')",
+			"match": "(?<!\\\\)(\\`)(?:.*?(?<!\\\\))(\\')",
 			"captures": {
 				"1": {
 					"name": "punctuation.definition.string.begin.latex"
