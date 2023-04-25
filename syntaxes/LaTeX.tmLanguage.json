@@ -175,7 +175,8 @@
 					"name": "punctuation.definition.arguments.end.latex"
 				}
 			},
-			"patterns": [				{
+			"patterns": [
+				{
 					"begin": "(\\[)((?:[^\\]]*,)*\\s*lang(?:uage)?=(?i:c|cpp|c\\+\\+)(?:\\s*,[^\\]]*)*)(\\])|(?:(\\[)([^\\]]*)(\\]))?(\\{)((?i:c|cpp|c\\+\\+))(\\})",
 					"beginCaptures": {
 						"1": {
@@ -826,7 +827,8 @@
 					"name": "meta.function.verbatim.latex"
 				}
 			]
-		},		{
+		},
+		{
 			"begin": "\\s*\\\\begin\\{(?:cppcode)\\*?\\}(?:\\[[a-zA-Z0-9_-]*\\])?(?=\\[|\\{|\\s*$)",
 			"end": "\\s*\\\\end\\{(?:cppcode)\\*?\\}",
 			"captures": {
