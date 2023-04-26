@@ -1223,7 +1223,7 @@
 					"name": "punctuation.definition.arguments.end.latex"
 				}
 			},
-			"match": "(?:\\s*)((\\\\)(?:url|href|hyperref|hyperimage))((?:\\[[^\\[]*?\\])*)(\\{)([^}]*)(\\})(?:(?:\\{[^}]*\\}){2})?(?:(\\{)([^}]*)(\\}))?",
+			"match": "(?:\\s*)((\\\\)(?:url|href|hyperref|hyperimage))(\\[[^\\[]*?\\])?(\\{)([^}]*)(\\})(?:\\{[^}]*\\}){2}?(?:(\\{)([^}]*)(\\}))?",
 			"name": "meta.function.link.url.latex"
 		},
 		{
