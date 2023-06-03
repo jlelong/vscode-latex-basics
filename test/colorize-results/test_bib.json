@@ -1436,7 +1436,7 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
-		"c": "Evil Robots",
+		"c": "Evil \\% Robots",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
