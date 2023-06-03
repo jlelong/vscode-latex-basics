@@ -35,6 +35,8 @@ function assertUnchangedTokens(testFixurePath, done) {
                             let d = data[i]
                             let p = previousData[i]
                             if (d.c !== p.c || p.t !== d.t) {
+                                console.log('expected: ' + JSON.stringify(p))
+                                console.log('actual: ' + JSON.stringify(d))
                                 throw e
                             }
                         }
