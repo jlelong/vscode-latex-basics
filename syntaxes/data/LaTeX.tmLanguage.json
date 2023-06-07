@@ -185,7 +185,7 @@
 		},
 		{{includeCodeBlocks}},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{([a-zA-Z]*code(?:\\*)?)\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
+			"begin": "((?:\\s*)\\\\begin\\{([a-zA-Z]*code|lstlisting|minted|pyglist)(?:\\*)?\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
 			"captures": {
 				"1": {
 					"patterns": [
