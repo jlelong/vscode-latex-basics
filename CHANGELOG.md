@@ -1,5 +1,19 @@
 # Change Log
 
+## [1.5.3] - 2023-06-21
+
+### Added
+
+- (#59, #61) Support single and double quoted text
+- (#59) Extend support for hyperlinks
+- (#49, #56) Allow special characters and numbers in bibtex `@string` variables
+- (#48, #50) Support non-Latin macro names
+
+### Fixed
+
+- Environments from `lstlistings` may not take any arg.
+- (#60) Do not highlight `\%` in bibtex
+
 ## [1.5.2] - 2023-03-28
 
 ### Added
