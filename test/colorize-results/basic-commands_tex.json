@@ -624,23 +624,7 @@
 		"t": "text.tex.latex string.quoted.double.latex punctuation.definition.string.end.latex"
 	},
 	{
-		"c": "Some texte with ",
-		"t": "text.tex.latex"
-	},
-	{
-		"c": "`",
-		"t": "text.tex.latex string.quoted.single.latex punctuation.definition.string.begin.latex"
-	},
-	{
-		"c": "a single",
-		"t": "text.tex.latex string.quoted.single.latex"
-	},
-	{
-		"c": "'",
-		"t": "text.tex.latex string.quoted.single.latex punctuation.definition.string.end.latex"
-	},
-	{
-		"c": " quote.",
+		"c": "Some texte with `a single' quote.",
 		"t": "text.tex.latex"
 	},
 	{
