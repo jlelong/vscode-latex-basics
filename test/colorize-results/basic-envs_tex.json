@@ -660,6 +660,94 @@
 		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
 	},
 	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " Require \\usepackage{tabularray}",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " \\UseTblrLibrary{booktabs}",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.tabular.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.environment.tabular.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.tabular.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "booktabs",
+		"t": "text.tex.latex meta.function.environment.tabular.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.tabular.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{ll}",
+		"t": "text.tex.latex meta.function.environment.tabular.latex meta.data.environment.tabular.latex"
+	},
+	{
+		"c": "  foo ",
+		"t": "text.tex.latex meta.function.environment.tabular.latex meta.data.environment.tabular.latex"
+	},
+	{
+		"c": "&",
+		"t": "text.tex.latex meta.function.environment.tabular.latex meta.data.environment.tabular.latex keyword.control.table.cell.latex"
+	},
+	{
+		"c": " bar",
+		"t": "text.tex.latex meta.function.environment.tabular.latex meta.data.environment.tabular.latex"
+	},
+	{
+		"c": "\\\\",
+		"t": "text.tex.latex meta.function.environment.tabular.latex meta.data.environment.tabular.latex keyword.control.table.newline.latex"
+	},
+	{
+		"c": "  new ",
+		"t": "text.tex.latex meta.function.environment.tabular.latex meta.data.environment.tabular.latex"
+	},
+	{
+		"c": "&",
+		"t": "text.tex.latex meta.function.environment.tabular.latex meta.data.environment.tabular.latex keyword.control.table.cell.latex"
+	},
+	{
+		"c": " line",
+		"t": "text.tex.latex meta.function.environment.tabular.latex meta.data.environment.tabular.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.tabular.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.environment.tabular.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.tabular.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "booktabs",
+		"t": "text.tex.latex meta.function.environment.tabular.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.tabular.latex punctuation.definition.arguments.end.latex"
+	},
+	{
 		"c": "\\",
 		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
 	},
