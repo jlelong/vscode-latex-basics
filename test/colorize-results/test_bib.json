@@ -528,16 +528,8 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
 	},
 	{
-		"c": "arlo ",
+		"c": "arlo methods in ",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
-	},
-	{
-		"c": "%",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex punctuation.definition.comment.bibtex"
-	},
-	{
-		"c": "methods in ",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex"
 	},
 	{
 		"c": "             financial engineering",
@@ -586,18 +578,6 @@
 	{
 		"c": ",",
 		"t": "text.bibtex meta.entry.braces.bibtex"
-	},
-	{
-		"c": "  ",
-		"t": "text.bibtex meta.entry.braces.bibtex punctuation.whitespace.comment.leading.bibtex"
-	},
-	{
-		"c": "%",
-		"t": "text.bibtex meta.entry.braces.bibtex comment.line.percentage.bibtex punctuation.definition.comment.bibtex"
-	},
-	{
-		"c": "volume  = {53},",
-		"t": "text.bibtex meta.entry.braces.bibtex comment.line.percentage.bibtex"
 	},
 	{
 		"c": "  ",
@@ -1036,28 +1016,12 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
-		"c": "Wiley Series in Probability and ",
+		"c": "Wiley Series in Probability and Mathematical Statistics:",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
-	},
-	{
-		"c": "%",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex punctuation.definition.comment.bibtex"
-	},
-	{
-		"c": "Mathematical Statistics:",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex"
 	},
 	{
 		"c": "               Probability ",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
-	},
-	{
-		"c": "%",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex punctuation.definition.comment.bibtex"
-	},
-	{
-		"c": " A comment in the middle",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex comment.line.percentage.bibtex"
 	},
 	{
 		"c": "               and Mathematical Statistics",
@@ -1436,7 +1400,7 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
-		"c": "Evil \\% Robots",
+		"c": "Evil and Robots",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
@@ -1552,16 +1516,8 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.variable.bibtex"
 	},
 	{
-		"c": ", ",
+		"c": ",",
 		"t": "text.bibtex meta.entry.braces.bibtex"
-	},
-	{
-		"c": "%",
-		"t": "text.bibtex meta.entry.braces.bibtex comment.line.percentage.bibtex punctuation.definition.comment.bibtex"
-	},
-	{
-		"c": "oct,",
-		"t": "text.bibtex meta.entry.braces.bibtex comment.line.percentage.bibtex"
 	},
 	{
 		"c": "  ",
