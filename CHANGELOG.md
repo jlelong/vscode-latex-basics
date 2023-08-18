@@ -1,5 +1,18 @@
 # Change Log
 
+## [1.5.4] - 2023-08-18
+
+### Added
+
+- (#63) Highlight non ascii characters in labels
+- Recognize booktabs as an array environment
+
+### Changed
+
+- (#64) Revert #46 : `%` is a standard character in bibtex files
+- (#65) Do not highlight single quoted text
+
+
 ## [1.5.3] - 2023-06-21
 
 ### Added
