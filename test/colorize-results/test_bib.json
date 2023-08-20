@@ -481,47 +481,43 @@
 	},
 	{
 		"c": "url",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex support.function.key.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
 	},
 	{
 		"c": "     ",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "=",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.separator.key-value.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
 	},
 	{
 		"c": " ",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "{",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.begin.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
-		"c": "\\",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex support.function.url.bibtex punctuation.definition.function.bibtex"
-	},
-	{
-		"c": "url",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex support.function.url.bibtex"
+		"c": "\\url",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "{",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.begin.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
 	},
 	{
 		"c": "http://www.example.com/some-%AC-encoded-%2C-character",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex markup.underline.link.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "}",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.end.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
 	},
 	{
 		"c": "}",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.end.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
 	},
 	{
 		"c": "}",
@@ -873,31 +869,31 @@
 	},
 	{
 		"c": "url",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex support.function.key.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
 	},
 	{
 		"c": "     ",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "=",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.separator.key-value.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
 	},
 	{
 		"c": " ",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "{",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.begin.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
 		"c": "http://www.example.com/some-%AC-encoded-%2C-character",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "}",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.end.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
 	},
 	{
 		"c": "}",
@@ -1676,24 +1672,20 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
-		"c": "\\",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex support.function.url.bibtex punctuation.definition.function.bibtex"
-	},
-	{
-		"c": "url",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex support.function.url.bibtex"
+		"c": "\\url",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "{",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.begin.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
 	},
 	{
 		"c": "http://www.example.com/some-%AC-encoded-%2C-character",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex markup.underline.link.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "}",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.end.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
 	},
 	{
 		"c": "}",

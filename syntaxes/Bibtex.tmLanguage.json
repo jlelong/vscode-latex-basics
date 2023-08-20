@@ -94,9 +94,6 @@
 			"name": "meta.entry.braces.bibtex",
 			"patterns": [
 				{
-					"include": "#url_field"
-				},
-				{
 					"begin": "([a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)\\s*(\\=)",
 					"beginCaptures": {
 						"1": {
@@ -146,9 +143,6 @@
 			},
 			"name": "meta.entry.parenthesis.bibtex",
 			"patterns": [
-				{
-					"include": "#url_field"
-				},
 				{
 					"begin": "([a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)\\s*(\\=)",
 					"beginCaptures": {
@@ -240,9 +234,6 @@
 					},
 					"patterns": [
 						{
-							"include": "#url_cmd"
-						},
-						{
 							"include": "#nested_braces"
 						}
 					]
@@ -259,75 +250,7 @@
 						"0": {
 							"name": "punctuation.definition.string.end.bibtex"
 						}
-					},
-					"patterns": [
-						{
-							"include": "#url_cmd"
-						}
-					]
-				}
-			]
-		},
-		"string_url": {
-			"patterns": [
-				{
-					"begin": "\\{|\"",
-					"beginCaptures": {
-						"0": {
-							"name": "punctuation.definition.string.begin.bibtex"
-						}
-					},
-					"end": "(\\}|\")(?=(?:,?\\s*\\}?\\s*\\n)|(?:\\s*#))",
-					"endCaptures": {
-						"1": {
-							"name": "punctuation.definition.string.end.bibtex"
-						}
-					},
-					"contentName": "meta.url.bibtex",
-					"patterns": [
-						{
-							"include": "#url_cmd"
-						}
-					]
-				}
-			]
-		},
-		"url_cmd": {
-			"captures": {
-				"1": {
-					"name": "support.function.url.bibtex"
-				},
-				"2": {
-					"name": "punctuation.definition.function.bibtex"
-				},
-				"3": {
-					"name": "punctuation.definition.arguments.begin.bibtex"
-				},
-				"4": {
-					"name": "markup.underline.link.bibtex"
-				},
-				"5": {
-					"name": "punctuation.definition.arguments.end.bibtex"
-				}
-			},
-			"match": "(?:\\s*)((\\\\)(?:url|href))(\\{)([^}]*)(\\})",
-			"name": "meta.function.link.url.bibtex"
-		},
-		"url_field": {
-			"begin": "(url)\\s*(\\=)",
-			"beginCaptures": {
-				"1": {
-					"name": "support.function.key.bibtex"
-				},
-				"2": {
-					"name": "punctuation.separator.key-value.bibtex"
-				}
-			},
-			"end": "(?=[,}])",
-			"name": "meta.key-assignment.url.bibtex",
-			"patterns": [
-				{
-					"include": "#string_url"
+					}
 				}
 			]
 		}
