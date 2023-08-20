@@ -9,6 +9,58 @@
 	},
 	{
 		"c": "@",
+		"t": "text.bibtex meta.preamble.braces.bibtex keyword.other.preamble.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "preamble",
+		"t": "text.bibtex meta.preamble.braces.bibtex keyword.other.preamble.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.section.preamble.begin.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "\\newcommand{\\noopsort}[1]{} ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "        # ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "\\newcommand{\\printfirst}[2]{#1} ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.section.preamble.end.bibtex"
+	},
+	{
+		"c": "@",
 		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex punctuation.definition.keyword.bibtex"
 	},
 	{

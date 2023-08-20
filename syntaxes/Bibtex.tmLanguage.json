@@ -1,5 +1,5 @@
 {
-	"comment": "Grammar based on description from https://github.com/aclements/biblib\n\t\n\tTODO: Does not support @preamble\n\t",
+	"comment": "Grammar based on description from https://github.com/aclements/biblib\n",
 	"name": "BibTeX",
 	"patterns": [
 		{
@@ -10,6 +10,58 @@
 				}
 			},
 			"name": "comment.block.at-sign.bibtex"
+		},
+		{
+			"begin": "((@)(?i:preamble))\\s*(\\{)\\s*",
+			"beginCaptures": {
+				"1": {
+					"name": "keyword.other.preamble.bibtex"
+				},
+				"2": {
+					"name": "punctuation.definition.keyword.bibtex"
+				},
+				"3": {
+					"name": "punctuation.section.preamble.begin.bibtex"
+				}
+			},
+			"end": "\\}",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.section.preamble.end.bibtex"
+				}
+			},
+			"name": "meta.preamble.braces.bibtex",
+			"patterns": [
+				{
+					"include": "#string_content"
+				}
+			]
+		},
+		{
+			"begin": "((@)(?i:preamble))\\s*(\\()\\s*",
+			"beginCaptures": {
+				"1": {
+					"name": "keyword.other.preamble.bibtex"
+				},
+				"2": {
+					"name": "punctuation.definition.keyword.bibtex"
+				},
+				"3": {
+					"name": "punctuation.section.preamble.begin.bibtex"
+				}
+			},
+			"end": "\\)",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.section.preamble.end.bibtex"
+				}
+			},
+			"name": "meta.preamble.parenthesis.bibtex",
+			"patterns": [
+				{
+					"include": "#string_content"
+				}
+			]
 		},
 		{
 			"begin": "((@)(?i:string))\\s*(\\{)\\s*([a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)",
