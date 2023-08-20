@@ -28,7 +28,35 @@
 		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
-		"c": "\\newcommand{\\noopsort}[1]{} ",
+		"c": "\\newcommand",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "\\noopsort",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": "[1]",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": " ",
 		"t": "text.bibtex meta.preamble.braces.bibtex"
 	},
 	{
@@ -52,7 +80,39 @@
 		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
-		"c": "\\newcommand{\\printfirst}[2]{#1} ",
+		"c": "\\newcommand",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "\\printfirst",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": "[2]",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "#1",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": " ",
 		"t": "text.bibtex meta.preamble.braces.bibtex"
 	},
 	{
@@ -2197,6 +2257,82 @@
 	},
 	{
 		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "book",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "test-string-2",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "title",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "foo ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "\",",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "  publisher = \"",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": " bar",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "\"",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
 	},
 	{

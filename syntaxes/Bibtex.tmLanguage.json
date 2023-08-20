@@ -296,12 +296,17 @@
 							"name": "punctuation.definition.string.begin.bibtex"
 						}
 					},
-					"end": "\"(?=(?:,?\\s*\\}?\\s*\\n)|(?:\\s*#))",
+					"end": "\"",
 					"endCaptures": {
 						"0": {
 							"name": "punctuation.definition.string.end.bibtex"
 						}
-					}
+					},
+					"patterns": [
+						{
+							"include": "#nested_braces"
+						}
+					]
 				}
 			]
 		}
