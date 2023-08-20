@@ -242,13 +242,13 @@
 			}
 		},
 		"nested_braces": {
-			"begin": "(?<!\\\\)\\{",
+			"begin": "\\{",
 			"beginCaptures": {
 				"0": {
 					"name": "punctuation.definition.group.begin.bibtex"
 				}
 			},
-			"end": "(?<!\\\\)\\}",
+			"end": "\\}",
 			"endCaptures": {
 				"0": {
 					"name": "punctuation.definition.group.end.bibtex"
@@ -277,9 +277,9 @@
 							"name": "punctuation.definition.string.begin.bibtex"
 						}
 					},
-					"end": "(\\})(?=(?:,?\\s*\\}?\\s*\\n)|(?:\\s*#))",
+					"end": "\\}",
 					"endCaptures": {
-						"1": {
+						"0": {
 							"name": "punctuation.definition.string.end.bibtex"
 						}
 					},
