@@ -1,5 +1,5 @@
 {
-	"comment": "Grammar based on description from http://artis.imag.fr/~Xavier.Decoret/resources/xdkbibtex/bibtex_summary.html#comment\n\t\n\tTODO: Does not support @preamble\n\t",
+	"comment": "Grammar based on description from https://github.com/aclements/biblib\n\t\n\tTODO: Does not support @preamble\n\t",
 	"name": "BibTeX",
 	"patterns": [
 		{
@@ -13,7 +13,7 @@
 			"name": "comment.line.at-sign.bibtex"
 		},
 		{
-			"begin": "((@)(?i:string))\\s*(\\{)\\s*([a-zA-Z0-9\\!\\$\\&\\*\\+\\-\\.\\/\\:\\;\\<\\>\\?\\[\\]\\^\\_\\`\\|]+)",
+			"begin": "((@)(?i:string))\\s*(\\{)\\s*([a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.other.string-constant.bibtex"
@@ -42,7 +42,7 @@
 			]
 		},
 		{
-			"begin": "((@)(?i:string))\\s*(\\()\\s*([a-zA-Z0-9\\!\\$\\&\\*\\+\\-\\.\\/\\:\\;\\<\\>\\?\\[\\]\\^\\_\\`\\|]+)",
+			"begin": "((@)(?i:string))\\s*(\\()\\s*([a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.other.string-constant.bibtex"
@@ -71,7 +71,7 @@
 			]
 		},
 		{
-			"begin": "((@)[a-zA-Z]+)\\s*(\\{)\\s*([^\\s,]*)",
+			"begin": "((@)[a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)\\s*(\\{)\\s*([^\\s,]*)",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.other.entry-type.bibtex"
@@ -98,7 +98,7 @@
 					"include": "#url_field"
 				},
 				{
-					"begin": "([a-zA-Z0-9\\!\\$\\&\\*\\+\\-\\.\\/\\:\\;\\<\\>\\?\\[\\]\\^\\_\\`\\|]+)\\s*(\\=)",
+					"begin": "([a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)\\s*(\\=)",
 					"beginCaptures": {
 						"1": {
 							"name": "support.function.key.bibtex"
@@ -124,7 +124,7 @@
 			]
 		},
 		{
-			"begin": "((@)[a-zA-Z]+)\\s*(\\()\\s*([^\\s,]*)",
+			"begin": "((@)[a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)\\s*(\\()\\s*([^\\s,]*)",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.other.entry-type.bibtex"
@@ -151,7 +151,7 @@
 					"include": "#url_field"
 				},
 				{
-					"begin": "([a-zA-Z0-9\\!\\$\\&\\*\\+\\-\\.\\/\\:\\;\\<\\>\\?\\[\\]\\^\\_\\`\\|]+)\\s*(\\=)",
+					"begin": "([a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)\\s*(\\=)",
 					"beginCaptures": {
 						"1": {
 							"name": "support.function.key.bibtex"
@@ -211,7 +211,7 @@
 			]
 		},
 		"string_var": {
-			"match": "(#)?\\s*([a-zA-Z0-9\\!\\$\\&\\*\\+\\-\\.\\/\\:\\;\\<\\>\\?\\[\\]\\^\\_\\`\\|]+)\\s*(#)?",
+			"match": "(#)?\\s*([a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)\\s*(#)?",
 			"captures": {
 				"1": {
 					"name": "keyword.operator.bibtex"

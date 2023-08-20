@@ -37,6 +37,94 @@
 	},
 	{
 		"c": "@",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "string",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.begin.bibtex"
+	},
+	{
+		"c": "!$&*+-./:;<>?@[\\]^_`|~3",
+		"t": "text.bibtex meta.string-constant.braces.bibtex variable.other.bibtex"
+	},
+	{
+		"c": " = ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "string definition",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "!$&*+-./:;<>?@[\\]^_`|~",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "(",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "123!\"#$%&'()*+-./:;<=>?@[\\]^_`{|}~",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex"
+	},
+	{
+		"c": "!$&*+-./:;<>?@[\\]^_`|~2",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "!$&*+-./:;<>?@[\\]^_`|~3",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex support.variable.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex"
+	},
+	{
+		"c": ")",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
 		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
 	},
 	{
@@ -528,7 +616,7 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
 	},
 	{
-		"c": "arlo methods in ",
+		"c": "arlo methods in",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
@@ -1020,7 +1108,7 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
-		"c": "               Probability ",
+		"c": "               Probability",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
