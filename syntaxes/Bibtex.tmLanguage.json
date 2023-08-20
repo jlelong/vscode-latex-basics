@@ -243,10 +243,6 @@
 							"include": "#url_cmd"
 						},
 						{
-							"match": "@",
-							"name": "invalid.illegal.at-sign.bibtex"
-						},
-						{
 							"include": "#nested_braces"
 						}
 					]
@@ -267,10 +263,6 @@
 					"patterns": [
 						{
 							"include": "#url_cmd"
-						},
-						{
-							"match": "@",
-							"name": "invalid.illegal.at-sign.bibtex"
 						}
 					]
 				}

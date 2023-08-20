@@ -1956,15 +1956,7 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
-		"c": "The entry type is \"comment",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
-	},
-	{
-		"c": "@",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex invalid.illegal.at-sign.bibtex"
-	},
-	{
-		"c": "book\".",
+		"c": "The entry type is \"comment@book\".",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
