@@ -3,14 +3,13 @@
 	"name": "BibTeX",
 	"patterns": [
 		{
-			"begin": "@Comment",
-			"beginCaptures": {
+			"match": "@(?i:comment)(?=[\\s{(])",
+			"captures": {
 				"0": {
 					"name": "punctuation.definition.comment.bibtex"
 				}
 			},
-			"end": "$\\n?",
-			"name": "comment.line.at-sign.bibtex"
+			"name": "comment.block.at-sign.bibtex"
 		},
 		{
 			"begin": "((@)(?i:string))\\s*(\\{)\\s*([a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)",
