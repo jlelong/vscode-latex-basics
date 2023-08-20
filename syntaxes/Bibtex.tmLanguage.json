@@ -33,7 +33,7 @@
 			"name": "meta.preamble.braces.bibtex",
 			"patterns": [
 				{
-					"include": "#string_content"
+					"include": "#field_value"
 				}
 			]
 		},
@@ -59,7 +59,7 @@
 			"name": "meta.preamble.parenthesis.bibtex",
 			"patterns": [
 				{
-					"include": "#string_content"
+					"include": "#field_value"
 				}
 			]
 		},
@@ -88,7 +88,7 @@
 			"name": "meta.string-constant.braces.bibtex",
 			"patterns": [
 				{
-					"include": "#string_content"
+					"include": "#field_value"
 				}
 			]
 		},
@@ -117,7 +117,7 @@
 			"name": "meta.string-constant.parenthesis.bibtex",
 			"patterns": [
 				{
-					"include": "#string_content"
+					"include": "#field_value"
 				}
 			]
 		},
@@ -159,13 +159,7 @@
 					"name": "meta.key-assignment.bibtex",
 					"patterns": [
 						{
-							"include": "#integer"
-						},
-						{
-							"include": "#string_content"
-						},
-						{
-							"include": "#string_var"
+							"include": "#field_value"
 						}
 					]
 				}
@@ -209,13 +203,7 @@
 					"name": "meta.key-assignment.bibtex",
 					"patterns": [
 						{
-							"include": "#integer"
-						},
-						{
-							"include": "#string_content"
-						},
-						{
-							"include": "#string_var"
+							"include": "#field_value"
 						}
 					]
 				}
@@ -228,6 +216,23 @@
 		}
 	],
 	"repository": {
+		"field_value": {
+			"patterns": [
+				{
+					"include": "#string_content"
+				},
+				{
+					"include": "#integer"
+				},
+				{
+					"include": "#string_var"
+				},
+				{
+					"name": "keyword.operator.bibtex",
+					"match": "#"
+				}
+			]
+		},
 		"integer": {
 			"match": "\\s*(\\d+)\\s*",
 			"captures": {
@@ -256,16 +261,10 @@
 			]
 		},
 		"string_var": {
-			"match": "(#)?\\s*([a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*)\\s*(#)?",
+			"match": "[a-zA-Z!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~][a-zA-Z0-9!$&*+\\-./:;<>?@\\[\\\\\\]^_`|~]*",
 			"captures": {
-				"1": {
-					"name": "keyword.operator.bibtex"
-				},
-				"2": {
+				"0": {
 					"name": "support.variable.bibtex"
-				},
-				"3": {
-					"name": "keyword.operator.bibtex"
 				}
 			}
 		},

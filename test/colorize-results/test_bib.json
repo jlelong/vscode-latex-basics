@@ -36,7 +36,15 @@
 		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.end.bibtex"
 	},
 	{
-		"c": "        # ",
+		"c": "        ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "#",
+		"t": "text.bibtex meta.preamble.braces.bibtex keyword.operator.bibtex"
+	},
+	{
+		"c": " ",
 		"t": "text.bibtex meta.preamble.braces.bibtex"
 	},
 	{
@@ -90,6 +98,98 @@
 	{
 		"c": "}",
 		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "string",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.begin.bibtex"
+	},
+	{
+		"c": "ucp:2023",
+		"t": "text.bibtex meta.string-constant.braces.bibtex variable.other.bibtex"
+	},
+	{
+		"c": " = ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Berkeley: ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "#",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.operator.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "ucp:2",
+		"t": "text.bibtex meta.string-constant.braces.bibtex support.variable.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "#",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.operator.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": ", ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "#",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.operator.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "2023",
+		"t": "text.bibtex meta.string-constant.braces.bibtex constant.numeric.bibtex"
 	},
 	{
 		"c": "}",
