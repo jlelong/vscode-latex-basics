@@ -69,3 +69,15 @@
   pages     = {1--4},
   howpublished = {\url{http://www.example.com/some-%AC-encoded-%2C-character}}
 }
+
+@book(key)(}{,
+  note = {Valid entry key.}
+)
+
+@book{key)({,
+  note = {Valid entry key with unmatched brace.}
+}
+
+@book{key)(}{,
+  note = {The closing brace ends the entry and the rest is ignored.}
+}
