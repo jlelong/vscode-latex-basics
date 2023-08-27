@@ -1,5 +1,18 @@
 
+@comment{jabref-meta: databaseType:bibtex;}
+
+@preamble{ "\newcommand{\noopsort}[1]{} "
+        # "\newcommand{\printfirst}[2]{#1} " }
+
 @string{ucp:2 = {University of California Press}}
+
+@string{ucp:2023 = "Berkeley: " # ucp:2 # {, } # 2023}
+
+@string{!$&*+-./:;<>?@[\]^_`|~3 = {string definition}}
+
+@!$&*+-./:;<>?@[\]^_`|~(123!"#$%&'()*+-./:;<=>?@[\]^_`{|}~,
+  !$&*+-./:;<>?@[\]^_`|~2 = !$&*+-./:;<>?@[\]^_`|~3,
+)
 
 @xdata{oup2,
   publisher = {Oxford University Press} # ucp:2,
@@ -19,7 +32,7 @@
 
 @book{glasbook,
   author  = {Glasserman, Paul},
-  title   = {Monte {C}arlo methods in 
+  title   = {Monte {C}arlo methods in
              financial engineering},
   series  = {Applications of Mathematics (New York)},
   note    = { Stochastic Modelling and Applied Probability},
@@ -41,7 +54,7 @@
   author    = {Rubinstein, Reuven Y. and Shapiro, Alexander},
   title     = "Discrete event systems",
   series    = "Wiley Series in Probability and Mathematical Statistics:
-               Probability 
+               Probability
                and Mathematical Statistics",
   note      = {Sensitivity analysis and stochastic optimization by the score
                function method},
@@ -64,3 +77,32 @@
   howpublished = {\url{http://www.example.com/some-%AC-encoded-%2C-character}}
 }
 
+@book(key)(}{,
+  note = {Valid entry key.}
+)
+
+@book{key)({,
+  note = {Valid entry key with unmatched brace.}
+}
+
+@book{key)(}{,
+  note = {The closing brace ends the entry and the rest is ignored.}
+}
+
+@comment @book{test-comment-1,
+  note = {The entry type is "book".}
+}
+
+@comment@book{test-comment-2,
+  note = {The entry type is "comment@book".}
+}
+
+@book{test-string-1,
+  title = {foo \{ bar},
+  publisher = {foo \} bar}
+}
+
+@book{test-string-2,
+  title = "foo {",
+  publisher = "} bar"
+}

@@ -1,5 +1,133 @@
 [
 	{
+		"c": "@comment",
+		"t": "text.bibtex comment.block.at-sign.bibtex punctuation.definition.comment.bibtex"
+	},
+	{
+		"c": "{jabref-meta: databaseType:bibtex;}",
+		"t": "text.bibtex comment.block.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.preamble.braces.bibtex keyword.other.preamble.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "preamble",
+		"t": "text.bibtex meta.preamble.braces.bibtex keyword.other.preamble.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.section.preamble.begin.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "\\newcommand",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "\\noopsort",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": "[1]",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "        ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "#",
+		"t": "text.bibtex meta.preamble.braces.bibtex keyword.operator.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "\\newcommand",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "\\printfirst",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": "[2]",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "#1",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.preamble.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.preamble.braces.bibtex punctuation.section.preamble.end.bibtex"
+	},
+	{
 		"c": "@",
 		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex punctuation.definition.keyword.bibtex"
 	},
@@ -34,6 +162,186 @@
 	{
 		"c": "}",
 		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "string",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.begin.bibtex"
+	},
+	{
+		"c": "ucp:2023",
+		"t": "text.bibtex meta.string-constant.braces.bibtex variable.other.bibtex"
+	},
+	{
+		"c": " = ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Berkeley: ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "#",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.operator.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "ucp:2",
+		"t": "text.bibtex meta.string-constant.braces.bibtex support.variable.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "#",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.operator.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": ", ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "#",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.operator.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "2023",
+		"t": "text.bibtex meta.string-constant.braces.bibtex constant.numeric.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "string",
+		"t": "text.bibtex meta.string-constant.braces.bibtex keyword.other.string-constant.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.begin.bibtex"
+	},
+	{
+		"c": "!$&*+-./:;<>?@[\\]^_`|~3",
+		"t": "text.bibtex meta.string-constant.braces.bibtex variable.other.bibtex"
+	},
+	{
+		"c": " = ",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "string definition",
+		"t": "text.bibtex meta.string-constant.braces.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.string-constant.braces.bibtex punctuation.section.string-constant.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "!$&*+-./:;<>?@[\\]^_`|~",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "(",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "123!\"#$%&'()*+-./:;<=>?@[\\]^_`{|}~",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex"
+	},
+	{
+		"c": "!$&*+-./:;<>?@[\\]^_`|~2",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "!$&*+-./:;<>?@[\\]^_`|~3",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex support.variable.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex"
+	},
+	{
+		"c": ")",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex punctuation.section.entry.end.bibtex"
 	},
 	{
 		"c": "@",
@@ -385,47 +693,43 @@
 	},
 	{
 		"c": "url",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex support.function.key.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
 	},
 	{
 		"c": "     ",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "=",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.separator.key-value.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
 	},
 	{
 		"c": " ",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "{",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.begin.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
-		"c": "\\",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex support.function.url.bibtex punctuation.definition.function.bibtex"
-	},
-	{
-		"c": "url",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex support.function.url.bibtex"
+		"c": "\\url",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "{",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.begin.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
 	},
 	{
 		"c": "http://www.example.com/some-%AC-encoded-%2C-character",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex markup.underline.link.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "}",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.end.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
 	},
 	{
 		"c": "}",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.end.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
 	},
 	{
 		"c": "}",
@@ -528,7 +832,7 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
 	},
 	{
-		"c": "arlo methods in ",
+		"c": "arlo methods in",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
@@ -777,31 +1081,31 @@
 	},
 	{
 		"c": "url",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex support.function.key.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
 	},
 	{
 		"c": "     ",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "=",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.separator.key-value.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
 	},
 	{
 		"c": " ",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "{",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.begin.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
 		"c": "http://www.example.com/some-%AC-encoded-%2C-character",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex meta.url.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "}",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.url.bibtex punctuation.definition.string.end.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
 	},
 	{
 		"c": "}",
@@ -1020,7 +1324,7 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
-		"c": "               Probability ",
+		"c": "               Probability",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
@@ -1580,27 +1884,455 @@
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
 	},
 	{
-		"c": "\\",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex support.function.url.bibtex punctuation.definition.function.bibtex"
-	},
-	{
-		"c": "url",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex support.function.url.bibtex"
+		"c": "\\url",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "{",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.begin.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
 	},
 	{
 		"c": "http://www.example.com/some-%AC-encoded-%2C-character",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex markup.underline.link.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
 	},
 	{
 		"c": "}",
-		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex meta.function.link.url.bibtex punctuation.definition.arguments.end.bibtex"
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
 	},
 	{
 		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "book",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "(",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "key)(}{",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex"
+	},
+	{
+		"c": "note",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Valid entry key.",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": ")",
+		"t": "text.bibtex meta.entry.parenthesis.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "book",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "key)({",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "note",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "Valid entry key with unmatched brace.",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "book",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "key)(",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "{,",
+		"t": "text.bibtex comment.block.bibtex"
+	},
+	{
+		"c": "  note = {The closing brace ends the entry and the rest is ignored.}",
+		"t": "text.bibtex comment.block.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex comment.block.bibtex"
+	},
+	{
+		"c": "@comment",
+		"t": "text.bibtex comment.block.at-sign.bibtex punctuation.definition.comment.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex comment.block.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "book",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "test-comment-1",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "note",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "The entry type is \"book\".",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "comment@book",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "test-comment-2",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "note",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "The entry type is \"comment@book\".",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "book",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "test-string-1",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "title",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "foo \\",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": " bar",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "  publisher = ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "foo \\",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": " bar",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.end.bibtex"
+	},
+	{
+		"c": "@",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex punctuation.definition.keyword.bibtex"
+	},
+	{
+		"c": "book",
+		"t": "text.bibtex meta.entry.braces.bibtex keyword.other.entry-type.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex punctuation.section.entry.begin.bibtex"
+	},
+	{
+		"c": "test-string-2",
+		"t": "text.bibtex meta.entry.braces.bibtex entity.name.type.entry-key.bibtex"
+	},
+	{
+		"c": ",",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "  ",
+		"t": "text.bibtex meta.entry.braces.bibtex"
+	},
+	{
+		"c": "title",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex support.function.key.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "=",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.separator.key-value.bibtex"
+	},
+	{
+		"c": " ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "\"",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.begin.bibtex"
+	},
+	{
+		"c": "foo ",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "{",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.begin.bibtex"
+	},
+	{
+		"c": "\",",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "  publisher = \"",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "}",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.group.end.bibtex"
+	},
+	{
+		"c": " bar",
+		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex"
+	},
+	{
+		"c": "\"",
 		"t": "text.bibtex meta.entry.braces.bibtex meta.key-assignment.bibtex punctuation.definition.string.end.bibtex"
 	},
 	{
