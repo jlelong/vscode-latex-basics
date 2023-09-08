@@ -2064,7 +2064,7 @@
 			]
 		},
 		{
-			"begin": "(?<!\\\\)(\\`\\`)",
+			"begin": "(?<!\\\\|\\\\catcode|\\\\string)(\\`\\`)",
 			"beginCaptures": {
 				"1": {
 					"name": "punctuation.definition.string.begin.latex"
