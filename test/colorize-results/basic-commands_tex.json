@@ -616,32 +616,60 @@
 		"t": "text.tex.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
-		"c": "``",
-		"t": "text.tex.latex string.quoted.double.latex punctuation.definition.string.begin.latex"
+		"c": "``Double quoted text with math ",
+		"t": "text.tex.latex"
 	},
 	{
-		"c": "Double quoted text with math $x'+1$",
-		"t": "text.tex.latex string.quoted.double.latex"
+		"c": "$",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+	},
+	{
+		"c": "x'",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
 	},
 	{
 		"c": "''",
-		"t": "text.tex.latex string.quoted.double.latex punctuation.definition.string.end.latex"
+		"t": "text.tex.latex"
 	},
 	{
-		"c": "``",
-		"t": "text.tex.latex string.quoted.double.latex punctuation.definition.string.begin.latex"
+		"c": "``Double quoted text with math ",
+		"t": "text.tex.latex"
 	},
 	{
-		"c": "Double quoted text with math $x'+1$",
-		"t": "text.tex.latex string.quoted.double.latex"
+		"c": "$",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
 	},
 	{
-		"c": "and more text",
-		"t": "text.tex.latex string.quoted.double.latex"
+		"c": "x'",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex"
 	},
 	{
-		"c": "''",
-		"t": "text.tex.latex string.quoted.double.latex punctuation.definition.string.end.latex"
+		"c": "+",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+	},
+	{
+		"c": "and more text''",
+		"t": "text.tex.latex"
 	},
 	{
 		"c": "Some texte with `a single' quote.",
