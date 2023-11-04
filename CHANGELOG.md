@@ -1,5 +1,24 @@
 # Change Log
 
+## [1.6.0] - 2023-11-03
+
+### Changed
+
+- (#70) Do not highlight double quoted text because it causes too many issues.
+- (#72) Make sure `@` is a word character and not a delimiter when matching macro names. @muzimuzhi.
+- (#65) Major improvement of the BibTeX grammar by @zepinglee:
+  - Fix character class for BibTeX identifiers
+  - Exclude closing brace in BibTeX entry key
+  - Fix syntax of `@comment` command
+  - Remove illegal character `@`
+  - Fix `#` operator with other field tokens
+  - Remove escaping braces in strings
+  - Include nested braces in quote-delimited strings
+
+### Fixed
+
+- (#69, #67) Highlight the text parameter of `\href`, `\hyperimage` and `\hyperref` using the full LaTeX syntax.
+
 ## [1.5.4] - 2023-08-18
 
 ### Added
@@ -11,7 +30,6 @@
 
 - (#64) Revert #46 : `%` is a standard character in bibtex files
 - (#65) Do not highlight single quoted text
-
 
 ## [1.5.3] - 2023-06-21
 
