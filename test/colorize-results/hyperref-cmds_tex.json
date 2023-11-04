@@ -1,0 +1,302 @@
+[
+	{
+		"c": "\\href",
+		"t": "text.tex.latex meta.function.hyperlink.latex support.function.url.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "split",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "  options",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "URL",
+		"t": "text.tex.latex meta.function.hyperlink.latex markup.underline.link.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Some text and an",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex"
+	},
+	{
+		"c": "  extra ligne with math ",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": " Some more text",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\hyperimage",
+		"t": "text.tex.latex meta.function.hyperlink.latex support.function.url.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "imageURL",
+		"t": "text.tex.latex meta.function.hyperlink.latex markup.underline.link.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Some text",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex"
+	},
+	{
+		"c": "  with math ",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\hyperref",
+		"t": "text.tex.latex meta.function.hyperlink.latex support.function.url.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "URL",
+		"t": "text.tex.latex meta.function.hyperlink.latex markup.underline.link.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{category}{name}",
+		"t": "text.tex.latex meta.function.hyperlink.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Some text with math ",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\hyperref",
+		"t": "text.tex.latex meta.function.hyperlink.latex support.function.url.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "A label",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Text math ",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.math.begin.bracket.curly.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.math.end.bracket.curly.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\hyperref",
+		"t": "text.tex.latex meta.function.hyperlink.latex support.function.url.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "some label",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Some text",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex"
+	},
+	{
+		"c": "  with math ",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.latex meta.function.hyperlink.latex meta.variable.parameter.function.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.end.latex"
+	}
+]
