@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build-latex",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "build-latex",
+			"detail": "Build LaTeX grammar"
+		}
+	]
+}
