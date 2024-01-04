@@ -185,9 +185,10 @@
 		},
 		{{includeCodeBlocks}},
 		{
-			"begin": "((?:\\s*)\\\\begin\\{([a-zA-Z]*code|lstlisting|minted|pyglist)(?:\\*)?\\}(?:\\[.*\\])?(?:\\{.*\\})?)",
+			"begin": "\\s*\\\\begin\\{([a-zA-Z]*code|lstlisting|minted|pyglist)\\*?\\}(?:\\[.*\\])?(?:\\{.*\\})?",
+			"end": "\\\\end\\{\\1\\}(?:\\s*\\n)?",
 			"captures": {
-				"1": {
+				"0": {
 					"patterns": [
 						{
 							"include": "#begin-env-tokenizer"
@@ -195,7 +196,6 @@
 					]
 				}
 			},
-			"end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)",
 			"contentName": "meta.function.embedded.latex",
 			"name":"meta.embedded.block.generic.latex"
 		},
