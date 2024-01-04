@@ -1,0 +1,20 @@
+\documentclass{article}
+
+\begin{document}
+
+\begin{terminal*}[options][comments]{shelltitle}
+  ~> FP=4711
+  ~> gpg --expert --edit-key $FP
+  gpg (GnuPG) 2.2.27; Copyright (C) 2021 Free Software Foundation, Inc.
+  blah
+\end{terminal*}
+  
+\begin{terminal}{shelltitle}
+  ~> FP=4711
+  ~> gpg --expert --edit-key $FP
+  gpg (GnuPG) 2.2.27; Copyright (C) 2021 Free Software Foundation, Inc.
+  blah
+\end{terminal}
+
+
+\end{document}

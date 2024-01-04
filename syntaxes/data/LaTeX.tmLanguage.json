@@ -148,8 +148,8 @@
 			]
 		},
 		{
-			"begin": "(^\\s*)?\\\\begin\\{(lstlisting|minted|pyglist)\\}(?=\\[|\\{)",
-			"end": "\\\\end\\{(?:minted|lstlisting|pyglist)\\}",
+			"begin": "(?:^\\s*)?\\\\begin\\{(lstlisting|minted|pyglist)\\}(?=\\[|\\{)",
+			"end": "\\\\end\\{\\1\\}",
 			"captures": {
 				"0": {
 					"patterns": [
@@ -198,6 +198,41 @@
 			},
 			"contentName": "meta.function.embedded.latex",
 			"name":"meta.embedded.block.generic.latex"
+		},
+		{
+			"begin": "(?:^\\s*)?\\\\begin\\{(terminal\\*?)\\}(?=\\[|\\{)",
+			"end": "\\\\end\\{\\1\\}",
+			"captures": {
+				"0": {
+					"patterns": [
+						{
+							"include": "#begin-env-tokenizer"
+						}
+					]
+				}
+			},
+			"patterns": [
+				{
+					"include": "#multiline-optional-arg-no-highlight"
+				},
+				{
+					"begin": "(?:\\G|(?<=\\]))(\\{)([a-zA-Z]*)(\\})",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"contentName": "meta.function.embedded.latex",
+					"end": "^\\s*(?=\\\\end\\{terminal\\*?\\})",
+					"name": "meta.embedded.block.generic.latex"
+				}
+			]
 		},
 		{
 			"begin": "((\\\\)addplot)(?:\\+?)((?:\\[[^\\[]*\\]))*\\s*(gnuplot)\\s*((?:\\[[^\\[]*\\]))*\\s*(\\{)",

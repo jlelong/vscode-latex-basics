@@ -1,0 +1,218 @@
+[
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "documentclass",
+		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "article",
+		"t": "text.tex.latex meta.preamble.latex support.class.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.latex meta.function.begin-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "terminal*",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "options",
+		"t": "text.tex.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "[comments]",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "shelltitle",
+		"t": "text.tex.latex meta.embedded.block.generic.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ~> FP=4711",
+		"t": "text.tex.latex meta.embedded.block.generic.latex meta.function.embedded.latex"
+	},
+	{
+		"c": "  ~> gpg --expert --edit-key $FP",
+		"t": "text.tex.latex meta.embedded.block.generic.latex meta.function.embedded.latex"
+	},
+	{
+		"c": "  gpg (GnuPG) 2.2.27; Copyright (C) 2021 Free Software Foundation, Inc.",
+		"t": "text.tex.latex meta.embedded.block.generic.latex meta.function.embedded.latex"
+	},
+	{
+		"c": "  blah",
+		"t": "text.tex.latex meta.embedded.block.generic.latex meta.function.embedded.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "terminal*",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "terminal",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "shelltitle",
+		"t": "text.tex.latex meta.embedded.block.generic.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ~> FP=4711",
+		"t": "text.tex.latex meta.embedded.block.generic.latex meta.function.embedded.latex"
+	},
+	{
+		"c": "  ~> gpg --expert --edit-key $FP",
+		"t": "text.tex.latex meta.embedded.block.generic.latex meta.function.embedded.latex"
+	},
+	{
+		"c": "  gpg (GnuPG) 2.2.27; Copyright (C) 2021 Free Software Foundation, Inc.",
+		"t": "text.tex.latex meta.embedded.block.generic.latex meta.function.embedded.latex"
+	},
+	{
+		"c": "  blah",
+		"t": "text.tex.latex meta.embedded.block.generic.latex meta.function.embedded.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "terminal",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.latex meta.function.end-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+	}
+]
