@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.7.0] - 2024-01-04
+
+### Added
+
+- (#74) Support the `terminal` environment.
+
 ## [1.6.0] - 2023-11-03
 
 ### Changed
