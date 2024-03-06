@@ -2,6 +2,32 @@
 	"name": "TeX",
 	"patterns": [
 		{
+			"begin": "(\\\\)iffalse",
+			"beginCaptures": {
+				"0": {
+					"name": "keyword.control.tex"
+				},
+				"1": {
+					"name": "punctuation.definition.keyword.tex"
+				}
+			},
+			"end": "(\\\\)(else|fi)",
+			"endCaptures": {
+				"0": {
+					"name": "keyword.control.tex"
+				},
+				"1": {
+					"name": "punctuation.definition.keyword.tex"
+				}
+			},
+			"contentName": "comment.line.percentage.tex",
+			"patterns": [
+				{
+					"include": "#conditionals"
+				}
+			]
+		},
+		{
 			"captures": {
 				"1": {
 					"name": "punctuation.definition.keyword.tex"
@@ -272,6 +298,15 @@
 			"patterns": [
 				{
 					"include": "#braces"
+				}
+			]
+		},
+		"conditionals": {
+			"begin": "\\\\(if[a-z])",
+			"end": "\\\\fi",
+			"patterns": [
+				{
+					"include": "#conditionals"
 				}
 			]
 		}
