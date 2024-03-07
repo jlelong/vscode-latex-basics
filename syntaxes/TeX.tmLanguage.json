@@ -55,35 +55,7 @@
 			"name": "meta.catcode.tex"
 		},
 		{
-			"begin": "(^[ \\t]+)?(?=%)",
-			"beginCaptures": {
-				"1": {
-					"name": "punctuation.whitespace.comment.leading.tex"
-				}
-			},
-			"end": "(?!\\G)",
-			"patterns": [
-				{
-					"begin": "%:?",
-					"beginCaptures": {
-						"0": {
-							"name": "punctuation.definition.comment.tex"
-						}
-					},
-					"end": "$\\n?",
-					"name": "comment.line.percentage.tex"
-				},
-				{
-					"begin": "^(%!TEX) (\\S*) =",
-					"beginCaptures": {
-						"1": {
-							"name": "punctuation.definition.comment.tex"
-						}
-					},
-					"end": "$\\n?",
-					"name": "comment.line.percentage.directive.tex"
-				}
-			]
+			"include": "#comment"
 		},
 		{
 			"match": "[\\[\\]]",
@@ -140,6 +112,37 @@
 		}
 	],
 	"repository": {
+		"comment": {
+			"begin": "(^[ \\t]+)?(?=%)",
+			"beginCaptures": {
+				"1": {
+					"name": "punctuation.whitespace.comment.leading.tex"
+				}
+			},
+			"end": "(?!\\G)",
+			"patterns": [
+				{
+					"begin": "%:?",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.comment.tex"
+						}
+					},
+					"end": "$\\n?",
+					"name": "comment.line.percentage.tex"
+				},
+				{
+					"begin": "^(%!TEX) (\\S*) =",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.comment.tex"
+						}
+					},
+					"end": "$\\n?",
+					"name": "comment.line.percentage.directive.tex"
+				}
+			]
+		},
 		"math": {
 			"patterns": [
 				{
@@ -302,9 +305,12 @@
 			]
 		},
 		"conditionals": {
-			"begin": "\\\\(if[a-z])",
+			"begin": "\\\\(if[a-z]*)",
 			"end": "\\\\fi",
 			"patterns": [
+				{
+					"include": "#comment"
+				},
 				{
 					"include": "#conditionals"
 				}
