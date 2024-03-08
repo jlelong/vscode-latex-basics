@@ -1,0 +1,242 @@
+[
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "some text within a long sentence",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": " \\ifdim",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " some other case",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\else",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "poo",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\fi",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "and more ",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "else",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "some alternative",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "some text within a long sentence",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "\\ifdim",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " some other case",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "\\else",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex"
+	},
+	{
+		"c": "poo",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "\\fi",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex"
+	},
+	{
+		"c": "and more",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iftrue",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "some text within a long sentence",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "\\ifdim",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " some other case",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "\\else",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "poo",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "\\fi",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "and more",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "some text within a long sentence",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "\\ifdim",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " some other case",
+		"t": "text.tex.latex comment.line.percentage.tex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "else",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "poo",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "\\fi",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "and more",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	}
+]
