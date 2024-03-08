@@ -23,6 +23,9 @@
 			"contentName": "comment.line.percentage.tex",
 			"patterns": [
 				{
+					"include": "#comment"
+				},
+				{
 					"include": "#conditionals"
 				}
 			]
