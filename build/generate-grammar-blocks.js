@@ -59,6 +59,7 @@ function escapeBackSlash(text) {
  * three arguments are actually optional and <session> uses characters from [a-zA-Z0-9_-].
  * @param {string[]} envNames An array of environments, eg. ['pycode', 'pythoncode'] or ['luacode']
  * @param {string} source The source language to include
+ * @param {string} contentName The scope to assign to the content. If undefined, use {@link source}
  */
 function generateCodeBlock(envNames, source, contentName=undefined) {
     if (contentName === undefined) {
@@ -117,9 +118,10 @@ function generateCodeBlock(envNames, source, contentName=undefined) {
 
 /**
  * Generate the json rules for a minted type block
- * @param {string} envName Typically minted
+ * @param {string[]} envNames Typically minted
  * @param {string[]} language A list of languages used to build an alternation
  * @param {string} source The source language to include
+ * @param {string} contentName The scope to assign to the content. If undefined, use {@link source}
  */
 function generateMintedBlock(envNames, language, source, contentName=undefined) {
     if (contentName === undefined) {
