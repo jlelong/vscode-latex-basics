@@ -200,6 +200,46 @@
 			"name":"meta.embedded.block.generic.latex"
 		},
 		{
+			"begin": "((?:^\\s*)?\\\\begin\\{(CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})(?=\\{)",
+			"end": "(\\\\end\\{\\2\\})",
+			"captures": {
+				"1": {
+					"patterns": [
+						{
+							"include": "#begin-env-tokenizer"
+						}
+					]
+				}
+			},
+			"patterns": [
+				{
+					"begin": "\\G(\\{)",
+					"end": "(\\})\\s*$",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
+					},
+					"endCaptures": {
+						"1": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"patterns": [
+						{
+							"include": "$base"
+						}
+					]
+				},
+				{
+					"begin": "^(?=\\s*)",
+					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"contentName": "meta.function.embedded.latex",
+					"name": "meta.embedded.block.generic.latex"
+				}
+			]
+		},
+		{
 			"begin": "(?:^\\s*)?\\\\begin\\{(terminal\\*?)\\}(?=\\[|\\{)",
 			"end": "\\\\end\\{\\1\\}",
 			"captures": {
