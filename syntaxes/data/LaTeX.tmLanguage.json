@@ -215,7 +215,7 @@
 				{{includeRobustExternalizeBlocks}},
 				{
 					"begin": "\\G(\\{)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -237,8 +237,18 @@
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
+							"begin": "^(\\s*)",
 							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"beginCaptures": {
+								"0":{
+									"name": "pof"
+								}
+							},
+							"endCaptures": {
+								"0":{
+									"name": "bof"
+								}
+							},
 							"contentName": "meta.function.embedded.latex",
 							"name":"meta.embedded.block.generic.latex"
 						}

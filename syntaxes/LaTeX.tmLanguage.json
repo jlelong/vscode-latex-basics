@@ -1107,7 +1107,7 @@
 			"patterns": [
 				{
 					"begin": "\\G(\\{)(?:asy|asymptote)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1142,7 +1142,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:c|cpp)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1177,7 +1177,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:css)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1212,7 +1212,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:gnuplot)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1247,7 +1247,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:hs|haskell)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1282,7 +1282,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:html)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1317,7 +1317,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:java)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1352,7 +1352,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:jl|julia)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1387,7 +1387,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:js|javascript)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1422,7 +1422,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:lua)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1457,7 +1457,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:py|python)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1492,7 +1492,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:rb|ruby)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1527,7 +1527,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:rust)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1562,7 +1562,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:ts|typescript)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1597,7 +1597,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:xml)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1632,7 +1632,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:yaml)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1667,7 +1667,7 @@
 				},
 				{
 					"begin": "\\G(\\{)",
-					"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1689,8 +1689,18 @@
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
+							"begin": "^(\\s*)",
 							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"beginCaptures": {
+								"0":{
+									"name": "pof"
+								}
+							},
+							"endCaptures": {
+								"0":{
+									"name": "bof"
+								}
+							},
 							"contentName": "meta.function.embedded.latex",
 							"name":"meta.embedded.block.generic.latex"
 						}

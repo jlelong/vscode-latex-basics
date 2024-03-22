@@ -173,7 +173,7 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
 
     const jsonCode = `{
     "begin": "\\G(\\{)${languageRegex}",
-    "end": "^\\s*(?=\\\\end\\{${envNameRegex}\\})",
+    "end": "(?=\\\\end\\{${envNameRegex}\\})",
     "beginCaptures": {
         "1": {
             "name": "punctuation.definition.arguments.begin.latex"
