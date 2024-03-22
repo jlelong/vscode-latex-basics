@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
+const robustExternalizeEnvs = ['CacheMeCode', 'PlaceholderPathFromCode', 'PlaceholderFromCode', 'SetPlaceholderCode']
 const mintedLanguages = [
     {language: ['asy', 'asymptote'], source: 'source.asy'},
     {language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
@@ -156,13 +157,68 @@ function generateMintedBlock(envNames, language, source, contentName=undefined) 
     return escapeBackSlash(jsonCode)
 }
 
+/**
+ * Generate the json rules for a minted type block
+ * @param {string[]} envNames Typically minted
+ * @param {string[]} language A list of languages used to build an alternation
+ * @param {string} source The source language to include
+ * @param {string} contentName The scope to assign to the content. If undefined, use {@link source}
+ */
+function generateRobustExternalizeBlock(envNames, language, source, contentName=undefined) {
+    if (contentName === undefined) {
+        contentName = source
+    }
+    var languageRegex = '(?:' + language.join('|') + ')'
+    var envNameRegex = '(?:' + envNames.join('|') + ')'
+
+    const jsonCode = `{
+    "begin": "\\G(\\{)${languageRegex}",
+    "end": "^\\s*(?=\\\\end\\{${envNameRegex}\\})",
+    "beginCaptures": {
+        "1": {
+            "name": "punctuation.definition.arguments.begin.latex"
+        }
+    },
+    "patterns": [
+        {
+            "begin": "\\G",
+            "end": "(\\})\\s*$",
+            "endCaptures": {
+                "1": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                }
+            },
+            "patterns": [
+                {
+                    "include": "$base"
+                }
+            ]
+        },
+        {
+            "begin": "^(?=\\s*)",
+            "end": "^\\s*(?=\\\\end\\{${envNameRegex}\\})",
+            "contentName": "${contentName}",
+            "patterns": [
+                {
+                    "include": "${source}"
+                }
+            ]
+        }
+    ]
+}`
+
+    return escapeBackSlash(jsonCode)
+}
+
 function main() {
     console.log('Generating LaTeX.tmLanguage from data/')
     var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join(',\n')
     var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join(',\n')
+    var robustExternalizeDefinitions = mintedLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join(',\n')
 
     let text = fs.readFileSync(path.join(__dirname, '..', 'syntaxes', 'data', 'LaTeX.tmLanguage.json'), {encoding: 'utf8'})
     text = text.replace(/^\s*\{\{includeMintedblocks\}\}/gm, indent(4, mintedDefinitions))
+    text = text.replace(/^\s*\{\{includeRobustExternalizeBlocks\}\}/gm, indent(4, robustExternalizeDefinitions))
     text = text.replace(/^\s*\{\{includeCodeBlocks\}\}/gm, indent(2, codeDefinitions))
     fs.writeFileSync(path.join(__dirname, '..', 'syntaxes', 'LaTeX.tmLanguage.json'), text)
 }
