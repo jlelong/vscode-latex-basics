@@ -3,22 +3,22 @@ const path = require('path')
 
 const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
 const mintedLanguages = [
-    {name: mintedEnvs, language: ['asy', 'asymptote'], source: 'source.asy'},
-    {name: mintedEnvs, language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
-    {name: mintedEnvs, language: ['css'], source: 'source.css'},
-    {name: mintedEnvs, language: ['gnuplot'], source: 'source.gnuplot'},
-    {name: mintedEnvs, language: ['hs', 'haskell'], source: 'source.haskell'},
-    {name: mintedEnvs, language: ['html'], source: 'text.html.basic', contentName: 'text.html'},
-    {name: mintedEnvs, language: ['java'], source: 'source.java'},
-    {name: mintedEnvs, language: ['jl', 'julia'], source: 'source.julia'},
-    {name: mintedEnvs, language: ['js', 'javascript'], source: 'source.js'},
-    {name: mintedEnvs, language: ['lua'], source: 'source.lua'},
-    {name: mintedEnvs, language: ['py', 'python'], source: 'source.python'},
-    {name: mintedEnvs, language: ['rb', 'ruby'], source: 'source.ruby'},
-    {name: mintedEnvs, language: ['rust'], source: 'source.rust'},
-    {name: mintedEnvs, language: ['ts', 'typescript'], source: 'source.ts'},
-    {name: mintedEnvs, language: ['xml'], source: 'text.xml'},
-    {name: mintedEnvs, language: ['yaml'], source: 'source.yaml'},
+    {language: ['asy', 'asymptote'], source: 'source.asy'},
+    {language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
+    {language: ['css'], source: 'source.css'},
+    {language: ['gnuplot'], source: 'source.gnuplot'},
+    {language: ['hs', 'haskell'], source: 'source.haskell'},
+    {language: ['html'], source: 'text.html.basic', contentName: 'text.html'},
+    {language: ['java'], source: 'source.java'},
+    {language: ['jl', 'julia'], source: 'source.julia'},
+    {language: ['js', 'javascript'], source: 'source.js'},
+    {language: ['lua'], source: 'source.lua'},
+    {language: ['py', 'python'], source: 'source.python'},
+    {language: ['rb', 'ruby'], source: 'source.ruby'},
+    {language: ['rust'], source: 'source.rust'},
+    {language: ['ts', 'typescript'], source: 'source.ts'},
+    {language: ['xml'], source: 'text.xml'},
+    {language: ['yaml'], source: 'source.yaml'},
 ]
 
 const codeLanguages = [
@@ -158,7 +158,7 @@ function generateMintedBlock(envNames, language, source, contentName=undefined) 
 
 function main() {
     console.log('Generating LaTeX.tmLanguage from data/')
-    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(language.name, language.language, language.source, language?.contentName)).join(',\n')
+    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join(',\n')
     var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join(',\n')
 
     let text = fs.readFileSync(path.join(__dirname, '..', 'syntaxes', 'data', 'LaTeX.tmLanguage.json'), {encoding: 'utf8'})
