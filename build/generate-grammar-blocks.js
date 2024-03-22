@@ -1,30 +1,31 @@
 const fs = require('fs')
 const path = require('path')
 
+const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
 const mintedLanguages = [
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['asy', 'asymptote'], source: 'source.asy'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['css'], source: 'source.css'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['gnuplot'], source: 'source.gnuplot'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['hs', 'haskell'], source: 'source.haskell'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['html'], source: 'text.html.basic', contentName: 'text.html'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['java'], source: 'source.java'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['jl', 'julia'], source: 'source.julia'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['js', 'javascript'], source: 'source.js'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['lua'], source: 'source.lua'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['py', 'python'], source: 'source.python'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['rb', 'ruby'], source: 'source.ruby'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['rust'], source: 'source.rust'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['ts', 'typescript'], source: 'source.ts'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['xml'], source: 'text.xml'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['yaml'], source: 'source.yaml'},
+    {name: mintedEnvs, language: ['asy', 'asymptote'], source: 'source.asy'},
+    {name: mintedEnvs, language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
+    {name: mintedEnvs, language: ['css'], source: 'source.css'},
+    {name: mintedEnvs, language: ['gnuplot'], source: 'source.gnuplot'},
+    {name: mintedEnvs, language: ['hs', 'haskell'], source: 'source.haskell'},
+    {name: mintedEnvs, language: ['html'], source: 'text.html.basic', contentName: 'text.html'},
+    {name: mintedEnvs, language: ['java'], source: 'source.java'},
+    {name: mintedEnvs, language: ['jl', 'julia'], source: 'source.julia'},
+    {name: mintedEnvs, language: ['js', 'javascript'], source: 'source.js'},
+    {name: mintedEnvs, language: ['lua'], source: 'source.lua'},
+    {name: mintedEnvs, language: ['py', 'python'], source: 'source.python'},
+    {name: mintedEnvs, language: ['rb', 'ruby'], source: 'source.ruby'},
+    {name: mintedEnvs, language: ['rust'], source: 'source.rust'},
+    {name: mintedEnvs, language: ['ts', 'typescript'], source: 'source.ts'},
+    {name: mintedEnvs, language: ['xml'], source: 'text.xml'},
+    {name: mintedEnvs, language: ['yaml'], source: 'source.yaml'},
 ]
 
 const codeLanguages = [
     {name: ['asy', 'asycode'], source: 'source.asymptote'},
     {name: ['cppcode'], source: 'source.cpp.embedded.latex'},
     {name: ['dot2tex', 'dotcode'], source: 'source.dot'},
-    {name: ['gnuplot'], source: 'source.gnuplot'}
+    {name: ['gnuplot'], source: 'source.gnuplot'},
     {name: ['hscode'], source: 'source.haskell'},
     {name: ['jlcode', 'jlverbatim', 'jlblock', 'jlconcode', 'jlconsole', 'jlconverbatim'], source: 'source.julia'},
     {name: ['juliacode', 'juliaverbatim', 'juliablock', 'juliaconcode', 'juliaconsole', 'juliaconverbatim'], source: 'source.julia'},
