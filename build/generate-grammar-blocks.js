@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
-const robustExternalizeEnvs = ['CacheMeCode', 'PlaceholderPathFromCode', 'PlaceholderFromCode', 'SetPlaceholderCode']
+const robustExternalizeEnvs = ['CacheMe', 'CacheMeCode', 'PlaceholderPathFromCode', 'PlaceholderFromCode', 'SetPlaceholderCode']
 const mintedLanguages = [
     {language: ['asy', 'asymptote'], source: 'source.asy'},
     {language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
@@ -21,6 +21,9 @@ const mintedLanguages = [
     {language: ['xml'], source: 'text.xml'},
     {language: ['yaml'], source: 'source.yaml'},
 ]
+const robustExternalizeLanguages = mintedLanguages.concat(
+    {language: ['tikz'], source: 'text.tex.latex'}
+)
 
 const codeLanguages = [
     {name: ['asy', 'asycode'], source: 'source.asymptote'},
@@ -214,7 +217,7 @@ function main() {
     console.log('Generating LaTeX.tmLanguage from data/')
     var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join(',\n')
     var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join(',\n')
-    var robustExternalizeDefinitions = mintedLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join(',\n')
+    var robustExternalizeDefinitions = robustExternalizeLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join(',\n')
 
     let text = fs.readFileSync(path.join(__dirname, '..', 'syntaxes', 'data', 'LaTeX.tmLanguage.json'), {encoding: 'utf8'})
     text = text.replace(/^\s*\{\{includeMintedblocks\}\}/gm, indent(4, mintedDefinitions))
