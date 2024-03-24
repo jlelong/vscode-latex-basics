@@ -1093,7 +1093,7 @@
 			"name":"meta.embedded.block.generic.latex"
 		},
 		{
-			"begin": "((?:^\\s*)?\\\\begin\\{(CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})(?=\\{)",
+			"begin": "((?:^\\s*)?\\\\begin\\{(CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})(?=\\{)",
 			"end": "(\\\\end\\{\\2\\})",
 			"captures": {
 				"1": {
