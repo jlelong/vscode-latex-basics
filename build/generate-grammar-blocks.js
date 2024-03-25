@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
-const robustExternalizeEnvs = ['CacheMe', 'CacheMeCode', 'PlaceholderPathFromCode', 'PlaceholderFromCode', 'SetPlaceholderCode']
+const robustExternalizeEnvs = ['CacheMeCode', 'PlaceholderPathFromCode', 'PlaceholderFromCode', 'SetPlaceholderCode']
 const mintedLanguages = [
     {language: ['asy', 'asymptote'], source: 'source.asy'},
     {language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
@@ -22,7 +22,7 @@ const mintedLanguages = [
     {language: ['yaml'], source: 'source.yaml'},
 ]
 const robustExternalizeLanguages = mintedLanguages.concat(
-    {language: ['tikz'], source: 'text.tex.latex'}
+    {language: ['tikz', 'tikzpicture'], source: 'text.tex.latex'}
 )
 
 const codeLanguages = [
@@ -198,7 +198,7 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
             ]
         },
         {
-            "begin": "^(?=\\s*)",
+            "begin": "^(\\s*)",
             "end": "^\\s*(?=\\\\end\\{${envNameRegex}\\})",
             "contentName": "${contentName}",
             "patterns": [
