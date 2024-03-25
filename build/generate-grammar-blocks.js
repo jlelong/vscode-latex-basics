@@ -193,6 +193,9 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
             },
             "patterns": [
                 {
+                     "include": "text.tex#braces"
+                },
+                {
                     "include": "$base"
                 }
             ]

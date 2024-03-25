@@ -232,6 +232,9 @@
 							},
 							"patterns": [
 								{
+									"include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
@@ -239,16 +242,6 @@
 						{
 							"begin": "^(\\s*)",
 							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
-							"beginCaptures": {
-								"0":{
-									"name": "pof"
-								}
-							},
-							"endCaptures": {
-								"0":{
-									"name": "bof"
-								}
-							},
 							"contentName": "meta.function.embedded.latex",
 							"name":"meta.embedded.block.generic.latex"
 						}

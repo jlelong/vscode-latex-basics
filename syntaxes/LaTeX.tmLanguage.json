@@ -1093,7 +1093,7 @@
 			"name":"meta.embedded.block.generic.latex"
 		},
 		{
-			"begin": "((?:^\\s*)?\\\\begin\\{(CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})(?=\\{)",
+			"begin": "((?:^\\s*)?\\\\begin\\{(CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})(?=\\{)",
 			"end": "(\\\\end\\{\\2\\})",
 			"captures": {
 				"1": {
@@ -1107,7 +1107,7 @@
 			"patterns": [
 				{
 					"begin": "\\G(\\{)(?:asy|asymptote)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1124,13 +1124,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.asy",
 							"patterns": [
 								{
@@ -1142,7 +1145,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:c|cpp)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1159,13 +1162,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.cpp.embedded.latex",
 							"patterns": [
 								{
@@ -1177,7 +1183,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:css)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1194,13 +1200,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.css",
 							"patterns": [
 								{
@@ -1212,7 +1221,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:gnuplot)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1229,13 +1238,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.gnuplot",
 							"patterns": [
 								{
@@ -1247,7 +1259,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:hs|haskell)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1264,13 +1276,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.haskell",
 							"patterns": [
 								{
@@ -1282,7 +1297,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:html)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1299,13 +1314,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "text.html",
 							"patterns": [
 								{
@@ -1317,7 +1335,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:java)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1334,13 +1352,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.java",
 							"patterns": [
 								{
@@ -1352,7 +1373,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:jl|julia)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1369,13 +1390,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.julia",
 							"patterns": [
 								{
@@ -1387,7 +1411,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:js|javascript)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1404,13 +1428,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.js",
 							"patterns": [
 								{
@@ -1422,7 +1449,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:lua)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1439,13 +1466,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.lua",
 							"patterns": [
 								{
@@ -1457,7 +1487,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:py|python)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1474,13 +1504,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.python",
 							"patterns": [
 								{
@@ -1492,7 +1525,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:rb|ruby)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1509,13 +1542,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.ruby",
 							"patterns": [
 								{
@@ -1527,7 +1563,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:rust)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1544,13 +1580,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.rust",
 							"patterns": [
 								{
@@ -1562,7 +1601,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:ts|typescript)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1579,13 +1618,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.ts",
 							"patterns": [
 								{
@@ -1597,7 +1639,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:xml)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1614,13 +1656,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "text.xml",
 							"patterns": [
 								{
@@ -1632,7 +1677,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:yaml)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1649,13 +1694,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "source.yaml",
 							"patterns": [
 								{
@@ -1666,8 +1714,8 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:tikz)",
-					"end": "(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"begin": "\\G(\\{)(?:tikz|tikzpicture)",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1684,13 +1732,16 @@
 							},
 							"patterns": [
 								{
+									 "include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
 						},
 						{
-							"begin": "^(?=\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMe|CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 							"contentName": "text.tex.latex",
 							"patterns": [
 								{
@@ -1719,6 +1770,9 @@
 							},
 							"patterns": [
 								{
+									"include": "text.tex#braces"
+								},
+								{
 									"include": "$base"
 								}
 							]
@@ -1726,16 +1780,6 @@
 						{
 							"begin": "^(\\s*)",
 							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
-							"beginCaptures": {
-								"0":{
-									"name": "pof"
-								}
-							},
-							"endCaptures": {
-								"0":{
-									"name": "bof"
-								}
-							},
 							"contentName": "meta.function.embedded.latex",
 							"name":"meta.embedded.block.generic.latex"
 						}
