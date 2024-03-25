@@ -171,11 +171,11 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
     if (contentName === undefined) {
         contentName = source
     }
-    var languageRegex = '(?:' + language.join('|') + ')'
+    var languageRegex = '(?i:' + language.join('|') + ')'
     var envNameRegex = '(?:' + envNames.join('|') + ')'
 
     const jsonCode = `{
-    "begin": "\\G(\\{)${languageRegex}",
+    "begin": "\\G(\\{)(?:__|[a-z\\s]*)${languageRegex}",
     "end": "(?=\\\\end\\{${envNameRegex}\\})",
     "beginCaptures": {
         "1": {

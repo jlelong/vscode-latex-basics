@@ -1106,7 +1106,7 @@
 			},
 			"patterns": [
 				{
-					"begin": "\\G(\\{)(?:asy|asymptote)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:asy|asymptote)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1144,7 +1144,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:c|cpp)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:c|cpp)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1182,7 +1182,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:css)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:css)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1220,7 +1220,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:gnuplot)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:gnuplot)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1258,7 +1258,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:hs|haskell)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:hs|haskell)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1296,7 +1296,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:html)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:html)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1334,7 +1334,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:java)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:java)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1372,7 +1372,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:jl|julia)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:jl|julia)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1410,7 +1410,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:js|javascript)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:js|javascript)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1448,7 +1448,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:lua)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:lua)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1486,7 +1486,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:py|python)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:py|python)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1524,7 +1524,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:rb|ruby)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:rb|ruby)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1562,7 +1562,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:rust)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:rust)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1600,7 +1600,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:ts|typescript)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:ts|typescript)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1638,7 +1638,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:xml)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:xml)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1676,7 +1676,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:yaml)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:yaml)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
@@ -1714,7 +1714,7 @@
 					]
 				},
 				{
-					"begin": "\\G(\\{)(?:tikz|tikzpicture)",
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:tikz|tikzpicture)",
 					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
 					"beginCaptures": {
 						"1": {
