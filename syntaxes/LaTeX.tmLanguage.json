@@ -1093,7 +1093,7 @@
 			"name":"meta.embedded.block.generic.latex"
 		},
 		{
-			"begin": "((?:^\\s*)?\\\\begin\\{(CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})(?:\\[[^\\]]*\\]){,2}(?=\\{)",
+			"begin": "((?:^\\s*)?\\\\begin\\{((?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?))\\})(?:\\[[^\\]]*\\]){,2}(?=\\{)",
 			"end": "(\\\\end\\{\\2\\})",
 			"captures": {
 				"1": {
@@ -1107,7 +1107,7 @@
 			"patterns": [
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:asy|asymptote)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1133,7 +1133,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.asy",
 							"patterns": [
 								{
@@ -1145,7 +1145,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:c|cpp)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1171,7 +1171,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.cpp.embedded.latex",
 							"patterns": [
 								{
@@ -1183,7 +1183,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:css)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1209,7 +1209,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.css",
 							"patterns": [
 								{
@@ -1221,7 +1221,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:gnuplot)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1247,7 +1247,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.gnuplot",
 							"patterns": [
 								{
@@ -1259,7 +1259,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:hs|haskell)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1285,7 +1285,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.haskell",
 							"patterns": [
 								{
@@ -1297,7 +1297,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:html)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1323,7 +1323,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "text.html",
 							"patterns": [
 								{
@@ -1335,7 +1335,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:java)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1361,7 +1361,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.java",
 							"patterns": [
 								{
@@ -1373,7 +1373,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:jl|julia)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1399,7 +1399,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.julia",
 							"patterns": [
 								{
@@ -1411,7 +1411,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:js|javascript)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1437,7 +1437,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.js",
 							"patterns": [
 								{
@@ -1449,7 +1449,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:lua)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1475,7 +1475,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.lua",
 							"patterns": [
 								{
@@ -1487,7 +1487,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:py|python|sage)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1513,7 +1513,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.python",
 							"patterns": [
 								{
@@ -1525,7 +1525,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:rb|ruby)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1551,7 +1551,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.ruby",
 							"patterns": [
 								{
@@ -1563,7 +1563,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:rust)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1589,7 +1589,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.rust",
 							"patterns": [
 								{
@@ -1601,7 +1601,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:ts|typescript)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1627,7 +1627,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.ts",
 							"patterns": [
 								{
@@ -1639,7 +1639,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:xml)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1665,7 +1665,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "text.xml",
 							"patterns": [
 								{
@@ -1677,7 +1677,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:yaml)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1703,7 +1703,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "source.yaml",
 							"patterns": [
 								{
@@ -1715,7 +1715,7 @@
 				},
 				{
 					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:tikz|tikzpicture)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1741,7 +1741,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "text.tex.latex",
 							"patterns": [
 								{
@@ -1753,7 +1753,7 @@
 				},
 				{
 					"begin": "\\G(\\{)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -1779,7 +1779,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "meta.function.embedded.latex",
 							"name":"meta.embedded.block.generic.latex"
 						}

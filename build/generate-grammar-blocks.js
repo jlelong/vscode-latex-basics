@@ -172,7 +172,7 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
         contentName = source
     }
     var languageRegex = '(?i:' + language.join('|') + ')'
-    var envNameRegex = '(?:' + envNames.join('|') + ')'
+    var envNameRegex = '(?:RobExt)?' + '(?:' + envNames.join('|') + ')'
 
     const jsonCode = `{
     "begin": "\\G(\\{)(?:__|[a-z\\s]*)${languageRegex}",
