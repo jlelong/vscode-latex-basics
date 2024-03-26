@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
-const robustExternalizeEnvs = ['CacheMeCode', 'PlaceholderPathFromCode', 'PlaceholderFromCode', 'SetPlaceholderCode']
+const robustExternalizeEnvs = ['CacheMeCode', 'PlaceholderPathFromCode\\*?', 'PlaceholderFromCode\\*?', 'SetPlaceholderCode\\*?']
 const mintedLanguages = [
     {language: ['asy', 'asymptote'], source: 'source.asy'},
     {language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
@@ -14,7 +14,7 @@ const mintedLanguages = [
     {language: ['jl', 'julia'], source: 'source.julia'},
     {language: ['js', 'javascript'], source: 'source.js'},
     {language: ['lua'], source: 'source.lua'},
-    {language: ['py', 'python'], source: 'source.python'},
+    {language: ['py', 'python', 'sage'], source: 'source.python'},
     {language: ['rb', 'ruby'], source: 'source.ruby'},
     {language: ['rust'], source: 'source.rust'},
     {language: ['ts', 'typescript'], source: 'source.ts'},

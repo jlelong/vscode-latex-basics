@@ -200,7 +200,7 @@
 			"name":"meta.embedded.block.generic.latex"
 		},
 		{
-			"begin": "((?:^\\s*)?\\\\begin\\{(CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})(?=\\{)",
+			"begin": "((?:^\\s*)?\\\\begin\\{(CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})(?=\\{)",
 			"end": "(\\\\end\\{\\2\\})",
 			"captures": {
 				"1": {
@@ -215,7 +215,7 @@
 				{{includeRobustExternalizeBlocks}},
 				{
 					"begin": "\\G(\\{)",
-					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+					"end": "(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.arguments.begin.latex"
@@ -241,7 +241,7 @@
 						},
 						{
 							"begin": "^(\\s*)",
-							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode|PlaceholderFromCode|SetPlaceholderCode)\\})",
+							"end": "^\\s*(?=\\\\end\\{(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
 							"contentName": "meta.function.embedded.latex",
 							"name":"meta.embedded.block.generic.latex"
 						}
