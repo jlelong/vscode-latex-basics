@@ -1,0 +1,1270 @@
+[
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "documentclass",
+		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "article",
+		"t": "text.tex.latex meta.preamble.latex support.class.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.latex meta.function.begin-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "CacheMeCode",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "c",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "int",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified_type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp"
+	},
+	{
+		"c": "main",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.head.function.definition.cpp entity.name.function.definition.cpp"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.head.function.definition.cpp punctuation.section.parameters.begin.bracket.round.cpp"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.head.function.definition.cpp punctuation.section.parameters.end.bracket.round.cpp"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.head.function.definition.cpp"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.head.function.definition.cpp punctuation.section.block.begin.bracket.curly.function.definition.cpp"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.body.function.definition.cpp"
+	},
+	{
+		"c": "return",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.body.function.definition.cpp keyword.control.return.cpp"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.body.function.definition.cpp"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.body.function.definition.cpp constant.numeric.decimal.cpp"
+	},
+	{
+		"c": ";",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.body.function.definition.cpp punctuation.terminator.statement.cpp"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.body.function.definition.cpp"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.body.function.definition.cpp punctuation.section.block.end.bracket.curly.function.definition.cpp"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "CacheMeCode",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " \\begin{CacheMeCode}{ploof}[scale]",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "   plot 'test.dat' using 1:($2-1)",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " \\end{CacheMeCode}",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "CacheMeCode",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "bash, tikz terminal",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "echo ",
+		"t": "text.tex.latex source.shell"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.shell string.quoted.single.shell punctuation.definition.string.begin.shell"
+	},
+	{
+		"c": "test.dat",
+		"t": "text.tex.latex source.shell string.quoted.single.shell"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.shell string.quoted.single.shell punctuation.definition.string.end.shell"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex source.shell meta.statement.shell"
+	},
+	{
+		"c": "exit",
+		"t": "text.tex.latex source.shell meta.statement.shell meta.statement.command.shell meta.statement.command.name.shell entity.name.function.call.shell entity.name.command.shell support.function.builtin.shell"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.shell meta.statement.shell meta.statement.command.shell meta.argument.shell"
+	},
+	{
+		"c": "0",
+		"t": "text.tex.latex source.shell meta.statement.shell meta.statement.command.shell meta.argument.shell string.unquoted.argument.shell constant.numeric.shell constant.numeric.integer.shell"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "CacheMeCode",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "figure",
+		"t": "text.tex.latex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "CacheMeCode",
+		"t": "text.tex.latex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "python matplotlib, add to preamble=",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.general.latex meta.group.braces.tex punctuation.group.begin.tex"
+	},
+	{
+		"c": "\\def\\hello#1",
+		"t": "text.tex.latex meta.function.environment.general.latex meta.group.braces.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.general.latex meta.group.braces.tex meta.group.braces.tex punctuation.group.begin.tex"
+	},
+	{
+		"c": "Hello #1!",
+		"t": "text.tex.latex meta.function.environment.general.latex meta.group.braces.tex meta.group.braces.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.general.latex meta.group.braces.tex meta.group.braces.tex punctuation.group.end.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.general.latex meta.group.braces.tex punctuation.group.end.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python meta.function.python storage.type.function.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python meta.function.python"
+	},
+	{
+		"c": "f",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python meta.function.python entity.name.function.python"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.begin.python"
+	},
+	{
+		"c": "p",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python meta.function.python meta.function.parameters.python variable.parameter.function.language.python"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python meta.function.python meta.function.parameters.python punctuation.separator.annotation.python"
+	},
+	{
+		"c": " string",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python meta.function.python meta.function.parameters.python"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.end.python"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python meta.function.python punctuation.section.function.begin.python"
+	},
+	{
+		"c": "      ",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python"
+	},
+	{
+		"c": "return",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python punctuation.definition.list.begin.python"
+	},
+	{
+		"c": "x ",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python keyword.operator.arithmetic.python"
+	},
+	{
+		"c": " p ",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python"
+	},
+	{
+		"c": "for",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " x ",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python"
+	},
+	{
+		"c": "in",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python punctuation.parenthesis.begin.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python string.quoted.single.python punctuation.definition.string.begin.python"
+	},
+	{
+		"c": "a",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python string.quoted.single.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python string.quoted.single.python punctuation.definition.string.end.python"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python punctuation.separator.element.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python string.quoted.single.python punctuation.definition.string.begin.python"
+	},
+	{
+		"c": "b",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python string.quoted.single.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python string.quoted.single.python punctuation.definition.string.end.python"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python punctuation.parenthesis.end.python"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.environment.general.latex source.python punctuation.definition.list.end.python"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "CacheMeCode",
+		"t": "text.tex.latex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "figure",
+		"t": "text.tex.latex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "RobExtCacheMeCode",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "my python matplotlib, ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "    add to preamble=",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.group.braces.tex punctuation.group.begin.tex"
+	},
+	{
+		"c": "\\def\\hello#1",
+		"t": "text.tex.latex meta.group.braces.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.group.braces.tex meta.group.braces.tex punctuation.group.begin.tex"
+	},
+	{
+		"c": "Hello #1!",
+		"t": "text.tex.latex meta.group.braces.tex meta.group.braces.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.group.braces.tex meta.group.braces.tex punctuation.group.end.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.group.braces.tex punctuation.group.end.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex source.python meta.function.python storage.type.function.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python meta.function.python"
+	},
+	{
+		"c": "f",
+		"t": "text.tex.latex source.python meta.function.python entity.name.function.python"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.begin.python"
+	},
+	{
+		"c": "p",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python variable.parameter.function.language.python"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python punctuation.separator.annotation.python"
+	},
+	{
+		"c": " string",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.end.python"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.python meta.function.python punctuation.section.function.begin.python"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "return",
+		"t": "text.tex.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex source.python punctuation.definition.list.begin.python"
+	},
+	{
+		"c": "x ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex source.python keyword.operator.arithmetic.python"
+	},
+	{
+		"c": " p ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "for",
+		"t": "text.tex.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " x ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "in",
+		"t": "text.tex.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.python punctuation.parenthesis.begin.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.begin.python"
+	},
+	{
+		"c": "a",
+		"t": "text.tex.latex source.python string.quoted.single.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.end.python"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.python punctuation.separator.element.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.begin.python"
+	},
+	{
+		"c": "b",
+		"t": "text.tex.latex source.python string.quoted.single.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.end.python"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.python punctuation.parenthesis.end.python"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex source.python punctuation.definition.list.end.python"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "RobExtCacheMeCode",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "CacheMe",
+		"t": "text.tex.latex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{tikzpicture}",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "scale=0.6",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "draw",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "gray, thick",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": " (-1,2) -- (2,-4);",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "draw",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "gray, thick",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": " (-1,-1) -- (2,2);",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "filldraw",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "black",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": " (0,0) circle (2pt) node",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "anchor=west",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "{Intersection point};",
+		"t": "text.tex.latex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "CacheMe",
+		"t": "text.tex.latex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "SetPlaceholderCode*",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "__PYTHON_TEMP",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex source.python meta.function.python storage.type.function.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python meta.function.python"
+	},
+	{
+		"c": "f",
+		"t": "text.tex.latex source.python meta.function.python entity.name.function.python"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.begin.python"
+	},
+	{
+		"c": "p",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python variable.parameter.function.language.python"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python punctuation.separator.annotation.python"
+	},
+	{
+		"c": " string",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.end.python"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.python meta.function.python punctuation.section.function.begin.python"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "return",
+		"t": "text.tex.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex source.python punctuation.definition.list.begin.python"
+	},
+	{
+		"c": "x ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex source.python keyword.operator.arithmetic.python"
+	},
+	{
+		"c": " p ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "for",
+		"t": "text.tex.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " x ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "in",
+		"t": "text.tex.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.python punctuation.parenthesis.begin.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.begin.python"
+	},
+	{
+		"c": "a",
+		"t": "text.tex.latex source.python string.quoted.single.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.end.python"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.python punctuation.separator.element.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.begin.python"
+	},
+	{
+		"c": "b",
+		"t": "text.tex.latex source.python string.quoted.single.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.end.python"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.python punctuation.parenthesis.end.python"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex source.python punctuation.definition.list.end.python"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "SetPlaceholderCode*",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "PlaceholderPathFromCode",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "[.py]",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "__PYTHON_TEMP",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex source.python meta.function.python storage.type.function.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python meta.function.python"
+	},
+	{
+		"c": "f",
+		"t": "text.tex.latex source.python meta.function.python entity.name.function.python"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.begin.python"
+	},
+	{
+		"c": "p",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python variable.parameter.function.language.python"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python punctuation.separator.annotation.python"
+	},
+	{
+		"c": " string",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.end.python"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.python meta.function.python punctuation.section.function.begin.python"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "return",
+		"t": "text.tex.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex source.python punctuation.definition.list.begin.python"
+	},
+	{
+		"c": "x ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex source.python keyword.operator.arithmetic.python"
+	},
+	{
+		"c": " p ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "for",
+		"t": "text.tex.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " x ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "in",
+		"t": "text.tex.latex source.python keyword.control.flow.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.python punctuation.parenthesis.begin.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.begin.python"
+	},
+	{
+		"c": "a",
+		"t": "text.tex.latex source.python string.quoted.single.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.end.python"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.python punctuation.separator.element.python"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.begin.python"
+	},
+	{
+		"c": "b",
+		"t": "text.tex.latex source.python string.quoted.single.python"
+	},
+	{
+		"c": "'",
+		"t": "text.tex.latex source.python string.quoted.single.python punctuation.definition.string.end.python"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.python punctuation.parenthesis.end.python"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex source.python punctuation.definition.list.end.python"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "PlaceholderPathFromCode",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.latex meta.function.end-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+	}
+]

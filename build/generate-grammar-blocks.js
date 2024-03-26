@@ -1,38 +1,45 @@
 const fs = require('fs')
 const path = require('path')
 
+const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
+const robustExternalizeEnvs = ['CacheMeCode', 'PlaceholderPathFromCode\\*?', 'PlaceholderFromCode\\*?', 'SetPlaceholderCode\\*?']
 const mintedLanguages = [
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['asy', 'asymptote'], source: 'source.asy'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['css'], source: 'source.css'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['hs', 'haskell'], source: 'source.haskell'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['html'], source: 'text.html.basic', contentName: 'text.html'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['xml'], source: 'text.xml'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['java'], source: 'source.java'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['lua'], source: 'source.lua'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['jl', 'julia'], source: 'source.julia'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['rb', 'ruby'], source: 'source.ruby'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['js', 'javascript'], source: 'source.js'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['ts', 'typescript'], source: 'source.ts'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['py', 'python'], source: 'source.python'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['yaml'], source: 'source.yaml'},
-    {name: ['minted', 'lstlisting', 'pyglist'], language: ['rust'], source: 'source.rust'},
+    {language: ['asy', 'asymptote'], source: 'source.asy'},
+    {language: ['bash'], source: 'source.shell'},
+    {language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
+    {language: ['css'], source: 'source.css'},
+    {language: ['gnuplot'], source: 'source.gnuplot'},
+    {language: ['hs', 'haskell'], source: 'source.haskell'},
+    {language: ['html'], source: 'text.html.basic', contentName: 'text.html'},
+    {language: ['java'], source: 'source.java'},
+    {language: ['jl', 'julia'], source: 'source.julia'},
+    {language: ['js', 'javascript'], source: 'source.js'},
+    {language: ['lua'], source: 'source.lua'},
+    {language: ['py', 'python', 'sage'], source: 'source.python'},
+    {language: ['rb', 'ruby'], source: 'source.ruby'},
+    {language: ['rust'], source: 'source.rust'},
+    {language: ['ts', 'typescript'], source: 'source.ts'},
+    {language: ['xml'], source: 'text.xml'},
+    {language: ['yaml'], source: 'source.yaml'},
 ]
+const robustExternalizeLanguages = mintedLanguages.concat(
+    {language: ['tikz', 'tikzpicture'], source: 'text.tex.latex'}
+)
 
 const codeLanguages = [
+    {name: ['asy', 'asycode'], source: 'source.asymptote'},
     {name: ['cppcode'], source: 'source.cpp.embedded.latex'},
+    {name: ['dot2tex', 'dotcode'], source: 'source.dot'},
+    {name: ['gnuplot'], source: 'source.gnuplot'},
     {name: ['hscode'], source: 'source.haskell'},
-    {name: ['luacode'], source: 'source.lua'},
     {name: ['jlcode', 'jlverbatim', 'jlblock', 'jlconcode', 'jlconsole', 'jlconverbatim'], source: 'source.julia'},
     {name: ['juliacode', 'juliaverbatim', 'juliablock', 'juliaconcode', 'juliaconsole', 'juliaconverbatim'], source: 'source.julia'},
-    {name: ['sageblock', 'sagesilent', 'sageverbatim', 'sageexample', 'sagecommandline', 'python', 'pythonq', 'pythonrepl'], source: 'source.python'},
+    {name: ['luacode'], source: 'source.lua'},
     {name: ['pycode', 'pyverbatim', 'pyblock', 'pyconcode', 'pyconsole', 'pyconverbatim'], source: 'source.python'},
     {name: ['pylabcode', 'pylabverbatim', 'pylabblock', 'pylabconcode', 'pylabconsole', 'pylabconverbatim'], source: 'source.python'},
-    {name: ['sympycode', 'sympyverbatim', 'sympyblock', 'sympyconcode', 'sympyconsole', 'sympyconverbatim'], source: 'source.python'},
+    {name: ['sageblock', 'sagesilent', 'sageverbatim', 'sageexample', 'sagecommandline', 'python', 'pythonq', 'pythonrepl'], source: 'source.python'},
     {name: ['scalacode'], source: 'source.scala'},
-    {name: ['asy', 'asycode'], source: 'source.asymptote'},
-    {name: ['dot2tex', 'dotcode'], source: 'source.dot'},
-    {name: ['gnuplot'], source: 'source.gnuplot'}
+    {name: ['sympycode', 'sympyverbatim', 'sympyblock', 'sympyconcode', 'sympyconsole', 'sympyconverbatim'], source: 'source.python'},
 ]
 
 
@@ -58,6 +65,7 @@ function escapeBackSlash(text) {
  * three arguments are actually optional and <session> uses characters from [a-zA-Z0-9_-].
  * @param {string[]} envNames An array of environments, eg. ['pycode', 'pythoncode'] or ['luacode']
  * @param {string} source The source language to include
+ * @param {string} contentName The scope to assign to the content. If undefined, use {@link source}
  */
 function generateCodeBlock(envNames, source, contentName=undefined) {
     if (contentName === undefined) {
@@ -116,9 +124,10 @@ function generateCodeBlock(envNames, source, contentName=undefined) {
 
 /**
  * Generate the json rules for a minted type block
- * @param {string} envName Typically minted
+ * @param {string[]} envNames Typically minted
  * @param {string[]} language A list of languages used to build an alternation
  * @param {string} source The source language to include
+ * @param {string} contentName The scope to assign to the content. If undefined, use {@link source}
  */
 function generateMintedBlock(envNames, language, source, contentName=undefined) {
     if (contentName === undefined) {
@@ -152,13 +161,71 @@ function generateMintedBlock(envNames, language, source, contentName=undefined) 
     return escapeBackSlash(jsonCode)
 }
 
+/**
+ * Generate the json rules for a minted type block
+ * @param {string[]} envNames Typically minted
+ * @param {string[]} language A list of languages used to build an alternation
+ * @param {string} source The source language to include
+ * @param {string} contentName The scope to assign to the content. If undefined, use {@link source}
+ */
+function generateRobustExternalizeBlock(envNames, language, source, contentName=undefined) {
+    if (contentName === undefined) {
+        contentName = source
+    }
+    var languageRegex = '(?i:' + language.join('|') + ')'
+    var envNameRegex = '(?:RobExt)?' + '(?:' + envNames.join('|') + ')'
+
+    const jsonCode = `{
+    "begin": "\\G(\\{)(?:__|[a-z\\s]*)${languageRegex}",
+    "end": "(?=\\\\end\\{${envNameRegex}\\})",
+    "beginCaptures": {
+        "1": {
+            "name": "punctuation.definition.arguments.begin.latex"
+        }
+    },
+    "patterns": [
+        {
+            "begin": "\\G",
+            "end": "(\\})\\s*$",
+            "endCaptures": {
+                "1": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                }
+            },
+            "patterns": [
+                {
+                     "include": "text.tex#braces"
+                },
+                {
+                    "include": "$base"
+                }
+            ]
+        },
+        {
+            "begin": "^(\\s*)",
+            "end": "^\\s*(?=\\\\end\\{${envNameRegex}\\})",
+            "contentName": "${contentName}",
+            "patterns": [
+                {
+                    "include": "${source}"
+                }
+            ]
+        }
+    ]
+}`
+
+    return escapeBackSlash(jsonCode)
+}
+
 function main() {
     console.log('Generating LaTeX.tmLanguage from data/')
-    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(language.name, language.language, language.source, language?.contentName)).join(',\n')
+    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join(',\n')
     var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join(',\n')
+    var robustExternalizeDefinitions = robustExternalizeLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join(',\n')
 
     let text = fs.readFileSync(path.join(__dirname, '..', 'syntaxes', 'data', 'LaTeX.tmLanguage.json'), {encoding: 'utf8'})
     text = text.replace(/^\s*\{\{includeMintedblocks\}\}/gm, indent(4, mintedDefinitions))
+    text = text.replace(/^\s*\{\{includeRobustExternalizeBlocks\}\}/gm, indent(4, robustExternalizeDefinitions))
     text = text.replace(/^\s*\{\{includeCodeBlocks\}\}/gm, indent(2, codeDefinitions))
     fs.writeFileSync(path.join(__dirname, '..', 'syntaxes', 'LaTeX.tmLanguage.json'), text)
 }

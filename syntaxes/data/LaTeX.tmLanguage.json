@@ -200,6 +200,56 @@
 			"name":"meta.embedded.block.generic.latex"
 		},
 		{
+			"begin": "((?:^\\s*)?\\\\begin\\{((?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?))\\})(?:\\[[^\\]]*\\]){,2}(?=\\{)",
+			"end": "(\\\\end\\{\\2\\})",
+			"captures": {
+				"1": {
+					"patterns": [
+						{
+							"include": "#begin-env-tokenizer"
+						}
+					]
+				}
+			},
+			"patterns": [
+				{{includeRobustExternalizeBlocks}},
+				{
+					"begin": "\\G(\\{)",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
+					},
+					"patterns": [
+						{
+							"begin": "\\G",
+							"end": "(\\})\\s*$",
+							"endCaptures": {
+								"1": {
+									"name": "punctuation.definition.arguments.end.latex"
+								}
+							},
+							"patterns": [
+								{
+									"include": "text.tex#braces"
+								},
+								{
+									"include": "$base"
+								}
+							]
+						},
+						{
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"contentName": "meta.function.embedded.latex",
+							"name":"meta.embedded.block.generic.latex"
+						}
+					]
+				}
+			]
+		},
+		{
 			"begin": "(?:^\\s*)?\\\\begin\\{(terminal\\*?)\\}(?=\\[|\\{)",
 			"end": "\\\\end\\{\\1\\}",
 			"captures": {
@@ -1516,7 +1566,7 @@
 					"name": "punctuation.definition.arguments.end.latex"
 				}
 			},
-			"match": "\\s*((\\\\)(?:begin|end))(\\{)([a-zA-Z]*\\*?)(\\})(?:(\\[)(.*)(\\]))?(?:(\\{)([^{}]*)(\\}))?"
+			"match": "\\s*((\\\\)(?:begin|end))(\\{)([a-zA-Z]*\\*?)(\\})(?:(\\[)([^\\]]*)(\\])){,2}(?:(\\{)([^{}]*)(\\}))?"
 		},
 		"definition-label": {
 			"begin": "((\\\\)label)((?:\\[[^\\[]*?\\])*)(\\{)",
