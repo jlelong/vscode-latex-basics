@@ -5,6 +5,7 @@ const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
 const robustExternalizeEnvs = ['CacheMeCode', 'PlaceholderPathFromCode\\*?', 'PlaceholderFromCode\\*?', 'SetPlaceholderCode\\*?']
 const mintedLanguages = [
     {language: ['asy', 'asymptote'], source: 'source.asy'},
+    {language: ['bash'], source: 'source.shell'},
     {language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
     {language: ['css'], source: 'source.css'},
     {language: ['gnuplot'], source: 'source.gnuplot'},

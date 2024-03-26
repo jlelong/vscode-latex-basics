@@ -185,6 +185,27 @@
 					]
 				},
 				{
+					"begin": "(?:\\G|(?<=\\]))(\\{)((?:bash))(\\})",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						},
+						"2": {
+							"name": "variable.parameter.function.latex"
+						},
+						"3": {
+							"name": "punctuation.definition.arguments.end.latex"
+						}
+					},
+					"end": "^\\s*(?=\\\\end\\{(?:minted|lstlisting|pyglist)\\})",
+					"contentName": "source.shell",
+					"patterns": [
+						{
+							"include": "source.shell"
+						}
+					]
+				},
+				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)((?:c|cpp))(\\})",
 					"beginCaptures": {
 						"1": {
@@ -1138,6 +1159,44 @@
 							"patterns": [
 								{
 									"include": "source.asy"
+								}
+							]
+						}
+					]
+				},
+				{
+					"begin": "\\G(\\{)(?:__|[a-z\\s]*)(?i:bash)",
+					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.arguments.begin.latex"
+						}
+					},
+					"patterns": [
+						{
+							"begin": "\\G",
+							"end": "(\\})\\s*$",
+							"endCaptures": {
+								"1": {
+									"name": "punctuation.definition.arguments.end.latex"
+								}
+							},
+							"patterns": [
+								{
+									 "include": "text.tex#braces"
+								},
+								{
+									"include": "$base"
+								}
+							]
+						},
+						{
+							"begin": "^(\\s*)",
+							"end": "^\\s*(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",
+							"contentName": "source.shell",
+							"patterns": [
+								{
+									"include": "source.shell"
 								}
 							]
 						}
