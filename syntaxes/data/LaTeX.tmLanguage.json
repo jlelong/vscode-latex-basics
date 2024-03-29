@@ -163,7 +163,7 @@
 				{
 					"include": "#multiline-optional-arg-no-highlight"
 				},
-				{{includeMintedblocks}},
+				{"includeMintedblocks": ""},
 				{
 					"begin": "(?:\\G|(?<=\\]))(\\{)([a-zA-Z]*)(\\})",
 					"beginCaptures": {
@@ -183,7 +183,7 @@
 				}
 			]
 		},
-		{{includeCodeBlocks}},
+		{"includeCodeBlocks": ""},
 		{
 			"begin": "\\s*\\\\begin\\{([a-zA-Z]*code|lstlisting|minted|pyglist)\\*?\\}(?:\\[.*\\])?(?:\\{.*\\})?",
 			"end": "\\\\end\\{\\1\\}(?:\\s*\\n)?",
@@ -212,7 +212,7 @@
 				}
 			},
 			"patterns": [
-				{{includeRobustExternalizeBlocks}},
+				{"includeRobustExternalizeBlocks": ""},
 				{
 					"begin": "\\G(\\{)",
 					"end": "(?=\\\\end\\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\\*?|PlaceholderFromCode\\*?|SetPlaceholderCode\\*?)\\})",

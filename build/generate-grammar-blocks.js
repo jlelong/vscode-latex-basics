@@ -224,9 +224,9 @@ function main() {
     var robustExternalizeDefinitions = robustExternalizeLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join(',\n')
 
     let text = fs.readFileSync(path.join(__dirname, '..', 'syntaxes', 'data', 'LaTeX.tmLanguage.json'), {encoding: 'utf8'})
-    text = text.replace(/^\s*\{\{includeMintedblocks\}\}/gm, indent(4, mintedDefinitions))
-    text = text.replace(/^\s*\{\{includeRobustExternalizeBlocks\}\}/gm, indent(4, robustExternalizeDefinitions))
-    text = text.replace(/^\s*\{\{includeCodeBlocks\}\}/gm, indent(2, codeDefinitions))
+    text = text.replace(/^\s*\{"includeMintedblocks": ""\}/gm, indent(4, mintedDefinitions))
+    text = text.replace(/^\s*\{"includeRobustExternalizeBlocks": ""\}/gm, indent(4, robustExternalizeDefinitions))
+    text = text.replace(/^\s*\{"includeCodeBlocks": ""\}/gm, indent(2, codeDefinitions))
     fs.writeFileSync(path.join(__dirname, '..', 'syntaxes', 'LaTeX.tmLanguage.json'), text)
 }
 
