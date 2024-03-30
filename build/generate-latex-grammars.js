@@ -59,17 +59,18 @@ function convertYamlToJson(inputfile, outputfile) {
 }
 
 /**
- * Indent text and replace spaces indentation with tabs
+ * Indent text
  * @param {number} count The number of tabs to insert at the beginning of each line
  * @param {string} text A multiline text
  */
 function indent(count, text) {
-    const indent = new Array(count + 1).join('\t')
-    return text.replace(/ {4}/gm, '\t').replace(/^/gm, indent)
+    const indent = new Array(count + 1).join(' ')
+    return text.replace(/^/gm, indent)
 }
 
 function escapeBackSlash(text) {
-    return text.replaceAll('\\', '\\\\')
+    return text
+    // return text.replaceAll('\\', '\\\\')
 }
 
 /**
@@ -90,51 +91,30 @@ function generateCodeBlock(envNames, source, contentName=undefined) {
     const beginRule = `\\s*\\\\begin\\{${envNameRegex}\\*?\\}(?:\\[[a-zA-Z0-9_-]*\\])?(?=\\[|\\{|\\s*$)`
     const endRule = `\\s*\\\\end\\{${envNameRegex}\\*?\\}`
 
-    const jsonCode = `{
-    "begin": "${beginRule}",
-    "end": "${endRule}",
-    "captures": {
-        "0": {
-            "patterns": [
-                {
-                    "include": "#begin-env-tokenizer"
-                }
-            ]
-        }
-    },
-    "patterns": [
-        {
-            "include": "#multiline-optional-arg-no-highlight"
-        },
-        {
-            "begin": "(?:\\G|(?<=\\]))(\\{)",
-            "beginCaptures": {
-                "1": {
-                    "name": "punctuation.definition.arguments.begin.latex"
-                }
-            },
-            "end": "(\\})",
-            "endCaptures": {
-                "1": {
-                    "name": "punctuation.definition.arguments.end.latex"
-                }
-            },
-            "contentName": "variable.parameter.function.latex"
-        },
-        {
-            "begin": "^(?=\\s*)",
-            "end": "^\\s*(?=\\\\end\\{${envNameRegex}\\*?\\})",
-            "contentName": "${source}",
-            "patterns": [
-                {
-                    "include": "${source}"
-                }
-            ]
-        }
-    ]
-}`
-    return escapeBackSlash(jsonCode)
+    const yamlCode = `- begin: ${beginRule}
+  end: ${endRule}
+  captures:
+    '0':
+      patterns:
+      - include: '#begin-env-tokenizer'
+  patterns:
+  - include: '#multiline-optional-arg-no-highlight'
+  - begin: (?:\\G|(?<=\\]))(\\{)
+    beginCaptures:
+      '1':
+        name: punctuation.definition.arguments.begin.latex
+    end: (\\})
+    endCaptures:
+      '1':
+        name: punctuation.definition.arguments.end.latex
+    contentName: variable.parameter.function.latex
+  - begin: ^(?=\\s*)
+    end: ^\\s*(?=\\\\end\\{${envNameRegex}\\*?\\})
+    contentName: ${source}
+    patterns:
+    - include: ${source}`
 
+    return escapeBackSlash(yamlCode)
 }
 
 /**
@@ -151,29 +131,20 @@ function generateMintedBlock(envNames, language, source, contentName=undefined) 
     var languageRegex = '(?:' + language.join('|') + ')'
     var envNameRegex = '(?:' + envNames.join('|') + ')'
 
-    const jsonCode = `{
-    "begin": "(?:\\G|(?<=\\]))(\\{)(${languageRegex})(\\})",
-    "beginCaptures": {
-        "1": {
-            "name": "punctuation.definition.arguments.begin.latex"
-        },
-        "2": {
-            "name": "variable.parameter.function.latex"
-        },
-        "3": {
-            "name": "punctuation.definition.arguments.end.latex"
-        }
-    },
-    "end": "^\\s*(?=\\\\end\\{${envNameRegex}\\})",
-    "contentName": "${contentName}",
-    "patterns": [
-        {
-            "include": "${source}"
-        }
-    ]
-}`
+    const yamlCode = `- begin: (?:\\G|(?<=\\]))(\\{)(${languageRegex})(\\})
+  beginCaptures:
+   '1':
+    name: punctuation.definition.arguments.begin.latex
+   '2':
+    name: variable.parameter.function.latex
+   '3':
+    name: punctuation.definition.arguments.end.latex
+  end: ^\\s*(?=\\\\end\\{${envNameRegex}\\})
+  contentName: ${contentName}
+  patterns:
+  - include: ${source}`
 
-    return escapeBackSlash(jsonCode)
+    return escapeBackSlash(yamlCode)
 }
 
 /**
@@ -190,46 +161,27 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
     var languageRegex = '(?i:' + language.join('|') + ')'
     var envNameRegex = '(?:RobExt)?' + '(?:' + envNames.join('|') + ')'
 
-    const jsonCode = `{
-    "begin": "\\G(\\{)(?:__|[a-z\\s]*)${languageRegex}",
-    "end": "(?=\\\\end\\{${envNameRegex}\\})",
-    "beginCaptures": {
-        "1": {
-            "name": "punctuation.definition.arguments.begin.latex"
-        }
-    },
-    "patterns": [
-        {
-            "begin": "\\G",
-            "end": "(\\})\\s*$",
-            "endCaptures": {
-                "1": {
-                    "name": "punctuation.definition.arguments.end.latex"
-                }
-            },
-            "patterns": [
-                {
-                     "include": "text.tex#braces"
-                },
-                {
-                    "include": "$base"
-                }
-            ]
-        },
-        {
-            "begin": "^(\\s*)",
-            "end": "^\\s*(?=\\\\end\\{${envNameRegex}\\})",
-            "contentName": "${contentName}",
-            "patterns": [
-                {
-                    "include": "${source}"
-                }
-            ]
-        }
-    ]
-}`
+    const yamlCode = `- begin: \\G(\\{)(?:__|[a-z\\s]*)${languageRegex}
+  end: (?=\\\\end\\{${envNameRegex}\\})
+  beginCaptures:
+    '1':
+      name: punctuation.definition.arguments.begin.latex
+  patterns:
+  - begin: \\G
+    end: (\\})\\s*$
+    endCaptures:
+      '1':
+        name: punctuation.definition.arguments.end.latex
+    patterns:
+    - include: text.tex#braces
+    - include: $base
+  - begin: ^(\\s*)
+    end: ^\\s*(?=\\\\end\\{${envNameRegex}\\})
+    contentName: ${contentName}
+    patterns:
+    - include: ${source}`
 
-    return escapeBackSlash(jsonCode)
+    return escapeBackSlash(yamlCode)
 }
 
 function main() {
@@ -242,18 +194,21 @@ function main() {
     console.log('Generating TeX.tmLanguage from src/')
     convertYamlToJson(path.join(syntaxesSrcDir, 'TeX.tmLanguage.yaml'), path.join(syntaxesDir, 'TeX.tmLanguage.json'))
 
-    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join(',\n')
-    var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join(',\n')
-    var robustExternalizeDefinitions = robustExternalizeLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join(',\n')
+    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join('\n')
+    var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join('\n')
+    var robustExternalizeDefinitions = robustExternalizeLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join('\n')
 
     console.log('Generating LaTeX.tmLanguage from src/')
-    convertYamlToJson(path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.base.yaml'), path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.json'))
-    let text = fs.readFileSync(path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.json'), {encoding: 'utf8'})
-    text = text.replace(/^\s*\{(\n\s*)?"includeMintedblocks": ""(\n\s*)?\}/gm, indent(4, mintedDefinitions))
-    text = text.replace(/^\s*\{(\n\s*)?"includeRobustExternalizeBlocks": ""(\n\s*)?\}/gm, indent(4, robustExternalizeDefinitions))
-    text = text.replace(/^\s*\{(\n\s*)?"includeCodeBlocks": ""(\n\s*)?\}/gm, indent(2, codeDefinitions))
-    fs.writeFileSync(path.join(syntaxesDir, 'LaTeX.tmLanguage.json'), text)
+    try {
+        let yamlGrammar = fs.readFileSync(path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.base.yaml'), {encoding: 'utf-8'})
+        yamlGrammar = yamlGrammar.replace(/^\s{2}- includeRobustExternalizeBlocks: ''/m, indent(2, robustExternalizeDefinitions))
+        yamlGrammar = yamlGrammar.replace(/^- includeCodeBlocks: ''/m, codeDefinitions)
+        yamlGrammar = yamlGrammar.replace(/^\s{2}- includeMintedblocks: ''/m, indent(2, mintedDefinitions))
+        const latexGrammar = yaml.load(yamlGrammar)
+        fs.writeFileSync(path.join(syntaxesDir, 'LaTeX.tmLanguage.json'), JSON.stringify(latexGrammar, undefined, 4))
+    } catch (error) {
+        console.log(error)
+    }
 }
-
 
 module.exports = main
