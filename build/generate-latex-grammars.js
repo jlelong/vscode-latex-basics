@@ -1,5 +1,7 @@
 const fs = require('fs')
 const path = require('path')
+const yaml = require('js-yaml')
+
 
 const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
 const robustExternalizeEnvs = ['CacheMeCode', 'PlaceholderPathFromCode\\*?', 'PlaceholderFromCode\\*?', 'SetPlaceholderCode\\*?']
@@ -42,6 +44,19 @@ const codeLanguages = [
     {name: ['sympycode', 'sympyverbatim', 'sympyblock', 'sympyconcode', 'sympyconsole', 'sympyconverbatim'], source: 'source.python'},
 ]
 
+/**
+ * Convert an input yaml file to a json output file
+ * @param {string} inputfile a yaml file name
+ * @param {string} outputfile a json file name
+ */
+function convertYamlToJson(inputfile, outputfile) {
+    try {
+        const grammar = yaml.load(fs.readFileSync(inputfile, {encoding: 'utf-8'}))
+        fs.writeFileSync(outputfile, JSON.stringify(grammar, undefined, 4))
+    } catch (error) {
+        console.log(error)
+    }
+}
 
 /**
  * Indent text and replace spaces indentation with tabs
@@ -218,16 +233,26 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
 }
 
 function main() {
-    console.log('Generating LaTeX.tmLanguage from data/')
+    const syntaxesDir = path.join(__dirname, '..', 'syntaxes')
+    const syntaxesSrcDir = path.join(syntaxesDir, 'src')
+
+    console.log('Generating BibTeX.tmLanguage from src/')
+    convertYamlToJson(path.join(syntaxesSrcDir, 'BibteX.tmLanguage.yaml'), path.join(syntaxesDir, 'BibteX.tmLanguage.json'))
+
+    console.log('Generating TeX.tmLanguage from src/')
+    convertYamlToJson(path.join(syntaxesSrcDir, 'TeX.tmLanguage.yaml'), path.join(syntaxesDir, 'TeX.tmLanguage.json'))
+
     var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join(',\n')
     var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join(',\n')
     var robustExternalizeDefinitions = robustExternalizeLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join(',\n')
 
-    let text = fs.readFileSync(path.join(__dirname, '..', 'syntaxes', 'data', 'LaTeX.tmLanguage.json'), {encoding: 'utf8'})
-    text = text.replace(/^\s*\{"includeMintedblocks": ""\}/gm, indent(4, mintedDefinitions))
-    text = text.replace(/^\s*\{"includeRobustExternalizeBlocks": ""\}/gm, indent(4, robustExternalizeDefinitions))
-    text = text.replace(/^\s*\{"includeCodeBlocks": ""\}/gm, indent(2, codeDefinitions))
-    fs.writeFileSync(path.join(__dirname, '..', 'syntaxes', 'LaTeX.tmLanguage.json'), text)
+    console.log('Generating LaTeX.tmLanguage from src/')
+    convertYamlToJson(path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.base.yaml'), path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.json'))
+    let text = fs.readFileSync(path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.json'), {encoding: 'utf8'})
+    text = text.replace(/^\s*\{(\n\s*)?"includeMintedblocks": ""(\n\s*)?\}/gm, indent(4, mintedDefinitions))
+    text = text.replace(/^\s*\{(\n\s*)?"includeRobustExternalizeBlocks": ""(\n\s*)?\}/gm, indent(4, robustExternalizeDefinitions))
+    text = text.replace(/^\s*\{(\n\s*)?"includeCodeBlocks": ""(\n\s*)?\}/gm, indent(2, codeDefinitions))
+    fs.writeFileSync(path.join(syntaxesDir, 'LaTeX.tmLanguage.json'), text)
 }
 
 
