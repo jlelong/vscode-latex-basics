@@ -1,6 +1,11 @@
 const fs = require('fs')
 const vel = require('vscode-extend-language')
 
+/*
+ * Generate a combined LaTeX Markdown grammar to be sued in LaTeX document
+ * using the markdown package.
+ */
+
 async function insertLaTeXGrammar(url, latexScope, newScopeName, newGrammarFile) {
     const grammar = JSON.parse(await vel.download(url))
     if(!grammar) {
