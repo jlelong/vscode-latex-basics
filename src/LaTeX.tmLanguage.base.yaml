@@ -177,27 +177,59 @@ patterns:
     '2':
       name: punctuation.definition.function.latex
   patterns:
-  - begin: \[
-    end: \]
+  - begin: \G(\[)
     beginCaptures:
-      '0':
+      '1':
         name: punctuation.definition.arguments.optional.begin.latex
-    endCaptures:
-      '0':
-        name: punctuation.definition.arguments.optional.end.latex
+    end: (?=\})
     patterns:
-    - include: text.tex#braces
-    - include: $base
-  - begin: (?<=\])\{
-    end: \}
-    beginCaptures:
-      '0':
-        name: punctuation.definition.arguments.begin.latex
-    endCaptures:
-      '0':
-        name: punctuation.definition.arguments.end.latex
-    contentName: meta.function.embedded.latex
-    name: meta.embedded.block.generic.latex
+    - begin: \G
+      end: (\])(?=\{)
+      endCaptures:
+        '1':
+          name: punctuation.definition.arguments.optional.end.latex
+      patterns:
+      - include: text.tex#braces
+      - include: $base
+    - begin: (?<=\])(\{)
+      end: (\})
+      beginCaptures:
+        '0':
+          name: punctuation.definition.arguments.begin.latex
+      endCaptures:
+        '0':
+          name: punctuation.definition.arguments.end.latex
+      contentName: meta.function.embedded.latex
+      name: meta.embedded.block.generic.latex
+# - begin: ((\\)cacheMeCode(?=\[))
+#   end: (?<=\})
+#   beginCaptures:
+#     '1':
+#       name: support.function.verb.latex
+#     '2':
+#       name: punctuation.definition.function.latex
+#   patterns:
+#   - begin: \[
+#     end: \]
+#     beginCaptures:
+#       '0':
+#         name: punctuation.definition.arguments.optional.begin.latex
+#     endCaptures:
+#       '0':
+#         name: punctuation.definition.arguments.optional.end.latex
+#     patterns:
+#     - include: text.tex#braces
+#     - include: $base
+#   - begin: (?<=\])\{
+#     end: \}
+#     beginCaptures:
+#       '0':
+#         name: punctuation.definition.arguments.begin.latex
+#     endCaptures:
+#       '0':
+#         name: punctuation.definition.arguments.end.latex
+#     contentName: meta.function.embedded.latex
+#     name: meta.embedded.block.generic.latex
 - begin: ((\\)addplot)(?:\+?)((?:\[[^\[]*\]))*\s*(gnuplot)\s*((?:\[[^\[]*\]))*\s*(\{)
   captures:
     '1':
