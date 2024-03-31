@@ -1961,42 +1961,49 @@
             },
             "patterns": [
                 {
-                    "begin": "\\[",
-                    "end": "\\]",
+                    "begin": "\\G(\\[)",
                     "beginCaptures": {
-                        "0": {
+                        "1": {
                             "name": "punctuation.definition.arguments.optional.begin.latex"
                         }
                     },
-                    "endCaptures": {
-                        "0": {
-                            "name": "punctuation.definition.arguments.optional.end.latex"
-                        }
-                    },
+                    "end": "(?=\\})",
+                    "contentName": "poo",
                     "patterns": [
                         {
-                            "include": "text.tex#braces"
+                            "begin": "\\G",
+                            "end": "(\\])(?=\\{)",
+                            "endCaptures": {
+                                "1": {
+                                    "name": "punctuation.definition.arguments.optional.end.latex"
+                                }
+                            },
+                            "patterns": [
+                                {
+                                    "include": "text.tex#braces"
+                                },
+                                {
+                                    "include": "$base"
+                                }
+                            ]
                         },
                         {
-                            "include": "$base"
+                            "begin": "(?<=\\])(\\{)",
+                            "end": "(\\})",
+                            "beginCaptures": {
+                                "0": {
+                                    "name": "punctuation.definition.arguments.begin.latex"
+                                }
+                            },
+                            "endCaptures": {
+                                "0": {
+                                    "name": "punctuation.definition.arguments.end.latex"
+                                }
+                            },
+                            "contentName": "meta.function.embedded.latex",
+                            "name": "meta.embedded.block.generic.latex"
                         }
                     ]
-                },
-                {
-                    "begin": "(?<=\\])\\{",
-                    "end": "\\}",
-                    "beginCaptures": {
-                        "0": {
-                            "name": "punctuation.definition.arguments.begin.latex"
-                        }
-                    },
-                    "endCaptures": {
-                        "0": {
-                            "name": "punctuation.definition.arguments.end.latex"
-                        }
-                    },
-                    "contentName": "meta.function.embedded.latex",
-                    "name": "meta.embedded.block.generic.latex"
                 }
             ]
         },
