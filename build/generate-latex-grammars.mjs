@@ -151,8 +151,8 @@ function generateMintedBlock(envNames, language, source, contentName=undefined) 
 }
 
 /**
- * Generate the json rules for a minted type block
- * @param {string[]} envNames Typically minted
+ * Generate the json rules for a robust externalize type block
+ * @param {string[]} envNames Typically CacheMeCode
  * @param {string[]} language A list of languages used to build an alternation
  * @param {string} source The source language to include
  * @param {string} contentName The scope to assign to the content. If undefined, use {@link source}
