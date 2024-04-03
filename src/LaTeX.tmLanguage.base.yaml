@@ -170,12 +170,15 @@ patterns:
     end: ^\s*(?=\\end\{terminal\*?\})
     name: meta.embedded.block.generic.latex
 - begin: ((\\)cacheMeCode(?=\[))
-  end: (?<=\})
+  end: \}
   beginCaptures:
     '1':
       name: support.function.verb.latex
     '2':
       name: punctuation.definition.function.latex
+  endCaptures:
+    '0':
+      name: punctuation.definition.arguments.end.latex
   patterns:
   - begin: \G(\[)
     beginCaptures:
@@ -192,13 +195,12 @@ patterns:
       - include: text.tex#braces
       - include: $base
     - begin: (?<=\])(\{)
-      end: (\})
+      end: (?=\})
       beginCaptures:
         '0':
           name: punctuation.definition.arguments.begin.latex
-      endCaptures:
-        '0':
-          name: punctuation.definition.arguments.end.latex
+      patterns:
+      - include: text.tex#braces
       contentName: meta.function.embedded.latex
       name: meta.embedded.block.generic.latex
 # - begin: ((\\)cacheMeCode(?=\[))
