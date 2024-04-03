@@ -1950,13 +1950,18 @@
         },
         {
             "begin": "((\\\\)cacheMeCode(?=\\[))",
-            "end": "(?<=\\})",
+            "end": "\\}",
             "beginCaptures": {
                 "1": {
                     "name": "support.function.verb.latex"
                 },
                 "2": {
                     "name": "punctuation.definition.function.latex"
+                }
+            },
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.arguments.end.latex"
                 }
             },
             "patterns": [
@@ -1968,7 +1973,6 @@
                         }
                     },
                     "end": "(?=\\})",
-                    "contentName": "poo",
                     "patterns": [
                         {
                             "begin": "\\G",
@@ -1989,15 +1993,10 @@
                         },
                         {
                             "begin": "(?<=\\])(\\{)",
-                            "end": "(\\})",
+                            "end": "(?=\\})",
                             "beginCaptures": {
                                 "0": {
                                     "name": "punctuation.definition.arguments.begin.latex"
-                                }
-                            },
-                            "endCaptures": {
-                                "0": {
-                                    "name": "punctuation.definition.arguments.end.latex"
                                 }
                             },
                             "contentName": "meta.function.embedded.latex",
