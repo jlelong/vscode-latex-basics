@@ -63,7 +63,7 @@ patterns:
   name: meta.function.section.$3.latex
   patterns:
   - include: text.tex#braces
-  - include: $base
+  - include: $self
 - begin: ((?:\s*)\\begin\{songs\}\{.*\})
   captures:
     '1':
@@ -77,7 +77,7 @@ patterns:
     end: \]
     name: meta.chord.block.latex support.class.chord.block.environment.latex
     patterns:
-    - include: $base
+    - include: $self
   - match: \^
     name: meta.chord.block.latex support.class.chord.block.environment.latex
   - include: $self
@@ -131,7 +131,7 @@ patterns:
           name: punctuation.definition.arguments.end.latex
       patterns:
       - include: text.tex#braces
-      - include: $base
+      - include: $self
     - begin: ^(\s*)
       contentName: meta.function.embedded.latex
       end: ^\s*(?=\\end\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\*?|PlaceholderFromCode\*?|SetPlaceholderCode\*?)\})
@@ -243,7 +243,7 @@ patterns:
     contentName: meta.variable.parameter.function.latex
     end: (?=\})
     patterns:
-    - include: $base
+    - include: $self
   - begin: (?:\G|(?<=\]))(?:(\{)[^}]*(\}))?(\{)
     beginCaptures:
       '1':
@@ -255,7 +255,7 @@ patterns:
     contentName: meta.variable.parameter.function.latex
     end: (?=\})
     patterns:
-    - include: $base
+    - include: $self
 - captures:
     '''':
       name: markup.underline.link.latex
@@ -305,7 +305,7 @@ patterns:
     name: keyword.control.equation.newline.latex
   - include: '#definition-label'
   - include: text.tex#math
-  - include: $base
+  - include: $self
 - begin: (?:\s*)(\\begin\{empheq\}(?:\[.*\])?)
   captures:
     '1':
@@ -321,7 +321,7 @@ patterns:
     name: keyword.control.equation.newline.latex
   - include: '#definition-label'
   - include: text.tex#math
-  - include: $base
+  - include: $self
 - begin: (\s*\\begin\{(tabular[xy*]?|xltabular|longtable|(?:long)?tabu|(?:long|tall)?tblr|NiceTabular[X*]?|booktabs)\}(\s*\n)?)
   captures:
     '1':
@@ -335,7 +335,7 @@ patterns:
     name: keyword.control.table.cell.latex
   - match: \\\\
     name: keyword.control.table.newline.latex
-  - include: $base
+  - include: $self
 - begin: (\s*\\begin\{(itemize|enumerate|description|list)\})
   captures:
     '1':
@@ -344,7 +344,7 @@ patterns:
   end: (\\end\{\2\}(?:\s*\n)?)
   name: meta.function.environment.list.latex
   patterns:
-  - include: $base
+  - include: $self
 - begin: (\s*\\begin\{tikzpicture\})
   captures:
     '1':
@@ -353,7 +353,7 @@ patterns:
   end: (\\end\{tikzpicture\}(?:\s*\n)?)
   name: meta.function.environment.latex.tikz
   patterns:
-  - include: $base
+  - include: $self
 - begin: (\s*\\begin\{frame\})
   captures:
     '1':
@@ -362,7 +362,7 @@ patterns:
   end: (\\end\{frame\})
   name: meta.function.environment.frame.latex
   patterns:
-  - include: $base
+  - include: $self
 - begin: (\s*\\begin\{(mpost\*?)\})
   captures:
     '1':
@@ -387,7 +387,7 @@ patterns:
   end: (\\end\{\2\}(?:\s*\n)?)
   name: meta.function.environment.general.latex
   patterns:
-  - include: $base
+  - include: $self
 - captures:
     '1':
       name: storage.type.function.latex
@@ -420,7 +420,7 @@ patterns:
       name: punctuation.definition.marginpar.end.latex
   patterns:
   - include: text.tex#braces
-  - include: $base
+  - include: $self
 - begin: ((\\)footnote)((?:\[[^\[]*?\])*)(\{)
   beginCaptures:
     '1':
@@ -439,7 +439,7 @@ patterns:
       name: punctuation.definition.footnote.end.latex
   patterns:
   - include: text.tex#braces
-  - include: $base
+  - include: $self
 - begin: ((\\)emph)(\{)
   beginCaptures:
     '1':
@@ -456,7 +456,7 @@ patterns:
   name: meta.function.emph.latex
   patterns:
   - include: text.tex#braces
-  - include: $base
+  - include: $self
 - begin: ((\\)textit)(\{)
   captures:
     '1':
@@ -477,7 +477,7 @@ patterns:
   name: meta.function.textit.latex
   patterns:
   - include: text.tex#braces
-  - include: $base
+  - include: $self
 - begin: ((\\)textbf)(\{)
   captures:
     '1':
@@ -494,7 +494,7 @@ patterns:
   name: meta.function.textbf.latex
   patterns:
   - include: text.tex#braces
-  - include: $base
+  - include: $self
 - begin: ((\\)texttt)(\{)
   captures:
     '1':
@@ -511,7 +511,7 @@ patterns:
   name: meta.function.texttt.latex
   patterns:
   - include: text.tex#braces
-  - include: $base
+  - include: $self
 - captures:
     '0':
       name: keyword.other.item.latex
@@ -731,7 +731,7 @@ patterns:
   name: meta.math.block.latex support.class.math.block.environment.latex
   patterns:
   - include: text.tex#math
-  - include: $base
+  - include: $self
 - begin: \$\$
   beginCaptures:
     '0':
@@ -745,7 +745,7 @@ patterns:
   - match: \\\$
     name: constant.character.escape.latex
   - include: text.tex#math
-  - include: $base
+  - include: $self
 - begin: \$
   beginCaptures:
     '0':
@@ -759,7 +759,7 @@ patterns:
   - match: \\\$
     name: constant.character.escape.latex
   - include: text.tex#math
-  - include: $base
+  - include: $self
 - begin: \\\[
   beginCaptures:
     '0':
@@ -771,7 +771,7 @@ patterns:
   name: meta.math.block.latex support.class.math.block.environment.latex
   patterns:
   - include: text.tex#math
-  - include: $base
+  - include: $self
 - captures:
     '1':
       name: punctuation.definition.constant.latex
@@ -827,7 +827,7 @@ repository:
         name: punctuation.definition.arguments.optional.begin.latex
       '7':
         patterns:
-        - include: $base
+        - include: $self
       '8':
         name: punctuation.definition.arguments.optional.end.latex
       '9':

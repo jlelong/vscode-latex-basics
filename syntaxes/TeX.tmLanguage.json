@@ -205,7 +205,7 @@
                             "include": "#math"
                         },
                         {
-                            "include": "$base"
+                            "include": "$self"
                         }
                     ]
                 },

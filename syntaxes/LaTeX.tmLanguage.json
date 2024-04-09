@@ -109,7 +109,7 @@
                     "include": "text.tex#braces"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -134,7 +134,7 @@
                     "name": "meta.chord.block.latex support.class.chord.block.environment.latex",
                     "patterns": [
                         {
-                            "include": "$base"
+                            "include": "$self"
                         }
                     ]
                 },
@@ -1148,7 +1148,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1186,7 +1186,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1224,7 +1224,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1262,7 +1262,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1300,7 +1300,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1338,7 +1338,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1376,7 +1376,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1414,7 +1414,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1452,7 +1452,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1490,7 +1490,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1528,7 +1528,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1566,7 +1566,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1604,7 +1604,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1642,7 +1642,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1680,7 +1680,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1718,7 +1718,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1756,7 +1756,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1794,7 +1794,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -1832,7 +1832,7 @@
                                     "include": "text.tex#braces"
                                 },
                                 {
-                                    "include": "$base"
+                                    "include": "$self"
                                 }
                             ]
                         },
@@ -2038,7 +2038,7 @@
                     "end": "(?=\\})",
                     "patterns": [
                         {
-                            "include": "$base"
+                            "include": "$self"
                         }
                     ]
                 },
@@ -2059,7 +2059,7 @@
                     "end": "(?=\\})",
                     "patterns": [
                         {
-                            "include": "$base"
+                            "include": "$self"
                         }
                     ]
                 }
@@ -2151,7 +2151,7 @@
                     "include": "text.tex#math"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2185,7 +2185,7 @@
                     "include": "text.tex#math"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2213,7 +2213,7 @@
                     "name": "keyword.control.table.newline.latex"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2232,7 +2232,7 @@
             "name": "meta.function.environment.list.latex",
             "patterns": [
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2251,7 +2251,7 @@
             "name": "meta.function.environment.latex.tikz",
             "patterns": [
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2270,7 +2270,7 @@
             "name": "meta.function.environment.frame.latex",
             "patterns": [
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2322,7 +2322,7 @@
             "name": "meta.function.environment.general.latex",
             "patterns": [
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2381,7 +2381,7 @@
                     "include": "text.tex#braces"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2417,7 +2417,7 @@
                     "include": "text.tex#braces"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2447,7 +2447,7 @@
                     "include": "text.tex#braces"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2478,7 +2478,7 @@
                     "include": "text.tex#braces"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2508,7 +2508,7 @@
                     "include": "text.tex#braces"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2538,7 +2538,7 @@
                     "include": "text.tex#braces"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2919,7 +2919,7 @@
                     "include": "text.tex#math"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2946,7 +2946,7 @@
                     "include": "text.tex#math"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2973,7 +2973,7 @@
                     "include": "text.tex#math"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -2996,7 +2996,7 @@
                     "include": "text.tex#math"
                 },
                 {
-                    "include": "$base"
+                    "include": "$self"
                 }
             ]
         },
@@ -3086,7 +3086,7 @@
                 "7": {
                     "patterns": [
                         {
-                            "include": "$base"
+                            "include": "$self"
                         }
                     ]
                 },

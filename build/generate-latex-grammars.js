@@ -174,7 +174,7 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
         name: punctuation.definition.arguments.end.latex
     patterns:
     - include: text.tex#braces
-    - include: $base
+    - include: $self
   - begin: ^(\\s*)
     end: ^\\s*(?=\\\\end\\{${envNameRegex}\\})
     contentName: ${contentName}

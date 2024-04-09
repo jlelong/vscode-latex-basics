@@ -116,7 +116,7 @@ repository:
           name: punctuation.definition.arguments.end.tex meta.text.normal.tex
       patterns:
       - include: '#math'
-      - include: $base
+      - include: $self
     - match: \\{|\\}
       name: punctuation.math.bracket.pair.tex
     - match: \\(left|right|((big|bigg|Big|Bigg)[lr]?))([\(\[\<\>\]\)\.\|]|\\[{}|]|\\[lr]?[Vv]ert|\\[lr]angle)
