@@ -1,0 +1,122 @@
+[
+	{
+		"c": "#",
+		"t": "text.html.markdown markup.heading.markdown heading.1.markdown punctuation.definition.heading.markdown"
+	},
+	{
+		"c": " ",
+		"t": "text.html.markdown markup.heading.markdown heading.1.markdown"
+	},
+	{
+		"c": "LaTeX injection",
+		"t": "text.html.markdown markup.heading.markdown heading.1.markdown entity.name.section.markdown"
+	},
+	{
+		"c": "```",
+		"t": "text.html.markdown markup.fenced_code.block.markdown punctuation.definition.markdown"
+	},
+	{
+		"c": "latex",
+		"t": "text.html.markdown markup.fenced_code.block.markdown fenced_code.block.language.markdown"
+	},
+	{
+		"c": "\\",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.begin-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.begin-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "maketitle",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.section.section.latex support.function.section.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "section",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.section.section.latex support.function.section.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.section.section.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "poo",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.section.section.latex entity.name.section.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.section.section.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": " ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex"
+	},
+	{
+		"c": "$",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+	},
+	{
+		"c": "a",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.end-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.end-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "```",
+		"t": "text.html.markdown markup.fenced_code.block.markdown punctuation.definition.markdown"
+	},
+	{
+		"c": "Back in markdown with LaTeX exited properly.",
+		"t": "text.html.markdown meta.paragraph.markdown"
+	}
+]
