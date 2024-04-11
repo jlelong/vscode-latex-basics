@@ -1,5 +1,21 @@
 # Change Log
 
+## [1.8.0] - 2024-03-24
+
+### Added
+
+- (#82) Highlight content of `\directlua/\luadirect` as `lua` code.
+- (#78) Highlight `\iffalse...\fi` blocks as comments.
+- (#77) Add support for the `robust-externalize` package
+
+### Changed
+
+- Define the base grammars in yaml format
+
+### Fixed
+
+- (#83) Use `$self` instead of `$base` to fix LaTeX grammar injection.
+
 ## [1.7.0] - 2024-01-04
 
 ### Added
