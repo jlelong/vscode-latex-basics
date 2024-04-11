@@ -1,6 +1,13 @@
 # Change Log
 
-## [1.8.0] - 2024-03-24
+## [1.8.1] 2024-04-11
+
+### Fixed
+
+- Date release of 1.8.0
+- Wrong `package-lock.json`
+
+## [1.8.0] - 2024-04-11
 
 ### Added
 
