@@ -1,17 +1,17 @@
 name: TeX
 patterns:
-- begin: (\\)iffalse
+- begin: (?<=^\s*)((\\)iffalse)
   beginCaptures:
-    '0':
-      name: keyword.control.tex
     '1':
+      name: keyword.control.tex
+    '2':
       name: punctuation.definition.keyword.tex
   contentName: comment.line.percentage.tex
-  end: (\\)(else|fi)
+  end: (?<=^\s*)((\\)(?:else|fi))
   endCaptures:
-    '0':
-      name: keyword.control.tex
     '1':
+      name: keyword.control.tex
+    '2':
       name: punctuation.definition.keyword.tex
   patterns:
   - include: '#comment'
@@ -94,8 +94,8 @@ repository:
       end: $\n?
       name: comment.line.percentage.directive.tex
   conditionals:
-    begin: \\(if[a-z]*)
-    end: \\fi
+    begin: (?<=^\s*)\\if[a-z]*
+    end: (?<=^\s*)\\fi
     patterns:
     - include: '#comment'
     - include: '#conditionals'
