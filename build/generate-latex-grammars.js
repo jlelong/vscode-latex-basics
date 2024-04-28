@@ -186,7 +186,7 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
 
 function main() {
     const syntaxesDir = path.join(__dirname, '..', 'syntaxes')
-    const syntaxesSrcDir = path.join(syntaxesDir, 'src')
+    const syntaxesSrcDir = path.join(__dirname, '..', 'src')
 
     console.log('Generating BibTeX.tmLanguage from src/')
     convertYamlToJson(path.join(syntaxesSrcDir, 'BibteX.tmLanguage.yaml'), path.join(syntaxesDir, 'BibteX.tmLanguage.json'))
