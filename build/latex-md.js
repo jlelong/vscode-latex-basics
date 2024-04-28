@@ -41,7 +41,7 @@ function main() {
         'text.tex.markdown_latex_combined',
         './syntaxes/markdown-latex-combined.tmLanguage.json'
     )
-    vel.expandConfigurationFile('./languages/data/markdown-latex-combined.extension.language-configuration.json', './languages/markdown-latex-combined-language-configuration.json')
+    vel.expandConfigurationFile('./src/markdown-latex-combined.language-configuration.json', './languages/markdown-latex-combined-language-configuration.json')
 }
 
 module.exports = main
