@@ -188,11 +188,20 @@ function main() {
     const syntaxesDir = path.join(__dirname, '..', 'syntaxes')
     const syntaxesSrcDir = path.join(__dirname, '..', 'src')
 
-    console.log('Generating BibTeX.tmLanguage from src/')
-    convertYamlToJson(path.join(syntaxesSrcDir, 'BibteX.tmLanguage.yaml'), path.join(syntaxesDir, 'BibteX.tmLanguage.json'))
-
-    console.log('Generating TeX.tmLanguage from src/')
-    convertYamlToJson(path.join(syntaxesSrcDir, 'TeX.tmLanguage.yaml'), path.join(syntaxesDir, 'TeX.tmLanguage.json'))
+    const yamlGrammars = [
+        'BibTeX-style.tmLanguage.yaml',
+        'Bibtex.tmLanguage.yaml',
+        'DocTeX.tmLanguage.yaml',
+        'JLweave.tmLanguage.yaml',
+        'Pweave.tmLanguage.yaml',
+        'RSweave.tmLanguage.yaml',
+        'TeX.tmLanguage.yaml'
+    ]
+    for (const yamlGrammar of yamlGrammars) {
+        const jsonGrammar = path.basename(yamlGrammar, '.yaml') + '.json'
+        console.log(`Generating ${jsonGrammar} from src/`)
+        convertYamlToJson(path.join(syntaxesSrcDir, yamlGrammar), path.join(syntaxesDir, jsonGrammar))
+    }
 
     var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join('\n')
     var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join('\n')
