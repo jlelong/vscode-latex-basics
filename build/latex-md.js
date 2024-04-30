@@ -1,5 +1,5 @@
-const fs = require('fs')
-const vel = require('vscode-extend-language')
+import fs from 'fs'
+import {expandConfigurationFile, download} from 'vscode-extend-language'
 
 /*
  * Generate a combined LaTeX Markdown grammar to be sued in LaTeX document
@@ -7,7 +7,7 @@ const vel = require('vscode-extend-language')
  */
 
 async function insertLaTeXGrammar(url, latexScope, newScopeName, newGrammarFile) {
-    const grammar = JSON.parse(await vel.download(url))
+    const grammar = JSON.parse(await download(url))
     if(!grammar) {
        return
     }
@@ -34,14 +34,12 @@ async function insertLaTeXGrammar(url, latexScope, newScopeName, newGrammarFile)
     fs.writeFileSync(newGrammarFile, JSON.stringify(grammar, null, '\t'))
 }
 
-function main() {
+export function latexMd() {
     console.log('Generating markdown-latex grammar')
     insertLaTeXGrammar('https://raw.githubusercontent.com/microsoft/vscode/main/extensions/markdown-basics/syntaxes/markdown.tmLanguage.json',
         'text.tex.latex',
         'text.tex.markdown_latex_combined',
         './syntaxes/markdown-latex-combined.tmLanguage.json'
     )
-    vel.expandConfigurationFile('./src/markdown-latex-combined.language-configuration.json', './languages/markdown-latex-combined-language-configuration.json')
+    expandConfigurationFile('./src/markdown-latex-combined.language-configuration.json', './languages/markdown-latex-combined-language-configuration.json')
 }
-
-module.exports = main

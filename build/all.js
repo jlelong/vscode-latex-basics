@@ -1,6 +1,6 @@
-const bailout = require('./generate-bailout')
-const md = require('./latex-md')
-const buildLatexGrammars = require('./generate-latex-grammars')
+import {bailout} from './generate-bailout.js'
+import {latexMd} from './latex-md.js'
+import {buildLatexGrammars} from './generate-latex-grammars.js'
 
 const arg = process.argv[2]
 if (arg === undefined || arg === 'build-latex') {
@@ -9,5 +9,5 @@ if (arg === undefined || arg === 'build-latex') {
 }
 if (arg === 'update-external' || arg === undefined) {
     bailout()
-    md()
+    latexMd()
 }

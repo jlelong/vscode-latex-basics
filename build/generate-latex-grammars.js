@@ -1,6 +1,6 @@
-const fs = require('fs')
-const path = require('path')
-const yaml = require('js-yaml')
+import fs from 'fs'
+import path from 'path'
+import yaml from 'js-yaml'
 
 
 const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
@@ -184,9 +184,9 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
     return escapeBackSlash(yamlCode)
 }
 
-function main() {
-    const syntaxesDir = path.join(__dirname, '..', 'syntaxes')
-    const syntaxesSrcDir = path.join(__dirname, '..', 'src')
+export function buildLatexGrammars() {
+    const syntaxesDir = './syntaxes'
+    const syntaxesSrcDir = './src'
 
     const yamlGrammars = [
         'BibTeX-style.tmLanguage.yaml',
@@ -220,4 +220,3 @@ function main() {
     }
 }
 
-module.exports = main

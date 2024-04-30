@@ -28,6 +28,7 @@
   "engines": {
     "vscode": "^1.67.0"
   },
+  "type": "module",
   "contributes": {
     "languages": [
       {
@@ -146,6 +147,6 @@
     "js-yaml": "^4.1.0",
     "mocha": "10.2.0",
     "textmate-bailout": "1.1.0",
-    "vscode-extend-language": "^0.1.1"
+    "vscode-extend-language": "^0.2.2"
   }
 }
