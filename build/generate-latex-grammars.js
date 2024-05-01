@@ -1,6 +1,6 @@
-const fs = require('fs')
-const path = require('path')
-const yaml = require('js-yaml')
+import fs from 'fs'
+import path from 'path'
+import yaml from 'js-yaml'
 
 
 const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
@@ -184,15 +184,24 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
     return escapeBackSlash(yamlCode)
 }
 
-function main() {
-    const syntaxesDir = path.join(__dirname, '..', 'syntaxes')
-    const syntaxesSrcDir = path.join(syntaxesDir, 'src')
+export function buildLatexGrammars() {
+    const syntaxesDir = './syntaxes'
+    const syntaxesSrcDir = './src'
 
-    console.log('Generating BibTeX.tmLanguage from src/')
-    convertYamlToJson(path.join(syntaxesSrcDir, 'BibteX.tmLanguage.yaml'), path.join(syntaxesDir, 'BibteX.tmLanguage.json'))
-
-    console.log('Generating TeX.tmLanguage from src/')
-    convertYamlToJson(path.join(syntaxesSrcDir, 'TeX.tmLanguage.yaml'), path.join(syntaxesDir, 'TeX.tmLanguage.json'))
+    const yamlGrammars = [
+        'BibTeX-style.tmLanguage.yaml',
+        'Bibtex.tmLanguage.yaml',
+        'DocTeX.tmLanguage.yaml',
+        'JLweave.tmLanguage.yaml',
+        'Pweave.tmLanguage.yaml',
+        'RSweave.tmLanguage.yaml',
+        'TeX.tmLanguage.yaml'
+    ]
+    for (const yamlGrammar of yamlGrammars) {
+        const jsonGrammar = path.basename(yamlGrammar, '.yaml') + '.json'
+        console.log(`Generating ${jsonGrammar} from src/`)
+        convertYamlToJson(path.join(syntaxesSrcDir, yamlGrammar), path.join(syntaxesDir, jsonGrammar))
+    }
 
     var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join('\n')
     var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join('\n')
@@ -211,4 +220,3 @@ function main() {
     }
 }
 
-module.exports = main

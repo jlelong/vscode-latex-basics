@@ -1,5 +1,5 @@
 {
-	"extends": "../latex-language-configuration.json",
+	"extends": "../languages/latex-language-configuration.json",
 	"overrides": {
 		"comments": {
 			"blockComment": [

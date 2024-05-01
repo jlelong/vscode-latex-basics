@@ -1,8 +1,8 @@
-const fs = require('fs')
-const duplicateForEmbedding = require('textmate-bailout')
-const vel = require('vscode-extend-language')
+import fs from 'fs'
+import duplicateForEmbedding from 'textmate-bailout'
+import * as vel from 'vscode-extend-language'
 
-async function main() {
+export async function bailout() {
     console.log('Generating cpp bailed out grammar')
     duplicateForEmbedding({
         // url for json-version of a tmLanguage
@@ -22,4 +22,3 @@ async function main() {
     }
 }
 
-module.exports = main
