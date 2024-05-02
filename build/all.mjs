@@ -1,6 +1,6 @@
-import {bailout} from './generate-bailout.js'
-import {latexMd} from './latex-md.js'
-import {buildLatexGrammars} from './generate-latex-grammars.js'
+import {bailout} from './generate-bailout.mjs'
+import {latexMd} from './latex-md.mjs'
+import {buildLatexGrammars} from './generate-latex-grammars.mjs'
 
 const arg = process.argv[2]
 if (arg === undefined || arg === 'build-latex') {
