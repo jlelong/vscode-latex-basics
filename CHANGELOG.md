@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.9.0] 2024-05-02
+
+### Changed
+
+- (#84) LaTeX3 has been integrated into the standard LaTeX grammar.
+- (#86,#87) The repo now hosts all grammar and language files provided by the LaTeX-Workshop extension.
+- (#81) Base grammar are maintained in YAML format
+
 ## [1.8.1] 2024-04-11
 
 ### Fixed
