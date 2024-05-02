@@ -43,7 +43,18 @@
           ".bbx",
           ".cbx"
         ],
-        "configuration": "languages/latex-language-configuration.json"
+        "configuration": "./languages/latex-language-configuration.json"
+      },
+      {
+        "id": "doctex",
+        "aliases": [
+          "DocTeX",
+          "doctex"
+        ],
+        "extensions": [
+          ".dtx"
+        ],
+        "configuration": "./languages/doctex-language-configuration.json"
       },
       {
         "id": "latex",
@@ -56,7 +67,7 @@
           ".ltx",
           ".ctx"
         ],
-        "configuration": "languages/latex-language-configuration.json"
+        "configuration": "./languages/latex-language-configuration.json"
       },
       {
         "id": "bibtex",
@@ -66,17 +77,63 @@
         ],
         "extensions": [
           ".bib"
-        ]
+        ],
+        "configuration": "./languages/bibtex-language-configuration.json"
+      },
+      {
+        "id": "bibtex-style",
+        "aliases": [
+          "BibTeX style"
+        ],
+        "extensions": [
+          ".bst"
+        ],
+        "configuration": "./languages/bibtex-style-language-configuration.json"
+      },
+      {
+        "id": "pweave",
+        "aliases": [
+          "Pweave"
+        ],
+        "extensions": [
+          ".pnw",
+          ".ptexw"
+        ],
+        "configuration": "./languages/latex-language-configuration.json"
+      },
+      {
+        "id": "jlweave",
+        "aliases": [
+          "Weave.jl"
+        ],
+        "extensions": [
+          ".jnw",
+          ".jtexw"
+        ],
+        "configuration": "./languages/latex-language-configuration.json"
+      },
+      {
+        "id": "rsweave",
+        "aliases": [
+          "R Sweave"
+        ],
+        "extensions": [
+          ".rnw",
+          ".Rnw",
+          ".Rtex",
+          ".rtex",
+          ".snw",
+          ".Snw"
+        ],
+        "configuration": "./languages/latex-language-configuration.json"
       },
       {
         "id": "cpp_embedded_latex",
-        "configuration": "languages/latex-cpp-embedded-language-configuration.json",
-        "aliases": []
+        "configuration": "./languages/latex-cpp-embedded-language-configuration.json"
       },
       {
         "id": "markdown_latex_combined",
-        "configuration": "languages/markdown-latex-combined-language-configuration.json",
-        "aliases": []
+        "configuration": "./languages/markdown-latex-combined-language-configuration.json"
       }
     ],
     "grammars": [
@@ -84,6 +141,11 @@
         "language": "tex",
         "scopeName": "text.tex",
         "path": "./syntaxes/TeX.tmLanguage.json"
+      },
+      {
+        "language": "doctex",
+        "scopeName": "text.tex.doctex",
+        "path": "./syntaxes/DocTeX.tmLanguage.json"
       },
       {
         "language": "latex",
@@ -115,6 +177,11 @@
         "path": "./syntaxes/Bibtex.tmLanguage.json"
       },
       {
+        "language": "bibtex-style",
+        "scopeName": "source.bst",
+        "path": "./syntaxes/BibTeX-style.tmLanguage.json"
+      },
+      {
         "language": "markdown_latex_combined",
         "scopeName": "text.tex.markdown_latex_combined",
         "path": "./syntaxes/markdown-latex-combined.tmLanguage.json"
@@ -125,6 +192,30 @@
         "path": "./syntaxes/cpp-grammar-bailout.tmLanguage.json",
         "embeddedLanguages": {
           "meta.embedded.assembly.cpp": "asm"
+        }
+      },
+      {
+        "language": "pweave",
+        "scopeName": "text.tex.latex.pweave",
+        "path": "./syntax/Pweave.tmLanguage.json",
+        "embeddedLanguages": {
+          "source.python": "python"
+        }
+      },
+      {
+        "language": "jlweave",
+        "scopeName": "text.tex.latex.jlweave",
+        "path": "./syntax/JLweave.tmLanguage.json",
+        "embeddedLanguages": {
+          "source.julia": "julia"
+        }
+      },
+      {
+        "language": "rsweave",
+        "scopeName": "text.tex.latex.rsweave",
+        "path": "./syntax/RSweave.tmLanguage.json",
+        "embeddedLanguages": {
+          "source.r": "r"
         }
       }
     ]
