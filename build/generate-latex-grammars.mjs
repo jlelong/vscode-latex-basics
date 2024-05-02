@@ -2,6 +2,8 @@ import fs from 'fs'
 import path from 'path'
 import yaml from 'js-yaml'
 
+const syntaxesDir = './syntaxes'
+const syntaxesSrcDir = './src'
 
 const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
 const robustExternalizeEnvs = ['CacheMeCode', 'PlaceholderPathFromCode\\*?', 'PlaceholderFromCode\\*?', 'SetPlaceholderCode\\*?']
@@ -184,10 +186,37 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
     return escapeBackSlash(yamlCode)
 }
 
-export function buildLatexGrammars() {
-    const syntaxesDir = './syntaxes'
-    const syntaxesSrcDir = './src'
+function buildLatexBlocks() {
+    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join('\n')
+    var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join('\n')
+    var robustExternalizeDefinitions = robustExternalizeLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join('\n')
 
+    try {
+        let yamlGrammar = fs.readFileSync(path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.base.yaml'), {encoding: 'utf-8'})
+        yamlGrammar = yamlGrammar.replace(/^\s{2}- includeRobustExternalizeBlocks: ''/m, indent(2, robustExternalizeDefinitions))
+        yamlGrammar = yamlGrammar.replace(/^- includeCodeBlocks: ''/m, codeDefinitions)
+        yamlGrammar = yamlGrammar.replace(/^\s{2}- includeMintedblocks: ''/m, indent(2, mintedDefinitions))
+        const latexGrammar = yaml.load(yamlGrammar)
+        return latexGrammar
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+function buildDoctexGrammar(latexGrammar) {
+    try {
+        let doctexGrammar = fs.readFileSync(path.join(syntaxesSrcDir, 'DocTex.tmLanguage.yaml'), {encoding: 'utf-8'})
+        const yamlGrammar = yaml.load(doctexGrammar)
+        yamlGrammar['repository']['latexSource']['patterns'] = latexGrammar['patterns']
+        yamlGrammar['repository'] = {...yamlGrammar['repository'], ...latexGrammar['repository']}
+        return yamlGrammar
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+
+export function buildLatexGrammars() {
     const yamlGrammars = [
         'BibTeX-style.tmLanguage.yaml',
         'Bibtex.tmLanguage.yaml',
@@ -203,20 +232,12 @@ export function buildLatexGrammars() {
         convertYamlToJson(path.join(syntaxesSrcDir, yamlGrammar), path.join(syntaxesDir, jsonGrammar))
     }
 
-    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join('\n')
-    var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join('\n')
-    var robustExternalizeDefinitions = robustExternalizeLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join('\n')
-
     console.log('Generating LaTeX.tmLanguage from src/')
-    try {
-        let yamlGrammar = fs.readFileSync(path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.base.yaml'), {encoding: 'utf-8'})
-        yamlGrammar = yamlGrammar.replace(/^\s{2}- includeRobustExternalizeBlocks: ''/m, indent(2, robustExternalizeDefinitions))
-        yamlGrammar = yamlGrammar.replace(/^- includeCodeBlocks: ''/m, codeDefinitions)
-        yamlGrammar = yamlGrammar.replace(/^\s{2}- includeMintedblocks: ''/m, indent(2, mintedDefinitions))
-        const latexGrammar = yaml.load(yamlGrammar)
-        fs.writeFileSync(path.join(syntaxesDir, 'LaTeX.tmLanguage.json'), JSON.stringify(latexGrammar, undefined, 4))
-    } catch (error) {
-        console.log(error)
-    }
+    const latexGrammar = buildLatexBlocks()
+    fs.writeFileSync(path.join(syntaxesDir, 'LaTeX.tmLanguage.json'), JSON.stringify(latexGrammar, undefined, 4))
+
+    console.log('Generating DocTeX.tmLanguage from src/')
+    const doctexGrammar = buildDoctexGrammar(latexGrammar)
+    fs.writeFileSync(path.join(syntaxesDir, 'DocTeX.tmLanguage.json'), JSON.stringify(doctexGrammar, undefined, 4))
 }
 
