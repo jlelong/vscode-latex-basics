@@ -1,6 +1,6 @@
 import fs from 'fs'
 import duplicateForEmbedding from 'textmate-bailout'
-import * as vel from 'vscode-extend-language'
+import {download} from 'vscode-extend-language'
 
 export async function bailout() {
     console.log('Generating cpp bailed out grammar')
@@ -14,7 +14,7 @@ export async function bailout() {
 
     const cppSyntaxUrl = 'https://raw.githubusercontent.com/microsoft/vscode/main/extensions/cpp/language-configuration.json'
     const cppEmbeddedSyntaxFile = './languages/latex-cpp-embedded-language-configuration.json'
-    const res = await vel.download(cppSyntaxUrl)
+    const res = await download(cppSyntaxUrl)
     if (res) {
         fs.writeFileSync(cppEmbeddedSyntaxFile, res)
     } else {
