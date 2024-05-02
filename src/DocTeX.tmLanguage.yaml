@@ -26,9 +26,11 @@ patterns:
   name: comment.line.percentage.tex
 - match: (?<=[^%\\])%
   name: invalid
-- include: text.tex.latex
+- include: '#latexSource'
 repository:
   guards:
     match: ^%(\<[^\>]*\>)
     name: entity.name.function.filename.latex
+  latexSource:
+    patterns: []
 scopeName: text.tex.doctex
