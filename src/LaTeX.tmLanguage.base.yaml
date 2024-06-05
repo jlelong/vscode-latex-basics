@@ -568,7 +568,7 @@ patterns:
   patterns:
   - match: '[\p{Alphabetic}\p{Number}:.]+'
     name: constant.other.reference.citation.latex
-- begin: ((\\)(?:\w*[rR]ef\*?))(\{)
+- begin: ((\\)(?:\w*[rR]ef\*?))(?:\[[^\]]*\])?(\{)
   beginCaptures:
     '1':
       name: keyword.control.ref.latex
@@ -854,7 +854,7 @@ repository:
         name: punctuation.definition.arguments.begin.latex
     match: \s*((\\)(?:begin|end))(\{)([a-zA-Z]*\*?)(\})(?:(\[)([^\]]*)(\])){,2}(?:(\{)([^{}]*)(\}))?
   definition-label:
-    begin: ((\\)label)((?:\[[^\[]*?\])*)(\{)
+    begin: ((\\)z?label)((?:\[[^\[]*?\])*)(\{)
     beginCaptures:
       '1':
         name: keyword.control.label.latex

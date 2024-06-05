@@ -616,6 +616,50 @@
 		"t": "text.tex.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
+		"c": "\\",
+		"t": "text.tex.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "zlabel",
+		"t": "text.tex.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "somelabeLWithÄccents",
+		"t": "text.tex.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "zref",
+		"t": "text.tex.latex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "[refproperty]",
+		"t": "text.tex.latex meta.reference.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "somelabeLWithÄccents",
+		"t": "text.tex.latex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
 		"c": "``Double quoted text with math ",
 		"t": "text.tex.latex"
 	},
