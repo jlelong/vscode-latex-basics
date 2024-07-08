@@ -51,7 +51,7 @@ patterns:
       name: punctuation.definition.function.latex
     '4':
       patterns:
-      - include: '#optional-arg'
+      - include: '#optional-arg-bracket'
     '5':
       name: punctuation.definition.arguments.begin.latex
   comment: this works OK with all kinds of crazy stuff as long as section is one line
@@ -163,12 +163,12 @@ patterns:
       name: punctuation.definition.function.latex
     '3':
       patterns:
-      - include: '#optional-arg'
+      - include: '#optional-arg-bracket'
     '4':
       name: variable.parameter.function.latex
     '5':
       patterns:
-      - include: '#optional-arg'
+      - include: '#optional-arg-bracket'
     '6':
       name: punctuation.definition.arguments.begin.latex
   end: \s*(\};)
@@ -410,7 +410,7 @@ patterns:
       name: punctuation.definition.function.latex
     '3':
       patterns:
-      - include: '#optional-arg'
+      - include: '#optional-arg-bracket'
     '4':
       name: punctuation.definition.marginpar.begin.latex
   contentName: meta.paragraph.margin.latex
@@ -429,7 +429,7 @@ patterns:
       name: punctuation.definition.function.latex
     '3':
       patterns:
-      - include: '#optional-arg'
+      - include: '#optional-arg-bracket'
     '4':
       name: punctuation.definition.footnote.begin.latex
   contentName: entity.name.footnote.latex
@@ -519,7 +519,7 @@ patterns:
       name: punctuation.definition.keyword.latex
   match: (\\)item\b
   name: meta.scope.item.latex
-- begin: ((\\)(?:[aA]uto|foot|full|no|ref|short|[tT]ext|[pP]aren|[sS]mart)?[cC]ite(?:al)?(?:p|s|t|author|year(?:par)?|title)?[ANP]*\*?)((?:(?:\([^\)]*\)){0,2}(?:\[[^\]]*\]){0,2}\{[\p{Alphabetic}:.]*\})*)(?:([<\[])[^\]<>]*([>\]]))?(?:(\[)[^\]]*(\]))?(\{)
+- begin: ((\\)(?:[aA]uto|foot|full|no|ref|short|[tT]ext|[pP]aren|[sS]mart)?[cC]ite(?:al)?(?:p|s|t|author|year(?:par)?|title)?[ANP]*\*?)((?:(?:\([^\)]*\)){0,2}(?:\[[^\]]*\]){0,2}\{[\p{Alphabetic}\p{Number}_:.-]*\})*)(<[^\]<>]*>)?((?:\[[^\]]*\])*)(\{)
   captures:
     '1':
       name: keyword.control.cite.latex
@@ -529,14 +529,12 @@ patterns:
       patterns:
       - include: '#autocites-arg'
     '4':
-      name: punctuation.definition.arguments.optional.begin.latex
+      patterns:
+      - include: '#optional-arg-angle-no-highlight'
     '5':
-      name: punctuation.definition.arguments.optional.end.latex
+      patterns:
+      - include: '#optional-arg-bracket-no-highlight'
     '6':
-      name: punctuation.definition.arguments.optional.begin.latex
-    '7':
-      name: punctuation.definition.arguments.optional.end.latex
-    '8':
       name: punctuation.definition.arguments.begin.latex
   end: \}
   endCaptures:
@@ -544,12 +542,12 @@ patterns:
       name: punctuation.definition.arguments.end.latex
   name: meta.citation.latex
   patterns:
-  - captures:
+  - match: ((%).*)$
+    captures:
       '1':
         name: comment.line.percentage.tex
       '2':
         name: punctuation.definition.comment.tex
-    match: ((%).*)$
   - match: '[\p{Alphabetic}\p{Number}:.-]+'
     name: constant.other.reference.citation.latex
 - begin: ((\\)bibentry)(\{)
@@ -629,7 +627,7 @@ patterns:
       name: punctuation.definition.function.latex
     '3':
       patterns:
-      - include: '#optional-arg'
+      - include: '#optional-arg-bracket'
     '4':
       name: punctuation.definition.arguments.begin.latex
     '5':
@@ -651,7 +649,7 @@ patterns:
       name: punctuation.definition.function.latex
     '3':
       patterns:
-      - include: '#optional-arg'
+      - include: '#optional-arg-bracket'
     '4':
       name: punctuation.definition.verb.latex
     '5':
@@ -673,7 +671,7 @@ patterns:
       name: punctuation.definition.function.latex
     '3':
       patterns:
-      - include: '#optional-arg'
+      - include: '#optional-arg-bracket'
     '4':
       name: punctuation.definition.verb.latex
     '5':
@@ -699,7 +697,7 @@ patterns:
       name: punctuation.definition.function.latex
     '3':
       patterns:
-      - include: '#optional-arg'
+      - include: '#optional-arg-bracket'
     '4':
       name: punctuation.definition.verb.latex
     '5':
@@ -810,23 +808,21 @@ repository:
     patterns:
     - captures:
         '1':
-          name: punctuation.definition.arguments.optional.begin.latex
+          patterns:
+          - include: '#optional-arg-parenthesis-no-highlight'
         '2':
-          name: punctuation.definition.arguments.optional.end.latex
+          patterns:
+          - include: '#optional-arg-bracket-no-highlight'
         '3':
-          name: punctuation.definition.arguments.optional.begin.latex
-        '4':
-          name: punctuation.definition.arguments.optional.end.latex
-        '5':
           name: punctuation.definition.arguments.begin.latex
-        '6':
+        '4':
           name: constant.other.reference.citation.latex
-        '7':
+        '5':
           name: punctuation.definition.arguments.end.latex
-        '8':
+        '6':
           patterns:
           - include: '#autocites-arg'
-      match: (?:(\()[^\)]*(\))){0,2}(?:(\[)[^\]]*(\])){0,2}(\{)([\p{Alphabetic}\p{Number}:.]+)(\})(.*)
+      match: ((?:\([^\)]*\)){0,2})((?:\[[^\]]*\]){0,2})(\{)([\p{Alphabetic}\p{Number}_:.-]+)(\})(.*)
   begin-env-tokenizer:
     captures:
       '1':
@@ -862,7 +858,7 @@ repository:
         name: punctuation.definition.keyword.latex
       '3':
         patterns:
-        - include: '#optional-arg'
+        - include: '#optional-arg-bracket'
       '4':
         name: punctuation.definition.arguments.begin.latex
     end: \}
@@ -898,7 +894,7 @@ repository:
     name: meta.parameter.optional.latex
     patterns:
     - include: $self
-  optional-arg:
+  optional-arg-bracket:
     patterns:
     - captures:
         '1':
@@ -908,5 +904,43 @@ repository:
         '3':
           name: punctuation.definition.arguments.optional.end.latex
       match: (\[)([^\[]*?)(\])
+      name: meta.parameter.optional.latex
+  optional-arg-parenthesis:
+    patterns:
+    - captures:
+        '1':
+          name: punctuation.definition.arguments.optional.begin.latex
+        '2':
+          name: variable.parameter.function.latex
+        '3':
+          name: punctuation.definition.arguments.optional.end.latex
+      match: (\()([^\(]*?)(\))
+      name: meta.parameter.optional.latex
+  optional-arg-bracket-no-highlight:
+    patterns:
+    - captures:
+        '1':
+          name: punctuation.definition.arguments.optional.begin.latex
+        '2':
+          name: punctuation.definition.arguments.optional.end.latex
+      match: (\[)[^\[]*?(\])
+      name: meta.parameter.optional.latex
+  optional-arg-angle-no-highlight:
+    patterns:
+    - captures:
+        '1':
+          name: punctuation.definition.arguments.optional.begin.latex
+        '2':
+          name: punctuation.definition.arguments.optional.end.latex
+      match: (<)[^<]*?(>)
+      name: meta.parameter.optional.latex
+  optional-arg-parenthesis-no-highlight:
+    patterns:
+    - captures:
+        '1':
+          name: punctuation.definition.arguments.optional.begin.latex
+        '2':
+          name: punctuation.definition.arguments.optional.end.latex
+      match: (\()[^\(]*?(\))
       name: meta.parameter.optional.latex
 scopeName: text.tex.latex
