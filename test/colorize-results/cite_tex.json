@@ -1,0 +1,334 @@
+[
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "documentclass",
+		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "article",
+		"t": "text.tex.latex meta.preamble.latex support.class.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.latex meta.function.begin-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.citation.latex keyword.control.cite.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "autocites",
+		"t": "text.tex.latex meta.citation.latex keyword.control.cite.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "page-no",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "citation-1",
+		"t": "text.tex.latex meta.citation.latex constant.other.reference.citation.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "page-no",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "citation-2",
+		"t": "text.tex.latex meta.citation.latex constant.other.reference.citation.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.citation.latex keyword.control.cite.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "parencites",
+		"t": "text.tex.latex meta.citation.latex keyword.control.cite.latex"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "multipre",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "multipost",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "pre",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "post",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "bibid",
+		"t": "text.tex.latex meta.citation.latex constant.other.reference.citation.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "pre",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "post",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "bibid",
+		"t": "text.tex.latex meta.citation.latex constant.other.reference.citation.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.citation.latex keyword.control.cite.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "Textcites",
+		"t": "text.tex.latex meta.citation.latex keyword.control.cite.latex"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "pre",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "post",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "pre",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "post",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "key",
+		"t": "text.tex.latex meta.citation.latex constant.other.reference.citation.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "pre",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "post",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.citation.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "key",
+		"t": "text.tex.latex meta.citation.latex constant.other.reference.citation.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.citation.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.latex meta.function.end-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+	}
+]
