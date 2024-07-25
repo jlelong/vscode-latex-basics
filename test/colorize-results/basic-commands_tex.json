@@ -721,6 +721,246 @@
 	},
 	{
 		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "ExplSyntaxOn",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "c",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "__",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "s",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "__",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "c_tmpa_tl",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "g_tmpa_tl",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "l_tmpa_tl",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "l__mymod_tmp_cctab",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "l_@@_prop",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "l_@@_tmp_bitsec",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "q_mark",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "q_no_value",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "s_stop",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "s__quark",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "s__mymod_tmp_mark",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "s_@@",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "s_@@_mark",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "c___tl",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "c___mymod_tl",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex variable.other.latex3.latex punctuation.definition.variable.latex"
+	},
+	{
+		"c": "s___mymod_mark",
+		"t": "text.tex.latex variable.other.latex3.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.class.general.latex3.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "tl_set:Nn",
+		"t": "text.tex.latex support.class.general.latex3.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.class.general.latex3.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "tl_if_empty:NTF",
+		"t": "text.tex.latex support.class.general.latex3.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.class.general.latex3.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "tl_if_empty_p:N",
+		"t": "text.tex.latex support.class.general.latex3.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.class.general.latex3.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "cs_new:Npn",
+		"t": "text.tex.latex support.class.general.latex3.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.class.general.latex3.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "__kernel_chk_if_free_cs:N",
+		"t": "text.tex.latex support.class.general.latex3.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.class.general.latex3.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "tex_relax:D",
+		"t": "text.tex.latex support.class.general.latex3.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.class.general.latex3.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "mymod_all_arg_types:cVvoxef",
+		"t": "text.tex.latex support.class.general.latex3.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.class.general.latex3.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "__mymod_fun:",
+		"t": "text.tex.latex support.class.general.latex3.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.class.general.latex3.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@@_fun:",
+		"t": "text.tex.latex support.class.general.latex3.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "ExplSyntaxOff",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
 		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
