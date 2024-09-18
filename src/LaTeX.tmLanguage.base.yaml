@@ -215,7 +215,7 @@ patterns:
     '1':
       patterns:
       - include: '#begin-env-tokenizer'
-  contentName: punctuation.definition.comment.latex
+  contentName: comment.line.percentage.latex
   end: (\\end\{\2\})
   name: meta.function.verbatim.latex
 - begin: (?:\s*)((\\)(?:href|hyperref|hyperimage))(?=\[|\{)
