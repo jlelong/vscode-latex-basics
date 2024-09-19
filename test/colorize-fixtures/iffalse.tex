@@ -42,3 +42,22 @@ poo
 %\fi
 and more
 \fi
+
+% #97, skip brace tricks
+% array.sty v2.6d (2024/06/14), line 229-232
+\protected\def\@arraycr {
+  \tbl_count_missing_cells:n {@arraycr}
+  \iffalse{\fi\ifnum 0=`}\fi
+  \@ifstar \@xarraycr \@xarraycr}
+
+% From https://github.com/texstudio-org/texstudio/issues/618#issuecomment-499325441
+\def\newif#1{%
+  \count@\escapechar \escapechar\m@ne
+    \let#1\iffalse
+    \@if#1\iftrue
+    \@if#1\iffalse
+  \escapechar\count@}
+
+\def\environment{\begingroup
+   \catcode`\\12
+   \MakePrivateLetters \m@cro@ \iffalse}

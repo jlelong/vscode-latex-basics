@@ -238,5 +238,397 @@
 	{
 		"c": "fi",
 		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " #97, skip brace tricks",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " array.sty v2.6d (2024/06/14), line 229-232",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "protected",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@arraycr",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": " {",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.class.general.latex3.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "tbl_count_missing_cells:n",
+		"t": "text.tex.latex support.class.general.latex3.tex"
+	},
+	{
+		"c": " {@arraycr}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex punctuation.group.begin.tex"
+	},
+	{
+		"c": "\\fi\\ifnum 0=`",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex punctuation.group.end.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@ifstar",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@xarraycr",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@xarraycr",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " From https://github.com/texstudio-org/texstudio/issues/618#issuecomment-499325441",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "newif",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "#1{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "count@",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "escapechar",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "escapechar",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "m@ne",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "let",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "#1",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@if",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "#1",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iftrue",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@if",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "#1",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "escapechar",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "count@",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "environment",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "begingroup",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "   ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "catcode",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "`",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\\\",
+		"t": "text.tex.latex keyword.control.newline.tex"
+	},
+	{
+		"c": "12",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "   ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "MakePrivateLetters",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "m@cro@",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.space-after-command.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
 	}
 ]
