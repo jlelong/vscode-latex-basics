@@ -1,5 +1,18 @@
 # Change Log
 
+## [1.10.0] 2024-09-20
+
+### Added
+
+- (#91) Highlight `\zref` and `\zlabel`.
+- (#93) Highlight of `\parencites` with `multiprenote` and/or `multipostnote`.
+- (#96) Highlight the content of comment's environment as comments.
+
+### Changed
+
+- (#89,#92) Improve LaTeX3 syntax.
+- (#97) Improve `\iffalse....\fi` to reduce wrong detections.
+
 ## [1.9.0] 2024-05-02
 
 ### Changed
