@@ -42,3 +42,51 @@ poo
 %\fi
 and more
 \fi
+
+% #97, skip brace tricks
+% array.sty v2.6d (2024/06/14), line 229-232
+\protected\def\@arraycr {
+  \tbl_count_missing_cells:n {@arraycr}
+  \iffalse{\fi\ifnum 0=`}\fi
+  \@ifstar \@xarraycr \@xarraycr}
+
+% From https://github.com/texstudio-org/texstudio/issues/618#issuecomment-499325441
+\def\newif#1{%
+  \count@\escapechar \escapechar\m@ne
+    \let#1\iffalse
+    \@if#1\iftrue
+    \@if#1\iffalse
+  \escapechar\count@}
+
+\def\environment{\begingroup
+   \catcode`\\12
+   \MakePrivateLetters \m@cro@ \iffalse}
+
+% #97 skip \iffalse}\fi and \iffalse{\fi
+\def\bbgroup{{\iffalse}\fi}
+\def\eegroup{\iffalse{\fi}text text}
+
+\def\bbgroup{{%
+  \iffalse}\fi}
+\def\eegroup{%
+  \iffalse{\fi}%
+  text text}
+
+\renewcommand\ensureTABstackMath[1]{%
+\iffalse{\fi
+\let\sv@TABmode\TAB@delim\TABstackMath#1\let\TAB@delim\sv@TABmode
+\iffalse}\fi
+}
+
+% From tex/latex/bigfoot/bigfoot.sty:192
+\def\PopFootnoteMark#1{\expandafter
+  \ifx\csname FN@stack@#1\endcsname\@empty
+    \PackageError{bigfoot}{Empty footnote stack #1}%
+    {The specified footnote type has no uncompleted range}%
+  \else
+  {\let\@elt\FN@firstpop
+    \iffalse{\fi\csname FN@stack@#1\endcsname}}\fi}
+\def\FN@firstpop#1#2#3{\protected@xdef\@thefnmark{#2}%
+  \let\@elt\relax
+  \expandafter\protected@xdef\csname FN@stack@#1\endcsname{%
+    \iffalse}\fi}

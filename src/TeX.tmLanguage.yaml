@@ -1,13 +1,13 @@
 name: TeX
 patterns:
-- begin: (?<=^\s*)((\\)iffalse)
+- begin: (?<=^\s*)((\\)iffalse)(?!\s*[{}]\s*\\fi)
   beginCaptures:
     '1':
       name: keyword.control.tex
     '2':
       name: punctuation.definition.keyword.tex
   contentName: comment.line.percentage.tex
-  end: (?<=^\s*)((\\)(?:else|fi))
+  end: ((\\)(?:else|fi))
   endCaptures:
     '1':
       name: keyword.control.tex
@@ -15,6 +15,7 @@ patterns:
       name: punctuation.definition.keyword.tex
   patterns:
   - include: '#comment'
+  - include: "#braces"
   - include: '#conditionals'
 - captures:
     '1':
