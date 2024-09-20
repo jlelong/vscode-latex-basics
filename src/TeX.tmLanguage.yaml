@@ -1,6 +1,6 @@
 name: TeX
 patterns:
-- begin: (?<=^\s*)((\\)iffalse)
+- begin: (?<=^\s*)((\\)iffalse)(?!\s*[{}]\s*\\fi)
   beginCaptures:
     '1':
       name: keyword.control.tex

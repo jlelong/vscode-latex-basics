@@ -313,15 +313,31 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex"
 	},
 	{
-		"c": "\\fi\\ifnum 0=`",
-		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex"
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
 	},
 	{
-		"c": "}",
-		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex punctuation.group.end.tex"
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "ifnum",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.space-after-command.latex"
+	},
+	{
+		"c": "0=`}",
+		"t": "text.tex.latex"
 	},
 	{
 		"c": "\\",
@@ -625,6 +641,718 @@
 	},
 	{
 		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " #97 skip \\iffalse}\\fi and \\iffalse{\\fi",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "bbgroup",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "{{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "eegroup",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}text text}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "bbgroup",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "{{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "eegroup",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  text text}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "renewcommand",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "ensureTABstackMath",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "let",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "sv@TABmode",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "TAB@delim",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "TABstackMath",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "#1",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "let",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "TAB@delim",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "sv@TABmode",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " From tex/latex/bigfoot/bigfoot.sty:192",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "PopFootnoteMark",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "#1{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "expandafter",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "ifx",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "csname",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.space-after-command.latex"
+	},
+	{
+		"c": "FN@stack@#1",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "endcsname",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@empty",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "PackageError",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "{bigfoot}{Empty footnote stack #1}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "    {The specified footnote type has no uncompleted range}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "else",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "  {",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "let",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@elt",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "FN@firstpop",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "csname",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.space-after-command.latex"
+	},
+	{
+		"c": "FN@stack@#1",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "endcsname",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "FN@firstpop",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "#1#2#3{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "protected@xdef",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@thefnmark",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "{#2}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "let",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@elt",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "relax",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "expandafter",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "protected@xdef",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "csname",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.space-after-command.latex"
+	},
+	{
+		"c": "FN@stack@#1",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "endcsname",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
 		"t": "text.tex.latex keyword.control.tex"
 	},
 	{
