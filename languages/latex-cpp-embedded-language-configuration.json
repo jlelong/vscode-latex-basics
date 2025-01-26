@@ -103,7 +103,7 @@
 		},
 		"increaseIndentPattern": {
 			"pattern": "^.*(\\{[^}]*|\\([^)]*|\\[[^\\]]*)$"
-		},
+		}
 	},
 	"onEnterRules": [
 		{
