@@ -36,6 +36,7 @@ const codeLanguages = [
     {name: ['dot2tex', 'dotcode'], source: 'source.dot'},
     {name: ['gnuplot'], source: 'source.gnuplot'},
     {name: ['hscode'], source: 'source.haskell'},
+    {name: ['javacode', 'javaverbatim', 'javablock', 'javaconcode', 'javaconsole', 'javaconverbatim'], source: 'source.java'},
     {name: ['jlcode', 'jlverbatim', 'jlblock', 'jlconcode', 'jlconsole', 'jlconverbatim'], source: 'source.julia'},
     {name: ['juliacode', 'juliaverbatim', 'juliablock', 'juliaconcode', 'juliaconsole', 'juliaconverbatim'], source: 'source.julia'},
     {name: ['luacode'], source: 'source.lua'},
