@@ -229,14 +229,14 @@
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
-    "@types/mocha": "10.0.6",
+    "@types/mocha": "10.0.10",
     "@types/vscode": "1.74.0",
-    "@vscode/test-electron": "^2.3.8",
-    "eslint": "8.56.0",
-    "got": "12.5.2",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "9.19.0",
+    "got": "14.4.5",
     "js-yaml": "^4.1.0",
-    "mocha": "10.2.0",
+    "mocha": "11.1.0",
     "textmate-bailout": "1.1.0",
-    "vscode-extend-language": "^0.2.2"
+    "vscode-extend-language": "^0.3.0"
   }
 }
