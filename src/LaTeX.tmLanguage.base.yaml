@@ -102,7 +102,7 @@ patterns:
     end: ^\s*(?=\\end\{(?:lstlisting|minted|pyglist)\})
     name: meta.embedded.block.generic.latex
 - includeCodeBlocks: ''
-- begin: \s*\\begin\{([a-zA-Z]*code|lstlisting|minted|pyglist)\*?\}(?:\[.*\])?(?:\{.*\})?
+- begin: \s*\\begin\{((?:[a-zA-Z]*code|lstlisting|minted|pyglist)\*?)\}(?:\[.*\])?(?:\{.*\})?
   captures:
     '0':
       patterns:
