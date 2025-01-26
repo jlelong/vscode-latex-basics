@@ -89,7 +89,7 @@
 	},
 	{
 		"c": "int",
-		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified_type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified-type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
 	},
 	{
 		"c": " ",
@@ -249,7 +249,7 @@
 	},
 	{
 		"c": "int",
-		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified_type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified-type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
 	},
 	{
 		"c": " ",
@@ -397,7 +397,7 @@
 	},
 	{
 		"c": "int",
-		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified_type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified-type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
 	},
 	{
 		"c": " ",
@@ -545,7 +545,7 @@
 	},
 	{
 		"c": "int",
-		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified_type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified-type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
 	},
 	{
 		"c": " ",
@@ -693,7 +693,7 @@
 	},
 	{
 		"c": "int",
-		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified_type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified-type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
 	},
 	{
 		"c": " ",
@@ -841,7 +841,7 @@
 	},
 	{
 		"c": "int",
-		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified_type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
+		"t": "text.tex.latex source.cpp.embedded.latex meta.function.definition.cpp meta.qualified-type.cpp storage.type.primitive.cpp storage.type.built-in.primitive.cpp"
 	},
 	{
 		"c": " ",
