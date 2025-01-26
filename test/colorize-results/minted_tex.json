@@ -257,6 +257,94 @@
 	},
 	{
 		"c": "\\",
+		"t": "text.tex.latex meta.embedded.block.generic.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.embedded.block.generic.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "code*",
+		"t": "text.tex.latex meta.embedded.block.generic.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  int x = 0;",
+		"t": "text.tex.latex meta.embedded.block.generic.latex meta.function.embedded.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.embedded.block.generic.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.embedded.block.generic.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "code*",
+		"t": "text.tex.latex meta.embedded.block.generic.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.embedded.block.generic.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.embedded.block.generic.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "code",
+		"t": "text.tex.latex meta.embedded.block.generic.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  int x = 0;",
+		"t": "text.tex.latex meta.embedded.block.generic.latex meta.function.embedded.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.embedded.block.generic.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.embedded.block.generic.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "code",
+		"t": "text.tex.latex meta.embedded.block.generic.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.embedded.block.generic.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
 		"t": "text.tex.latex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
