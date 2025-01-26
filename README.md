@@ -6,6 +6,30 @@ This repository contains `tmLangugage` grammar files for LaTeX and BibTeX. These
 
 The grammar files support various embedded languages: `asymptote`, `c/c++`, `css`, `dot`, `gnuplot`, `html`, `java`, `javascript`, `julia`, `lua`, `python`, `ruby`, `scala`, `typescript`, `xml`, `yaml` and combined LaTeX and markdown to be used with the `markdown` package.
 
+## Embedded code blocks
+
+Since textmate grammars are purely static, it is not possible to inject new rules based on definitions containted in the LaTeX project. Environments defined by macros like `\lstnewenvironment{javacode}[1][language=java]{}{}` cannot be dynamically recognized by the grammar. So, we have decided to use the following convention: an environment named after `language` + `code` is supposed to embed `language`. Here is the complete list of hard coded environment names using this convention
+
+
+| Name                                                                                                           | Source    |
+|----------------------------------------------------------------------------------------------------------------|-----------|
+| `asy`, `asycode`                                                                                               | Asymptote |
+| `cppcode`                                                                                                      | c++       |
+| `dot2tex`, `dotcode`                                                                                           | Dot       |
+| `gnuplot`                                                                                                      | Gnuplot   |
+| `hscode`                                                                                                       | Haskell   |
+| `javacode`, `jjavaerbatim`, `javablock`, `jjavaoncode`, `javaconsole`, `javaconverbatim`                       | Java      |
+| `jlcode`, `jlverbatim`, `jlblock`, `jlconcode`, `jlconsole`, `jlconverbatim`                                   | Julia     |
+| `juliacode`, `juliaverbatim`, `juliablock`, `juliaconcode`, `juliaconsole`, `juliaconverbatim`                 | Julia     |
+| `luacode`                                                                                                      | lua       |
+| `pycode`, `pyverbatim`, `pyblock`, `pyconcode`, `pyconsole`, `pyconverbatim`                                   | Python    |
+| `pylabcode`, `pylabverbatim`, `pylabblock`, `pylabconcode`, `pylabconsole`, `pylabconverbatim`                 | Python    |
+| `sageblock`, `sagesilent`, `sageverbatim`, `sageexample`, `sagecommandline`, `python`, `pythonq`, `pythonrepl` | Python    |
+| `scalacode`                                                                                                    | Scala     |
+| `sympycode`, `sympyverbatim`, `sympyblock`, `sympyconcode`, `sympyconsole`, `sympyconverbatim`                 | Python    |
+
+The starred version of the environments are also recognized.
+
 ## License
 
 If not otherwise specified (see below), files in this repository fall under the license stated in [LICENSE.txt](LICENSE.txt)
@@ -27,7 +51,7 @@ The combined Markdown/LaTeX grammar [syntaxes/markdown-latex-combined.tmLanguage
 
 The file [syntaxes/cpp-grammar-bailout.tmLanguage.json](syntaxes/cpp-grammar-bailout.tmLanguage.json) is generated from https://github.com/jeff-hykin/better-cpp-syntax and falls under the license described in [cpp-bailout-license.txt](cpp-bailout-license.txt).
 
-## Test
+## Tests
 
 To run the grammar tests
 
