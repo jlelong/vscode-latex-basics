@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.12.0] 2025-02-22
+
+### Changed
+
+- (#101) The language ids `markdown_latex_combine` and `cpp_embedded_late` are prefixed with `internal_only`.
+
+## [1.11.0] 2025-01-26
+
+### Fixed
+
+- (#99) Fix detection of starred code environments
+
 ## [1.10.0] 2024-09-20
 
 ### Added
@@ -10,7 +22,7 @@
 
 ### Changed
 
-- (#89,#92) Improve LaTeX3 syntax.
+- (#89,#92,#94) Improve LaTeX3 syntax.
 - (#97) Improve `\iffalse....\fi` to reduce wrong detections.
 
 ## [1.9.0] 2024-05-02
