@@ -2,7 +2,7 @@
 
 The files contained in this repository were originally part of https://github.com/James-Yu/LaTeX-Workshop. They have been extracted in the hope that they can be useful outside of the LaTeX-Workshop extension. In particular, these files are used by VS Code to provide built-in syntax highlighting for BibTeX, LaTeX and TeX (to appear in the January 2022 release).
 
-This repository contains `tmLangugage` grammar files for LaTeX and BibTeX. These grammar files specifically target [Visual Studio Code](https://github.com/Microsoft/vscode) as they are accompanied by the corresponding language configuration files. However, the grammar files could in principle be consumed by any editor or extension using the TextMate language.
+This repository contains `tmLanguage` grammar files for LaTeX and BibTeX. These grammar files specifically target [Visual Studio Code](https://github.com/Microsoft/vscode) as they are accompanied by the corresponding language configuration files. However, the grammar files could in principle be consumed by any editor or extension using the TextMate language.
 
 The grammar files support various embedded languages: `asymptote`, `c/c++`, `css`, `dot`, `gnuplot`, `html`, `java`, `javascript`, `julia`, `lua`, `python`, `ruby`, `scala`, `typescript`, `xml`, `yaml` and combined LaTeX and markdown to be used with the `markdown` package.
 
