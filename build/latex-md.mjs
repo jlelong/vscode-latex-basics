@@ -38,7 +38,7 @@ export function latexMd() {
     console.log('Generating markdown-latex grammar')
     insertLaTeXGrammar('https://raw.githubusercontent.com/microsoft/vscode/main/extensions/markdown-basics/syntaxes/markdown.tmLanguage.json',
         'text.tex.latex',
-        'text.tex.markdown_latex_combined',
+        'text.tex.internal_only_markdown_latex_combined',
         './syntaxes/markdown-latex-combined.tmLanguage.json'
     )
     expandConfigurationFile('./src/markdown-latex-combined.language-configuration.json', './languages/markdown-latex-combined-language-configuration.json')

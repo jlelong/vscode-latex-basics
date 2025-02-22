@@ -30,6 +30,16 @@ Since textmate grammars are purely static, it is not possible to inject new rule
 
 The starred version of the environments are also recognized.
 
+## Internal only languages
+
+### Combined LaTeX/Markdown grammar
+
+The combined Markdown/LaTeX grammar [syntaxes/markdown-latex-combined.tmLanguage.json](syntaxes/markdown-latex-combined.tmLanguage.json) is designed to match the code inside the `markdown` environment in LaTeX files, which accepts both LaTeX and Markdown instructions.
+
+### C++ bailed out grammar
+
+The C++ bailed out grammar [syntaxes/cpp-grammar-bailout.tmLanguage.json](syntaxes/cpp-grammar-bailout.tmLanguage.json) is used for C/C++ code blocks inside LaTeX files.
+
 ## License
 
 If not otherwise specified (see below), files in this repository fall under the license stated in [LICENSE.txt](LICENSE.txt)
