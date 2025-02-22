@@ -375,10 +375,10 @@ patterns:
     '1':
       patterns:
       - include: '#begin-env-tokenizer'
-  contentName: meta.embedded.markdown_latex_combined
+  contentName: meta.embedded.internal_only_markdown_latex_combined
   end: (\\end\{markdown\})
   patterns:
-  - include: text.tex.markdown_latex_combined
+  - include: text.tex.internal_only_markdown_latex_combined
 - begin: (\s*\\begin\{(\w+\*?)\})
   captures:
     '1':
