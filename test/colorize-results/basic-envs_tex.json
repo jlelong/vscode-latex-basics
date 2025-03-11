@@ -569,75 +569,75 @@
 	},
 	{
 		"c": "  some markdown ",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown"
 	},
 	{
 		"c": "_",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.markdown"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.markdown"
 	},
 	{
 		"c": "code",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown markup.italic.markdown"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown markup.italic.markdown"
 	},
 	{
 		"c": "_",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.markdown"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.markdown"
 	},
 	{
 		"c": "  with a ",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "LaTeX",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown support.function.general.tex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown support.function.general.tex"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown meta.space-after-command.latex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown meta.space-after-command.latex"
 	},
 	{
 		"c": "equation ",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown"
 	},
 	{
 		"c": "$",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
 	},
 	{
 		"c": "1",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
 	},
 	{
 		"c": " ",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex"
 	},
 	{
 		"c": "+",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
 	},
 	{
 		"c": "2",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
 	},
 	{
 		"c": " = ",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex"
 	},
 	{
 		"c": "3",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex constant.numeric.math.tex"
 	},
 	{
 		"c": "$",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
 	},
 	{
 		"c": ".",
-		"t": "text.tex.latex meta.embedded.internal_only_markdown_latex_combined meta.paragraph.markdown"
+		"t": "text.tex.latex meta.embedded.markdown_latex_combined meta.paragraph.markdown"
 	},
 	{
 		"c": "\\",
