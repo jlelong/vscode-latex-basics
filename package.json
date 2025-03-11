@@ -128,11 +128,13 @@
       },
       {
         "id": "cpp_embedded_latex",
-        "configuration": "./languages/latex-cpp-embedded-language-configuration.json"
+        "configuration": "./languages/latex-cpp-embedded-language-configuration.json",
+        "aliases": []
       },
       {
         "id": "markdown_latex_combined",
-        "configuration": "./languages/markdown-latex-combined-language-configuration.json"
+        "configuration": "./languages/markdown-latex-combined-language-configuration.json",
+        "aliases": []
       }
     ],
     "grammars": [
