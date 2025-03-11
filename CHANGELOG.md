@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.13.0] 2025-03-11
+
+### Changed
+
+- (#103) Revert #101 and explicitly hide internal languages from the language picker.
+
+### Fixed
+
+- (#102) Accept environments with unicode names
+
 ## [1.12.0] 2025-02-22
 
 ### Changed
