@@ -220,8 +220,8 @@
                             "include": "#multiline-optional-arg-no-highlight"
                         },
                         {
-                            "begin": "^(?=\\\\s*)",
-                            "end": "^\\s*(?=\\\\endsong)",
+                            "begin": "(?:\\G|(?<=\\]|\\}))(\\s*)",
+                            "end": "\\s*(?=\\\\endsong)",
                             "contentName": "meta.data.environment.song.latex",
                             "name": "meta.function.environment.song.latex",
                             "patterns": [
