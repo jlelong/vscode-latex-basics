@@ -1,0 +1,986 @@
+[
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.songs.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.environment.songs.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.songs.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "songs",
+		"t": "text.tex.latex meta.function.environment.songs.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.songs.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.songs.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.songs.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "beginsong",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.parameter.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Doxology",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.parameter.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.parameter.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "by={Louis Bourgeois and Thomas Ken},",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "  sr={Revelation 5:13},",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "  cr={Public domain.}",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "beginverse",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise God, ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "from ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Whom ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Bm]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "all ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "bless",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ings ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "flow;",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise Him, all ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "crea",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "tures ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[C]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "here ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "be",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "low;",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Him ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "a",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "bove, ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ye ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[C]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "heav’n",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ly ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "host;",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise Fa",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ther, ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Son, ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Am]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "and ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G/B G/C]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Ho",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ly ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Ghost.",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[C]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "A",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "men.",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "endverse",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "endsong",
+		"t": "text.tex.latex meta.function.environment.songs.latex meta.data.environment.songs.latex meta.function.environment.song.latex support.function.be.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.songs.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.environment.songs.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.songs.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "songs",
+		"t": "text.tex.latex meta.function.environment.songs.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.songs.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.song.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "beginsong",
+		"t": "text.tex.latex meta.function.environment.song.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Doxology",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": " [",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "  by={Louis Bourgeois and Thomas Ken},",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "  sr={Revelation 5:13},",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "  cr={Public domain.}",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.optional.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "beginverse",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise God, ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "from ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Whom ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Bm]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "all ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "bless",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ings ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "flow;",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise Him, all ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "crea",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "tures ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[C]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "here ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "be",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "low;",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Him ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "a",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "bove, ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ye ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[C]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "heav’n",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ly ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "host;",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise Fa",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ther, ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Son, ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Am]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "and ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G/B G/C]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Ho",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ly ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Ghost.",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[C]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "A",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "men.",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "endverse",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.environment.song.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.song.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "endsong",
+		"t": "text.tex.latex meta.function.environment.song.latex support.function.be.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.song.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "beginsong",
+		"t": "text.tex.latex meta.function.environment.song.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Doxology",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.parameter.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "beginverse",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise God, ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "from ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Whom ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Bm]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "all ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "bless",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ings ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "flow;",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise Him, all ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "crea",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "tures ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[C]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "here ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "be",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "low;",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Him ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "a",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "bove, ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ye ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[C]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "heav’n",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ly ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "host;",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Praise Fa",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Em]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ther, ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Son, ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[Am]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "and ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G/B G/C]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Ho",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[D]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "ly ",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "Ghost.",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[C]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "A",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\[G]",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex meta.chord.block.latex support.class.chord.block.environment.latex"
+	},
+	{
+		"c": "men.",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "endverse",
+		"t": "text.tex.latex meta.function.environment.song.latex meta.data.environment.song.latex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.environment.song.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.song.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "endsong",
+		"t": "text.tex.latex meta.function.environment.song.latex support.function.be.latex"
+	}
+]

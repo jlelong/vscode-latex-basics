@@ -64,7 +64,7 @@ patterns:
   patterns:
   - include: text.tex#braces
   - include: $self
-- begin: ((?:\s*)\\begin\{songs\}\{.*\})
+- begin: (\s*\\begin\{songs\}\{.*\})
   captures:
     '1':
       patterns:
@@ -73,14 +73,28 @@ patterns:
   end: (\\end\{songs\}(?:\s*\n)?)
   name: meta.function.environment.songs.latex
   patterns:
-  - begin: \\\[
-    end: \]
-    name: meta.chord.block.latex support.class.chord.block.environment.latex
+  - include: text.tex.latex#songs-chords
+- comment: This scope applies songs-environment coloring between \\beginsong and \\endsong. Useful in separate files without \\begin{songs}.
+  begin: \s*((\\)beginsong)(?=\{)
+  captures:
+    '1':
+      name: support.function.be.latex
+    '2':
+      name: punctuation.definition.function.latex
+    '3':
+      name: punctuation.definition.arguments.begin.latex
+    '4':
+      name: punctuation.definition.arguments.end.latex
+  end: ((\\)endsong)(?:\s*\n)?
+  name: meta.function.environment.song.latex
+  patterns:
+  - include: '#multiline-arg-no-highlight'
+  - include: '#multiline-optional-arg-no-highlight'
+  - begin: (?:\G|(?<=\]|\}))\s*
+    end: \s*(?=\\endsong)
+    contentName: meta.data.environment.song.latex
     patterns:
-    - include: $self
-  - match: \^
-    name: meta.chord.block.latex support.class.chord.block.environment.latex
-  - include: $self
+    - include: text.tex.latex#songs-chords
 - begin: (?:^\s*)?\\begin\{(lstlisting|minted|pyglist)\}(?=\[|\{)
   captures:
     '0':
@@ -883,7 +897,7 @@ repository:
     patterns:
     - include: $self
   multiline-optional-arg-no-highlight:
-    begin: \G\[
+    begin: (?:\G|(?<=\}))\s*\[
     beginCaptures:
       '0':
         name: punctuation.definition.arguments.optional.begin.latex
@@ -892,6 +906,18 @@ repository:
       '0':
         name: punctuation.definition.arguments.optional.end.latex
     name: meta.parameter.optional.latex
+    patterns:
+    - include: $self
+  multiline-arg-no-highlight:
+    begin: \G\{
+    beginCaptures:
+      '0':
+        name: punctuation.definition.arguments.begin.latex
+    end: \}
+    endCaptures:
+      '0':
+        name: punctuation.definition.arguments.end.latex
+    name: meta.parameter.latex
     patterns:
     - include: $self
   optional-arg-bracket:
@@ -943,4 +969,14 @@ repository:
           name: punctuation.definition.arguments.optional.end.latex
       match: (\()[^\(]*?(\))
       name: meta.parameter.optional.latex
+  songs-chords:
+    patterns:
+    - begin: \\\[
+      end: \]
+      name: meta.chord.block.latex support.class.chord.block.environment.latex
+      patterns:
+      - include: $self
+    - match: \^
+      name: meta.chord.block.latex support.class.chord.block.environment.latex
+    - include: $self
 scopeName: text.tex.latex
