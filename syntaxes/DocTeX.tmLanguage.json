@@ -2046,6 +2046,55 @@
                     ]
                 },
                 {
+                    "begin": "((\\\\)cacheMeCode)(?=\\[|\\{)",
+                    "end": "(?<=\\})",
+                    "beginCaptures": {
+                        "1": {
+                            "name": "support.function.verb.latex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.function.latex"
+                        }
+                    },
+                    "patterns": [
+                        {
+                            "begin": "\\G(\\[)",
+                            "beginCaptures": {
+                                "1": {
+                                    "name": "punctuation.definition.arguments.optional.begin.latex"
+                                }
+                            },
+                            "end": "\\]",
+                            "endCaptures": {
+                                "0": {
+                                    "name": "punctuation.definition.arguments.optional.end.latex"
+                                }
+                            },
+                            "name": "meta.parameter.optional.latex"
+                        },
+                        {
+                            "begin": "(?<=\\])(\\{)",
+                            "end": "\\}",
+                            "beginCaptures": {
+                                "0": {
+                                    "name": "punctuation.definition.arguments.begin.latex"
+                                }
+                            },
+                            "endCaptures": {
+                                "0": {
+                                    "name": "punctuation.definition.arguments.end.latex"
+                                }
+                            },
+                            "patterns": [
+                                {
+                                    "include": "text.tex#braces"
+                                }
+                            ],
+                            "name": "meta.embedded.block.generic.latex"
+                        }
+                    ]
+                },
+                {
                     "begin": "((\\\\)addplot)(?:\\+?)((?:\\[[^\\[]*\\]))*\\s*(gnuplot)\\s*((?:\\[[^\\[]*\\]))*\\s*(\\{)",
                     "captures": {
                         "1": {
