@@ -151,6 +151,7 @@
                 }
             },
             "end": "((\\\\)endsong)(?:\\s*\\n)?",
+            "name": "meta.function.environment.song.latex",
             "patterns": [
                 {
                     "include": "#multiline-arg-no-highlight"
@@ -162,7 +163,6 @@
                     "begin": "(?:\\G|(?<=\\]|\\}))(\\s*)",
                     "end": "\\s*(?=\\\\endsong)",
                     "contentName": "meta.data.environment.song.latex",
-                    "name": "meta.function.environment.song.latex",
                     "patterns": [
                         {
                             "include": "text.tex.latex#songs-chords"
