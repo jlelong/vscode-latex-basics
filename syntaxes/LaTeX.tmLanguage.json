@@ -114,7 +114,7 @@
             ]
         },
         {
-            "begin": "((?:\\s*)\\\\begin\\{songs\\}\\{.*\\})",
+            "begin": "(\\s*\\\\begin\\{songs\\}\\{.*\\})",
             "captures": {
                 "1": {
                     "patterns": [
@@ -135,7 +135,7 @@
         },
         {
             "comment": "This scope applies songs-environment coloring between \\\\beginsong and \\\\endsong. Useful in separate files without \\\\begin{songs}.",
-            "begin": "((?:\\s*)(\\\\)beginsong)(?=\\{)",
+            "begin": "\\s*((\\\\)beginsong)(?=\\{)",
             "captures": {
                 "1": {
                     "name": "support.function.be.latex"
@@ -160,7 +160,7 @@
                     "include": "#multiline-optional-arg-no-highlight"
                 },
                 {
-                    "begin": "(?:\\G|(?<=\\]|\\}))(\\s*)",
+                    "begin": "(?:\\G|(?<=\\]|\\}))\\s*",
                     "end": "\\s*(?=\\\\endsong)",
                     "contentName": "meta.data.environment.song.latex",
                     "patterns": [
