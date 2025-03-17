@@ -8,26 +8,26 @@ const syntaxesSrcDir = './src'
 const mintedEnvs = ['minted', 'lstlisting', 'pyglist']
 const robustExternalizeEnvs = ['CacheMeCode', 'PlaceholderPathFromCode\\*?', 'PlaceholderFromCode\\*?', 'SetPlaceholderCode\\*?']
 const mintedLanguages = [
-    {language: ['asy', 'asymptote'], source: 'source.asy'},
-    {language: ['bash'], source: 'source.shell'},
-    {language: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
-    {language: ['css'], source: 'source.css'},
-    {language: ['gnuplot'], source: 'source.gnuplot'},
-    {language: ['hs', 'haskell'], source: 'source.haskell'},
-    {language: ['html'], source: 'text.html.basic', contentName: 'text.html'},
-    {language: ['java'], source: 'source.java'},
-    {language: ['jl', 'julia'], source: 'source.julia'},
-    {language: ['js', 'javascript'], source: 'source.js'},
-    {language: ['lua'], source: 'source.lua'},
-    {language: ['py', 'python', 'sage'], source: 'source.python'},
-    {language: ['rb', 'ruby'], source: 'source.ruby'},
-    {language: ['rust'], source: 'source.rust'},
-    {language: ['ts', 'typescript'], source: 'source.ts'},
-    {language: ['xml'], source: 'text.xml'},
-    {language: ['yaml'], source: 'source.yaml'},
+    {name: ['asy', 'asymptote'], source: 'source.asy'},
+    {name: ['bash'], source: 'source.shell'},
+    {name: ['c', 'cpp'], source: 'source.cpp.embedded.latex'},
+    {name: ['css'], source: 'source.css'},
+    {name: ['gnuplot'], source: 'source.gnuplot'},
+    {name: ['hs', 'haskell'], source: 'source.haskell'},
+    {name: ['html'], source: 'text.html.basic', contentName: 'text.html'},
+    {name: ['java'], source: 'source.java'},
+    {name: ['jl', 'julia'], source: 'source.julia'},
+    {name: ['js', 'javascript'], source: 'source.js'},
+    {name: ['lua'], source: 'source.lua'},
+    {name: ['py', 'python', 'sage'], source: 'source.python'},
+    {name: ['rb', 'ruby'], source: 'source.ruby'},
+    {name: ['rust'], source: 'source.rust'},
+    {name: ['ts', 'typescript'], source: 'source.ts'},
+    {name: ['xml'], source: 'text.xml'},
+    {name: ['yaml'], source: 'source.yaml'},
 ]
 const robustExternalizeLanguages = mintedLanguages.concat(
-    {language: ['tikz', 'tikzpicture'], source: 'text.tex.latex'}
+    {name: ['tikz', 'tikzpicture'], source: 'text.tex.latex'}
 )
 
 const codeLanguages = [
@@ -77,7 +77,7 @@ function escapeBackSlash(text) {
 }
 
 /**
- * Generate the json rules for a code block:
+ * Generate the yaml rules for a code block:
  *  From pythontex `\begin{<env>}[<session>][<fancyvrb setting>]`
  *  From minted `\begin{<env>}[<option list>]{<option list>}`
  * We match \begin{<env>}[<session>][<option list>]{<option list>} where the
@@ -90,7 +90,7 @@ function generateCodeBlock(envNames, source, contentName=undefined) {
     if (contentName === undefined) {
         contentName = source
     }
-    var envNameRegex = '(?:' + envNames.join('|') + ')'
+    const envNameRegex = '(?:' + envNames.join('|') + ')'
     const beginRule = `\\s*\\\\begin\\{${envNameRegex}\\*?\\}(?:\\[[a-zA-Z0-9_-]*\\])?(?=\\[|\\{|\\s*$)`
     const endRule = `\\s*\\\\end\\{${envNameRegex}\\*?\\}`
 
@@ -121,7 +121,7 @@ function generateCodeBlock(envNames, source, contentName=undefined) {
 }
 
 /**
- * Generate the json rules for a minted type block
+ * Generate the yaml rules for a minted type block
  * @param {string[]} envNames Typically minted
  * @param {string[]} language A list of languages used to build an alternation
  * @param {string} source The source language to include
@@ -131,8 +131,8 @@ function generateMintedBlock(envNames, language, source, contentName=undefined) 
     if (contentName === undefined) {
         contentName = source
     }
-    var languageRegex = '(?:' + language.join('|') + ')'
-    var envNameRegex = '(?:' + envNames.join('|') + ')'
+    const languageRegex = '(?:' + language.join('|') + ')'
+    const envNameRegex = '(?:' + envNames.join('|') + ')'
 
     const yamlCode = `- begin: (?:\\G|(?<=\\]))(\\{)(${languageRegex})(\\})
   beginCaptures:
@@ -151,18 +151,18 @@ function generateMintedBlock(envNames, language, source, contentName=undefined) 
 }
 
 /**
- * Generate the json rules for a robust externalize type block
+ * Generate the yaml rules for a robust externalize type block
  * @param {string[]} envNames Typically CacheMeCode
  * @param {string[]} language A list of languages used to build an alternation
  * @param {string} source The source language to include
  * @param {string} contentName The scope to assign to the content. If undefined, use {@link source}
  */
-function generateRobustExternalizeBlock(envNames, language, source, contentName=undefined) {
+function generateRobustExternalizeEnvsBlock(envNames, language, source, contentName=undefined) {
     if (contentName === undefined) {
         contentName = source
     }
-    var languageRegex = '(?i:' + language.join('|') + ')'
-    var envNameRegex = '(?:RobExt)?' + '(?:' + envNames.join('|') + ')'
+    const languageRegex = '(?i:' + language.join('|') + ')'
+    const envNameRegex = '(?:RobExt)?' + '(?:' + envNames.join('|') + ')'
 
     const yamlCode = `- begin: \\G(\\{)(?:__|[a-z\\s]*)${languageRegex}
   end: (?=\\\\end\\{${envNameRegex}\\})
@@ -187,16 +187,54 @@ function generateRobustExternalizeBlock(envNames, language, source, contentName=
     return escapeBackSlash(yamlCode)
 }
 
+/**
+ * Generate the yaml rules for the \cacheMeCode macro
+ * @param {string[]} language A list of languages used to build an alternation
+ * @param {string} source The source language to include
+ * @param {string} contentName The scope to assign to the content. If undefined, use {@link source}
+ */
+function generateCacheMeCodeMacroBlock(language, source, contentName=undefined) {
+    if (contentName === undefined) {
+        contentName = source
+    }
+    const languageRegex = '(?i:' + language.join('|') + ')'
+
+    const yamlCode = `- begin: ((\\\\)cacheMeCode)(?=\\[${languageRegex}\\b|\\{)
+  end: (?<=\\})
+  beginCaptures:
+    '1':
+      name: support.function.verb.latex
+    '2':
+      name: punctuation.definition.function.latex
+  patterns:
+  - include: text.tex.latex#multiline-optional-arg-no-highlight
+  - begin: (?<=\\])(\\{)
+    end: \\}
+    beginCaptures:
+      '0':
+        name: punctuation.definition.arguments.begin.latex
+    endCaptures:
+      '0':
+        name: punctuation.definition.arguments.end.latex
+    contentName: ${contentName}
+    patterns:
+    - include: ${source}`
+
+    return escapeBackSlash(yamlCode)
+}
+
 function buildLatexBlocks() {
-    var mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.language, language.source, language?.contentName)).join('\n')
-    var codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join('\n')
-    var robustExternalizeDefinitions = robustExternalizeLanguages.map(language => generateRobustExternalizeBlock(robustExternalizeEnvs, language.language, language.source, language?.contentName)).join('\n')
+    const mintedDefinitions = mintedLanguages.map(language => generateMintedBlock(mintedEnvs, language.name, language.source, language?.contentName)).join('\n')
+    const codeDefinitions = codeLanguages.map(language => generateCodeBlock(language.name, language.source, language?.contentName)).join('\n')
+    const cacheMeCodeMacroDefinitions = robustExternalizeLanguages.map(language => generateCacheMeCodeMacroBlock(language.name, language.source, language?.contentName)).join('\n')
+    const robustExternalizeDefinitions = robustExternalizeLanguages.map(language => generateRobustExternalizeEnvsBlock(robustExternalizeEnvs, language.name, language.source, language?.contentName)).join('\n')
 
     try {
         let yamlGrammar = fs.readFileSync(path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.base.yaml'), {encoding: 'utf-8'})
         yamlGrammar = yamlGrammar.replace(/^\s{2}- includeRobustExternalizeBlocks: ''/m, indent(2, robustExternalizeDefinitions))
         yamlGrammar = yamlGrammar.replace(/^- includeCodeBlocks: ''/m, codeDefinitions)
         yamlGrammar = yamlGrammar.replace(/^\s{2}- includeMintedblocks: ''/m, indent(2, mintedDefinitions))
+        yamlGrammar = yamlGrammar.replace(/^- includeCacheMeCodeMacroBlock: ''/m, cacheMeCodeMacroDefinitions)
         const latexGrammar = yaml.load(yamlGrammar)
         return latexGrammar
     } catch (error) {
