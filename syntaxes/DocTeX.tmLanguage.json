@@ -3027,7 +3027,7 @@
                     "name": "meta.function.verb.latex"
                 },
                 {
-                    "begin": "((\\\\)(?:directlua|luadirect))(\\{)",
+                    "begin": "((\\\\)(?:directlua|luadirect|luaexec))(\\{)",
                     "beginCaptures": {
                         "1": {
                             "name": "support.function.verb.latex"
