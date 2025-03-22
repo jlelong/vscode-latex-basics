@@ -1,0 +1,275 @@
+% \iffalse meta-comment
+%
+% Copyright 1999-2024 Johannes L. Braams.  All rights reserved.
+%
+% This file is part of the subeqn package.
+% ----------------------------------------
+%
+% It may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3c
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3c or later is part of all distributions of LaTeX
+% version 2008 or later.
+%
+% This work has the LPPL maintenance status "maintained".
+%
+% The Current Maintainer of this work is Johannes Braams.
+%
+% The list of all files belonging to the supertabular package is
+% given in the file `MANIFEST.
+%
+% The list of derived (unpacked) files belonging to the distribution
+% and covered by LPPL is defined by the unpacking scripts (with
+% extension .ins) which are part of the distribution.
+% \fi
+%
+% \CheckSum{84}
+% \iffalse
+% Copyright (C) 1999-2024
+%     Donald Arsenau at reg.triumf.ca,
+%     Johannes Braams texniek at texniek.nl
+%
+%<*dtx>
+\ProvidesFile{subeqn.dtx}
+%</dtx>
+%<package>\NeedsTeXFormat{LaTeX2e}[1998/06/01]
+%<package>\ProvidesPackage{subeqn}
+%<sample>\ProvidesFile{subeqn-sample.tex}
+%<driver>\ProvidesFile{subeqn.drv}
+%\ProvidesFile{subeqn.dtx}
+              [2024/07/21 v2.0c subnumbering of equations]
+%<*driver>
+\documentclass{ltxdoc}
+\begin{document}
+\pagestyle{myheadings}
+\providecommand{\Lenv}[1]{\textsf{#1}}
+\providecommand{\Lopt}[1]{\textsf{#1}}
+\providecommand{\pkg}[1]{\texttt{#1}}
+\providecommand{\file}[1]{\texttt{#1}}
+\DocInput{subeqn.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+%  \GetFileInfo{subeqn.dtx}
+%  \title{Subnumbering of equations\thanks{This file
+%        has version number \fileversion, last
+%        revised \filedate.}}
+%  \author{Donald Arsenau \and Johannes Braams}
+%  \date{\filedate}
+%  \maketitle
+%
+% \markboth
+%      {subeqn package version \fileversion\space as of \filedate}
+%      {subeqn package version \fileversion\space as of \filedate}
+%
+%  \section{Introduction}
+%
+%    Sometimes it is necessary to be able to refer to subexpressions
+%    of an equation. In order to do that these subexpressions should
+%    be numbered. In standard \LaTeX\ there is no provision for
+%    this. To solve this problem Stephen Gildea once wrote
+%    \file{subeqn.sty} for \LaTeX$\:$2.09; Donald Arsenau rewrote the
+%    macros and Johannes Braams made them available for \LaTeXe.
+%
+%    Note that this package is \emph{not} compatible with the package
+%    \pkg{subeqnarray}, written by Johannes Braams.
+%
+%    This package can be used together with the \LaTeX\ options
+%    \Lopt{leqno} and \Lopt{fleqn}.
+%
+%  \section{Available environments}
+%
+% \DescribeEnv{subeqations} Inside the \Lenv{subeqations} environment
+%    \LaTeX's equation environments such as \Lenv{equation} and
+%    \Lenv{eqnarray} are numbered as subexpressions. At the same time
+%    the number of the (main) equation is kept the same.
+%
+% \DescribeEnv{subeqnarray} |\begin{subeqnarray}| works like
+%    |\begin{subequations}||\begin{eqnarray}|, but saves typing.  A
+%    |\label| command given at the very beginning of the first entry
+%    defines a |label| for the overall equation number, as if you had
+%    typed |\begin{subequations}||\label{xxx}||\begin{eqnarray}|.
+%
+%  \section{Available commands}
+%
+% \DescribeMacro{\thesubequation} The command |\thesubequation|
+%    controls the labelling of the subexpressions of an equation. You
+%    can change the labelling by redefining this command, but the
+%    names of the counters may be confusing: The sub-number is given
+%    by counter \texttt{equation}, while the overall equation number
+%    is given by \texttt{mainequation}.
+%
+%    There are two ways to reference the overall equation number:
+%    through its value, as in |\Roman{mainequation}|, or through
+%    |\themainequation|, which gives the text of the normal
+%    |\theequation|. Refer to the local sub-number through the value
+%    of the \texttt{equation} counter, as in |\alph{equation}|.
+%    The default numbering is like 13c, given by:
+%\begin{verbatim}
+%\newcommand*{\thesubequation}{\themainequation\alph{equation}}
+%\end{verbatim}
+%
+%    Some alternatives:\\
+%    A number such as 13.C is achieved by
+%\begin{verbatim}
+%    \newcommand*{\thesubequation}{\themainequation.\Alph{equation}}
+%\end{verbatim}
+%    A number such as 13-iii is achieved by
+%\begin{verbatim}
+%    \newcommand*{\thesubequation}{\themainequation-\roman{equation}}
+%    \newcommand*{\thesubequation}{\themainequation.\Alph{equation}}
+%\end{verbatim}
+%    When the document class which is used has declared  
+%\begin{verbatim}
+%    \renewcommand{\@eqnnum}{\theequation} 
+%    \renewcommand{\theequation}{(\arabic{equation})}
+%\end{verbatim}
+% which puts parentheses around \emph{all} equation numbers, including
+% those produced by the |\ref| command, you can use:
+%\begin{verbatim}
+%\newcommand*{\thesubequation}{(\arabic{mainequation}\alph{equation})}
+%\end{verbatim}
+%
+%  \StopEventually{}
+%
+%  \section{The implementation}
+%
+%    \begin{macrocode}
+%<*package>
+%    \end{macrocode}
+%
+%  \begin{environment}{subeqations}
+%    Within the \Lenv{subequations} the equation numbers consist of
+%    two parts. The first part is a representation of the current value
+%    of the \texttt{equation} counter when the environment is entered,
+%    ie the number of the equation; the second part indicates the
+%    number of the subexpression of the equation.
+%    \begin{macrocode}
+\newenvironment{subequations}{%
+%    \end{macrocode}
+%    First we update the \texttt{equation} counter,
+%    \begin{macrocode}
+  \refstepcounter{equation}%
+%    \end{macrocode}
+%    then we save its current value in |\c@mainequation| and define
+%    |\themainequation| to be the current representation of the
+%    \texttt{equation} counter.
+%    \begin{macrocode}
+  \mathchardef\c@mainequation\c@equation
+  \protected@edef\themainequation{\theequation}%
+%    \end{macrocode}
+%    Then we change the representation of the \texttt{equation}
+%    counter to represent the subexpression number. Finally we set the
+%    \texttt{equation} counter to zero as we use it for counting the
+%    subexpressions. 
+%    \begin{macrocode}
+  \let\theequation\thesubequation
+  \global\c@equation\z@
+  }{%
+%    \end{macrocode}
+%    When the environment is finished we restore the value of the
+%    \texttt{equation} counter.
+%    \begin{macrocode}
+  \global\c@equation\c@mainequation
+  \global\@ignoretrue
+  }
+%    \end{macrocode}
+%  \end{environment}
+%
+%  \begin{macro}{\thesubequation}
+%    By default the subexpressions will be numbered with lower case
+%    letters. The representation of the \texttt{equation} counter also
+%    includes the saved value of the \texttt{equation} counter. This
+%    can be changed by redefining this command.
+%    \begin{macrocode}
+\newcommand{\thesubequation}{\themainequation\alph{equation}}
+%    \end{macrocode}
+%  \end{macro}
+%
+%  \begin{environment}{subeqnarray}
+%    
+%    \begin{macrocode}
+\newenvironment{subeqnarray}{%
+  \subequations
+  \@ifnextchar\label{\@lab@subeqnarray}{\eqnarray}
+  }{%
+  \endeqnarray\endsubequations
+  }
+%    \end{macrocode}
+%  \end{environment}
+%
+%  \begin{macro}{\@lab@subeqnarray}
+%    This macro picks up the |\label| command and its argument and
+%    re-inserts it \emph{before} starting the \Lenv{eqnarray}
+%    environment. 
+%    \begin{macrocode}
+\newcommand*{\@lab@subeqnarray}[2]{#1{#2}\eqnarray}
+%    \end{macrocode}
+%  \end{macro}
+%
+%    \begin{macrocode}
+%</package>
+%    \end{macrocode}
+%
+% \section{An example of the use of this package}
+%
+%    When you run the following document through \LaTeX\ you will see
+%    the differene between the \texttt{subeqnarray} and
+%    \texttt{eqnarray} environments.
+%    \begin{macrocode}
+%<*sample>
+\documentclass{article}
+\usepackage{subeqn}
+
+\begin{document}
+\title{Sample sub-equations}
+\author{Johannes L. Braams}
+\date{\today}
+\maketitle
+
+\noindent
+This is an example of the use of the \texttt{subeqations}
+package. First we have a normal \textsf{equation} environment.
+\begin{equation}
+  \label{a}
+  a^2 + b^2 = c^2
+\end{equation}
+Now we start sub-numbering.
+\begin{subequations}
+  \label{b}
+  \begin{equation}
+    \label{b1}
+    d^2 + e^2 = f^2
+  \end{equation}
+  We can refer to equation~\ref{a}, \ref{b} and~\ref{b1}.
+  \begin{equation}
+    \label{b2}
+    g^2 + h^2 = i^2
+  \end{equation}
+  This was equation~\ref{b2}.
+  \begin{eqnarray}
+    \label{c}
+    x &=& y+z\label{c1}\\
+    u &=& v+w\label{c2}
+  \end{eqnarray}
+  This was expression~\ref{c}, consisting of parts~\ref{c1}
+  and~\ref{c2}. 
+\end{subequations}
+
+\noindent
+Now lets start a \textsf{subeqnarray} environment.
+\begin{subeqnarray}
+  \label{d}
+  x &=& y+z\label{d1}\\
+  u &=& v+w\label{d2}
+\end{subeqnarray}
+This was equation~\ref{d}, with parts~\ref{d1} and~\ref{d2}.  
+\end{document}
+%</sample>
+%    \end{macrocode}
+%
+% \Finale
+\endinput

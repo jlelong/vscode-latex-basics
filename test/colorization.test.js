@@ -68,7 +68,7 @@ function hasThemeChange(d, p) {
 suite('colorization', () => {
     let extensionColorizeFixturePath = join(__dirname, 'colorize-fixtures')
     if (fs.existsSync(extensionColorizeFixturePath)) {
-        let fixturesFiles = fs.readdirSync(extensionColorizeFixturePath).filter(f => f.endsWith('.tex') || f.endsWith('.bib') || f.endsWith('.md'))
+        let fixturesFiles = fs.readdirSync(extensionColorizeFixturePath).filter(f => f.endsWith('.tex') || f.endsWith('.bib') || f.endsWith('.md') || f.endsWith('.dtx'))
         fixturesFiles.forEach(fixturesFile => {
             // define a test for each fixture
             test(fixturesFile, (done) => {
