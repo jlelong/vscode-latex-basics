@@ -30,8 +30,8 @@ function assertUnchangedTokens(testFixurePath, done) {
                     assert.deepEqual(data, previousData)
                 } catch (e) {
                     // fs.writeFileSync(resultPath, JSON.stringify(data, null, '\t'), { flag: 'w' })
-                    if (Array.isArray(data) && Array.isArray(previousData) && data.length === previousData.length) {
-                        for (let i = 0; i < data.length; i++) {
+                    if (Array.isArray(data) && Array.isArray(previousData)) {
+                        for (let i = 0; i < Math.min(data.length, previousData.length); i++) {
                             let d = data[i]
                             let p = previousData[i]
                             if (d.c !== p.c || p.t !== d.t) {
@@ -68,7 +68,7 @@ function hasThemeChange(d, p) {
 suite('colorization', () => {
     let extensionColorizeFixturePath = join(__dirname, 'colorize-fixtures')
     if (fs.existsSync(extensionColorizeFixturePath)) {
-        let fixturesFiles = fs.readdirSync(extensionColorizeFixturePath).filter(f => f.endsWith('.tex') || f.endsWith('.bib') || f.endsWith('.md'))
+        let fixturesFiles = fs.readdirSync(extensionColorizeFixturePath).filter(f => f.endsWith('.tex') || f.endsWith('.bib') || f.endsWith('.md') || f.endsWith('.dtx'))
         fixturesFiles.forEach(fixturesFile => {
             // define a test for each fixture
             test(fixturesFile, (done) => {

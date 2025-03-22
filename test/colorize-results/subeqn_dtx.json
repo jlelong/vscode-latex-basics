@@ -1,0 +1,5130 @@
+[
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.doctex keyword.control.tex"
+	},
+	{
+		"c": " meta-comment",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " Copyright 1999-2024 Johannes L. Braams.  All rights reserved.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " This file is part of the subeqn package.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ----------------------------------------",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " It may be distributed and/or modified under the",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " conditions of the LaTeX Project Public License, either version 1.3c",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " of this license or (at your option) any later version.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " The latest version of this license is in",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "   http://www.latex-project.org/lppl.txt",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " and version 1.3c or later is part of all distributions of LaTeX",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " version 2008 or later.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " This work has the LPPL maintenance status ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "maintained",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " The Current Maintainer of this work is Johannes Braams.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " The list of all files belonging to the supertabular package is",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " given in the file `MANIFEST.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " The list of derived (unpacked) files belonging to the distribution",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " and covered by LPPL is defined by the unpacking scripts (with",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " extension .ins) which are part of the distribution.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.doctex keyword.control.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "CheckSum",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{84}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.doctex keyword.control.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " Copyright (C) 1999-2024",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "     Donald Arsenau at reg.triumf.ca,",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "     Johannes Braams texniek at texniek.nl",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%<*dtx>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "ProvidesFile",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqn.dtx}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%</dtx>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "%<package>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "NeedsTeXFormat",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{LaTeX2e}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "1998/06/01",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "%<package>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "ProvidesPackage",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqn}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%<sample>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "ProvidesFile",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqn-sample.tex}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%<driver>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "ProvidesFile",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqn.drv}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "ProvidesFile",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqn.dtx}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "              ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "2024/07/21 v2.0c subnumbering of equations",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "%<*driver>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "documentclass",
+		"t": "text.tex.doctex meta.preamble.latex keyword.control.preamble.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.preamble.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "ltxdoc",
+		"t": "text.tex.doctex meta.preamble.latex support.class.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.preamble.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.begin-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.doctex meta.function.begin-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "pagestyle",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{myheadings}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "providecommand",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Lenv",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "textsf",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{#1}}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "providecommand",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Lopt",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "textsf",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{#1}}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "providecommand",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "pkg",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "#1",
+		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "providecommand",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "file",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "#1",
+		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "DocInput",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqn.dtx}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.end-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.doctex meta.function.end-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%</driver>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.doctex keyword.control.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "GetFileInfo",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqn.dtx}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "title",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{Subnumbering of equations",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "thanks",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{This file",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "        has version number ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "fileversion",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": ", last",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "        revised ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "filedate",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": ".}}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "author",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{Donald Arsenau ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "and",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.space-after-command.latex"
+	},
+	{
+		"c": "Johannes Braams}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "date",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "filedate",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "maketitle",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "markboth",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "      {subeqn package version ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "fileversion",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "space",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.space-after-command.latex"
+	},
+	{
+		"c": "as of ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "filedate",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "      {subeqn package version ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "fileversion",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "space",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.space-after-command.latex"
+	},
+	{
+		"c": "as of ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "filedate",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "section",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Introduction",
+		"t": "text.tex.doctex meta.function.section.section.latex entity.name.section.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    Sometimes it is necessary to be able to refer to subexpressions",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    of an equation. In order to do that these subexpressions should",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    be numbered. In standard ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "LaTeX",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex constant.character.escape.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex constant.character.escape.tex"
+	},
+	{
+		"c": "there is no provision for",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    this. To solve this problem Stephen Gildea once wrote",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "file",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqn.sty} for ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "LaTeX",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex constant.character.escape.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex constant.character.escape.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+	},
+	{
+		"c": "2.09; Donald Arsenau rewrote the",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    macros and Johannes Braams made them available for ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "LaTeXe",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    Note that this package is ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.emph.latex support.function.emph.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "emph",
+		"t": "text.tex.doctex meta.function.emph.latex support.function.emph.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.emph.latex punctuation.definition.emph.begin.latex"
+	},
+	{
+		"c": "not",
+		"t": "text.tex.doctex meta.function.emph.latex markup.italic.emph.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.emph.latex punctuation.definition.emph.end.latex"
+	},
+	{
+		"c": " compatible with the package",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "pkg",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqnarray}, written by Johannes Braams.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    This package can be used together with the ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "LaTeX",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex constant.character.escape.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex constant.character.escape.tex"
+	},
+	{
+		"c": "options",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Lopt",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{leqno} and ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Lopt",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{fleqn}.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "section",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Available environments",
+		"t": "text.tex.doctex meta.function.section.section.latex entity.name.section.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "DescribeEnv",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqations} Inside the ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Lenv",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqations} environment",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "LaTeX",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "'s equation environments such as ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Lenv",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{equation} and",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Lenv",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{eqnarray} are numbered as subexpressions. At the same time",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    the number of the (main) equation is kept the same.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "DescribeEnv",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqnarray} ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\begin{subeqnarray}",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " works like",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\begin{subequations}",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "||",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\begin{eqnarray}",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ", but saves typing.  A",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\label",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " command given at the very beginning of the first entry",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    defines a ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " for the overall equation number, as if you had",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    typed ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\begin{subequations}",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "||",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\label{xxx}",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "||",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\begin{eqnarray}",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "section",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Available commands",
+		"t": "text.tex.doctex meta.function.section.section.latex entity.name.section.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "DescribeMacro",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "thesubequation",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "} The command ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\thesubequation",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    controls the labelling of the subexpressions of an equation. You",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    can change the labelling by redefining this command, but the",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    names of the counters may be confusing: The sub-number is given",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    by counter ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": ", while the overall equation number",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    is given by ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "mainequation",
+		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    There are two ways to reference the overall equation number:",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    through its value, as in ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\Roman{mainequation}",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ", or through",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\themainequation",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ", which gives the text of the normal",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\theequation",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ". Refer to the local sub-number through the value",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    of the ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": " counter, as in ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\alph{equation}",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    The default numbering is like 13c, given by:",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "verbatim",
+		"t": "text.tex.doctex meta.function.verbatim.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%\\newcommand*{\\thesubequation}{\\themainequation\\alph{equation}}",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "verbatim",
+		"t": "text.tex.doctex meta.function.verbatim.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    Some alternatives:",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\\\",
+		"t": "text.tex.doctex keyword.control.newline.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    A number such as 13.C is achieved by",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "verbatim",
+		"t": "text.tex.doctex meta.function.verbatim.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%    \\newcommand*{\\thesubequation}{\\themainequation.\\Alph{equation}}",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "verbatim",
+		"t": "text.tex.doctex meta.function.verbatim.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    A number such as 13-iii is achieved by",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "verbatim",
+		"t": "text.tex.doctex meta.function.verbatim.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%    \\newcommand*{\\thesubequation}{\\themainequation-\\roman{equation}}",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "%    \\newcommand*{\\thesubequation}{\\themainequation.\\Alph{equation}}",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "verbatim",
+		"t": "text.tex.doctex meta.function.verbatim.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    When the document class which is used has declared  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "verbatim",
+		"t": "text.tex.doctex meta.function.verbatim.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%    \\renewcommand{\\@eqnnum}{\\theequation} ",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "%    \\renewcommand{\\theequation}{(\\arabic{equation})}",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "verbatim",
+		"t": "text.tex.doctex meta.function.verbatim.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " which puts parentheses around ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.emph.latex support.function.emph.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "emph",
+		"t": "text.tex.doctex meta.function.emph.latex support.function.emph.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.emph.latex punctuation.definition.emph.begin.latex"
+	},
+	{
+		"c": "all",
+		"t": "text.tex.doctex meta.function.emph.latex markup.italic.emph.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.emph.latex punctuation.definition.emph.end.latex"
+	},
+	{
+		"c": " equation numbers, including",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " those produced by the ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\ref",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " command, you can use:",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "verbatim",
+		"t": "text.tex.doctex meta.function.verbatim.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%\\newcommand*{\\thesubequation}{(\\arabic{mainequation}\\alph{equation})}",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.verbatim.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "verbatim",
+		"t": "text.tex.doctex meta.function.verbatim.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.verbatim.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "StopEventually",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "section",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "The implementation",
+		"t": "text.tex.doctex meta.function.section.section.latex entity.name.section.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%<*package>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "environment",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{subeqations}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    Within the ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Lenv",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "{subequations} the equation numbers consist of",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    two parts. The first part is a representation of the current value",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    of the ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": " counter when the environment is entered,",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ie the number of the equation; the second part indicates the",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    number of the subexpression of the equation.",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "newenvironment",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "{subequations}{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    First we update the ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": " counter,",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "refstepcounter",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "{equation}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    then we save its current value in ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\c@mainequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " and define",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\themainequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " to be the current representation of the",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": " counter.",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "mathchardef",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "c@mainequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "c@equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "protected@edef",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "themainequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "theequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    Then we change the representation of the ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    counter to represent the subexpression number. Finally we set the",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": " counter to zero as we use it for counting the",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    subexpressions. ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "let",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "theequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "thesubequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "global",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "c@equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "z@",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "  }{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    When the environment is finished we restore the value of the",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": " counter.",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "global",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "c@equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "c@mainequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "global",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@ignoretrue",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "  }",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "environment",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "macro",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "thesubequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    By default the subexpressions will be numbered with lower case",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    letters. The representation of the ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": " counter also",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    includes the saved value of the ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": " counter. This",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    can be changed by redefining this command.",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "thesubequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "themainequation",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "alph",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "{equation}}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "macro",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "environment",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{subeqnarray}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "newenvironment",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "{subeqnarray}{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "subequations",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@ifnextchar",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "\\@",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex"
+	},
+	{
+		"c": "lab",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "@",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex"
+	},
+	{
+		"c": "subeqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "eqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "  }{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "endeqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "endsubequations",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "  }",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "environment",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "macro",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "@lab@subeqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    This macro picks up the ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " command and its argument and",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    re-inserts it ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.emph.latex support.function.emph.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "emph",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.emph.latex support.function.emph.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.emph.latex punctuation.definition.emph.begin.latex"
+	},
+	{
+		"c": "before",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.emph.latex markup.italic.emph.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.emph.latex punctuation.definition.emph.end.latex"
+	},
+	{
+		"c": " starting the ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Lenv",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "{eqnarray}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    environment. ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex"
+	},
+	{
+		"c": "*",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "@lab@subeqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "{#1{#2}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "eqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "macro",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%</package>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "section",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "An example of the use of this package",
+		"t": "text.tex.doctex meta.function.section.section.latex entity.name.section.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    When you run the following document through ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "LaTeX",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex constant.character.escape.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex constant.character.escape.tex"
+	},
+	{
+		"c": "you will see",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    the differene between the ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "subeqnarray",
+		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": " and",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "eqnarray",
+		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": " environments.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%<*sample>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "documentclass",
+		"t": "text.tex.doctex meta.preamble.latex keyword.control.preamble.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.preamble.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "article",
+		"t": "text.tex.doctex meta.preamble.latex support.class.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.preamble.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "usepackage",
+		"t": "text.tex.doctex meta.preamble.latex keyword.control.preamble.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.preamble.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "subeqn",
+		"t": "text.tex.doctex meta.preamble.latex support.class.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.preamble.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.begin-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.doctex meta.function.begin-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "title",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{Sample sub-equations}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "author",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{Johannes L. Braams}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "date",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "today",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "maketitle",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "noindent",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "This is an example of the use of the ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "subeqations",
+		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": "package. First we have a normal ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "textsf",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{equation} environment.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "a",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  a",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": " b",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+	},
+	{
+		"c": " = c",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "Now we start sub-numbering.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "subequations",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "b",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "b1",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "    d",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": " e",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+	},
+	{
+		"c": " = f",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  We can refer to equation~",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "a",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": ", ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "b",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": " and~",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "b1",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "b2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "    g",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": " h",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+	},
+	{
+		"c": " = i",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  This was equation~",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "b2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "eqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "c",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "    x ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "&",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "&",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
+	},
+	{
+		"c": " y",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "z",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "c1",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.newline.latex"
+	},
+	{
+		"c": "    u ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "&",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "&",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
+	},
+	{
+		"c": " v",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
+	},
+	{
+		"c": "w",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "c2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "eqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  This was expression~",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "c",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": ", consisting of parts~",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "c1",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  and~",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "c2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": ". ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "subequations",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "noindent",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "Now lets start a ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "textsf",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{subeqnarray} environment.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "subeqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "d",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  x &=& y+z",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "d1",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex keyword.control.newline.tex"
+	},
+	{
+		"c": "  u &=& v+w",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "d2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "subeqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "This was equation~",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "d",
+		"t": "text.tex.doctex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": ", with parts~",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "d1",
+		"t": "text.tex.doctex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": " and~",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "ref",
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "d2",
+		"t": "text.tex.doctex meta.reference.label.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": ".  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.end-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.doctex meta.function.end-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%</sample>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Finale",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "endinput",
+		"t": "text.tex.doctex support.function.general.tex"
+	}
+]

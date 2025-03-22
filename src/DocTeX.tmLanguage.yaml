@@ -1,13 +1,22 @@
 name: DocTeX
 patterns:
-- captures:
+- match: (?!\\)(\|)([^\|]*)(\|)
+  captures:
     '1':
       name: punctuation.definition.verb.latex
     '2':
       name: markup.raw.verb.latex
     '3':
       name: punctuation.definition.verb.latex
-  match: (\|)([^\|]*)(\|)
+  name: meta.function.verb.latex
+- match: (?!\\)(")([^"]*)(")
+  captures:
+    '1':
+      name: punctuation.definition.verb.latex
+    '2':
+      name: markup.raw.verb.latex
+    '3':
+      name: punctuation.definition.verb.latex
   name: meta.function.verb.latex
 - begin: ^(%)    (\\begin\{macrocode\})
   captures:

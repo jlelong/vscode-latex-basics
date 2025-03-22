@@ -1,0 +1,478 @@
+[
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " Some text",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+	},
+	{
+		"c": "a",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "b",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "c",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex comment.line.percentage.doctex"
+	},
+	{
+		"c": " x",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "y",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex punctuation.math.operator.tex"
+	},
+	{
+		"c": "z",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " Some text",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " In ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "macrocode",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ", text with ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " should be considered as comment, while text with ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "^^A",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " should not.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "def",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "some@command",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " Comments:",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "   some macro code ...}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "hello@a",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{xxx}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "   \\newcommand\\hello@b{yyy}",
+		"t": "text.tex.doctex comment.line.percentage.tex"
+	},
+	{
+		"c": "^^A ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "hello@c",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{zzz}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "abc",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " abc",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "^^A abc",
+		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "{abc",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " abc",
+		"t": "text.tex.doctex comment.line.percentage.tex"
+	},
+	{
+		"c": "^^A abc",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "abc",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " abc",
+		"t": "text.tex.doctex comment.line.percentage.tex"
+	},
+	{
+		"c": "^^A abc",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.begin.tex"
+	},
+	{
+		"c": "abc",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": " abc",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex comment.line.percentage.tex"
+	},
+	{
+		"c": "^^A abc",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex"
+	},
+	{
+		"c": "$",
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex punctuation.definition.string.end.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	}
+]
