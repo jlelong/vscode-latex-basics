@@ -186,6 +186,6 @@ repository:
       name: punctuation.math.end.bracket.round.tex
     - match: (([0-9]*[\.][0-9]+)|[0-9]+)
       name: constant.numeric.math.tex
-    - match: '[\+\*/_\^-]'
+    - match: '[\+\*/-]|(?:(?<!\^)\^(?!\^))|(?:(?<!\_)\_(?!\_))'
       name: punctuation.math.operator.tex
 scopeName: text.tex
