@@ -120,7 +120,23 @@
 		"t": "text.tex.doctex comment.line.percentage.doctex"
 	},
 	{
-		"c": " This work has the LPPL maintenance status \"maintained\".",
+		"c": " This work has the LPPL maintenance status ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "maintained",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ".",
 		"t": "text.tex.doctex"
 	},
 	{

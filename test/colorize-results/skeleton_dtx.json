@@ -428,7 +428,23 @@
 		"t": "text.tex.doctex comment.line.percentage.doctex"
 	},
 	{
-		"c": " Make \"",
+		"c": " Make ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " and ",
 		"t": "text.tex.doctex"
 	},
 	{
@@ -436,7 +452,7 @@
 		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
 	},
 	{
-		"c": "\" and ",
+		"c": "\"",
 		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
 	},
 	{
@@ -444,7 +460,7 @@
 		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
 	},
 	{
-		"c": "\"| be ",
+		"c": " be ",
 		"t": "text.tex.doctex"
 	},
 	{
@@ -512,15 +528,23 @@
 		"t": "text.tex.doctex support.function.general.tex"
 	},
 	{
-		"c": "{l3fp} documents an operation \"",
+		"c": "{l3fp} documents an operation ",
 		"t": "text.tex.doctex"
 	},
 	{
-		"c": "||",
+		"c": "\"",
 		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
 	},
 	{
-		"c": "\").",
+		"c": "||",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ").",
 		"t": "text.tex.doctex"
 	},
 	{
