@@ -1,78 +1,52 @@
 name: TeX
 patterns:
-- begin: (?<=^\s*)((\\)iffalse)(?!\s*[{}]\s*\\fi)
-  beginCaptures:
-    '1':
-      name: keyword.control.tex
-    '2':
-      name: punctuation.definition.keyword.tex
-  contentName: comment.line.percentage.tex
-  end: ((\\)(?:else|fi))
-  endCaptures:
-    '1':
-      name: keyword.control.tex
-    '2':
-      name: punctuation.definition.keyword.tex
-  patterns:
-  - include: '#comment'
-  - include: "#braces"
-  - include: '#conditionals'
-- match: (\\)(backmatter|csname|else|endcsname|fi|frontmatter|mainmatter|unless|if(case|cat|csname|defined|dim|eof|false|fontchar|hbox|hmode|inner|mmode|num|odd|true|vbox|vmode|void|x)?)(?![a-zA-Z@])
-  captures:
-    '1':
-      name: punctuation.definition.keyword.tex
-  name: keyword.control.tex
-- match: ((\\)catcode)`(?:\\)?.(=)(\d+)
-  captures:
-    '1':
-      name: keyword.control.catcode.tex
-    '2':
-      name: punctuation.definition.keyword.tex
-    '3':
-      name: punctuation.separator.key-value.tex
-    '4':
-      name: constant.numeric.category.tex
-  name: meta.catcode.tex
+- include: '#iffalse-block'
+- include: '#macro-control'
+- include: '#catcode'
 - include: '#comment'
 - match: '[\[\]]'
   name: punctuation.definition.brackets.tex
-- begin: (\$\$|\$)
-  beginCaptures:
-    '1':
-      name: punctuation.definition.string.begin.tex
-  end: (\1)
-  endCaptures:
-    '1':
-      name: punctuation.definition.string.end.tex
-  name: meta.math.block.tex support.class.math.block.tex
-  patterns:
-  - match: \\\$
-    name: constant.character.escape.tex
-  - include: '#math-content'
-  - include: $self
+- include: '#dollar-math'
 - match: \\\\
   name: keyword.control.newline.tex
-- match: (\\)_*[\p{Alphabetic}@]+(?:_[\p{Alphabetic}@]+)*:[NncVvoxefTFpwD]*
-  captures:
-    '1':
-      name: punctuation.definition.function.tex
-  name: support.class.general.latex3.tex
-- match: (\.)[\p{Alphabetic}@]+(?:_[\p{Alphabetic}@]+)*:[NncVvoxefTFpwD]*
-  captures:
-    '1':
-      name: punctuation.definition.function.tex
-  name: support.class.general.latex3.tex
-- match: (\\)(?:[,;]|(?:[\p{Alphabetic}@]+))
-  captures:
-    '1':
-      name: punctuation.definition.function.tex
-  name: support.function.general.tex
-- match: (\\)[^a-zA-Z@]
-  captures:
-    '1':
-      name: punctuation.definition.keyword.tex
-  name: constant.character.escape.tex
+- include: '#macro-general'
 repository:
+  catcode:
+    match: ((\\)catcode)`(?:\\)?.(=)(\d+)
+    captures:
+      '1':
+        name: keyword.control.catcode.tex
+      '2':
+        name: punctuation.definition.keyword.tex
+      '3':
+        name: punctuation.separator.key-value.tex
+      '4':
+        name: constant.numeric.category.tex
+    name: meta.catcode.tex
+  iffalse-block:
+    begin: (?<=^\s*)((\\)iffalse)(?!\s*[{}]\s*\\fi)
+    beginCaptures:
+      '1':
+        name: keyword.control.tex
+      '2':
+        name: punctuation.definition.keyword.tex
+    contentName: comment.line.percentage.tex
+    end: ((\\)(?:else|fi))
+    endCaptures:
+      '1':
+        name: keyword.control.tex
+      '2':
+        name: punctuation.definition.keyword.tex
+    patterns:
+    - include: '#comment'
+    - include: "#braces"
+    - include: '#conditionals'
+  macro-control:
+    match: (\\)(backmatter|csname|else|endcsname|fi|frontmatter|mainmatter|unless|if(case|cat|csname|defined|dim|eof|false|fontchar|hbox|hmode|inner|mmode|num|odd|true|vbox|vmode|void|x)?)(?![a-zA-Z@])
+    captures:
+      '1':
+        name: punctuation.definition.keyword.tex
+    name: keyword.control.tex
   braces:
     begin: (?<!\\)\{
     beginCaptures:
@@ -110,6 +84,21 @@ repository:
     patterns:
     - include: '#comment'
     - include: '#conditionals'
+  dollar-math:
+    begin: (\$\$|\$)
+    beginCaptures:
+      '1':
+        name: punctuation.definition.string.begin.tex
+    end: (\1)
+    endCaptures:
+      '1':
+        name: punctuation.definition.string.end.tex
+    name: meta.math.block.tex support.class.math.block.tex
+    patterns:
+    - match: \\\$
+      name: constant.character.escape.tex
+    - include: '#math-content'
+    - include: $self
   math-content:
     patterns:
     - begin: ((\\)(?:text|mbox))(\{)
@@ -188,4 +177,26 @@ repository:
       name: constant.numeric.math.tex
     - match: '[\+\*/-]|(?:(?<!\^)\^(?!\^))|(?:(?<!\_)\_(?!\_))'
       name: punctuation.math.operator.tex
+  macro-general:
+    patterns:
+    - match: (\\)_*[\p{Alphabetic}@]+(?:_[\p{Alphabetic}@]+)*:[NncVvoxefTFpwD]*
+      captures:
+        '1':
+          name: punctuation.definition.function.tex
+      name: support.class.general.latex3.tex
+    - match: (\.)[\p{Alphabetic}@]+(?:_[\p{Alphabetic}@]+)*:[NncVvoxefTFpwD]*
+      captures:
+        '1':
+          name: punctuation.definition.function.tex
+      name: support.class.general.latex3.tex
+    - match: (\\)(?:[,;]|(?:[\p{Alphabetic}@]+))
+      captures:
+        '1':
+          name: punctuation.definition.function.tex
+      name: support.function.general.tex
+    - match: (\\)[^a-zA-Z@]
+      captures:
+        '1':
+          name: punctuation.definition.keyword.tex
+      name: constant.character.escape.tex
 scopeName: text.tex
