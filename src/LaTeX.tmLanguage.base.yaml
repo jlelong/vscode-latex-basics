@@ -318,7 +318,7 @@ patterns:
   - match: \\\\
     name: keyword.control.equation.newline.latex
   - include: '#definition-label'
-  - include: text.tex#math
+  - include: text.tex#math-content
   - include: $self
 - begin: (?:\s*)(\\begin\{empheq\}(?:\[.*\])?)
   captures:
@@ -334,7 +334,7 @@ patterns:
   - match: \\\\
     name: keyword.control.equation.newline.latex
   - include: '#definition-label'
-  - include: text.tex#math
+  - include: text.tex#math-content
   - include: $self
 - begin: (\s*\\begin\{(tabular[xy*]?|xltabular|longtable|(?:long)?tabu|(?:long|tall)?tblr|NiceTabular[X*]?|booktabs)\}(\s*\n)?)
   captures:
@@ -757,7 +757,7 @@ patterns:
       name: punctuation.definition.string.end.latex
   name: meta.math.block.latex support.class.math.block.environment.latex
   patterns:
-  - include: text.tex#math
+  - include: text.tex#math-content
   - include: $self
 - begin: \$\$
   beginCaptures:
@@ -771,7 +771,7 @@ patterns:
   patterns:
   - match: \\\$
     name: constant.character.escape.latex
-  - include: text.tex#math
+  - include: text.tex#math-content
   - include: $self
 - begin: \$
   beginCaptures:
@@ -785,7 +785,7 @@ patterns:
   patterns:
   - match: \\\$
     name: constant.character.escape.latex
-  - include: text.tex#math
+  - include: text.tex#math-content
   - include: $self
 - begin: \\\[
   beginCaptures:
@@ -797,7 +797,7 @@ patterns:
       name: punctuation.definition.string.end.latex
   name: meta.math.block.latex support.class.math.block.environment.latex
   patterns:
-  - include: text.tex#math
+  - include: text.tex#math-content
   - include: $self
 - captures:
     '1':
