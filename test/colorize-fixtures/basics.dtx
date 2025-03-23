@@ -1,0 +1,46 @@
+% Some text
+% $a+b+c
+% x+y+z$
+% Some text
+
+% In |macrocode|, text with |%| should be considered as comment, while text with |^^A| should not.
+%    \begin{macrocode}
+\def\some@command{
+%    \end{macrocode}
+% Comments:
+%    \begin{macrocode}
+   some macro code ...}
+%    \end{macrocode}
+
+%    \begin{macrocode}
+\newcommand\hello@a{xxx}
+%   \newcommand\hello@b{yyy}
+^^A \newcommand\hello@c{zzz}
+%    \end{macrocode}
+
+
+%    \begin{macrocode}
+\begin{equation}
+abc
+% abc
+^^A abc
+\end{equation}
+%    \end{macrocode}
+
+%    \begin{macrocode}
+{abc
+% abc
+^^A abc
+}
+abc
+% abc
+^^A abc
+%    \end{macrocode}
+
+%    \begin{macrocode}
+$
+abc
+% abc
+^^A abc
+$
+%    \end{macrocode}

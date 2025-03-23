@@ -1,0 +1,1742 @@
+[
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.doctex keyword.control.tex"
+	},
+	{
+		"c": " meta-comment",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " Copyright (C) 2015-2024 Scott Pakin <scott+dtx@pakin.org>",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ---------------------------------------------------------",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " This file may be distributed and/or modified under the",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " conditions of the LaTeX Project Public License, either version 1.3",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " of this license or (at your option) any later version.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " The latest version of this license is in:",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    http://www.latex-project.org/lppl.txt",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " and version 1.3c or later is part of all distributions of LaTeX",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " version 2008-05-04 or later.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.doctex keyword.control.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.doctex keyword.control.tex"
+	},
+	{
+		"c": "%<*driver>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "ProvidesFile",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{skeleton.dtx}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%</driver>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "%<package>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "NeedsTeXFormat",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{LaTeX2e}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "2023-11-01",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "%<package>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "ProvidesPackage",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{skeleton}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%<*package>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "2024/01/21 v1.1 .dtx skeleton file",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "%</package>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%<*driver>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "documentclass",
+		"t": "text.tex.doctex meta.preamble.latex keyword.control.preamble.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.preamble.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "ltxdoc",
+		"t": "text.tex.doctex meta.preamble.latex support.class.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.preamble.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "usepackage",
+		"t": "text.tex.doctex meta.preamble.latex keyword.control.preamble.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.preamble.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "skeleton",
+		"t": "text.tex.doctex meta.preamble.latex support.class.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.preamble.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "2004/11/05",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "EnableCrossrefs",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "CodelineIndex",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "RecordChanges",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.begin-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.doctex meta.function.begin-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "DocInput",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{skeleton.dtx}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "PrintChanges",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "PrintIndex",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.end-document.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "document",
+		"t": "text.tex.doctex meta.function.end-document.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%</driver>",
+		"t": "text.tex.doctex entity.name.function.filename.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.doctex keyword.control.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " Make ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " and ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " be ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "enquote",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{short verb} characters, but not in the",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " document preamble, where an active character may interfere with",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " packages that are loaded.  Remove these short-hands at the end of the",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " document before reading the ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "file",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{.aux} file, as they may appear in",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " labels (for instance, ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "pkg",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{l3fp} documents an operation ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "||",
+		"t": "text.tex.doctex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ").",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "AtBeginDocument",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "  {",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "MakeShortVerb",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex constant.character.escape.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex constant.character.escape.tex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "MakeShortVerb",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex constant.character.escape.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex constant.character.escape.tex"
+	},
+	{
+		"c": "  }",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "AtEndDocument",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "  {",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "DeleteShortVerb",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex constant.character.escape.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.doctex constant.character.escape.tex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "DeleteShortVerb",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex constant.character.escape.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex constant.character.escape.tex"
+	},
+	{
+		"c": "  }",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "changes",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{v1.0}{2004/11/05}{Initial version}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "GetFileInfo",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{skeleton.dtx}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "DoNotIndex",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "newenvironment",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "title",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{The ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "textsf",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{skeleton} package",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "thanks",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{This document",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "   corresponds to ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "textsf",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{skeleton}~",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "fileversion",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": ", dated ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "filedate",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": ".}}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "author",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{Scott Pakin ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\\\",
+		"t": "text.tex.doctex keyword.control.newline.tex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "scott+dtx@pakin.org",
+		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "maketitle",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "section",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Introduction",
+		"t": "text.tex.doctex meta.function.section.section.latex entity.name.section.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " Put text here.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "section",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Usage",
+		"t": "text.tex.doctex meta.function.section.section.latex entity.name.section.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " Put text here.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "DescribeMacro",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "dummyMacro",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " This macro does nothing.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "index",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{doing nothing|usage} It is merely an",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " example.  If this were a real macro, you would put a paragraph here",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " describing what the macro is supposed to do, what its mandatory and",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " optional arguments are, and so forth.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "DescribeEnv",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{dummyEnv}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " This environment does nothing.  It is merely an example.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " If this were a real environment, you would put a paragraph here",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " describing what the environment is supposed to do, what its",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " mandatory and optional arguments are, and so forth.",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "MaybeStop",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "{}",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "section",
+		"t": "text.tex.doctex meta.function.section.section.latex support.function.section.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Implementation",
+		"t": "text.tex.doctex meta.function.section.section.latex entity.name.section.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.section.section.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "macro",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "dummyMacro",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " This is a dummy macro.  If it did anything, we'd describe its",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " implementation here.",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "dummyMacro",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "{}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "macro",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "environment",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{dummyEnv}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " This is a dummy environment.  If it did anything, we'd describe its",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " implementation here.",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "newenvironment",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "{dummyEnv}{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "}{",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "changes",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "{v1.0a}{2004/11/05}{Added a spurious change log entry to",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "   show what a change ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.emph.latex support.function.emph.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "emph",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.emph.latex support.function.emph.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.emph.latex punctuation.definition.emph.begin.latex"
+	},
+	{
+		"c": "within",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.emph.latex markup.italic.emph.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.emph.latex punctuation.definition.emph.end.latex"
+	},
+	{
+		"c": " an environment definition looks",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "   like.}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " Don't use ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": " to introduce a code comment within a ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "macrocode",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " environment.  Instead, you should typeset all of your comments with",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "LaTeX",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+	},
+	{
+		"c": "---doing so gives much prettier results.  For comments within a",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " macro/environment body, just do an ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ", include some",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " commentary, and do another ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "|",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.verb.latex punctuation.definition.verb.latex"
+	},
+	{
+		"c": ".  It's that simple.",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\begin{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\end{macrocode}",
+		"t": "text.tex.doctex meta.function.environment.general.latex entity.name.tag.macrocode.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex meta.function.environment.general.latex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "environment",
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.doctex comment.line.percentage.doctex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "Finale",
+		"t": "text.tex.doctex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "endinput",
+		"t": "text.tex.doctex support.function.general.tex"
+	}
+]
