@@ -281,7 +281,7 @@ patterns:
       name: markup.underline.link.latex
     '5':
       name: punctuation.definition.arguments.end.latex
-  match: (?:\s*)((\\)url)(\{)([^}]*)(\})
+  match: (?:\s*)((\\)(?:url|path))(\{)([^}]*)(\})
   name: meta.function.link.url.latex
 - captures:
     '1':
