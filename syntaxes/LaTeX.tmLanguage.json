@@ -2729,10 +2729,39 @@
             "name": "meta.reference.label.latex",
             "patterns": [
                 {
-                    "match": "[\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]",
+                    "match": "[\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]+",
                     "name": "constant.other.reference.label.latex"
                 }
             ]
+        },
+        {
+            "match": "((\\\\)(?:\\w*[rR]efrange\\*?))(?:\\[[^\\]]*\\])?(\\{)([\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]+)(\\})(\\{)([\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]+)(\\})",
+            "captures": {
+                "1": {
+                    "name": "keyword.control.ref.latex"
+                },
+                "2": {
+                    "name": "punctuation.definition.keyword.latex"
+                },
+                "3": {
+                    "name": "punctuation.definition.arguments.begin.latex"
+                },
+                "4": {
+                    "name": "constant.other.reference.label.latex"
+                },
+                "5": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                },
+                "6": {
+                    "name": "punctuation.definition.arguments.begin.latex"
+                },
+                "7": {
+                    "name": "constant.other.reference.label.latex"
+                },
+                "8": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                }
+            }
         },
         {
             "include": "#definition-label"
@@ -3240,7 +3269,7 @@
             "name": "meta.definition.label.latex",
             "patterns": [
                 {
-                    "match": "[\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]",
+                    "match": "[\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]+",
                     "name": "variable.parameter.definition.label.latex"
                 }
             ]

@@ -660,6 +660,134 @@
 		"t": "text.tex.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "crefrange",
+		"t": "text.tex.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "eqn:a",
+		"t": "text.tex.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "eqn:c",
+		"t": "text.tex.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "cpagerefrange",
+		"t": "text.tex.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "eqn:a",
+		"t": "text.tex.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "eqn:c",
+		"t": "text.tex.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "zvrefrange",
+		"t": "text.tex.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "eqn:a",
+		"t": "text.tex.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "eqn:c",
+		"t": "text.tex.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "zvpagerefrange",
+		"t": "text.tex.latex keyword.control.ref.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "eqn:a",
+		"t": "text.tex.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "eqn:c",
+		"t": "text.tex.latex constant.other.reference.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
 		"c": "``Double quoted text with math ",
 		"t": "text.tex.latex"
 	},
