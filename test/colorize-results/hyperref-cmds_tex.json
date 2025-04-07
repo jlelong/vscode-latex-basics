@@ -298,5 +298,81 @@
 	{
 		"c": "}",
 		"t": "text.tex.latex meta.function.hyperlink.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.link.url.latex support.function.url.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "path",
+		"t": "text.tex.latex meta.function.link.url.latex support.function.url.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.link.url.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "C:\\windows\\System32\\cmd.exe",
+		"t": "text.tex.latex meta.function.link.url.latex markup.underline.link.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.link.url.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.link.url.latex support.function.url.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "url",
+		"t": "text.tex.latex meta.function.link.url.latex support.function.url.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.link.url.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "C:\\windows\\System32\\cmd.exe",
+		"t": "text.tex.latex meta.function.link.url.latex markup.underline.link.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.link.url.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.footnote.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "footnote",
+		"t": "text.tex.latex support.function.footnote.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.footnote.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex entity.name.footnote.latex meta.function.link.url.latex support.function.url.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "path",
+		"t": "text.tex.latex entity.name.footnote.latex meta.function.link.url.latex support.function.url.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex entity.name.footnote.latex meta.function.link.url.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "D:\\windows\\System32\\cmd.exe",
+		"t": "text.tex.latex entity.name.footnote.latex meta.function.link.url.latex markup.underline.link.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex entity.name.footnote.latex meta.function.link.url.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.footnote.end.latex"
 	}
 ]
