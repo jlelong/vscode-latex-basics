@@ -1,5 +1,24 @@
 # Change Log
 
+## [1.14.0] 2025-04-17
+
+### Fixed
+
+- (#111) Fix highlighting of cross-reference commands.
+
+### Added
+
+- (#77, #80) Support macro `\cacheMeCode` from robust-externalize
+- (#104) Improve support the `songs` package.
+- (#107) Consider `"...."` as a verb construction in doctex.
+- (#108) Highlight `\luaexec`.
+- (#112, #113) Highlight `\path` as `\url`.
+
+### Changed
+
+- (#109) Refactor `TeX` grammar
+- (#110) Refactor `BibTeX` grammar
+
 ## [1.13.0] 2025-03-11
 
 ### Changed
