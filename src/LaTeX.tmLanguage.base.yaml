@@ -169,6 +169,27 @@ patterns:
     contentName: meta.function.embedded.latex
     end: ^\s*(?=\\end\{terminal\*?\})
     name: meta.embedded.block.generic.latex
+- includeCacheMeCodeMacroBlock: ''
+- begin: ((\\)cacheMeCode)(?=\[|\{)
+  end: (?<=\})
+  beginCaptures:
+    '1':
+      name: support.function.verb.latex
+    '2':
+      name: punctuation.definition.function.latex
+  patterns:
+  - include: text.tex.latex#multiline-optional-arg-no-highlight
+  - begin: (?<=\])(\{)
+    end: \}
+    beginCaptures:
+      '0':
+        name: punctuation.definition.arguments.begin.latex
+    endCaptures:
+      '0':
+        name: punctuation.definition.arguments.end.latex
+    contentName: meta.embedded.block.generic.latex
+    patterns:
+    - include: text.tex#braces
 - begin: ((\\)addplot)(?:\+?)((?:\[[^\[]*\]))*\s*(gnuplot)\s*((?:\[[^\[]*\]))*\s*(\{)
   captures:
     '1':
