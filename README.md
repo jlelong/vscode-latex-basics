@@ -8,8 +8,17 @@ The grammar files support various embedded languages: `asymptote`, `c/c++`, `css
 
 ## Embedded code blocks
 
-Since textmate grammars are purely static, it is not possible to inject new rules based on definitions containted in the LaTeX project. Environments defined by macros like `\lstnewenvironment{javacode}[1][language=java]{}{}` cannot be dynamically recognized by the grammar. So, we have decided to use the following convention: an environment named after `language` + `code` is supposed to embed `language`. Here is the complete list of hard coded environment names using this convention
+Embedded code blocks are recognized in environments `minted`, `lstlisting` and `pyglist` using
 
+```latex
+\begin{envname}{lang}
+...
+\end{envname}
+```
+
+where `lang` can be `asy`, `asymptote`, `bash`, `c`, `cpp`, `css`, `gnuplot`, `hs`, `haskell`, `html`, `java`, `jl`, `julia`, `js`, `javascript`, `lua`, `py`, `python`, `sage`, `rb`, `ruby`, `rust`, `ts`, `typescript`, `xml`, `yaml`.
+
+Since textmate grammars are purely static, it is not possible to inject new rules based on definitions containted in the LaTeX project. Environments defined by macros like `\lstnewenvironment{javacode}[1][language=java]{}{}` cannot be dynamically recognized by the grammar. So, we have decided to use the following convention: an environment named after `language` + `code` is supposed to embed `language`. Here is the complete list of hard coded environment names using this convention
 
 | Name                                                                                                           | Source    |
 |----------------------------------------------------------------------------------------------------------------|-----------|
@@ -18,7 +27,7 @@ Since textmate grammars are purely static, it is not possible to inject new rule
 | `dot2tex`, `dotcode`                                                                                           | Dot       |
 | `gnuplot`                                                                                                      | Gnuplot   |
 | `hscode`                                                                                                       | Haskell   |
-| `javacode`, `jjavaerbatim`, `javablock`, `jjavaoncode`, `javaconsole`, `javaconverbatim`                       | Java      |
+| `javacode`, `javaverbatim`, `javablock`, `jjavaoncode`, `javaconsole`, `javaconverbatim`                       | Java      |
 | `jlcode`, `jlverbatim`, `jlblock`, `jlconcode`, `jlconsole`, `jlconverbatim`                                   | Julia     |
 | `juliacode`, `juliaverbatim`, `juliablock`, `juliaconcode`, `juliaconsole`, `juliaconverbatim`                 | Julia     |
 | `luacode`                                                                                                      | lua       |
@@ -29,6 +38,8 @@ Since textmate grammars are purely static, it is not possible to inject new rule
 | `sympycode`, `sympyverbatim`, `sympyblock`, `sympyconcode`, `sympyconsole`, `sympyconverbatim`                 | Python    |
 
 The starred version of the environments are also recognized.
+
+On top of that, any other environments whose name ends with `code` is considered as pure verbatim.
 
 ## Internal only languages
 
