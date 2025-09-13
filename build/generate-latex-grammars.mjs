@@ -39,7 +39,7 @@ const codeLanguages = [
     {name: ['javacode', 'javaverbatim', 'javablock', 'javaconcode', 'javaconsole', 'javaconverbatim'], source: 'source.java'},
     {name: ['jlcode', 'jlverbatim', 'jlblock', 'jlconcode', 'jlconsole', 'jlconverbatim'], source: 'source.julia'},
     {name: ['juliacode', 'juliaverbatim', 'juliablock', 'juliaconcode', 'juliaconsole', 'juliaconverbatim'], source: 'source.julia'},
-    {name: ['luacode'], source: 'source.lua'},
+    {name: ['luacode', 'luadraw'], source: 'source.lua'},
     {name: ['pycode', 'pyverbatim', 'pyblock', 'pyconcode', 'pyconsole', 'pyconverbatim'], source: 'source.python'},
     {name: ['pylabcode', 'pylabverbatim', 'pylabblock', 'pylabconcode', 'pylabconsole', 'pylabconverbatim'], source: 'source.python'},
     {name: ['sageblock', 'sagesilent', 'sageverbatim', 'sageexample', 'sagecommandline', 'python', 'pythonq', 'pythonrepl'], source: 'source.python'},

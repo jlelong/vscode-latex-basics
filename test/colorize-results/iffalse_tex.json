@@ -121,6 +121,114 @@
 	},
 	{
 		"c": "\\",
+		"t": "text.tex.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.latex storage.type.function.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "file",
+		"t": "text.tex.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex punctuation.definition.brackets.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "texttt",
+		"t": "text.tex.latex meta.function.texttt.latex support.function.texttt.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+	},
+	{
+		"c": "#1",
+		"t": "text.tex.latex meta.function.texttt.latex markup.raw.texttt.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "The file \\file",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex punctuation.group.begin.tex"
+	},
+	{
+		"c": "main.tex",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex punctuation.group.end.tex"
+	},
+	{
+		"c": " contains the main content of the document.",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "\\",
 		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
 	},
 	{
