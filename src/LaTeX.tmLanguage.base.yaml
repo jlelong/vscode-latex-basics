@@ -784,6 +784,7 @@ patterns:
   contentName: source.lua
   patterns:
   - include: source.lua
+  - include: text.tex#braces
 - match: \\(?:newline|pagebreak|clearpage|linebreak|pause)(?:\b)
   name: keyword.control.layout.latex
 - begin: \\\(
