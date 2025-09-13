@@ -1,0 +1,1310 @@
+[
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "luadraw",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "name=champ",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "local",
+		"t": "text.tex.latex source.lua keyword.local.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "g",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "graph",
+		"t": "text.tex.latex source.lua entity.name.class.lua"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "new",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "window",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "-",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "5",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "5",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "-",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "5",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "5",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": "},",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "bg",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.begin.lua"
+	},
+	{
+		"c": "Cyan!30",
+		"t": "text.tex.latex source.lua string.quoted.double.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.end.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "size",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "10",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "10",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": "}} ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "local",
+		"t": "text.tex.latex source.lua keyword.local.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "f",
+		"t": "text.tex.latex source.lua entity.name.function.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "function",
+		"t": "text.tex.latex source.lua meta.function.lua keyword.control.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua meta.function.lua meta.parameter.lua punctuation.definition.parameters.begin.lua"
+	},
+	{
+		"c": "x",
+		"t": "text.tex.latex source.lua meta.function.lua meta.parameter.lua variable.parameter.function.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua meta.function.lua meta.parameter.lua punctuation.separator.arguments.lua"
+	},
+	{
+		"c": "y",
+		"t": "text.tex.latex source.lua meta.function.lua meta.parameter.lua variable.parameter.function.lua"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.lua meta.function.lua meta.parameter.lua punctuation.definition.parameters.finish.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "--",
+		"t": "text.tex.latex source.lua comment.line.double-dash.lua punctuation.definition.comment.lua"
+	},
+	{
+		"c": " éq. diff. y'= 1-x*y^2=f(x,y)",
+		"t": "text.tex.latex source.lua comment.line.double-dash.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "return",
+		"t": "text.tex.latex source.lua keyword.control.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": "-",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "x",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "*",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "y",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "^",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex source.lua keyword.control.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "local",
+		"t": "text.tex.latex source.lua keyword.local.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "A",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Z",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "-",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ") ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "--",
+		"t": "text.tex.latex source.lua comment.line.double-dash.lua punctuation.definition.comment.lua"
+	},
+	{
+		"c": " A = -1+i",
+		"t": "text.tex.latex source.lua comment.line.double-dash.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "local",
+		"t": "text.tex.latex source.lua keyword.local.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "deltaX",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ", ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "deltaY",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ", ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "long",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "0.5",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ", ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "0.5",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ", ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "0.4",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "local",
+		"t": "text.tex.latex source.lua keyword.local.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "champ",
+		"t": "text.tex.latex source.lua entity.name.function.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "function",
+		"t": "text.tex.latex source.lua meta.function.lua keyword.control.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua meta.function.lua meta.parameter.lua punctuation.definition.parameters.begin.lua"
+	},
+	{
+		"c": "f",
+		"t": "text.tex.latex source.lua meta.function.lua meta.parameter.lua variable.parameter.function.lua"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.lua meta.function.lua meta.parameter.lua punctuation.definition.parameters.finish.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "local",
+		"t": "text.tex.latex source.lua keyword.local.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "vecteurs",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ", ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "v",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": " {}",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "for",
+		"t": "text.tex.latex source.lua keyword.control.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "y",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "g",
+		"t": "text.tex.latex source.lua entity.name.class.lua"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Yinf",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(), ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "g",
+		"t": "text.tex.latex source.lua entity.name.class.lua"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Ysup",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(), ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "deltaY",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "do",
+		"t": "text.tex.latex source.lua keyword.control.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "for",
+		"t": "text.tex.latex source.lua keyword.control.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "x",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "g",
+		"t": "text.tex.latex source.lua entity.name.class.lua"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Xinf",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(), ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "g",
+		"t": "text.tex.latex source.lua entity.name.class.lua"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Xsup",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(), ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "deltaX",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "do",
+		"t": "text.tex.latex source.lua keyword.control.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "v",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Z",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "f",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "x",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "y",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ")) ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "--",
+		"t": "text.tex.latex source.lua comment.line.double-dash.lua punctuation.definition.comment.lua"
+	},
+	{
+		"c": " coordonnées 1 et f(x,y)",
+		"t": "text.tex.latex source.lua comment.line.double-dash.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "v",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "v",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "/",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "cpx",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "abs",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "v",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "*",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "long",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "--",
+		"t": "text.tex.latex source.lua comment.line.double-dash.lua punctuation.definition.comment.lua"
+	},
+	{
+		"c": " normalisation de v ",
+		"t": "text.tex.latex source.lua comment.line.double-dash.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "table.insert",
+		"t": "text.tex.latex source.lua support.function.library.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "vecteurs",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ", {",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Z",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "x",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "y",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "), ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Z",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "x",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "y",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "+",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "v",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "} ) ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex source.lua keyword.control.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex source.lua keyword.control.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "return",
+		"t": "text.tex.latex source.lua keyword.control.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "vecteurs",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "--",
+		"t": "text.tex.latex source.lua comment.line.double-dash.lua punctuation.definition.comment.lua"
+	},
+	{
+		"c": " vecteurs est une ligne polygonale",
+		"t": "text.tex.latex source.lua comment.line.double-dash.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex source.lua keyword.control.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "g",
+		"t": "text.tex.latex source.lua entity.name.class.lua"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Daxes",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "( {",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "0",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "1",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": "}, {",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "labelpos",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.begin.lua"
+	},
+	{
+		"c": "none",
+		"t": "text.tex.latex source.lua string.quoted.double.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.end.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.begin.lua"
+	},
+	{
+		"c": "none",
+		"t": "text.tex.latex source.lua string.quoted.double.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.end.lua"
+	},
+	{
+		"c": "}, ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "arrows",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.begin.lua"
+	},
+	{
+		"c": "->",
+		"t": "text.tex.latex source.lua string.quoted.double.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.end.lua"
+	},
+	{
+		"c": "} )",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "g",
+		"t": "text.tex.latex source.lua entity.name.class.lua"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Dpolyline",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "( ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "champ",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "f",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "), ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.begin.lua"
+	},
+	{
+		"c": "->,blue",
+		"t": "text.tex.latex source.lua string.quoted.double.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.end.lua"
+	},
+	{
+		"c": ")",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "g",
+		"t": "text.tex.latex source.lua entity.name.class.lua"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Dodesolve",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "f",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ", ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "A",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "re",
+		"t": "text.tex.latex source.lua entity.other.attribute.lua"
+	},
+	{
+		"c": ", ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "A",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ".",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "im",
+		"t": "text.tex.latex source.lua entity.other.attribute.lua"
+	},
+	{
+		"c": ", {",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "t",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "-",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "2.75",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": ",",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "5",
+		"t": "text.tex.latex source.lua constant.numeric.float.lua"
+	},
+	{
+		"c": "},",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "draw_options",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.begin.lua"
+	},
+	{
+		"c": "red,line width=0.8pt",
+		"t": "text.tex.latex source.lua string.quoted.double.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.end.lua"
+	},
+	{
+		"c": "}) ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "g",
+		"t": "text.tex.latex source.lua entity.name.class.lua"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Dlabeldot",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "(",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.begin.lua"
+	},
+	{
+		"c": "$A$",
+		"t": "text.tex.latex source.lua string.quoted.double.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.end.lua"
+	},
+	{
+		"c": ", ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "A",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": ", {",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "pos",
+		"t": "text.tex.latex source.lua variable.other.lua"
+	},
+	{
+		"c": "=",
+		"t": "text.tex.latex source.lua keyword.operator.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.begin.lua"
+	},
+	{
+		"c": "S",
+		"t": "text.tex.latex source.lua string.quoted.double.lua"
+	},
+	{
+		"c": "\"",
+		"t": "text.tex.latex source.lua string.quoted.double.lua punctuation.definition.string.end.lua"
+	},
+	{
+		"c": "})",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "    ",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "g",
+		"t": "text.tex.latex source.lua entity.name.class.lua"
+	},
+	{
+		"c": ":",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "Show",
+		"t": "text.tex.latex source.lua support.function.any-method.lua"
+	},
+	{
+		"c": "()",
+		"t": "text.tex.latex source.lua"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "luadraw",
+		"t": "text.tex.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	}
+]
