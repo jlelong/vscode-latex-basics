@@ -23,3 +23,16 @@
     g:Dlabeldot("$A$", A, {pos="S"})
     g:Show()
 \end{luadraw}
+
+\directlua{
+  local i
+  local t = { }
+  for _,i in pairs(tex.extraprimitives("luatex")) do
+    if string.match(i,"^U") then
+      if not string.match(i,"^Uchar$") then
+        table.insert(t,i)
+      end
+    end
+  end
+  tex.enableprimitives("", t)
+}
