@@ -3720,6 +3720,9 @@
             "patterns": [
                 {
                     "include": "source.lua"
+                },
+                {
+                    "include": "text.tex#braces"
                 }
             ]
         },
