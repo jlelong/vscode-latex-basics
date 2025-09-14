@@ -2,7 +2,7 @@
   "name": "vscode-latex-basics",
   "displayName": "LaTeX grammars",
   "description": "LaTeX textmate grammars for Visual Studio Code",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "publisher": "jlelong",
   "license": "MIT",
   "homepage": "https://github.com/jlelong/vscode-latex-basics",
@@ -232,12 +232,12 @@
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/mocha": "10.0.10",
-    "@types/vscode": "1.74.0",
-    "@vscode/test-electron": "^2.4.1",
-    "eslint": "9.19.0",
-    "got": "14.4.5",
+    "@types/vscode": "1.104.0",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "9.35.0",
+    "got": "14.4.8",
     "js-yaml": "^4.1.0",
-    "mocha": "11.1.0",
+    "mocha": "11.7.2",
     "textmate-bailout": "1.1.0",
     "vscode-extend-language": "^0.3.0"
   }

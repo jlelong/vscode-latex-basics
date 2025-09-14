@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.15.0] 2025-09-14
+
+### Fixed
+
+- (#117,#118) Fix `luaexec` end detection when the lua code contains braces.
+- (#114) Only match `\fi` when followed by a word boundary.
+
+### Added
+
+- (#116) Support for the `luadraw` environment
+- (#115) Support `subeqnarray`
+
 ## [1.14.0] 2025-04-17
 
 ### Fixed
