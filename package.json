@@ -227,7 +227,7 @@
     "build": "node ./build/all.mjs",
     "update-external": "node ./build/all.mjs update-external",
     "build-latex": "node ./build/all.mjs build-latex",
-    "test": "node ./test/runTest.js"
+    "test": "npm run build-latex && node ./test/runTest.js"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",

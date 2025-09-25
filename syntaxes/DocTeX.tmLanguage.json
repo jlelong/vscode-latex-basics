@@ -2954,31 +2954,7 @@
                     "name": "meta.function.link.url.latex"
                 },
                 {
-                    "captures": {
-                        "1": {
-                            "patterns": [
-                                {
-                                    "include": "#begin-env-tokenizer"
-                                }
-                            ]
-                        }
-                    },
-                    "comment": "These two patterns match the \\begin{document} and \\end{document} commands, so that the environment matching pattern following them will ignore those commands.",
-                    "match": "(\\s*\\\\begin\\{document\\})",
-                    "name": "meta.function.begin-document.latex"
-                },
-                {
-                    "captures": {
-                        "1": {
-                            "patterns": [
-                                {
-                                    "include": "#begin-env-tokenizer"
-                                }
-                            ]
-                        }
-                    },
-                    "match": "(\\s*\\\\end\\{document\\})",
-                    "name": "meta.function.end-document.latex"
+                    "include": "#document-env"
                 },
                 {
                     "begin": "(?:\\s*)((\\\\)begin)(\\{)((?:\\+?array|equation|(?:IEEE|sub)?eqnarray|multline|align|aligned|alignat|alignedat|flalign|flaligned|flalignat|split|gather|gathered|\\+?cases|(?:display)?math|\\+?[a-zA-Z]*matrix|[pbBvV]?NiceMatrix|[pbBvV]?NiceArray|(?:(?:arg)?(?:mini|maxi)))(?:\\*|!)?)(\\})(\\s*\\n)?",
@@ -3959,6 +3935,37 @@
                 },
                 {
                     "include": "text.tex"
+                }
+            ]
+        },
+        "document-env": {
+            "patterns": [
+                {
+                    "match": "(\\s*\\\\begin\\{document\\})",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#begin-env-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "comment": "These two patterns match the \\begin{document} and \\end{document} commands, so that the environment matching pattern following them will ignore those commands.",
+                    "name": "meta.function.begin-document.latex"
+                },
+                {
+                    "match": "(\\s*\\\\end\\{document\\})",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#begin-env-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "name": "meta.function.end-document.latex"
                 }
             ]
         },
