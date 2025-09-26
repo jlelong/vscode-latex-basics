@@ -107,30 +107,7 @@
                     "include": "#documentclass-usepackage-macro"
                 },
                 {
-                    "begin": "((\\\\)(?:include|input))(\\{)",
-                    "beginCaptures": {
-                        "1": {
-                            "name": "keyword.control.include.latex"
-                        },
-                        "2": {
-                            "name": "punctuation.definition.function.latex"
-                        },
-                        "3": {
-                            "name": "punctuation.definition.arguments.begin.latex"
-                        }
-                    },
-                    "end": "\\}",
-                    "endCaptures": {
-                        "0": {
-                            "name": "punctuation.definition.arguments.end.latex"
-                        }
-                    },
-                    "name": "meta.include.latex",
-                    "patterns": [
-                        {
-                            "include": "$self"
-                        }
-                    ]
+                    "include": "#input-macro"
                 },
                 {
                     "include": "#sections-macro"
@@ -3879,6 +3856,32 @@
                         }
                     },
                     "name": "meta.function.end-document.latex"
+                }
+            ]
+        },
+        "input-macro": {
+            "begin": "((\\\\)(?:include|input))(\\{)",
+            "beginCaptures": {
+                "1": {
+                    "name": "keyword.control.include.latex"
+                },
+                "2": {
+                    "name": "punctuation.definition.function.latex"
+                },
+                "3": {
+                    "name": "punctuation.definition.arguments.begin.latex"
+                }
+            },
+            "end": "\\}",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                }
+            },
+            "name": "meta.include.latex",
+            "patterns": [
+                {
+                    "include": "$self"
                 }
             ]
         },

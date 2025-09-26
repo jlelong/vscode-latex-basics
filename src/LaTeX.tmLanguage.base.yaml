@@ -5,21 +5,7 @@ patterns:
   match: (?<=\\[\w@]|\\[\w@]{2}|\\[\w@]{3}|\\[\w@]{4}|\\[\w@]{5}|\\[\w@]{6})\s
   name: meta.space-after-command.latex
 - include: '#documentclass-usepackage-macro'
-- begin: ((\\)(?:include|input))(\{)
-  beginCaptures:
-    '1':
-      name: keyword.control.include.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      name: punctuation.definition.arguments.begin.latex
-  end: \}
-  endCaptures:
-    '0':
-      name: punctuation.definition.arguments.end.latex
-  name: meta.include.latex
-  patterns:
-  - include: $self
+- include: '#input-macro'
 - include: '#sections-macro'
 - include: '#songs-env'
 - begin: (?:^\s*)?\\begin\{(lstlisting|minted|pyglist)\}(?=\[|\{)
@@ -813,6 +799,22 @@ repository:
           patterns:
           - include: '#begin-env-tokenizer'
       name: meta.function.end-document.latex
+  input-macro:
+    begin: ((\\)(?:include|input))(\{)
+    beginCaptures:
+      '1':
+        name: keyword.control.include.latex
+      '2':
+        name: punctuation.definition.function.latex
+      '3':
+        name: punctuation.definition.arguments.begin.latex
+    end: \}
+    endCaptures:
+      '0':
+        name: punctuation.definition.arguments.end.latex
+    name: meta.include.latex
+    patterns:
+    - include: $self
   sections-macro:
     begin: ((\\)((?:sub){0,2}section|(?:sub)?paragraph|chapter|part|addpart|addchap|addsec|minisec|frametitle)(?:\*)?)((?:\[[^\[]*?\]){0,2})(\{)
     beginCaptures:
