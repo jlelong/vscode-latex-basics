@@ -104,47 +104,7 @@
                     "name": "meta.space-after-command.latex"
                 },
                 {
-                    "begin": "((\\\\)(?:usepackage|documentclass))\\b(?=\\[|\\{)",
-                    "beginCaptures": {
-                        "1": {
-                            "name": "keyword.control.preamble.latex"
-                        },
-                        "2": {
-                            "name": "punctuation.definition.function.latex"
-                        }
-                    },
-                    "end": "(?<=\\})",
-                    "endCaptures": {
-                        "0": {
-                            "name": "punctuation.definition.arguments.end.latex"
-                        }
-                    },
-                    "name": "meta.preamble.latex",
-                    "patterns": [
-                        {
-                            "include": "#multiline-optional-arg"
-                        },
-                        {
-                            "begin": "((?:\\G|(?<=\\]))\\{)",
-                            "beginCaptures": {
-                                "0": {
-                                    "name": "punctuation.definition.arguments.begin.latex"
-                                }
-                            },
-                            "contentName": "support.class.latex",
-                            "end": "(\\})",
-                            "endCaptures": {
-                                "0": {
-                                    "name": "punctuation.definition.arguments.end.latex"
-                                }
-                            },
-                            "patterns": [
-                                {
-                                    "include": "$self"
-                                }
-                            ]
-                        }
-                    ]
+                    "include": "#documentclass-usepackage-macro"
                 },
                 {
                     "begin": "((\\\\)(?:include|input))(\\{)",
@@ -3935,6 +3895,49 @@
                 },
                 {
                     "include": "text.tex"
+                }
+            ]
+        },
+        "documentclass-usepackage-macro": {
+            "begin": "((\\\\)(?:usepackage|documentclass))\\b(?=\\[|\\{)",
+            "beginCaptures": {
+                "1": {
+                    "name": "keyword.control.preamble.latex"
+                },
+                "2": {
+                    "name": "punctuation.definition.function.latex"
+                }
+            },
+            "end": "(?<=\\})",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                }
+            },
+            "name": "meta.preamble.latex",
+            "patterns": [
+                {
+                    "include": "#multiline-optional-arg"
+                },
+                {
+                    "begin": "((?:\\G|(?<=\\]))\\{)",
+                    "beginCaptures": {
+                        "0": {
+                            "name": "punctuation.definition.arguments.begin.latex"
+                        }
+                    },
+                    "contentName": "support.class.latex",
+                    "end": "(\\})",
+                    "endCaptures": {
+                        "0": {
+                            "name": "punctuation.definition.arguments.end.latex"
+                        }
+                    },
+                    "patterns": [
+                        {
+                            "include": "$self"
+                        }
+                    ]
                 }
             ]
         },
