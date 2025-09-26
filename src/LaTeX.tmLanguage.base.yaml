@@ -10,83 +10,9 @@ patterns:
 - include: '#songs-env'
 - include: '#embedded-code-block'
 - include: '#verbatim-env'
-- begin: ((\\)addplot)(?:\+?)((?:\[[^\[]*\]))*\s*(gnuplot)\s*((?:\[[^\[]*\]))*\s*(\{)
-  captures:
-    '1':
-      name: support.function.be.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      patterns:
-      - include: '#optional-arg-bracket'
-    '4':
-      name: variable.parameter.function.latex
-    '5':
-      patterns:
-      - include: '#optional-arg-bracket'
-    '6':
-      name: punctuation.definition.arguments.begin.latex
-  end: \s*(\};)
-  patterns:
-  - begin: '%'
-    beginCaptures:
-      '0':
-        name: punctuation.definition.comment.latex
-    end: $\n?
-    name: comment.line.percentage.latex
-  - include: source.gnuplot
-- begin: (?:\s*)((\\)(?:href|hyperref|hyperimage))(?=\[|\{)
-  beginCaptures:
-    '1':
-      name: support.function.url.latex
-  comment: Captures \command[option]{url}{optional category}{optional name}{text}
-  end: (\})
-  endCaptures:
-    '1':
-      name: punctuation.definition.arguments.end.latex
-  name: meta.function.hyperlink.latex
-  patterns:
-  - include: '#multiline-optional-arg-no-highlight'
-  - begin: (?:\G|(?<=\]))(\{)([^}]*)(\})(?:\{[^}]*\}){2}?(\{)
-    beginCaptures:
-      '1':
-        name: punctuation.definition.arguments.begin.latex
-      '2':
-        name: markup.underline.link.latex
-      '3':
-        name: punctuation.definition.arguments.end.latex
-      '4':
-        name: punctuation.definition.arguments.begin.latex
-    contentName: meta.variable.parameter.function.latex
-    end: (?=\})
-    patterns:
-    - include: $self
-  - begin: (?:\G|(?<=\]))(?:(\{)[^}]*(\}))?(\{)
-    beginCaptures:
-      '1':
-        name: punctuation.definition.arguments.begin.latex
-      '2':
-        name: punctuation.definition.arguments.end.latex
-      '3':
-        name: punctuation.definition.arguments.begin.latex
-    contentName: meta.variable.parameter.function.latex
-    end: (?=\})
-    patterns:
-    - include: $self
-- captures:
-    '1':
-      name: support.function.url.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      name: punctuation.definition.arguments.begin.latex
-    '4':
-      name: markup.underline.link.latex
-    '5':
-      name: punctuation.definition.arguments.end.latex
-  match: (?:\s*)((\\)(?:url|path))(\{)([^}]*)(\})
-  name: meta.function.link.url.latex
+- include: '#gnuplot-macro'
 - include: '#document-env'
+- include: '#hyperref-macro'
 - begin: (?:\s*)((\\)begin)(\{)((?:\+?array|equation|(?:IEEE|sub)?eqnarray|multline|align|aligned|alignat|alignedat|flalign|flaligned|flalignat|split|gather|gathered|\+?cases|(?:display)?math|\+?[a-zA-Z]*matrix|[pbBvV]?NiceMatrix|[pbBvV]?NiceArray|(?:(?:arg)?(?:mini|maxi)))(?:\*|!)?)(\})(\s*\n)?
   captures:
     '1':
@@ -438,122 +364,7 @@ patterns:
       name: punctuation.definition.verb.latex
   match: ((\\)(?:verb|Verb|spverb)\*?)\s*((?<=\s)\S|[^a-zA-Z])(.*?)(\3|$)
   name: meta.function.verb.latex
-- captures:
-    '1':
-      name: support.function.verb.latex
-    '10':
-      name: markup.raw.verb.latex
-    '11':
-      name: punctuation.definition.verb.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      patterns:
-      - include: '#optional-arg-bracket'
-    '4':
-      name: punctuation.definition.arguments.begin.latex
-    '5':
-      name: punctuation.definition.arguments.end.latex
-    '6':
-      name: punctuation.definition.verb.latex
-    '7':
-      name: markup.raw.verb.latex
-    '8':
-      name: punctuation.definition.verb.latex
-    '9':
-      name: punctuation.definition.verb.latex
-  match: ((\\)(?:mint|mintinline))((?:\[[^\[]*?\])?)(\{)[a-zA-Z]*(\})(?:(?:([^a-zA-Z\{])(.*?)(\6))|(?:(\{)(.*?)(\})))
-  name: meta.function.verb.latex
-- captures:
-    '1':
-      name: support.function.verb.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      patterns:
-      - include: '#optional-arg-bracket'
-    '4':
-      name: punctuation.definition.verb.latex
-    '5':
-      name: markup.raw.verb.latex
-    '6':
-      name: punctuation.definition.verb.latex
-    '7':
-      name: punctuation.definition.verb.latex
-    '8':
-      name: markup.raw.verb.latex
-    '9':
-      name: punctuation.definition.verb.latex
-  match: ((\\)[a-z]+inline)((?:\[[^\[]*?\])?)(?:(?:([^a-zA-Z\{])(.*?)(\4))|(?:(\{)(.*?)(\})))
-  name: meta.function.verb.latex
-- captures:
-    '1':
-      name: support.function.verb.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      patterns:
-      - include: '#optional-arg-bracket'
-    '4':
-      name: punctuation.definition.verb.latex
-    '5':
-      name: source.python
-      patterns:
-      - include: source.python
-    '6':
-      name: punctuation.definition.verb.latex
-    '7':
-      name: punctuation.definition.verb.latex
-    '8':
-      name: source.python
-      patterns:
-      - include: source.python
-    '9':
-      name: punctuation.definition.verb.latex
-  match: ((\\)(?:(?:py|pycon|pylab|pylabcon|sympy|sympycon)[cv]?|pyq|pycq|pyif))((?:\[[^\[]*?\])?)(?:(?:([^a-zA-Z\{])(.*?)(\4))|(?:(\{)(.*?)(\})))
-  name: meta.function.verb.latex
-- captures:
-    '1':
-      name: support.function.verb.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      patterns:
-      - include: '#optional-arg-bracket'
-    '4':
-      name: punctuation.definition.verb.latex
-    '5':
-      name: source.julia
-      patterns:
-      - include: source.julia
-    '6':
-      name: punctuation.definition.verb.latex
-    '7':
-      name: punctuation.definition.verb.latex
-    '8':
-      name: source.julia
-      patterns:
-      - include: source.julia
-    '9':
-      name: punctuation.definition.verb.latex
-  match: ((\\)(?:jl|julia)[cv]?)((?:\[[^\[]*?\])?)(?:(?:([^a-zA-Z\{])(.*?)(\4))|(?:(\{)(.*?)(\})))
-  name: meta.function.verb.latex
-- begin: ((\\)(?:directlua|luadirect|luaexec))(\{)
-  beginCaptures:
-    '1':
-      name: support.function.verb.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      name: punctuation.definition.arguments.begin.latex
-  end: \}
-  endCaptures:
-    '0':
-      name: punctuation.definition.arguments.end.latex
-  contentName: source.lua
-  patterns:
-  - include: source.lua
-  - include: text.tex#braces
+- include: '#inline-code-macro'
 - match: \\(?:newline|pagebreak|clearpage|linebreak|pause)(?:\b)
   name: keyword.control.layout.latex
 - begin: \\\(
@@ -876,7 +687,203 @@ repository:
       contentName: comment.line.percentage.latex
       end: (\\end\{\2\})
       name: meta.function.verbatim.latex
-
+  gnuplot-macro:
+    begin: ((\\)addplot)(?:\+?)((?:\[[^\[]*\]))*\s*(gnuplot)\s*((?:\[[^\[]*\]))*\s*(\{)
+    captures:
+      '1':
+        name: support.function.be.latex
+      '2':
+        name: punctuation.definition.function.latex
+      '3':
+        patterns:
+        - include: '#optional-arg-bracket'
+      '4':
+        name: variable.parameter.function.latex
+      '5':
+        patterns:
+        - include: '#optional-arg-bracket'
+      '6':
+        name: punctuation.definition.arguments.begin.latex
+    end: \s*(\};)
+    patterns:
+    - begin: '%'
+      beginCaptures:
+        '0':
+          name: punctuation.definition.comment.latex
+      end: $\n?
+      name: comment.line.percentage.latex
+    - include: source.gnuplot
+  hyperref-macro:
+    patterns:
+    - begin: (?:\s*)((\\)(?:href|hyperref|hyperimage))(?=\[|\{)
+      beginCaptures:
+        '1':
+          name: support.function.url.latex
+      comment: Captures \command[option]{url}{optional category}{optional name}{text}
+      end: (\})
+      endCaptures:
+        '1':
+          name: punctuation.definition.arguments.end.latex
+      name: meta.function.hyperlink.latex
+      patterns:
+      - include: '#multiline-optional-arg-no-highlight'
+      - begin: (?:\G|(?<=\]))(\{)([^}]*)(\})(?:\{[^}]*\}){2}?(\{)
+        beginCaptures:
+          '1':
+            name: punctuation.definition.arguments.begin.latex
+          '2':
+            name: markup.underline.link.latex
+          '3':
+            name: punctuation.definition.arguments.end.latex
+          '4':
+            name: punctuation.definition.arguments.begin.latex
+        contentName: meta.variable.parameter.function.latex
+        end: (?=\})
+        patterns:
+        - include: $self
+      - begin: (?:\G|(?<=\]))(?:(\{)[^}]*(\}))?(\{)
+        beginCaptures:
+          '1':
+            name: punctuation.definition.arguments.begin.latex
+          '2':
+            name: punctuation.definition.arguments.end.latex
+          '3':
+            name: punctuation.definition.arguments.begin.latex
+        contentName: meta.variable.parameter.function.latex
+        end: (?=\})
+        patterns:
+        - include: $self
+    - match: (?:\s*)((\\)(?:url|path))(\{)([^}]*)(\})
+      captures:
+        '1':
+          name: support.function.url.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          name: punctuation.definition.arguments.begin.latex
+        '4':
+          name: markup.underline.link.latex
+        '5':
+          name: punctuation.definition.arguments.end.latex
+      name: meta.function.link.url.latex
+  inline-code-macro:
+    patterns:
+    - match: ((\\)(?:mint|mintinline))((?:\[[^\[]*?\])?)(\{)[a-zA-Z]*(\})(?:(?:([^a-zA-Z\{])(.*?)(\6))|(?:(\{)(.*?)(\})))
+      captures:
+        '1':
+          name: support.function.verb.latex
+        '10':
+          name: markup.raw.verb.latex
+        '11':
+          name: punctuation.definition.verb.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          patterns:
+          - include: '#optional-arg-bracket'
+        '4':
+          name: punctuation.definition.arguments.begin.latex
+        '5':
+          name: punctuation.definition.arguments.end.latex
+        '6':
+          name: punctuation.definition.verb.latex
+        '7':
+          name: markup.raw.verb.latex
+        '8':
+          name: punctuation.definition.verb.latex
+        '9':
+          name: punctuation.definition.verb.latex
+      name: meta.function.verb.latex
+    - match: ((\\)[a-z]+inline)((?:\[[^\[]*?\])?)(?:(?:([^a-zA-Z\{])(.*?)(\4))|(?:(\{)(.*?)(\})))
+      captures:
+        '1':
+          name: support.function.verb.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          patterns:
+          - include: '#optional-arg-bracket'
+        '4':
+          name: punctuation.definition.verb.latex
+        '5':
+          name: markup.raw.verb.latex
+        '6':
+          name: punctuation.definition.verb.latex
+        '7':
+          name: punctuation.definition.verb.latex
+        '8':
+          name: markup.raw.verb.latex
+        '9':
+          name: punctuation.definition.verb.latex
+      name: meta.function.verb.latex
+    - match: ((\\)(?:(?:py|pycon|pylab|pylabcon|sympy|sympycon)[cv]?|pyq|pycq|pyif))((?:\[[^\[]*?\])?)(?:(?:([^a-zA-Z\{])(.*?)(\4))|(?:(\{)(.*?)(\})))
+      captures:
+        '1':
+          name: support.function.verb.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          patterns:
+          - include: '#optional-arg-bracket'
+        '4':
+          name: punctuation.definition.verb.latex
+        '5':
+          name: source.python
+          patterns:
+          - include: source.python
+        '6':
+          name: punctuation.definition.verb.latex
+        '7':
+          name: punctuation.definition.verb.latex
+        '8':
+          name: source.python
+          patterns:
+          - include: source.python
+        '9':
+          name: punctuation.definition.verb.latex
+      name: meta.function.verb.latex
+    - match: ((\\)(?:jl|julia)[cv]?)((?:\[[^\[]*?\])?)(?:(?:([^a-zA-Z\{])(.*?)(\4))|(?:(\{)(.*?)(\})))
+      captures:
+        '1':
+          name: support.function.verb.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          patterns:
+          - include: '#optional-arg-bracket'
+        '4':
+          name: punctuation.definition.verb.latex
+        '5':
+          name: source.julia
+          patterns:
+          - include: source.julia
+        '6':
+          name: punctuation.definition.verb.latex
+        '7':
+          name: punctuation.definition.verb.latex
+        '8':
+          name: source.julia
+          patterns:
+          - include: source.julia
+        '9':
+          name: punctuation.definition.verb.latex
+      name: meta.function.verb.latex
+    - begin: ((\\)(?:directlua|luadirect|luaexec))(\{)
+      beginCaptures:
+        '1':
+          name: support.function.verb.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          name: punctuation.definition.arguments.begin.latex
+      end: \}
+      endCaptures:
+        '0':
+          name: punctuation.definition.arguments.end.latex
+      contentName: source.lua
+      patterns:
+      - include: source.lua
+      - include: text.tex#braces
   autocites-arg:
     patterns:
     - captures:
