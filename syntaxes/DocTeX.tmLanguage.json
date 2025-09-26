@@ -133,42 +133,7 @@
                     ]
                 },
                 {
-                    "begin": "((\\\\)((?:sub){0,2}section|(?:sub)?paragraph|chapter|part|addpart|addchap|addsec|minisec|frametitle)(?:\\*)?)((?:\\[[^\\[]*?\\]){0,2})(\\{)",
-                    "beginCaptures": {
-                        "1": {
-                            "name": "support.function.section.latex"
-                        },
-                        "2": {
-                            "name": "punctuation.definition.function.latex"
-                        },
-                        "4": {
-                            "patterns": [
-                                {
-                                    "include": "#optional-arg-bracket"
-                                }
-                            ]
-                        },
-                        "5": {
-                            "name": "punctuation.definition.arguments.begin.latex"
-                        }
-                    },
-                    "comment": "this works OK with all kinds of crazy stuff as long as section is one line",
-                    "contentName": "entity.name.section.latex",
-                    "end": "\\}",
-                    "endCaptures": {
-                        "0": {
-                            "name": "punctuation.definition.arguments.end.latex"
-                        }
-                    },
-                    "name": "meta.function.section.$3.latex",
-                    "patterns": [
-                        {
-                            "include": "text.tex#braces"
-                        },
-                        {
-                            "include": "$self"
-                        }
-                    ]
+                    "include": "#sections-macro"
                 },
                 {
                     "include": "#songs-env"
@@ -3914,6 +3879,44 @@
                         }
                     },
                     "name": "meta.function.end-document.latex"
+                }
+            ]
+        },
+        "sections-macro": {
+            "begin": "((\\\\)((?:sub){0,2}section|(?:sub)?paragraph|chapter|part|addpart|addchap|addsec|minisec|frametitle)(?:\\*)?)((?:\\[[^\\[]*?\\]){0,2})(\\{)",
+            "beginCaptures": {
+                "1": {
+                    "name": "support.function.section.latex"
+                },
+                "2": {
+                    "name": "punctuation.definition.function.latex"
+                },
+                "4": {
+                    "patterns": [
+                        {
+                            "include": "#optional-arg-bracket"
+                        }
+                    ]
+                },
+                "5": {
+                    "name": "punctuation.definition.arguments.begin.latex"
+                }
+            },
+            "comment": "this works OK with all kinds of crazy stuff as long as section is one line",
+            "contentName": "entity.name.section.latex",
+            "end": "\\}",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                }
+            },
+            "name": "meta.function.section.$3.latex",
+            "patterns": [
+                {
+                    "include": "text.tex#braces"
+                },
+                {
+                    "include": "$self"
                 }
             ]
         },
