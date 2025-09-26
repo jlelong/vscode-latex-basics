@@ -231,10 +231,10 @@ function buildLatexBlocks() {
 
     try {
         let yamlGrammar = fs.readFileSync(path.join(syntaxesSrcDir, 'LaTeX.tmLanguage.base.yaml'), {encoding: 'utf-8'})
-        yamlGrammar = yamlGrammar.replace(/^\s{2}- includeRobustExternalizeBlocks: ''/m, indent(2, robustExternalizeDefinitions))
-        yamlGrammar = yamlGrammar.replace(/^- includeCodeBlocks: ''/m, codeDefinitions)
-        yamlGrammar = yamlGrammar.replace(/^\s{2}- includeMintedblocks: ''/m, indent(2, mintedDefinitions))
-        yamlGrammar = yamlGrammar.replace(/^- includeCacheMeCodeMacroBlock: ''/m, cacheMeCodeMacroDefinitions)
+        yamlGrammar = yamlGrammar.replace(/^\s{6}- includeRobustExternalizeBlocks: ''/m, indent(6, robustExternalizeDefinitions))
+        yamlGrammar = yamlGrammar.replace(/^\s{4}- includeCodeBlocks: ''/m, indent(4, codeDefinitions))
+        yamlGrammar = yamlGrammar.replace(/^\s{6}- includeMintedblocks: ''/m, indent(6, mintedDefinitions))
+        yamlGrammar = yamlGrammar.replace(/^\s{4}- includeCacheMeCodeMacroBlock: ''/m, indent(4, cacheMeCodeMacroDefinitions))
         const latexGrammar = yaml.load(yamlGrammar)
         return latexGrammar
     } catch (error) {

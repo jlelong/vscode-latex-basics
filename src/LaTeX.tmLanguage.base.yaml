@@ -8,101 +8,7 @@ patterns:
 - include: '#input-macro'
 - include: '#sections-macro'
 - include: '#songs-env'
-- begin: (?:^\s*)?\\begin\{(lstlisting|minted|pyglist)\}(?=\[|\{)
-  captures:
-    '0':
-      patterns:
-      - include: '#begin-env-tokenizer'
-  end: \\end\{\1\}
-  patterns:
-  - include: '#multiline-optional-arg-no-highlight'
-  - includeMintedblocks: ''
-  - begin: (?:\G|(?<=\]))(\{)([a-zA-Z]*)(\})
-    beginCaptures:
-      '1':
-        name: punctuation.definition.arguments.begin.latex
-      '2':
-        name: variable.parameter.function.latex
-      '3':
-        name: punctuation.definition.arguments.end.latex
-    contentName: meta.function.embedded.latex
-    end: ^\s*(?=\\end\{(?:lstlisting|minted|pyglist)\})
-    name: meta.embedded.block.generic.latex
-- includeCodeBlocks: ''
-- begin: \s*\\begin\{((?:[a-zA-Z]*code|lstlisting|minted|pyglist)\*?)\}(?:\[.*\])?(?:\{.*\})?
-  captures:
-    '0':
-      patterns:
-      - include: '#begin-env-tokenizer'
-  contentName: meta.function.embedded.latex
-  end: \\end\{\1\}(?:\s*\n)?
-  name: meta.embedded.block.generic.latex
-- begin: ((?:^\s*)?\\begin\{((?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\*?|PlaceholderFromCode\*?|SetPlaceholderCode\*?))\})(?:\[[^\]]*\]){,2}(?=\{)
-  captures:
-    '1':
-      patterns:
-      - include: '#begin-env-tokenizer'
-  end: (\\end\{\2\})
-  patterns:
-  - includeRobustExternalizeBlocks: ''
-  - begin: \G(\{)
-    beginCaptures:
-      '1':
-        name: punctuation.definition.arguments.begin.latex
-    end: (?=\\end\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\*?|PlaceholderFromCode\*?|SetPlaceholderCode\*?)\})
-    patterns:
-    - begin: \G
-      end: (\})\s*$
-      endCaptures:
-        '1':
-          name: punctuation.definition.arguments.end.latex
-      patterns:
-      - include: text.tex#braces
-      - include: $self
-    - begin: ^(\s*)
-      contentName: meta.function.embedded.latex
-      end: ^\s*(?=\\end\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\*?|PlaceholderFromCode\*?|SetPlaceholderCode\*?)\})
-      name: meta.embedded.block.generic.latex
-- begin: (?:^\s*)?\\begin\{(terminal\*?)\}(?=\[|\{)
-  captures:
-    '0':
-      patterns:
-      - include: '#begin-env-tokenizer'
-  end: \\end\{\1\}
-  patterns:
-  - include: '#multiline-optional-arg-no-highlight'
-  - begin: (?:\G|(?<=\]))(\{)([a-zA-Z]*)(\})
-    beginCaptures:
-      '1':
-        name: punctuation.definition.arguments.begin.latex
-      '2':
-        name: variable.parameter.function.latex
-      '3':
-        name: punctuation.definition.arguments.end.latex
-    contentName: meta.function.embedded.latex
-    end: ^\s*(?=\\end\{terminal\*?\})
-    name: meta.embedded.block.generic.latex
-- includeCacheMeCodeMacroBlock: ''
-- begin: ((\\)cacheMeCode)(?=\[|\{)
-  end: (?<=\})
-  beginCaptures:
-    '1':
-      name: support.function.verb.latex
-    '2':
-      name: punctuation.definition.function.latex
-  patterns:
-  - include: text.tex.latex#multiline-optional-arg-no-highlight
-  - begin: (?<=\])(\{)
-    end: \}
-    beginCaptures:
-      '0':
-        name: punctuation.definition.arguments.begin.latex
-    endCaptures:
-      '0':
-        name: punctuation.definition.arguments.end.latex
-    contentName: meta.embedded.block.generic.latex
-    patterns:
-    - include: text.tex#braces
+- include: '#embedded-code-block'
 - begin: ((\\)addplot)(?:\+?)((?:\[[^\[]*\]))*\s*(gnuplot)\s*((?:\[[^\[]*\]))*\s*(\{)
   captures:
     '1':
@@ -870,6 +776,103 @@ repository:
         contentName: meta.data.environment.song.latex
         patterns:
         - include: text.tex.latex#songs-chords
+  embedded-code-block:
+    patterns:
+    - begin: (?:^\s*)?\\begin\{(lstlisting|minted|pyglist)\}(?=\[|\{)
+      captures:
+        '0':
+          patterns:
+          - include: '#begin-env-tokenizer'
+      end: \\end\{\1\}
+      patterns:
+      - include: '#multiline-optional-arg-no-highlight'
+      - includeMintedblocks: ''
+      - begin: (?:\G|(?<=\]))(\{)([a-zA-Z]*)(\})
+        beginCaptures:
+          '1':
+            name: punctuation.definition.arguments.begin.latex
+          '2':
+            name: variable.parameter.function.latex
+          '3':
+            name: punctuation.definition.arguments.end.latex
+        contentName: meta.function.embedded.latex
+        end: ^\s*(?=\\end\{(?:lstlisting|minted|pyglist)\})
+        name: meta.embedded.block.generic.latex
+    - includeCodeBlocks: ''
+    - begin: \s*\\begin\{((?:[a-zA-Z]*code|lstlisting|minted|pyglist)\*?)\}(?:\[.*\])?(?:\{.*\})?
+      captures:
+        '0':
+          patterns:
+          - include: '#begin-env-tokenizer'
+      contentName: meta.function.embedded.latex
+      end: \\end\{\1\}(?:\s*\n)?
+      name: meta.embedded.block.generic.latex
+    - begin: ((?:^\s*)?\\begin\{((?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\*?|PlaceholderFromCode\*?|SetPlaceholderCode\*?))\})(?:\[[^\]]*\]){,2}(?=\{)
+      captures:
+        '1':
+          patterns:
+          - include: '#begin-env-tokenizer'
+      end: (\\end\{\2\})
+      patterns:
+      - includeRobustExternalizeBlocks: ''
+      - begin: \G(\{)
+        beginCaptures:
+          '1':
+            name: punctuation.definition.arguments.begin.latex
+        end: (?=\\end\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\*?|PlaceholderFromCode\*?|SetPlaceholderCode\*?)\})
+        patterns:
+        - begin: \G
+          end: (\})\s*$
+          endCaptures:
+            '1':
+              name: punctuation.definition.arguments.end.latex
+          patterns:
+          - include: text.tex#braces
+          - include: $self
+        - begin: ^(\s*)
+          contentName: meta.function.embedded.latex
+          end: ^\s*(?=\\end\{(?:RobExt)?(?:CacheMeCode|PlaceholderPathFromCode\*?|PlaceholderFromCode\*?|SetPlaceholderCode\*?)\})
+          name: meta.embedded.block.generic.latex
+    - begin: (?:^\s*)?\\begin\{(terminal\*?)\}(?=\[|\{)
+      captures:
+        '0':
+          patterns:
+          - include: '#begin-env-tokenizer'
+      end: \\end\{\1\}
+      patterns:
+      - include: '#multiline-optional-arg-no-highlight'
+      - begin: (?:\G|(?<=\]))(\{)([a-zA-Z]*)(\})
+        beginCaptures:
+          '1':
+            name: punctuation.definition.arguments.begin.latex
+          '2':
+            name: variable.parameter.function.latex
+          '3':
+            name: punctuation.definition.arguments.end.latex
+        contentName: meta.function.embedded.latex
+        end: ^\s*(?=\\end\{terminal\*?\})
+        name: meta.embedded.block.generic.latex
+    - includeCacheMeCodeMacroBlock: ''
+    - begin: ((\\)cacheMeCode)(?=\[|\{)
+      end: (?<=\})
+      beginCaptures:
+        '1':
+          name: support.function.verb.latex
+        '2':
+          name: punctuation.definition.function.latex
+      patterns:
+      - include: text.tex.latex#multiline-optional-arg-no-highlight
+      - begin: (?<=\])(\{)
+        end: \}
+        beginCaptures:
+          '0':
+            name: punctuation.definition.arguments.begin.latex
+        endCaptures:
+          '0':
+            name: punctuation.definition.arguments.end.latex
+        contentName: meta.embedded.block.generic.latex
+        patterns:
+        - include: text.tex#braces
   autocites-arg:
     patterns:
     - captures:
