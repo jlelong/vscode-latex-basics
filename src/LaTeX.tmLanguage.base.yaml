@@ -9,6 +9,7 @@ patterns:
 - include: '#sections-macro'
 - include: '#songs-env'
 - include: '#embedded-code-block'
+- include: '#verbatim-env'
 - begin: ((\\)addplot)(?:\+?)((?:\[[^\[]*\]))*\s*(gnuplot)\s*((?:\[[^\[]*\]))*\s*(\{)
   captures:
     '1':
@@ -34,44 +35,6 @@ patterns:
     end: $\n?
     name: comment.line.percentage.latex
   - include: source.gnuplot
-- begin: (\s*\\begin\{((?:fboxv|boxedv|V|v|spv)erbatim\*?)\})
-  captures:
-    '1':
-      patterns:
-      - include: '#begin-env-tokenizer'
-  contentName: markup.raw.verbatim.latex
-  end: (\\end\{\2\})
-  name: meta.function.verbatim.latex
-- begin: (\s*\\begin\{VerbatimOut\}\{[^\}]*\})
-  captures:
-    '1':
-      patterns:
-      - include: '#begin-env-tokenizer'
-  contentName: markup.raw.verbatim.latex
-  end: (\\end\{\VerbatimOut\})
-  name: meta.function.verbatim.latex
-- begin: (\s*\\begin\{alltt\})
-  captures:
-    '1':
-      patterns:
-      - include: '#begin-env-tokenizer'
-  contentName: markup.raw.verbatim.latex
-  end: (\\end\{alltt\})
-  name: meta.function.alltt.latex
-  patterns:
-  - captures:
-      '1':
-        name: punctuation.definition.function.latex
-    match: (\\)[A-Za-z]+
-    name: support.function.general.latex
-- begin: (\s*\\begin\{([Cc]omment)\})
-  captures:
-    '1':
-      patterns:
-      - include: '#begin-env-tokenizer'
-  contentName: comment.line.percentage.latex
-  end: (\\end\{\2\})
-  name: meta.function.verbatim.latex
 - begin: (?:\s*)((\\)(?:href|hyperref|hyperimage))(?=\[|\{)
   beginCaptures:
     '1':
@@ -873,6 +836,47 @@ repository:
         contentName: meta.embedded.block.generic.latex
         patterns:
         - include: text.tex#braces
+  verbatim-env:
+    patterns:
+    - begin: (\s*\\begin\{((?:fboxv|boxedv|V|v|spv)erbatim\*?)\})
+      captures:
+        '1':
+          patterns:
+          - include: '#begin-env-tokenizer'
+      contentName: markup.raw.verbatim.latex
+      end: (\\end\{\2\})
+      name: meta.function.verbatim.latex
+    - begin: (\s*\\begin\{VerbatimOut\}\{[^\}]*\})
+      captures:
+        '1':
+          patterns:
+          - include: '#begin-env-tokenizer'
+      contentName: markup.raw.verbatim.latex
+      end: (\\end\{\VerbatimOut\})
+      name: meta.function.verbatim.latex
+    - begin: (\s*\\begin\{alltt\})
+      captures:
+        '1':
+          patterns:
+          - include: '#begin-env-tokenizer'
+      contentName: markup.raw.verbatim.latex
+      end: (\\end\{alltt\})
+      name: meta.function.alltt.latex
+      patterns:
+      - captures:
+          '1':
+            name: punctuation.definition.function.latex
+        match: (\\)[A-Za-z]+
+        name: support.function.general.latex
+    - begin: (\s*\\begin\{([Cc]omment)\})
+      captures:
+        '1':
+          patterns:
+          - include: '#begin-env-tokenizer'
+      contentName: comment.line.percentage.latex
+      end: (\\end\{\2\})
+      name: meta.function.verbatim.latex
+
   autocites-arg:
     patterns:
     - captures:
