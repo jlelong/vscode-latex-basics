@@ -4,28 +4,26 @@ patterns:
   comment: "This scope identifies partially typed commands such as `\\tab`. We use\
     \ this to trigger \u201CCommand Completion\u201D only when it makes sense."
   name: meta.space-after-command.latex
+- include: '#songs-env'
+- include: '#embedded-code-env'
+- include: '#verbatim-env'
+- include: '#document-env'
+- include: '#all-balanced-env'
 - include: '#documentclass-usepackage-macro'
 - include: '#input-macro'
 - include: '#sections-macro'
-- include: '#songs-env'
-- include: '#embedded-code-block'
-- include: '#verbatim-env'
-- include: '#gnuplot-macro'
-- include: '#document-env'
 - include: '#hyperref-macro'
-- include: '#all-balanced-env'
 - include: '#newcommand-macro'
 - include: '#text-font-macro'
 - include: '#citation-macro'
 - include: '#references-macro'
 - include: '#label-macro'
 - include: '#verb-macro'
+- include: '#gnuplot-macro'
 - include: '#inline-code-macro'
-- match: \\(?:newline|pagebreak|clearpage|linebreak|pause)(?:\b)
-  name: keyword.control.layout.latex
+- include: '#all-other-macro'
 - include: '#display-math'
 - include: '#inline-math'
-- include: '#all-other-macro'
 - include: '#column-specials'
 - include: text.tex
 repository:
@@ -216,7 +214,7 @@ repository:
         contentName: meta.data.environment.song.latex
         patterns:
         - include: text.tex.latex#songs-chords
-  embedded-code-block:
+  embedded-code-env:
     patterns:
     - begin: (?:^\s*)?\\begin\{(lstlisting|minted|pyglist)\}(?=\[|\{)
       captures:
@@ -292,27 +290,6 @@ repository:
         contentName: meta.function.embedded.latex
         end: ^\s*(?=\\end\{terminal\*?\})
         name: meta.embedded.block.generic.latex
-    - includeCacheMeCodeMacroBlock: ''
-    - begin: ((\\)cacheMeCode)(?=\[|\{)
-      end: (?<=\})
-      beginCaptures:
-        '1':
-          name: support.function.verb.latex
-        '2':
-          name: punctuation.definition.function.latex
-      patterns:
-      - include: text.tex.latex#multiline-optional-arg-no-highlight
-      - begin: (?<=\])(\{)
-        end: \}
-        beginCaptures:
-          '0':
-            name: punctuation.definition.arguments.begin.latex
-        endCaptures:
-          '0':
-            name: punctuation.definition.arguments.end.latex
-        contentName: meta.embedded.block.generic.latex
-        patterns:
-        - include: text.tex#braces
   verbatim-env:
     patterns:
     - begin: (\s*\\begin\{((?:fboxv|boxedv|V|v|spv)erbatim\*?)\})
@@ -550,6 +527,28 @@ repository:
       patterns:
       - include: source.lua
       - include: text.tex#braces
+    - includeCacheMeCodeMacroBlock: ''
+    - begin: ((\\)cacheMeCode)(?=\[|\{)
+      end: (?<=\})
+      beginCaptures:
+        '1':
+          name: support.function.verb.latex
+        '2':
+          name: punctuation.definition.function.latex
+      patterns:
+      - include: text.tex.latex#multiline-optional-arg-no-highlight
+      - begin: (?<=\])(\{)
+        end: \}
+        beginCaptures:
+          '0':
+            name: punctuation.definition.arguments.begin.latex
+        endCaptures:
+          '0':
+            name: punctuation.definition.arguments.end.latex
+        contentName: meta.embedded.block.generic.latex
+        patterns:
+        - include: text.tex#braces
+
   citation-macro:
     begin: ((\\)(?:[aA]uto|foot|full|no|ref|short|[tT]ext|[pP]aren|[sS]mart)?[cC]ite(?:al)?(?:p|s|t|author|year(?:par)?|title)?[ANP]*\*?)((?:(?:\([^\)]*\)){0,2}(?:\[[^\]]*\]){0,2}\{[\p{Alphabetic}\p{Number}_:.-]*\})*)(<[^\]<>]*>)?((?:\[[^\]]*\])*)(\{)
     captures:
@@ -870,6 +869,8 @@ repository:
       name: variable.parameter.definition.label.latex
   all-other-macro:
     patterns:
+    - match: \\(?:newline|pagebreak|clearpage|linebreak|pause)(?:\b)
+      name: keyword.control.layout.latex
     - begin: ((\\)marginpar)((?:\[[^\[]*?\])*)(\{)
       beginCaptures:
         '1':
