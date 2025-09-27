@@ -37,114 +37,10 @@
             "include": "#all-balanced-env"
         },
         {
-            "match": "((\\\\)(?:newcommand|renewcommand|(?:re)?newrobustcmd|DeclareRobustCommand))\\*?({)((\\\\)[^}]*)(})",
-            "captures": {
-                "1": {
-                    "name": "storage.type.function.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.function.latex"
-                },
-                "3": {
-                    "name": "punctuation.definition.begin.latex"
-                },
-                "4": {
-                    "name": "support.function.general.latex"
-                },
-                "5": {
-                    "name": "punctuation.definition.function.latex"
-                },
-                "6": {
-                    "name": "punctuation.definition.end.latex"
-                }
-            }
-        },
-        {
-            "begin": "((\\\\)marginpar)((?:\\[[^\\[]*?\\])*)(\\{)",
-            "beginCaptures": {
-                "1": {
-                    "name": "support.function.marginpar.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.function.latex"
-                },
-                "3": {
-                    "patterns": [
-                        {
-                            "include": "#optional-arg-bracket"
-                        }
-                    ]
-                },
-                "4": {
-                    "name": "punctuation.definition.marginpar.begin.latex"
-                }
-            },
-            "contentName": "meta.paragraph.margin.latex",
-            "end": "\\}",
-            "endCaptures": {
-                "0": {
-                    "name": "punctuation.definition.marginpar.end.latex"
-                }
-            },
-            "patterns": [
-                {
-                    "include": "text.tex#braces"
-                },
-                {
-                    "include": "$self"
-                }
-            ]
-        },
-        {
-            "begin": "((\\\\)footnote)((?:\\[[^\\[]*?\\])*)(\\{)",
-            "beginCaptures": {
-                "1": {
-                    "name": "support.function.footnote.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.function.latex"
-                },
-                "3": {
-                    "patterns": [
-                        {
-                            "include": "#optional-arg-bracket"
-                        }
-                    ]
-                },
-                "4": {
-                    "name": "punctuation.definition.footnote.begin.latex"
-                }
-            },
-            "contentName": "entity.name.footnote.latex",
-            "end": "\\}",
-            "endCaptures": {
-                "0": {
-                    "name": "punctuation.definition.footnote.end.latex"
-                }
-            },
-            "patterns": [
-                {
-                    "include": "text.tex#braces"
-                },
-                {
-                    "include": "$self"
-                }
-            ]
+            "include": "#newcommand-macro"
         },
         {
             "include": "#text-font-macro"
-        },
-        {
-            "match": "(\\\\)item\\b",
-            "captures": {
-                "0": {
-                    "name": "keyword.other.item.latex"
-                },
-                "1": {
-                    "name": "punctuation.definition.keyword.latex"
-                }
-            },
-            "name": "meta.scope.item.latex"
         },
         {
             "include": "#citation-macro"
@@ -153,7 +49,7 @@
             "include": "#references-macro"
         },
         {
-            "include": "#definition-label"
+            "include": "#label-macro"
         },
         {
             "include": "#verb-macro"
@@ -172,34 +68,10 @@
             "include": "#inline-math"
         },
         {
-            "match": "(\\\\)(text(s(terling|ixoldstyle|urd|e(ction|venoldstyle|rvicemark))|yen|n(ineoldstyle|umero|aira)|c(ircledP|o(py(left|right)|lonmonetary)|urrency|e(nt(oldstyle)?|lsius))|t(hree(superior|oldstyle|quarters(emdash)?)|i(ldelow|mes)|w(o(superior|oldstyle)|elveudash)|rademark)|interrobang(down)?|zerooldstyle|o(hm|ne(superior|half|oldstyle|quarter)|penbullet|rd(feminine|masculine))|d(i(scount|ed|v(orced)?)|o(ng|wnarrow|llar(oldstyle)?)|egree|agger(dbl)?|blhyphen(char)?)|uparrow|p(ilcrow|e(so|r(t(housand|enthousand)|iodcentered))|aragraph|m)|e(stimated|ightoldstyle|uro)|quotes(traight(dblbase|base)|ingle)|f(iveoldstyle|ouroldstyle|lorin|ractionsolidus)|won|l(not|ira|e(ftarrow|af)|quill|angle|brackdbl)|a(s(cii(caron|dieresis|acute|grave|macron|breve)|teriskcentered)|cutedbl)|r(ightarrow|e(cipe|ferencemark|gistered)|quill|angle|brackdbl)|g(uarani|ravedbl)|m(ho|inus|u(sicalnote)?|arried)|b(igcircle|orn|ullet|lank|a(ht|rdbl)|rokenbar)))\\b",
-            "captures": {
-                "1": {
-                    "name": "punctuation.definition.constant.latex"
-                }
-            },
-            "name": "constant.character.latex"
+            "include": "#all-other-macro"
         },
         {
-            "match": "(\\\\)(?:[cgl]_+[_\\p{Alphabetic}@]+_[a-z]+|[qs]_[_\\p{Alphabetic}@]+[\\p{Alphabetic}@])",
-            "captures": {
-                "1": {
-                    "name": "punctuation.definition.variable.latex"
-                }
-            },
-            "name": "variable.other.latex3.latex"
-        },
-        {
-            "match": "(?:<|>)(\\{)\\$(\\})",
-            "captures": {
-                "1": {
-                    "name": "punctuation.definition.column-specials.begin.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.column-specials.end.latex"
-                }
-            },
-            "name": "meta.column-specials.latex"
+            "include": "#column-specials"
         },
         {
             "include": "text.tex"
@@ -3781,7 +3653,7 @@
                             "name": "keyword.control.equation.newline.latex"
                         },
                         {
-                            "include": "#definition-label"
+                            "include": "#label-macro"
                         },
                         {
                             "include": "text.tex#math-content"
@@ -3815,7 +3687,7 @@
                             "name": "keyword.control.equation.newline.latex"
                         },
                         {
-                            "include": "#definition-label"
+                            "include": "#label-macro"
                         },
                         {
                             "include": "text.tex#math-content"
@@ -3964,6 +3836,147 @@
                 }
             ]
         },
+        "newcommand-macro": {
+            "match": "((\\\\)(?:newcommand|renewcommand|(?:re)?newrobustcmd|DeclareRobustCommand))\\*?({)((\\\\)[^}]*)(})",
+            "captures": {
+                "1": {
+                    "name": "storage.type.function.latex"
+                },
+                "2": {
+                    "name": "punctuation.definition.function.latex"
+                },
+                "3": {
+                    "name": "punctuation.definition.begin.latex"
+                },
+                "4": {
+                    "name": "support.function.general.latex"
+                },
+                "5": {
+                    "name": "punctuation.definition.function.latex"
+                },
+                "6": {
+                    "name": "punctuation.definition.end.latex"
+                }
+            }
+        },
+        "all-other-macro": {
+            "patterns": [
+                {
+                    "begin": "((\\\\)marginpar)((?:\\[[^\\[]*?\\])*)(\\{)",
+                    "beginCaptures": {
+                        "1": {
+                            "name": "support.function.marginpar.latex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.function.latex"
+                        },
+                        "3": {
+                            "patterns": [
+                                {
+                                    "include": "#optional-arg-bracket"
+                                }
+                            ]
+                        },
+                        "4": {
+                            "name": "punctuation.definition.marginpar.begin.latex"
+                        }
+                    },
+                    "contentName": "meta.paragraph.margin.latex",
+                    "end": "\\}",
+                    "endCaptures": {
+                        "0": {
+                            "name": "punctuation.definition.marginpar.end.latex"
+                        }
+                    },
+                    "patterns": [
+                        {
+                            "include": "text.tex#braces"
+                        },
+                        {
+                            "include": "$self"
+                        }
+                    ]
+                },
+                {
+                    "begin": "((\\\\)footnote)((?:\\[[^\\[]*?\\])*)(\\{)",
+                    "beginCaptures": {
+                        "1": {
+                            "name": "support.function.footnote.latex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.function.latex"
+                        },
+                        "3": {
+                            "patterns": [
+                                {
+                                    "include": "#optional-arg-bracket"
+                                }
+                            ]
+                        },
+                        "4": {
+                            "name": "punctuation.definition.footnote.begin.latex"
+                        }
+                    },
+                    "contentName": "entity.name.footnote.latex",
+                    "end": "\\}",
+                    "endCaptures": {
+                        "0": {
+                            "name": "punctuation.definition.footnote.end.latex"
+                        }
+                    },
+                    "patterns": [
+                        {
+                            "include": "text.tex#braces"
+                        },
+                        {
+                            "include": "$self"
+                        }
+                    ]
+                },
+                {
+                    "match": "(\\\\)item\\b",
+                    "captures": {
+                        "0": {
+                            "name": "keyword.other.item.latex"
+                        },
+                        "1": {
+                            "name": "punctuation.definition.keyword.latex"
+                        }
+                    },
+                    "name": "meta.scope.item.latex"
+                },
+                {
+                    "match": "(\\\\)(text(s(terling|ixoldstyle|urd|e(ction|venoldstyle|rvicemark))|yen|n(ineoldstyle|umero|aira)|c(ircledP|o(py(left|right)|lonmonetary)|urrency|e(nt(oldstyle)?|lsius))|t(hree(superior|oldstyle|quarters(emdash)?)|i(ldelow|mes)|w(o(superior|oldstyle)|elveudash)|rademark)|interrobang(down)?|zerooldstyle|o(hm|ne(superior|half|oldstyle|quarter)|penbullet|rd(feminine|masculine))|d(i(scount|ed|v(orced)?)|o(ng|wnarrow|llar(oldstyle)?)|egree|agger(dbl)?|blhyphen(char)?)|uparrow|p(ilcrow|e(so|r(t(housand|enthousand)|iodcentered))|aragraph|m)|e(stimated|ightoldstyle|uro)|quotes(traight(dblbase|base)|ingle)|f(iveoldstyle|ouroldstyle|lorin|ractionsolidus)|won|l(not|ira|e(ftarrow|af)|quill|angle|brackdbl)|a(s(cii(caron|dieresis|acute|grave|macron|breve)|teriskcentered)|cutedbl)|r(ightarrow|e(cipe|ferencemark|gistered)|quill|angle|brackdbl)|g(uarani|ravedbl)|m(ho|inus|u(sicalnote)?|arried)|b(igcircle|orn|ullet|lank|a(ht|rdbl)|rokenbar)))\\b",
+                    "captures": {
+                        "1": {
+                            "name": "punctuation.definition.constant.latex"
+                        }
+                    },
+                    "name": "constant.character.latex"
+                },
+                {
+                    "match": "(\\\\)(?:[cgl]_+[_\\p{Alphabetic}@]+_[a-z]+|[qs]_[_\\p{Alphabetic}@]+[\\p{Alphabetic}@])",
+                    "captures": {
+                        "1": {
+                            "name": "punctuation.definition.variable.latex"
+                        }
+                    },
+                    "name": "variable.other.latex3.latex"
+                }
+            ]
+        },
+        "column-specials": {
+            "match": "(?:<|>)(\\{)\\$(\\})",
+            "captures": {
+                "1": {
+                    "name": "punctuation.definition.column-specials.begin.latex"
+                },
+                "2": {
+                    "name": "punctuation.definition.column-specials.end.latex"
+                }
+            },
+            "name": "meta.column-specials.latex"
+        },
         "autocites-arg": {
             "patterns": [
                 {
@@ -4045,7 +4058,7 @@
             },
             "match": "\\s*((\\\\)(?:begin|end))(\\{)(\\p{Alphabetic}+\\*?)(\\})(?:(\\[)([^\\]]*)(\\])){,2}(?:(\\{)([^{}]*)(\\}))?"
         },
-        "definition-label": {
+        "label-macro": {
             "begin": "((\\\\)z?label)((?:\\[[^\\[]*?\\])*)(\\{)",
             "beginCaptures": {
                 "1": {
