@@ -118,7 +118,8 @@ patterns:
   name: meta.function.environment.general.latex
   patterns:
   - include: $self
-- captures:
+- match: ((\\)(?:newcommand|renewcommand|(?:re)?newrobustcmd|DeclareRobustCommand))\*?({)((\\)[^}]*)(})
+  captures:
     '1':
       name: storage.type.function.latex
     '2':
@@ -131,7 +132,6 @@ patterns:
       name: punctuation.definition.function.latex
     '6':
       name: punctuation.definition.end.latex
-  match: ((\\)(?:newcommand|renewcommand|(?:re)?newrobustcmd|DeclareRobustCommand))\*?({)((\\)[^}]*)(})
 - begin: ((\\)marginpar)((?:\[[^\[]*?\])*)(\{)
   beginCaptures:
     '1':
@@ -170,84 +170,13 @@ patterns:
   patterns:
   - include: text.tex#braces
   - include: $self
-- begin: ((\\)emph)(\{)
-  beginCaptures:
-    '1':
-      name: support.function.emph.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      name: punctuation.definition.emph.begin.latex
-  contentName: markup.italic.emph.latex
-  end: \}
-  endCaptures:
-    '0':
-      name: punctuation.definition.emph.end.latex
-  name: meta.function.emph.latex
-  patterns:
-  - include: text.tex#braces
-  - include: $self
-- begin: ((\\)textit)(\{)
+- include: '#text-font-macro'
+- match: (\\)item\b
   captures:
-    '1':
-      name: support.function.textit.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      name: punctuation.definition.textit.begin.latex
-  comment: "We put the keyword in a capture and name this capture, so that disabling\
-    \ spell checking for \u201Ckeyword\u201D won't be inherited by the argument to\
-    \ \\textit{...}.\n\nPut specific matches for particular LaTeX keyword.functions\
-    \ before the last two more general functions"
-  contentName: markup.italic.textit.latex
-  end: \}
-  endCaptures:
-    '0':
-      name: punctuation.definition.textit.end.latex
-  name: meta.function.textit.latex
-  patterns:
-  - include: text.tex#braces
-  - include: $self
-- begin: ((\\)textbf)(\{)
-  captures:
-    '1':
-      name: support.function.textbf.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      name: punctuation.definition.textbf.begin.latex
-  contentName: markup.bold.textbf.latex
-  end: \}
-  endCaptures:
-    '0':
-      name: punctuation.definition.textbf.end.latex
-  name: meta.function.textbf.latex
-  patterns:
-  - include: text.tex#braces
-  - include: $self
-- begin: ((\\)texttt)(\{)
-  captures:
-    '1':
-      name: support.function.texttt.latex
-    '2':
-      name: punctuation.definition.function.latex
-    '3':
-      name: punctuation.definition.texttt.begin.latex
-  contentName: markup.raw.texttt.latex
-  end: \}
-  endCaptures:
-    '0':
-      name: punctuation.definition.texttt.end.latex
-  name: meta.function.texttt.latex
-  patterns:
-  - include: text.tex#braces
-  - include: $self
-- captures:
     '0':
       name: keyword.other.item.latex
     '1':
       name: punctuation.definition.keyword.latex
-  match: (\\)item\b
   name: meta.scope.item.latex
 - include: '#citation-macro'
 - begin: ((\\)bibentry)(\{)
@@ -324,22 +253,22 @@ patterns:
   patterns:
   - include: text.tex#math-content
   - include: $self
-- captures:
+- match: (\\)(text(s(terling|ixoldstyle|urd|e(ction|venoldstyle|rvicemark))|yen|n(ineoldstyle|umero|aira)|c(ircledP|o(py(left|right)|lonmonetary)|urrency|e(nt(oldstyle)?|lsius))|t(hree(superior|oldstyle|quarters(emdash)?)|i(ldelow|mes)|w(o(superior|oldstyle)|elveudash)|rademark)|interrobang(down)?|zerooldstyle|o(hm|ne(superior|half|oldstyle|quarter)|penbullet|rd(feminine|masculine))|d(i(scount|ed|v(orced)?)|o(ng|wnarrow|llar(oldstyle)?)|egree|agger(dbl)?|blhyphen(char)?)|uparrow|p(ilcrow|e(so|r(t(housand|enthousand)|iodcentered))|aragraph|m)|e(stimated|ightoldstyle|uro)|quotes(traight(dblbase|base)|ingle)|f(iveoldstyle|ouroldstyle|lorin|ractionsolidus)|won|l(not|ira|e(ftarrow|af)|quill|angle|brackdbl)|a(s(cii(caron|dieresis|acute|grave|macron|breve)|teriskcentered)|cutedbl)|r(ightarrow|e(cipe|ferencemark|gistered)|quill|angle|brackdbl)|g(uarani|ravedbl)|m(ho|inus|u(sicalnote)?|arried)|b(igcircle|orn|ullet|lank|a(ht|rdbl)|rokenbar)))\b
+  captures:
     '1':
       name: punctuation.definition.constant.latex
-  match: (\\)(text(s(terling|ixoldstyle|urd|e(ction|venoldstyle|rvicemark))|yen|n(ineoldstyle|umero|aira)|c(ircledP|o(py(left|right)|lonmonetary)|urrency|e(nt(oldstyle)?|lsius))|t(hree(superior|oldstyle|quarters(emdash)?)|i(ldelow|mes)|w(o(superior|oldstyle)|elveudash)|rademark)|interrobang(down)?|zerooldstyle|o(hm|ne(superior|half|oldstyle|quarter)|penbullet|rd(feminine|masculine))|d(i(scount|ed|v(orced)?)|o(ng|wnarrow|llar(oldstyle)?)|egree|agger(dbl)?|blhyphen(char)?)|uparrow|p(ilcrow|e(so|r(t(housand|enthousand)|iodcentered))|aragraph|m)|e(stimated|ightoldstyle|uro)|quotes(traight(dblbase|base)|ingle)|f(iveoldstyle|ouroldstyle|lorin|ractionsolidus)|won|l(not|ira|e(ftarrow|af)|quill|angle|brackdbl)|a(s(cii(caron|dieresis|acute|grave|macron|breve)|teriskcentered)|cutedbl)|r(ightarrow|e(cipe|ferencemark|gistered)|quill|angle|brackdbl)|g(uarani|ravedbl)|m(ho|inus|u(sicalnote)?|arried)|b(igcircle|orn|ullet|lank|a(ht|rdbl)|rokenbar)))\b
   name: constant.character.latex
-- captures:
+- match: (\\)(?:[cgl]_+[_\p{Alphabetic}@]+_[a-z]+|[qs]_[_\p{Alphabetic}@]+[\p{Alphabetic}@])
+  captures:
     '1':
       name: punctuation.definition.variable.latex
-  match: (\\)(?:[cgl]_+[_\p{Alphabetic}@]+_[a-z]+|[qs]_[_\p{Alphabetic}@]+[\p{Alphabetic}@])
   name: variable.other.latex3.latex
-- captures:
+- match: (?:<|>)(\{)\$(\})
+  captures:
     '1':
       name: punctuation.definition.column-specials.begin.latex
     '2':
       name: punctuation.definition.column-specials.end.latex
-  match: (?:<|>)(\{)\$(\})
   name: meta.column-specials.latex
 - include: text.tex
 repository:
@@ -422,6 +351,81 @@ repository:
     patterns:
     - include: text.tex#braces
     - include: $self
+  text-font-macro:
+    patterns:
+    - begin: ((\\)emph)(\{)
+      beginCaptures:
+        '1':
+          name: support.function.emph.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          name: punctuation.definition.emph.begin.latex
+      contentName: markup.italic.emph.latex
+      end: \}
+      endCaptures:
+        '0':
+          name: punctuation.definition.emph.end.latex
+      name: meta.function.emph.latex
+      patterns:
+      - include: text.tex#braces
+      - include: $self
+    - begin: ((\\)textit)(\{)
+      captures:
+        '1':
+          name: support.function.textit.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          name: punctuation.definition.textit.begin.latex
+      comment: "We put the keyword in a capture and name this capture, so that disabling\
+        \ spell checking for \u201Ckeyword\u201D won't be inherited by the argument to\
+        \ \\textit{...}.\n\nPut specific matches for particular LaTeX keyword.functions\
+        \ before the last two more general functions"
+      contentName: markup.italic.textit.latex
+      end: \}
+      endCaptures:
+        '0':
+          name: punctuation.definition.textit.end.latex
+      name: meta.function.textit.latex
+      patterns:
+      - include: text.tex#braces
+      - include: $self
+    - begin: ((\\)textbf)(\{)
+      captures:
+        '1':
+          name: support.function.textbf.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          name: punctuation.definition.textbf.begin.latex
+      contentName: markup.bold.textbf.latex
+      end: \}
+      endCaptures:
+        '0':
+          name: punctuation.definition.textbf.end.latex
+      name: meta.function.textbf.latex
+      patterns:
+      - include: text.tex#braces
+      - include: $self
+    - begin: ((\\)texttt)(\{)
+      captures:
+        '1':
+          name: support.function.texttt.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          name: punctuation.definition.texttt.begin.latex
+      contentName: markup.raw.texttt.latex
+      end: \}
+      endCaptures:
+        '0':
+          name: punctuation.definition.texttt.end.latex
+      name: meta.function.texttt.latex
+      patterns:
+      - include: text.tex#braces
+      - include: $self
+
   songs-env:
     patterns:
     - begin: (\s*\\begin\{songs\}\{.*\})
