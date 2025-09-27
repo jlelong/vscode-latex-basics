@@ -34,217 +34,7 @@
             "include": "#hyperref-macro"
         },
         {
-            "begin": "(?:\\s*)((\\\\)begin)(\\{)((?:\\+?array|equation|(?:IEEE|sub)?eqnarray|multline|align|aligned|alignat|alignedat|flalign|flaligned|flalignat|split|gather|gathered|\\+?cases|(?:display)?math|\\+?[a-zA-Z]*matrix|[pbBvV]?NiceMatrix|[pbBvV]?NiceArray|(?:(?:arg)?(?:mini|maxi)))(?:\\*|!)?)(\\})(\\s*\\n)?",
-            "captures": {
-                "1": {
-                    "name": "support.function.be.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.function.latex"
-                },
-                "3": {
-                    "name": "punctuation.definition.arguments.begin.latex"
-                },
-                "4": {
-                    "name": "variable.parameter.function.latex"
-                },
-                "5": {
-                    "name": "punctuation.definition.arguments.end.latex"
-                }
-            },
-            "contentName": "meta.math.block.latex support.class.math.block.environment.latex",
-            "end": "(?:\\s*)((\\\\)end)(\\{)(\\4)(\\})(?:\\s*\\n)?",
-            "name": "meta.function.environment.math.latex",
-            "patterns": [
-                {
-                    "match": "(?<!\\\\)&",
-                    "name": "keyword.control.equation.align.latex"
-                },
-                {
-                    "match": "\\\\\\\\",
-                    "name": "keyword.control.equation.newline.latex"
-                },
-                {
-                    "include": "#definition-label"
-                },
-                {
-                    "include": "text.tex#math-content"
-                },
-                {
-                    "include": "$self"
-                }
-            ]
-        },
-        {
-            "begin": "(?:\\s*)(\\\\begin\\{empheq\\}(?:\\[.*\\])?)",
-            "captures": {
-                "1": {
-                    "patterns": [
-                        {
-                            "include": "#begin-env-tokenizer"
-                        }
-                    ]
-                }
-            },
-            "contentName": "meta.math.block.latex support.class.math.block.environment.latex",
-            "end": "(?:\\s*)(\\\\end\\{empheq\\})",
-            "name": "meta.function.environment.math.latex",
-            "patterns": [
-                {
-                    "match": "(?<!\\\\)&",
-                    "name": "keyword.control.equation.align.latex"
-                },
-                {
-                    "match": "\\\\\\\\",
-                    "name": "keyword.control.equation.newline.latex"
-                },
-                {
-                    "include": "#definition-label"
-                },
-                {
-                    "include": "text.tex#math-content"
-                },
-                {
-                    "include": "$self"
-                }
-            ]
-        },
-        {
-            "begin": "(\\s*\\\\begin\\{(tabular[xy*]?|xltabular|longtable|(?:long)?tabu|(?:long|tall)?tblr|NiceTabular[X*]?|booktabs)\\}(\\s*\\n)?)",
-            "captures": {
-                "1": {
-                    "patterns": [
-                        {
-                            "include": "#begin-env-tokenizer"
-                        }
-                    ]
-                }
-            },
-            "contentName": "meta.data.environment.tabular.latex",
-            "end": "(\\s*\\\\end\\{(\\2)\\}(?:\\s*\\n)?)",
-            "name": "meta.function.environment.tabular.latex",
-            "patterns": [
-                {
-                    "match": "(?<!\\\\)&",
-                    "name": "keyword.control.table.cell.latex"
-                },
-                {
-                    "match": "\\\\\\\\",
-                    "name": "keyword.control.table.newline.latex"
-                },
-                {
-                    "include": "$self"
-                }
-            ]
-        },
-        {
-            "begin": "(\\s*\\\\begin\\{(itemize|enumerate|description|list)\\})",
-            "captures": {
-                "1": {
-                    "patterns": [
-                        {
-                            "include": "#begin-env-tokenizer"
-                        }
-                    ]
-                }
-            },
-            "end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)",
-            "name": "meta.function.environment.list.latex",
-            "patterns": [
-                {
-                    "include": "$self"
-                }
-            ]
-        },
-        {
-            "begin": "(\\s*\\\\begin\\{tikzpicture\\})",
-            "captures": {
-                "1": {
-                    "patterns": [
-                        {
-                            "include": "#begin-env-tokenizer"
-                        }
-                    ]
-                }
-            },
-            "end": "(\\\\end\\{tikzpicture\\}(?:\\s*\\n)?)",
-            "name": "meta.function.environment.latex.tikz",
-            "patterns": [
-                {
-                    "include": "$self"
-                }
-            ]
-        },
-        {
-            "begin": "(\\s*\\\\begin\\{frame\\})",
-            "captures": {
-                "1": {
-                    "patterns": [
-                        {
-                            "include": "#begin-env-tokenizer"
-                        }
-                    ]
-                }
-            },
-            "end": "(\\\\end\\{frame\\})",
-            "name": "meta.function.environment.frame.latex",
-            "patterns": [
-                {
-                    "include": "$self"
-                }
-            ]
-        },
-        {
-            "begin": "(\\s*\\\\begin\\{(mpost\\*?)\\})",
-            "captures": {
-                "1": {
-                    "patterns": [
-                        {
-                            "include": "#begin-env-tokenizer"
-                        }
-                    ]
-                }
-            },
-            "end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)",
-            "name": "meta.function.environment.latex.mpost"
-        },
-        {
-            "begin": "(\\s*\\\\begin\\{markdown\\})",
-            "captures": {
-                "1": {
-                    "patterns": [
-                        {
-                            "include": "#begin-env-tokenizer"
-                        }
-                    ]
-                }
-            },
-            "contentName": "meta.embedded.markdown_latex_combined",
-            "end": "(\\\\end\\{markdown\\})",
-            "patterns": [
-                {
-                    "include": "text.tex.markdown_latex_combined"
-                }
-            ]
-        },
-        {
-            "begin": "(\\s*\\\\begin\\{(\\p{Alphabetic}+\\*?)\\})",
-            "captures": {
-                "1": {
-                    "patterns": [
-                        {
-                            "include": "#begin-env-tokenizer"
-                        }
-                    ]
-                }
-            },
-            "end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)",
-            "name": "meta.function.environment.general.latex",
-            "patterns": [
-                {
-                    "include": "$self"
-                }
-            ]
+            "include": "#all-balanced-env"
         },
         {
             "match": "((\\\\)(?:newcommand|renewcommand|(?:re)?newrobustcmd|DeclareRobustCommand))\\*?({)((\\\\)[^}]*)(})",
@@ -3954,6 +3744,223 @@
                         }
                     },
                     "name": "meta.function.verb.latex"
+                }
+            ]
+        },
+        "all-balanced-env": {
+            "patterns": [
+                {
+                    "begin": "(?:\\s*)((\\\\)begin)(\\{)((?:\\+?array|equation|(?:IEEE|sub)?eqnarray|multline|align|aligned|alignat|alignedat|flalign|flaligned|flalignat|split|gather|gathered|\\+?cases|(?:display)?math|\\+?[a-zA-Z]*matrix|[pbBvV]?NiceMatrix|[pbBvV]?NiceArray|(?:(?:arg)?(?:mini|maxi)))(?:\\*|!)?)(\\})(\\s*\\n)?",
+                    "captures": {
+                        "1": {
+                            "name": "support.function.be.latex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.function.latex"
+                        },
+                        "3": {
+                            "name": "punctuation.definition.arguments.begin.latex"
+                        },
+                        "4": {
+                            "name": "variable.parameter.function.latex"
+                        },
+                        "5": {
+                            "name": "punctuation.definition.arguments.end.latex"
+                        }
+                    },
+                    "contentName": "meta.math.block.latex support.class.math.block.environment.latex",
+                    "end": "(?:\\s*)((\\\\)end)(\\{)(\\4)(\\})(?:\\s*\\n)?",
+                    "name": "meta.function.environment.math.latex",
+                    "patterns": [
+                        {
+                            "match": "(?<!\\\\)&",
+                            "name": "keyword.control.equation.align.latex"
+                        },
+                        {
+                            "match": "\\\\\\\\",
+                            "name": "keyword.control.equation.newline.latex"
+                        },
+                        {
+                            "include": "#definition-label"
+                        },
+                        {
+                            "include": "text.tex#math-content"
+                        },
+                        {
+                            "include": "$self"
+                        }
+                    ]
+                },
+                {
+                    "begin": "(?:\\s*)(\\\\begin\\{empheq\\}(?:\\[.*\\])?)",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#begin-env-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "contentName": "meta.math.block.latex support.class.math.block.environment.latex",
+                    "end": "(?:\\s*)(\\\\end\\{empheq\\})",
+                    "name": "meta.function.environment.math.latex",
+                    "patterns": [
+                        {
+                            "match": "(?<!\\\\)&",
+                            "name": "keyword.control.equation.align.latex"
+                        },
+                        {
+                            "match": "\\\\\\\\",
+                            "name": "keyword.control.equation.newline.latex"
+                        },
+                        {
+                            "include": "#definition-label"
+                        },
+                        {
+                            "include": "text.tex#math-content"
+                        },
+                        {
+                            "include": "$self"
+                        }
+                    ]
+                },
+                {
+                    "begin": "(\\s*\\\\begin\\{(tabular[xy*]?|xltabular|longtable|(?:long)?tabu|(?:long|tall)?tblr|NiceTabular[X*]?|booktabs)\\}(\\s*\\n)?)",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#begin-env-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "contentName": "meta.data.environment.tabular.latex",
+                    "end": "(\\s*\\\\end\\{(\\2)\\}(?:\\s*\\n)?)",
+                    "name": "meta.function.environment.tabular.latex",
+                    "patterns": [
+                        {
+                            "match": "(?<!\\\\)&",
+                            "name": "keyword.control.table.cell.latex"
+                        },
+                        {
+                            "match": "\\\\\\\\",
+                            "name": "keyword.control.table.newline.latex"
+                        },
+                        {
+                            "include": "$self"
+                        }
+                    ]
+                },
+                {
+                    "begin": "(\\s*\\\\begin\\{(itemize|enumerate|description|list)\\})",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#begin-env-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)",
+                    "name": "meta.function.environment.list.latex",
+                    "patterns": [
+                        {
+                            "include": "$self"
+                        }
+                    ]
+                },
+                {
+                    "begin": "(\\s*\\\\begin\\{tikzpicture\\})",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#begin-env-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "end": "(\\\\end\\{tikzpicture\\}(?:\\s*\\n)?)",
+                    "name": "meta.function.environment.latex.tikz",
+                    "patterns": [
+                        {
+                            "include": "$self"
+                        }
+                    ]
+                },
+                {
+                    "begin": "(\\s*\\\\begin\\{frame\\})",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#begin-env-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "end": "(\\\\end\\{frame\\})",
+                    "name": "meta.function.environment.frame.latex",
+                    "patterns": [
+                        {
+                            "include": "$self"
+                        }
+                    ]
+                },
+                {
+                    "begin": "(\\s*\\\\begin\\{(mpost\\*?)\\})",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#begin-env-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)",
+                    "name": "meta.function.environment.latex.mpost"
+                },
+                {
+                    "begin": "(\\s*\\\\begin\\{markdown\\})",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#begin-env-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "contentName": "meta.embedded.markdown_latex_combined",
+                    "end": "(\\\\end\\{markdown\\})",
+                    "patterns": [
+                        {
+                            "include": "text.tex.markdown_latex_combined"
+                        }
+                    ]
+                },
+                {
+                    "begin": "(\\s*\\\\begin\\{(\\p{Alphabetic}+\\*?)\\})",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#begin-env-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "end": "(\\\\end\\{\\2\\}(?:\\s*\\n)?)",
+                    "name": "meta.function.environment.general.latex",
+                    "patterns": [
+                        {
+                            "include": "$self"
+                        }
+                    ]
                 }
             ]
         },
