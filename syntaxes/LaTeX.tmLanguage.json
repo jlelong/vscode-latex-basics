@@ -475,63 +475,7 @@
             "name": "meta.scope.item.latex"
         },
         {
-            "begin": "((\\\\)(?:[aA]uto|foot|full|no|ref|short|[tT]ext|[pP]aren|[sS]mart)?[cC]ite(?:al)?(?:p|s|t|author|year(?:par)?|title)?[ANP]*\\*?)((?:(?:\\([^\\)]*\\)){0,2}(?:\\[[^\\]]*\\]){0,2}\\{[\\p{Alphabetic}\\p{Number}_:.-]*\\})*)(<[^\\]<>]*>)?((?:\\[[^\\]]*\\])*)(\\{)",
-            "captures": {
-                "1": {
-                    "name": "keyword.control.cite.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.keyword.latex"
-                },
-                "3": {
-                    "patterns": [
-                        {
-                            "include": "#autocites-arg"
-                        }
-                    ]
-                },
-                "4": {
-                    "patterns": [
-                        {
-                            "include": "#optional-arg-angle-no-highlight"
-                        }
-                    ]
-                },
-                "5": {
-                    "patterns": [
-                        {
-                            "include": "#optional-arg-bracket-no-highlight"
-                        }
-                    ]
-                },
-                "6": {
-                    "name": "punctuation.definition.arguments.begin.latex"
-                }
-            },
-            "end": "\\}",
-            "endCaptures": {
-                "0": {
-                    "name": "punctuation.definition.arguments.end.latex"
-                }
-            },
-            "name": "meta.citation.latex",
-            "patterns": [
-                {
-                    "match": "((%).*)$",
-                    "captures": {
-                        "1": {
-                            "name": "comment.line.percentage.tex"
-                        },
-                        "2": {
-                            "name": "punctuation.definition.comment.tex"
-                        }
-                    }
-                },
-                {
-                    "match": "[\\p{Alphabetic}\\p{Number}:.-]+",
-                    "name": "constant.other.reference.citation.latex"
-                }
-            ]
+            "include": "#citation-macro"
         },
         {
             "begin": "((\\\\)bibentry)(\\{)",
@@ -561,117 +505,13 @@
             ]
         },
         {
-            "begin": "((\\\\)(?:\\w*[rR]ef\\*?))(?:\\[[^\\]]*\\])?(\\{)",
-            "beginCaptures": {
-                "1": {
-                    "name": "keyword.control.ref.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.keyword.latex"
-                },
-                "3": {
-                    "name": "punctuation.definition.arguments.begin.latex"
-                }
-            },
-            "end": "\\}",
-            "endCaptures": {
-                "0": {
-                    "name": "punctuation.definition.arguments.end.latex"
-                }
-            },
-            "name": "meta.reference.label.latex",
-            "patterns": [
-                {
-                    "match": "[\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]+",
-                    "name": "constant.other.reference.label.latex"
-                }
-            ]
-        },
-        {
-            "match": "((\\\\)(?:\\w*[rR]efrange\\*?))(?:\\[[^\\]]*\\])?(\\{)([\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]+)(\\})(\\{)([\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]+)(\\})",
-            "captures": {
-                "1": {
-                    "name": "keyword.control.ref.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.keyword.latex"
-                },
-                "3": {
-                    "name": "punctuation.definition.arguments.begin.latex"
-                },
-                "4": {
-                    "name": "constant.other.reference.label.latex"
-                },
-                "5": {
-                    "name": "punctuation.definition.arguments.end.latex"
-                },
-                "6": {
-                    "name": "punctuation.definition.arguments.begin.latex"
-                },
-                "7": {
-                    "name": "constant.other.reference.label.latex"
-                },
-                "8": {
-                    "name": "punctuation.definition.arguments.end.latex"
-                }
-            }
+            "include": "#references-macro"
         },
         {
             "include": "#definition-label"
         },
         {
-            "begin": "((\\\\)(?:verb|Verb|spverb)\\*?)\\s*((\\\\)scantokens)(\\{)",
-            "beginCaptures": {
-                "1": {
-                    "name": "support.function.verb.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.function.latex"
-                },
-                "3": {
-                    "name": "support.function.verb.latex"
-                },
-                "4": {
-                    "name": "punctuation.definition.verb.latex"
-                },
-                "5": {
-                    "name": "punctuation.definition.begin.latex"
-                }
-            },
-            "contentName": "markup.raw.verb.latex",
-            "end": "(\\})",
-            "endCaptures": {
-                "1": {
-                    "name": "punctuation.definition.end.latex"
-                }
-            },
-            "name": "meta.function.verb.latex",
-            "patterns": [
-                {
-                    "include": "$self"
-                }
-            ]
-        },
-        {
-            "captures": {
-                "1": {
-                    "name": "support.function.verb.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.function.latex"
-                },
-                "3": {
-                    "name": "punctuation.definition.verb.latex"
-                },
-                "4": {
-                    "name": "markup.raw.verb.latex"
-                },
-                "5": {
-                    "name": "punctuation.definition.verb.latex"
-                }
-            },
-            "match": "((\\\\)(?:verb|Verb|spverb)\\*?)\\s*((?<=\\s)\\S|[^a-zA-Z])(.*?)(\\3|$)",
-            "name": "meta.function.verb.latex"
+            "include": "#verb-macro"
         },
         {
             "include": "#inline-code-macro"
@@ -3916,6 +3756,183 @@
                             "include": "text.tex#braces"
                         }
                     ]
+                }
+            ]
+        },
+        "citation-macro": {
+            "begin": "((\\\\)(?:[aA]uto|foot|full|no|ref|short|[tT]ext|[pP]aren|[sS]mart)?[cC]ite(?:al)?(?:p|s|t|author|year(?:par)?|title)?[ANP]*\\*?)((?:(?:\\([^\\)]*\\)){0,2}(?:\\[[^\\]]*\\]){0,2}\\{[\\p{Alphabetic}\\p{Number}_:.-]*\\})*)(<[^\\]<>]*>)?((?:\\[[^\\]]*\\])*)(\\{)",
+            "captures": {
+                "1": {
+                    "name": "keyword.control.cite.latex"
+                },
+                "2": {
+                    "name": "punctuation.definition.keyword.latex"
+                },
+                "3": {
+                    "patterns": [
+                        {
+                            "include": "#autocites-arg"
+                        }
+                    ]
+                },
+                "4": {
+                    "patterns": [
+                        {
+                            "include": "#optional-arg-angle-no-highlight"
+                        }
+                    ]
+                },
+                "5": {
+                    "patterns": [
+                        {
+                            "include": "#optional-arg-bracket-no-highlight"
+                        }
+                    ]
+                },
+                "6": {
+                    "name": "punctuation.definition.arguments.begin.latex"
+                }
+            },
+            "end": "\\}",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                }
+            },
+            "name": "meta.citation.latex",
+            "patterns": [
+                {
+                    "match": "((%).*)$",
+                    "captures": {
+                        "1": {
+                            "name": "comment.line.percentage.tex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.comment.tex"
+                        }
+                    }
+                },
+                {
+                    "match": "[\\p{Alphabetic}\\p{Number}:.-]+",
+                    "name": "constant.other.reference.citation.latex"
+                }
+            ]
+        },
+        "references-macro": {
+            "patterns": [
+                {
+                    "begin": "((\\\\)(?:\\w*[rR]ef\\*?))(?:\\[[^\\]]*\\])?(\\{)",
+                    "beginCaptures": {
+                        "1": {
+                            "name": "keyword.control.ref.latex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.keyword.latex"
+                        },
+                        "3": {
+                            "name": "punctuation.definition.arguments.begin.latex"
+                        }
+                    },
+                    "end": "\\}",
+                    "endCaptures": {
+                        "0": {
+                            "name": "punctuation.definition.arguments.end.latex"
+                        }
+                    },
+                    "name": "meta.reference.label.latex",
+                    "patterns": [
+                        {
+                            "match": "[\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]+",
+                            "name": "constant.other.reference.label.latex"
+                        }
+                    ]
+                },
+                {
+                    "match": "((\\\\)(?:\\w*[rR]efrange\\*?))(?:\\[[^\\]]*\\])?(\\{)([\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]+)(\\})(\\{)([\\p{Alphabetic}\\p{Number}\\.,:/*!^_-]+)(\\})",
+                    "captures": {
+                        "1": {
+                            "name": "keyword.control.ref.latex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.keyword.latex"
+                        },
+                        "3": {
+                            "name": "punctuation.definition.arguments.begin.latex"
+                        },
+                        "4": {
+                            "name": "constant.other.reference.label.latex"
+                        },
+                        "5": {
+                            "name": "punctuation.definition.arguments.end.latex"
+                        },
+                        "6": {
+                            "name": "punctuation.definition.arguments.begin.latex"
+                        },
+                        "7": {
+                            "name": "constant.other.reference.label.latex"
+                        },
+                        "8": {
+                            "name": "punctuation.definition.arguments.end.latex"
+                        }
+                    }
+                }
+            ]
+        },
+        "verb-macro": {
+            "patterns": [
+                {
+                    "begin": "((\\\\)(?:verb|Verb|spverb)\\*?)\\s*((\\\\)scantokens)(\\{)",
+                    "beginCaptures": {
+                        "1": {
+                            "name": "support.function.verb.latex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.function.latex"
+                        },
+                        "3": {
+                            "name": "support.function.verb.latex"
+                        },
+                        "4": {
+                            "name": "punctuation.definition.verb.latex"
+                        },
+                        "5": {
+                            "name": "punctuation.definition.begin.latex"
+                        }
+                    },
+                    "contentName": "markup.raw.verb.latex",
+                    "end": "(\\})",
+                    "endCaptures": {
+                        "1": {
+                            "name": "punctuation.definition.end.latex"
+                        }
+                    },
+                    "name": "meta.function.verb.latex",
+                    "patterns": [
+                        {
+                            "include": "$self"
+                        }
+                    ]
+                },
+                {
+                    "match": "((\\\\)(?:verb|Verb|spverb)\\*?)\\s*((?<=\\s)\\S|[^a-zA-Z])(.*?)(\\3|$)",
+                    "captures": {
+                        "1": {
+                            "name": "support.function.verb.latex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.function.latex"
+                        },
+                        "3": {
+                            "name": "punctuation.definition.verb.latex"
+                        },
+                        "4": {
+                            "name": "markup.raw.verb.latex"
+                        },
+                        "5": {
+                            "name": "punctuation.definition.verb.latex"
+                        }
+                    },
+                    "name": "meta.function.verb.latex"
                 }
             ]
         },
