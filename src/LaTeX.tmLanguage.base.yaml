@@ -1,8 +1,8 @@
 name: LaTeX
 patterns:
-- comment: "This scope identifies partially typed commands such as `\\tab`. We use\
+- match: (?<=\\[\w@]|\\[\w@]{2}|\\[\w@]{3}|\\[\w@]{4}|\\[\w@]{5}|\\[\w@]{6})\s
+  comment: "This scope identifies partially typed commands such as `\\tab`. We use\
     \ this to trigger \u201CCommand Completion\u201D only when it makes sense."
-  match: (?<=\\[\w@]|\\[\w@]{2}|\\[\w@]{3}|\\[\w@]{4}|\\[\w@]{5}|\\[\w@]{6})\s
   name: meta.space-after-command.latex
 - include: '#documentclass-usepackage-macro'
 - include: '#input-macro'
@@ -848,6 +848,26 @@ repository:
         name: punctuation.definition.function.latex
       '6':
         name: punctuation.definition.end.latex
+  label-macro:
+    begin: ((\\)z?label)((?:\[[^\[]*?\])*)(\{)
+    beginCaptures:
+      '1':
+        name: keyword.control.label.latex
+      '2':
+        name: punctuation.definition.keyword.latex
+      '3':
+        patterns:
+        - include: '#optional-arg-bracket'
+      '4':
+        name: punctuation.definition.arguments.begin.latex
+    end: \}
+    endCaptures:
+      '0':
+        name: punctuation.definition.arguments.end.latex
+    name: meta.definition.label.latex
+    patterns:
+    - match: '[\p{Alphabetic}\p{Number}\.,:/*!^_-]+'
+      name: variable.parameter.definition.label.latex
   all-other-macro:
     patterns:
     - begin: ((\\)marginpar)((?:\[[^\[]*?\])*)(\{)
@@ -933,6 +953,7 @@ repository:
           - include: '#autocites-arg'
       match: ((?:\([^\)]*\)){0,2})((?:\[[^\]]*\]){0,2})(\{)([\p{Alphabetic}\p{Number}_:.-]+)(\})(.*)
   begin-env-tokenizer:
+    match: \s*((\\)(?:begin|end))(\{)(\p{Alphabetic}+\*?)(\})(?:(\[)([^\]]*)(\])){,2}(?:(\{)([^{}]*)(\}))?
     captures:
       '1':
         name: support.function.be.latex
@@ -957,27 +978,6 @@ repository:
         name: punctuation.definition.arguments.optional.end.latex
       '9':
         name: punctuation.definition.arguments.begin.latex
-    match: \s*((\\)(?:begin|end))(\{)(\p{Alphabetic}+\*?)(\})(?:(\[)([^\]]*)(\])){,2}(?:(\{)([^{}]*)(\}))?
-  label-macro:
-    begin: ((\\)z?label)((?:\[[^\[]*?\])*)(\{)
-    beginCaptures:
-      '1':
-        name: keyword.control.label.latex
-      '2':
-        name: punctuation.definition.keyword.latex
-      '3':
-        patterns:
-        - include: '#optional-arg-bracket'
-      '4':
-        name: punctuation.definition.arguments.begin.latex
-    end: \}
-    endCaptures:
-      '0':
-        name: punctuation.definition.arguments.end.latex
-    name: meta.definition.label.latex
-    patterns:
-    - match: '[\p{Alphabetic}\p{Number}\.,:/*!^_-]+'
-      name: variable.parameter.definition.label.latex
   multiline-optional-arg:
     begin: \G\[
     beginCaptures:
