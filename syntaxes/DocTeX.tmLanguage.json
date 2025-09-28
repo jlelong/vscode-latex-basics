@@ -4244,9 +4244,58 @@
                 }
             },
             "name": "meta.parameter.latex",
+            "comment": "Do not look for balanced expressions, ie environments, inside a command argument",
             "patterns": [
                 {
-                    "include": "$self"
+                    "include": "#documentclass-usepackage-macro"
+                },
+                {
+                    "include": "#input-macro"
+                },
+                {
+                    "include": "#sections-macro"
+                },
+                {
+                    "include": "#hyperref-macro"
+                },
+                {
+                    "include": "#newcommand-macro"
+                },
+                {
+                    "include": "#text-font-macro"
+                },
+                {
+                    "include": "#citation-macro"
+                },
+                {
+                    "include": "#references-macro"
+                },
+                {
+                    "include": "#label-macro"
+                },
+                {
+                    "include": "#verb-macro"
+                },
+                {
+                    "include": "#gnuplot-macro"
+                },
+                {
+                    "include": "#inline-code-macro"
+                },
+                {
+                    "include": "#all-other-macro"
+                },
+                {
+                    "include": "#display-math"
+                },
+                {
+                    "include": "#inline-math"
+                },
+                {
+                    "include": "#column-specials"
+                },
+                {
+                    "include": "text.tex"
                 }
             ]
         },
