@@ -99,7 +99,7 @@ function generateCodeBlock(envNames, source, contentName=undefined) {
   captures:
     '0':
       patterns:
-      - include: '#begin-env-tokenizer'
+      - include: '#macro-with-args-tokenizer'
   patterns:
   - include: '#multiline-optional-arg-no-highlight'
   - begin: (?:\\G|(?<=\\]))(\\{)

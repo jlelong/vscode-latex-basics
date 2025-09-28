@@ -125,7 +125,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -139,7 +139,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -345,7 +345,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -407,7 +407,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -800,7 +800,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -843,7 +843,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -886,7 +886,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -929,7 +929,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -972,7 +972,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1015,7 +1015,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1058,7 +1058,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1101,7 +1101,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1144,7 +1144,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1187,7 +1187,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1230,7 +1230,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1273,7 +1273,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1316,7 +1316,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1359,7 +1359,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1401,7 +1401,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1416,7 +1416,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2149,7 +2149,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2188,7 +2188,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2203,7 +2203,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2218,7 +2218,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2244,7 +2244,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3665,7 +3665,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3699,7 +3699,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3727,7 +3727,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3746,7 +3746,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3765,7 +3765,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3784,7 +3784,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3798,7 +3798,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3817,7 +3817,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -4050,8 +4050,8 @@
                 }
             ]
         },
-        "begin-env-tokenizer": {
-            "match": "\\s*((\\\\)(?:begin|end))(\\{)(\\p{Alphabetic}+\\*?)(\\})(?:(\\[)([^\\]]*)(\\])){,2}(?:(\\{)([^{}]*)(\\}))?",
+        "macro-with-args-tokenizer": {
+            "match": "\\s*((\\\\)(?:\\p{Alphabetic}+))(\\{)(\\p{Alphabetic}+\\*?)(\\})(?:(\\[)([^\\]]*)(\\])){,2}(?:(\\{)([^{}]*)(\\}))?",
             "captures": {
                 "1": {
                     "name": "support.function.be.latex"
