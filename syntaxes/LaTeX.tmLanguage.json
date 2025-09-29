@@ -2255,53 +2255,6 @@
                 }
             ]
         },
-        "gnuplot-macro": {
-            "begin": "((\\\\)addplot)(?:\\+?)((?:\\[[^\\[]*\\]))*\\s*(gnuplot)\\s*((?:\\[[^\\[]*\\]))*\\s*(\\{)",
-            "captures": {
-                "1": {
-                    "name": "support.function.be.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.function.latex"
-                },
-                "3": {
-                    "patterns": [
-                        {
-                            "include": "#optional-arg-bracket"
-                        }
-                    ]
-                },
-                "4": {
-                    "name": "variable.parameter.function.latex"
-                },
-                "5": {
-                    "patterns": [
-                        {
-                            "include": "#optional-arg-bracket"
-                        }
-                    ]
-                },
-                "6": {
-                    "name": "punctuation.definition.arguments.begin.latex"
-                }
-            },
-            "end": "\\s*(\\};)",
-            "patterns": [
-                {
-                    "begin": "%",
-                    "beginCaptures": {
-                        "0": {
-                            "name": "punctuation.definition.comment.latex"
-                        }
-                    },
-                    "end": "$\\n?",
-                    "name": "comment.line.percentage.latex"
-                },
-                {
-                    "include": "source.gnuplot"
-                }
-            ]
-        },
         "hyperref-macro": {
             "patterns": [
                 {
@@ -2395,6 +2348,53 @@
         },
         "inline-code-macro": {
             "patterns": [
+                {
+                    "begin": "((\\\\)addplot)(?:\\+?)((?:\\[[^\\[]*\\]))*\\s*(gnuplot)\\s*((?:\\[[^\\[]*\\]))*\\s*(\\{)",
+                    "captures": {
+                        "1": {
+                            "name": "support.function.be.latex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.function.latex"
+                        },
+                        "3": {
+                            "patterns": [
+                                {
+                                    "include": "#optional-arg-bracket"
+                                }
+                            ]
+                        },
+                        "4": {
+                            "name": "variable.parameter.function.latex"
+                        },
+                        "5": {
+                            "patterns": [
+                                {
+                                    "include": "#optional-arg-bracket"
+                                }
+                            ]
+                        },
+                        "6": {
+                            "name": "punctuation.definition.arguments.begin.latex"
+                        }
+                    },
+                    "end": "\\s*(\\};)",
+                    "patterns": [
+                        {
+                            "begin": "%",
+                            "beginCaptures": {
+                                "0": {
+                                    "name": "punctuation.definition.comment.latex"
+                                }
+                            },
+                            "end": "$\\n?",
+                            "name": "comment.line.percentage.latex"
+                        },
+                        {
+                            "include": "source.gnuplot"
+                        }
+                    ]
+                },
                 {
                     "match": "((\\\\)(?:mint|mintinline))((?:\\[[^\\[]*?\\])?)(\\{)[a-zA-Z]*(\\})(?:(?:([^a-zA-Z\\{])(.*?)(\\6))|(?:(\\{)(.*?)(\\})))",
                     "captures": {
@@ -4180,9 +4180,6 @@
                     "include": "#verb-macro"
                 },
                 {
-                    "include": "#gnuplot-macro"
-                },
-                {
                     "include": "#inline-code-macro"
                 },
                 {
@@ -4196,6 +4193,9 @@
                 },
                 {
                     "include": "#column-specials"
+                },
+                {
+                    "include": "text.tex#braces"
                 },
                 {
                     "include": "text.tex"
