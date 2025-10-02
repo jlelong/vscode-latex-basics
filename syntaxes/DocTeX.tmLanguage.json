@@ -149,9 +149,6 @@
                     "include": "#verb-macro"
                 },
                 {
-                    "include": "#gnuplot-macro"
-                },
-                {
                     "include": "#inline-code-macro"
                 },
                 {
@@ -222,7 +219,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -236,7 +233,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -442,7 +439,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -504,7 +501,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -897,7 +894,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -940,7 +937,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -983,7 +980,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1026,7 +1023,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1069,7 +1066,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1112,7 +1109,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1155,7 +1152,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1198,7 +1195,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1241,7 +1238,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1284,7 +1281,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1327,7 +1324,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1370,7 +1367,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1413,7 +1410,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1456,7 +1453,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1498,7 +1495,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -1513,7 +1510,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2246,7 +2243,7 @@
                         "0": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2285,7 +2282,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2300,7 +2297,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2315,7 +2312,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2341,7 +2338,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -2349,53 +2346,6 @@
                     "contentName": "comment.line.percentage.latex",
                     "end": "(\\\\end\\{\\2\\})",
                     "name": "meta.function.verbatim.latex"
-                }
-            ]
-        },
-        "gnuplot-macro": {
-            "begin": "((\\\\)addplot)(?:\\+?)((?:\\[[^\\[]*\\]))*\\s*(gnuplot)\\s*((?:\\[[^\\[]*\\]))*\\s*(\\{)",
-            "captures": {
-                "1": {
-                    "name": "support.function.be.latex"
-                },
-                "2": {
-                    "name": "punctuation.definition.function.latex"
-                },
-                "3": {
-                    "patterns": [
-                        {
-                            "include": "#optional-arg-bracket"
-                        }
-                    ]
-                },
-                "4": {
-                    "name": "variable.parameter.function.latex"
-                },
-                "5": {
-                    "patterns": [
-                        {
-                            "include": "#optional-arg-bracket"
-                        }
-                    ]
-                },
-                "6": {
-                    "name": "punctuation.definition.arguments.begin.latex"
-                }
-            },
-            "end": "\\s*(\\};)",
-            "patterns": [
-                {
-                    "begin": "%",
-                    "beginCaptures": {
-                        "0": {
-                            "name": "punctuation.definition.comment.latex"
-                        }
-                    },
-                    "end": "$\\n?",
-                    "name": "comment.line.percentage.latex"
-                },
-                {
-                    "include": "source.gnuplot"
                 }
             ]
         },
@@ -2492,6 +2442,53 @@
         },
         "inline-code-macro": {
             "patterns": [
+                {
+                    "begin": "((\\\\)addplot)(?:\\+?)((?:\\[[^\\[]*\\]))*\\s*(gnuplot)\\s*((?:\\[[^\\[]*\\]))*\\s*(\\{)",
+                    "captures": {
+                        "1": {
+                            "name": "support.function.be.latex"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.function.latex"
+                        },
+                        "3": {
+                            "patterns": [
+                                {
+                                    "include": "#optional-arg-bracket"
+                                }
+                            ]
+                        },
+                        "4": {
+                            "name": "variable.parameter.function.latex"
+                        },
+                        "5": {
+                            "patterns": [
+                                {
+                                    "include": "#optional-arg-bracket"
+                                }
+                            ]
+                        },
+                        "6": {
+                            "name": "punctuation.definition.arguments.begin.latex"
+                        }
+                    },
+                    "end": "\\s*(\\};)",
+                    "patterns": [
+                        {
+                            "begin": "%",
+                            "beginCaptures": {
+                                "0": {
+                                    "name": "punctuation.definition.comment.latex"
+                                }
+                            },
+                            "end": "$\\n?",
+                            "name": "comment.line.percentage.latex"
+                        },
+                        {
+                            "include": "source.gnuplot"
+                        }
+                    ]
+                },
                 {
                     "match": "((\\\\)(?:mint|mintinline))((?:\\[[^\\[]*?\\])?)(\\{)[a-zA-Z]*(\\})(?:(?:([^a-zA-Z\\{])(.*?)(\\6))|(?:(\\{)(.*?)(\\})))",
                     "captures": {
@@ -3762,7 +3759,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3796,7 +3793,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3824,7 +3821,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3843,7 +3840,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3862,7 +3859,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3881,7 +3878,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3895,7 +3892,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3914,7 +3911,7 @@
                         "1": {
                             "patterns": [
                                 {
-                                    "include": "#begin-env-tokenizer"
+                                    "include": "#macro-with-args-tokenizer"
                                 }
                             ]
                         }
@@ -3930,8 +3927,8 @@
             ]
         },
         "newcommand-macro": {
-            "match": "((\\\\)(?:newcommand|renewcommand|(?:re)?newrobustcmd|DeclareRobustCommand))\\*?({)((\\\\)[^}]*)(})",
-            "captures": {
+            "begin": "((\\\\)(?:newcommand|renewcommand|(?:re)?newrobustcmd|DeclareRobustCommand)\\*?)(\\{)((\\\\)\\p{Alphabetic}+\\*?)(\\})(?:(\\[)[^\\]]*(\\])){0,2}(\\{)",
+            "beginCaptures": {
                 "1": {
                     "name": "storage.type.function.latex"
                 },
@@ -3949,8 +3946,77 @@
                 },
                 "6": {
                     "name": "punctuation.definition.end.latex"
+                },
+                "7": {
+                    "name": "punctuation.definition.arguments.optional.begin.latex"
+                },
+                "8": {
+                    "name": "punctuation.definition.arguments.optional.end.latex"
+                },
+                "9": {
+                    "name": "punctuation.definition.arguments.begin.latex"
                 }
-            }
+            },
+            "end": "\\}",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                }
+            },
+            "name": "meta.parameter.newcommand.latex",
+            "patterns": [
+                {
+                    "include": "#documentclass-usepackage-macro"
+                },
+                {
+                    "include": "#input-macro"
+                },
+                {
+                    "include": "#sections-macro"
+                },
+                {
+                    "include": "#hyperref-macro"
+                },
+                {
+                    "include": "#text-font-macro"
+                },
+                {
+                    "include": "#citation-macro"
+                },
+                {
+                    "include": "#references-macro"
+                },
+                {
+                    "include": "#label-macro"
+                },
+                {
+                    "include": "#verb-macro"
+                },
+                {
+                    "include": "#inline-code-macro"
+                },
+                {
+                    "include": "#macro-with-args-tokenizer"
+                },
+                {
+                    "include": "#all-other-macro"
+                },
+                {
+                    "include": "#display-math"
+                },
+                {
+                    "include": "#inline-math"
+                },
+                {
+                    "include": "#column-specials"
+                },
+                {
+                    "include": "text.tex#braces"
+                },
+                {
+                    "include": "text.tex"
+                }
+            ]
         },
         "label-macro": {
             "begin": "((\\\\)z?label)((?:\\[[^\\[]*?\\])*)(\\{)",
@@ -4147,8 +4213,8 @@
                 }
             ]
         },
-        "begin-env-tokenizer": {
-            "match": "\\s*((\\\\)(?:begin|end))(\\{)(\\p{Alphabetic}+\\*?)(\\})(?:(\\[)([^\\]]*)(\\])){,2}(?:(\\{)([^{}]*)(\\}))?",
+        "macro-with-args-tokenizer": {
+            "match": "\\s*((\\\\)(?:\\p{Alphabetic}+))(\\{)(\\\\?\\p{Alphabetic}+\\*?)(\\})(?:(\\[)([^\\]]*)(\\])){,2}(?:(\\{)([^{}]*)(\\}))?",
             "captures": {
                 "1": {
                     "name": "support.function.be.latex"
@@ -4244,9 +4310,58 @@
                 }
             },
             "name": "meta.parameter.latex",
+            "comment": "Do not look for balanced expressions, ie environments, inside a command argument",
             "patterns": [
                 {
-                    "include": "$self"
+                    "include": "#documentclass-usepackage-macro"
+                },
+                {
+                    "include": "#input-macro"
+                },
+                {
+                    "include": "#sections-macro"
+                },
+                {
+                    "include": "#hyperref-macro"
+                },
+                {
+                    "include": "#newcommand-macro"
+                },
+                {
+                    "include": "#text-font-macro"
+                },
+                {
+                    "include": "#citation-macro"
+                },
+                {
+                    "include": "#references-macro"
+                },
+                {
+                    "include": "#label-macro"
+                },
+                {
+                    "include": "#verb-macro"
+                },
+                {
+                    "include": "#inline-code-macro"
+                },
+                {
+                    "include": "#all-other-macro"
+                },
+                {
+                    "include": "#display-math"
+                },
+                {
+                    "include": "#inline-math"
+                },
+                {
+                    "include": "#column-specials"
+                },
+                {
+                    "include": "text.tex#braces"
+                },
+                {
+                    "include": "text.tex"
                 }
             ]
         },

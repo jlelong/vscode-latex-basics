@@ -1317,31 +1317,35 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newcommand",
-		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex storage.type.function.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "dummyMacro",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
 	},
 	{
-		"c": "{}",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "%",

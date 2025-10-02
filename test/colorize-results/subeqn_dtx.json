@@ -3213,51 +3213,59 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newcommand",
-		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex storage.type.function.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "thesubequation",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "themainequation",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.tex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "alph",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.be.latex"
 	},
 	{
-		"c": "{equation}}",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "%",
@@ -3653,31 +3661,27 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "newcommand",
-		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
 	},
 	{
-		"c": "*",
+		"c": "*{",
 		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
-		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.begin.latex"
-	},
-	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "@lab@subeqnarray",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
 		"c": "[",

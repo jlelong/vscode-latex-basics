@@ -121,67 +121,67 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex storage.type.function.latex punctuation.definition.function.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newcommand",
-		"t": "text.tex.latex storage.type.function.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex punctuation.definition.begin.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.general.latex punctuation.definition.function.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "file",
-		"t": "text.tex.latex support.function.general.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex punctuation.definition.end.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
 	},
 	{
 		"c": "[",
-		"t": "text.tex.latex punctuation.definition.brackets.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.begin.latex"
 	},
 	{
 		"c": "1",
-		"t": "text.tex.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
 	},
 	{
 		"c": "]",
-		"t": "text.tex.latex punctuation.definition.brackets.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "texttt",
-		"t": "text.tex.latex meta.function.texttt.latex support.function.texttt.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.function.texttt.latex support.function.texttt.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
 	},
 	{
 		"c": "#1",
-		"t": "text.tex.latex meta.function.texttt.latex markup.raw.texttt.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.function.texttt.latex markup.raw.texttt.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
