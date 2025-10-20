@@ -9,6 +9,7 @@ patterns:
 - include: '#dollar-math'
 - match: \\\\
   name: keyword.control.newline.tex
+- include: '#ifnextchar'
 - include: '#macro-general'
 repository:
   catcode:
@@ -41,6 +42,9 @@ repository:
     - include: '#comment'
     - include: "#braces"
     - include: '#conditionals'
+  ifnextchar:
+    match: \\@ifnextchar[(\{\[]
+    name: keyword.control.ifnextchar.tex
   macro-control:
     match: (\\)(backmatter|csname|else|endcsname|fi|frontmatter|mainmatter|unless|if(case|cat|csname|defined|dim|eof|false|fontchar|hbox|hmode|inner|mmode|num|odd|true|vbox|vmode|void|x)?)(?![a-zA-Z@])
     captures:
