@@ -745,11 +745,11 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex punctuation.definition.constant.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex punctuation.definition.constant.math.tex"
 	},
 	{
 		"c": "le",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex"
 	},
 	{
 		"c": " ",
@@ -761,11 +761,11 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex punctuation.definition.constant.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex punctuation.definition.constant.math.tex"
 	},
 	{
 		"c": "le",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex"
 	},
 	{
 		"c": " ",
@@ -897,11 +897,11 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex punctuation.definition.constant.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex punctuation.definition.constant.math.tex"
 	},
 	{
 		"c": "le",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex"
 	},
 	{
 		"c": " ",
@@ -1073,11 +1073,11 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex punctuation.definition.constant.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex punctuation.definition.constant.math.tex"
 	},
 	{
 		"c": "le",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex"
 	},
 	{
 		"c": " ",
@@ -1089,11 +1089,11 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex punctuation.definition.constant.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex punctuation.definition.constant.math.tex"
 	},
 	{
 		"c": "le",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex"
 	},
 	{
 		"c": " ",
@@ -1225,11 +1225,11 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex punctuation.definition.constant.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex punctuation.definition.constant.math.tex"
 	},
 	{
 		"c": "le",
-		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.other.general.math.tex"
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.character.math.tex"
 	},
 	{
 		"c": " ",
