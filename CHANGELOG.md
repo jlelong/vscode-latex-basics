@@ -1,5 +1,18 @@
 # Change Log
 
+## [1.16.0] 2025-10-23
+
+### Fixed
+
+- (#122) Catch `\newcommand` to deal with unbalanced expressions (mostly environments)
+- (#123) Exclude `\@ifnextchar` from bracket pair colorization
+- (#124) Exclude trailing underscore from bracket pair colorizer
+- (#125) Use the same scope for `\le`, `\leq`, `\ge` and `geq`
+
+### Changed
+
+- (#121) Refactor all grammars (most rules are in `repository` entry)
+
 ## [1.15.0] 2025-09-14
 
 ### Fixed
