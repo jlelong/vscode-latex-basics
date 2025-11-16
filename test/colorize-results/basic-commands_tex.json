@@ -117,11 +117,11 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": "}",
@@ -153,11 +153,11 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": " some text ",
@@ -173,11 +173,11 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.section.chapter.latex entity.name.section.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": "}",
@@ -209,11 +209,11 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.section.section.latex entity.name.section.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.section.section.latex entity.name.section.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.section.section.latex entity.name.section.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.section.section.latex entity.name.section.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": " some text ",
@@ -229,11 +229,11 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.section.section.latex entity.name.section.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.section.section.latex entity.name.section.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.section.section.latex entity.name.section.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.section.section.latex entity.name.section.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": "}",
@@ -265,11 +265,11 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.emph.latex markup.italic.emph.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.emph.latex markup.italic.emph.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.emph.latex markup.italic.emph.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.emph.latex markup.italic.emph.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": " some text ",
@@ -285,11 +285,11 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.emph.latex markup.italic.emph.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.emph.latex markup.italic.emph.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.emph.latex markup.italic.emph.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.emph.latex markup.italic.emph.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": "}",
@@ -321,11 +321,11 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.textbf.latex markup.bold.textbf.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.textbf.latex markup.bold.textbf.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.textbf.latex markup.bold.textbf.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.textbf.latex markup.bold.textbf.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": " some text ",
@@ -341,11 +341,11 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.textbf.latex markup.bold.textbf.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.textbf.latex markup.bold.textbf.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.textbf.latex markup.bold.textbf.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.textbf.latex markup.bold.textbf.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": "}",
@@ -397,11 +397,11 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": " some text ",
@@ -409,23 +409,27 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
-		"c": "\\LaTeX",
-		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.tex"
+		"c": "\\",
+		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "LaTeX",
+		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.latex support.function.general.tex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.tex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.tex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.function.textit.latex markup.italic.textit.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": "}",
@@ -521,15 +525,23 @@
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.paragraph.margin.latex meta.group.braces.tex punctuation.group.begin.tex"
+		"t": "text.tex.latex meta.paragraph.margin.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
-		"c": "\\bf 2",
-		"t": "text.tex.latex meta.paragraph.margin.latex meta.group.braces.tex"
+		"c": "\\",
+		"t": "text.tex.latex meta.paragraph.margin.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "bf",
+		"t": "text.tex.latex meta.paragraph.margin.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": " 2",
+		"t": "text.tex.latex meta.paragraph.margin.latex meta.group.braces.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.paragraph.margin.latex meta.group.braces.tex punctuation.group.end.tex"
+		"t": "text.tex.latex meta.paragraph.margin.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": "}",
@@ -1086,6 +1098,218 @@
 	{
 		"c": "ExplSyntaxOff",
 		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "Correction",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "[",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.begin.latex"
+	},
+	{
+		"c": "2",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "]",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex meta.parameter.newcommand.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "par",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.tex"
+	},
+	{
+		"c": "  #1",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex meta.parameter.newcommand.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "unskip",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "nobreak",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "hfil",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "penalty",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "50",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "hskip",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "2em",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "hbox",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex meta.group.braces.latex punctuation.group.begin.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex meta.group.braces.latex punctuation.group.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "nobreak",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "hfil",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "（#2）",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "  ",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "parfillskip",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "=0pt ",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "finalhyphendemerits",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "=0 ",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "par",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.end.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex meta.parameter.newcommand.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",

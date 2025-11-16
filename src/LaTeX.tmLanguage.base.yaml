@@ -103,7 +103,7 @@ repository:
         name: punctuation.definition.arguments.end.latex
     name: meta.function.section.$3.latex
     patterns:
-    - include: text.tex#braces
+    - include: '#braces'
     - include: $self
   text-font-macro:
     patterns:
@@ -122,7 +122,7 @@ repository:
           name: punctuation.definition.emph.end.latex
       name: meta.function.emph.latex
       patterns:
-      - include: text.tex#braces
+      - include: '#braces'
       - include: $self
     - begin: ((\\)textit)(\{)
       captures:
@@ -143,7 +143,7 @@ repository:
           name: punctuation.definition.textit.end.latex
       name: meta.function.textit.latex
       patterns:
-      - include: text.tex#braces
+      - include: '#braces'
       - include: $self
     - begin: ((\\)textbf)(\{)
       captures:
@@ -160,7 +160,7 @@ repository:
           name: punctuation.definition.textbf.end.latex
       name: meta.function.textbf.latex
       patterns:
-      - include: text.tex#braces
+      - include: '#braces'
       - include: $self
     - begin: ((\\)texttt)(\{)
       captures:
@@ -177,7 +177,7 @@ repository:
           name: punctuation.definition.texttt.end.latex
       name: meta.function.texttt.latex
       patterns:
-      - include: text.tex#braces
+      - include: '#braces'
       - include: $self
 
   songs-env:
@@ -872,8 +872,27 @@ repository:
     - include: '#display-math'
     - include: '#inline-math'
     - include: '#column-specials'
-    - include: 'text.tex#braces'
+    - include: '#braces'
     - include: text.tex
+  braces:
+    begin: (?<!\\)\{
+    beginCaptures:
+      '0':
+        name: punctuation.group.begin.latex
+    end: (?<!\\)\}
+    endCaptures:
+      '0':
+        name: punctuation.group.end.latex
+    name: meta.group.braces.latex
+    patterns:
+    - include: '#text-font-macro'
+    - include: '#citation-macro'
+    - include: '#references-macro'
+    - include: '#label-macro'
+    - include: '#macro-with-args-tokenizer'
+    - include: '#all-other-macro'
+    - include: text.tex
+    - include: '#braces'
   label-macro:
     begin: ((\\)z?label)((?:\[[^\[]*?\])*)(\{)
     beginCaptures:
@@ -915,7 +934,7 @@ repository:
         '0':
           name: punctuation.definition.marginpar.end.latex
       patterns:
-      - include: text.tex#braces
+      - include: '#braces'
       - include: $self
     - begin: ((\\)footnote)((?:\[[^\[]*?\])*)(\{)
       beginCaptures:
@@ -934,7 +953,7 @@ repository:
         '0':
           name: punctuation.definition.footnote.end.latex
       patterns:
-      - include: text.tex#braces
+      - include: '#braces'
       - include: $self
     - match: (\\)item\b
       captures:
@@ -1058,7 +1077,7 @@ repository:
     - include: '#display-math'
     - include: '#inline-math'
     - include: '#column-specials'
-    - include: 'text.tex#braces'
+    - include: '#braces'
     - include: text.tex
   optional-arg-bracket:
     patterns:

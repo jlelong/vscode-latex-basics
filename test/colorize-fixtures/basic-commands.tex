@@ -71,4 +71,12 @@ Some texte with `a single' quote.
 \@@_fun:
 \ExplSyntaxOff
 
+\newcommand{\Correction}[2]{%
+  \par
+  #1%
+  {\unskip\nobreak\hfil\penalty50
+  \hskip2em\hbox{}\nobreak\hfil（#2）%
+  \parfillskip=0pt \finalhyphendemerits=0 \par}%
+}
+
 \end{document}
