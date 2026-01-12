@@ -1466,5 +1466,69 @@
 	{
 		"c": "}",
 		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "iffalse",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "  \\begin",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex punctuation.group.begin.tex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex punctuation.group.end.tex"
+	},
+	{
+		"c": "    a+b ",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "    \\iff",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "    b+a",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "  \\end",
+		"t": "text.tex.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex punctuation.group.begin.tex"
+	},
+	{
+		"c": "equation",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex comment.line.percentage.tex meta.group.braces.tex punctuation.group.end.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+	},
+	{
+		"c": "fi",
+		"t": "text.tex.latex keyword.control.tex"
+	},
+	{
+		"c": "some text...",
+		"t": "text.tex.latex"
 	}
 ]
