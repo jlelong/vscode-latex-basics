@@ -1,5 +1,21 @@
 # Change Log
 
+## [1.17.0] 2026-01-18
+
+### Fixed
+
+- (#129) Fix wrong detection of `\iff`.
+
+### Changed
+
+- (#131) Restrict accepted delimiter tokens by `\py` when used as `\verb`
+
+### Added
+
+- (#128) Highlight `&` in mathtools environment
+- (#127) Add syntax highlighting inside nested braces
+- (#126) Add more big bracket pairs
+
 ## [1.16.0] 2025-10-23
 
 ### Fixed
