@@ -457,7 +457,7 @@ repository:
         '9':
           name: punctuation.definition.verb.latex
       name: meta.function.verb.latex
-    - match: ((\\)(?:(?:py|pycon|pylab|pylabcon|sympy|sympycon)[cv]?|pyq|pycq|pyif))((?:\[[^\[]*?\])?)(?:(?:([^a-zA-Z\{])(.*?)(\4))|(?:(\{)(.*?)(\})))
+    - match: ((\\)(?:(?:py|pycon|pylab|pylabcon|sympy|sympycon)[cv]?|pyq|pycq|pyif))((?:\[[^\[]*?\])?)(?:(?:([^a-zA-Z\{\}\[\](),;\s])(.*?)(\4))|(?:(\{)(.*?)(\})))
       captures:
         '1':
           name: support.function.verb.latex
