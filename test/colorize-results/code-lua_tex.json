@@ -1517,7 +1517,7 @@
 	},
 	{
 		"c": "not",
-		"t": "text.tex.latex source.lua keyword.operator.lua"
+		"t": "text.tex.latex source.lua keyword.operator.logical.lua"
 	},
 	{
 		"c": " ",
