@@ -723,6 +723,14 @@ repository:
         '5':
           name: punctuation.definition.verb.latex
       name: meta.function.verb.latex
+  unbalanced-env:
+    patterns:
+    - match: (\s*\\(?:begin|end)\{(\p{Alphabetic}+\*?)\})
+      captures:
+        '1':
+          patterns:
+          - include: '#macro-with-args-tokenizer'
+      name: meta.function.environment.general.latex
   all-balanced-env:
     patterns:
     - begin: (?:\s*)((\\)begin)(\{)((?:\+?array|equation|(?:IEEE|sub)?eqnarray|multline|align|aligned|alignat|alignedat|flalign|flaligned|flalignat|split|gather|gathered|(?:\+|d|r|dr)?cases|(?:display)?math|\+?[a-zA-Z]*matrix|[pbBvV]?NiceMatrix|[pbBvV]?NiceArray|(?:(?:arg)?(?:mini|maxi)))(?:\*|!)?)(\})(\s*\n)?
@@ -858,6 +866,7 @@ repository:
     name: meta.parameter.newcommand.latex
     patterns:
     - include: '#documentclass-usepackage-macro'
+    - include: '#unbalanced-env'
     - include: '#input-macro'
     - include: '#sections-macro'
     - include: '#hyperref-macro'
