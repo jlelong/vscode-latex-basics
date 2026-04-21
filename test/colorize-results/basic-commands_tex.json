@@ -1093,6 +1093,38 @@
 	},
 	{
 		"c": "\\",
+		"t": "text.tex.latex support.function.verb.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "sys_get_shell:nnN ",
+		"t": "text.tex.latex support.function.verb.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "echo~$TEXMF_OUTPUT_DIRECTORY",
+		"t": "text.tex.latex markup.raw.verb.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "{} ",
+		"t": "text.tex.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "outdir",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
 		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
