@@ -965,143 +965,143 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "renewcommand",
-		"t": "text.tex.latex support.function.general.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "ensureTABstackMath",
-		"t": "text.tex.latex support.function.general.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
 		"c": "[",
-		"t": "text.tex.latex punctuation.definition.brackets.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.begin.latex"
 	},
 	{
 		"c": "1",
-		"t": "text.tex.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
 	},
 	{
 		"c": "]",
-		"t": "text.tex.latex punctuation.definition.brackets.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "%",
-		"t": "text.tex.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex comment.line.percentage.tex punctuation.definition.comment.tex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex keyword.control.tex punctuation.definition.keyword.tex"
 	},
 	{
 		"c": "iffalse",
-		"t": "text.tex.latex keyword.control.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex keyword.control.tex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex keyword.control.tex punctuation.definition.keyword.tex"
 	},
 	{
 		"c": "fi",
-		"t": "text.tex.latex keyword.control.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex keyword.control.tex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "let",
-		"t": "text.tex.latex support.function.general.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "sv@TABmode",
-		"t": "text.tex.latex support.function.general.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "TAB@delim",
-		"t": "text.tex.latex support.function.general.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "TABstackMath",
-		"t": "text.tex.latex support.function.general.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
 	},
 	{
 		"c": "#1",
-		"t": "text.tex.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "let",
-		"t": "text.tex.latex support.function.general.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "TAB@delim",
-		"t": "text.tex.latex support.function.general.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "sv@TABmode",
-		"t": "text.tex.latex support.function.general.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex support.function.general.tex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex keyword.control.tex punctuation.definition.keyword.tex"
 	},
 	{
 		"c": "iffalse",
-		"t": "text.tex.latex keyword.control.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex keyword.control.tex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex keyword.control.tex punctuation.definition.keyword.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex keyword.control.tex punctuation.definition.keyword.tex"
 	},
 	{
 		"c": "fi",
-		"t": "text.tex.latex keyword.control.tex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex keyword.control.tex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex"
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "%",

@@ -1345,6 +1345,294 @@
 	},
 	{
 		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "makeatletter",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "@test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "newcommand",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "@test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "makeatother",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "renewcommand",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "renewcommand",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "makeatletter",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "renewcommand",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "@test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "renewcommand",
+		"t": "text.tex.latex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "@test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex support.function.general.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "Test",
+		"t": "text.tex.latex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "makeatother",
+		"t": "text.tex.latex support.function.general.tex"
+	},
+	{
+		"c": "\\",
 		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{

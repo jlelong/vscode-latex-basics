@@ -3661,55 +3661,71 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
-		"c": "newcommand",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+		"c": "newcommand*",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex storage.type.function.latex"
 	},
 	{
-		"c": "*{",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "@lab@subeqnarray",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
 	},
 	{
 		"c": "[",
-		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.begin.latex"
 	},
 	{
 		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex"
 	},
 	{
 		"c": "]",
-		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.brackets.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.end.latex"
 	},
 	{
-		"c": "{#1{#2}",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
-		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+		"c": "#1",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex"
 	},
 	{
-		"c": "eqnarray",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.begin.latex"
+	},
+	{
+		"c": "#2",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex meta.group.braces.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.tex punctuation.definition.function.tex"
+	},
+	{
+		"c": "eqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.tex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "%",

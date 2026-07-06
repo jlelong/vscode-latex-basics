@@ -225,23 +225,31 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newcommand",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "hello@a",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
-		"c": "{xxx}",
-		"t": "text.tex.doctex"
+		"c": "{",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "xxx",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "%",
@@ -257,23 +265,31 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newcommand",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "hello@c",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
-		"c": "{zzz}",
-		"t": "text.tex.doctex"
+		"c": "{",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "zzz",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "%",
