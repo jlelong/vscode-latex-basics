@@ -82,4 +82,20 @@ Some texte with `a single' quote.
   \parfillskip=0pt \finalhyphendemerits=0 \par}%
 }
 
+\newcommand{\test}{Test}
+\newcommand\test{Test}
+
+\makeatletter
+\newcommand{\@test}{Test}
+\newcommand\@test{Test}
+\makeatother
+
+\renewcommand{\test}{Test}
+\renewcommand\test{Test}
+
+\makeatletter
+\renewcommand{\@test}{Test}
+\renewcommand\@test{Test}
+\makeatother
+
 \end{document}
