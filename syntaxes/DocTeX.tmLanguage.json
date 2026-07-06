@@ -3965,7 +3965,7 @@
             ]
         },
         "newcommand-macro": {
-            "begin": "((\\\\)(?:newcommand|renewcommand|(?:re)?newrobustcmd|DeclareRobustCommand)\\*?)(\\{)((\\\\)\\p{Alphabetic}+\\*?)(\\})(?:(\\[)[^\\]]*(\\])){0,2}(\\{)",
+            "begin": "((\\\\)(?:newcommand|renewcommand|(?:re)?newrobustcmd|DeclareRobustCommand)\\*?)(\\{)?((\\\\)[\\p{Alphabetic}@]+\\*?)(\\})?(?:(\\[)[^\\]]*(\\])){0,2}(\\{)",
             "beginCaptures": {
                 "1": {
                     "name": "storage.type.function.latex"
