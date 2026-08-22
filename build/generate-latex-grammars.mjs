@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import yaml from 'js-yaml'
+import { load } from 'js-yaml'
 
 const syntaxesDir = './syntaxes'
 const syntaxesSrcDir = './src'
@@ -54,7 +54,7 @@ const codeLanguages = [
  */
 function convertYamlToJson(inputfile, outputfile) {
     try {
-        const grammar = yaml.load(fs.readFileSync(inputfile, {encoding: 'utf-8'}))
+        const grammar = load(fs.readFileSync(inputfile, {encoding: 'utf-8'}))
         fs.writeFileSync(outputfile, JSON.stringify(grammar, undefined, 4))
     } catch (error) {
         console.log(error)
@@ -235,7 +235,7 @@ function buildLatexBlocks() {
         yamlGrammar = yamlGrammar.replace(/^\s{4}- includeCodeBlocks: ''/m, indent(4, codeDefinitions))
         yamlGrammar = yamlGrammar.replace(/^\s{6}- includeMintedblocks: ''/m, indent(6, mintedDefinitions))
         yamlGrammar = yamlGrammar.replace(/^\s{4}- includeCacheMeCodeMacroBlock: ''/m, indent(4, cacheMeCodeMacroDefinitions))
-        const latexGrammar = yaml.load(yamlGrammar)
+        const latexGrammar = load(yamlGrammar)
         return latexGrammar
     } catch (error) {
         console.log(error)
@@ -245,7 +245,7 @@ function buildLatexBlocks() {
 function buildDoctexGrammar(latexGrammar) {
     try {
         let doctexGrammar = fs.readFileSync(path.join(syntaxesSrcDir, 'DocTex.tmLanguage.yaml'), {encoding: 'utf-8'})
-        const yamlGrammar = yaml.load(doctexGrammar)
+        const yamlGrammar = load(doctexGrammar)
         yamlGrammar['repository']['latexSource']['patterns'] = latexGrammar['patterns']
         yamlGrammar['repository'] = {...yamlGrammar['repository'], ...latexGrammar['repository']}
         return yamlGrammar
