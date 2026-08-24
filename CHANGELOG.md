@@ -1,5 +1,21 @@
 # Change Log
 
+## [1.18.0] 2026-08-24
+
+### Fixed
+
+- (#135) Fix wrong interpretation of `$` as math mode in `sys_get_shell`
+- (#136) Fix inconsistent syntax coloring for `\(re)newcommand`
+- (#137) Require `%` in region folding markers
+
+### Changed
+
+- (#132) Improve nested command highlighting
+
+### Added
+
+- (#133) Highlight `lstlisting` with optional parameters
+
 ## [1.17.0] 2026-01-18
 
 ### Fixed
