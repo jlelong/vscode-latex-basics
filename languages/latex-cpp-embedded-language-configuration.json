@@ -103,7 +103,7 @@
 		},
 		"increaseIndentPattern": {
 			"pattern": "^.*(\\{[^}]*|\\([^)]*|\\[[^\\]]*)$"
-		}
+		},
 	},
 	"onEnterRules": [
 		{
@@ -117,16 +117,12 @@
 		},
 		// Add // when pressing enter from inside line comment
 		{
-			"beforeText": {
-				"pattern": "\/\/.*"
-			},
-			"afterText": {
-				"pattern": "^(?!\\s*$).+"
-			},
+			"beforeText": "^\\s*//\\s*\\S|\\s//\\s+\\S",
+			"afterText": "^(?!\\s*$)",
 			"action": {
 				"indent": "none",
 				"appendText": "// "
 			}
-		}
+		},
 	]
 }
