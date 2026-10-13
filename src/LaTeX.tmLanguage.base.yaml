@@ -18,6 +18,7 @@ patterns:
 - include: '#citation-macro'
 - include: '#references-macro'
 - include: '#label-macro'
+- include: '#regexp-macro'
 - include: '#verb-macro'
 - include: '#inline-code-macro'
 - include: '#all-other-macro'
@@ -887,6 +888,7 @@ repository:
     - include: '#citation-macro'
     - include: '#references-macro'
     - include: '#label-macro'
+    - include: '#regexp-macro'
     - include: '#verb-macro'
     - include: '#inline-code-macro'
     - include: '#macro-with-args-tokenizer'
@@ -896,6 +898,18 @@ repository:
     - include: '#column-specials'
     - include: '#braces'
     - include: text.tex
+  braces-verbatim:
+    begin: (?<!\\)\{
+    beginCaptures:
+      '0':
+        name: punctuation.group.begin.latex
+    end: (?<!\\)\}
+    endCaptures:
+      '0':
+        name: punctuation.group.end.latex
+    name: meta.group.braces.latex
+    patterns:
+    - include: '#braces-verbatim'
   braces:
     begin: (?<!\\)\{
     beginCaptures:
@@ -935,6 +949,23 @@ repository:
     patterns:
     - match: '[\p{Alphabetic}\p{Number}\.,:/*!^_-]+'
       name: variable.parameter.definition.label.latex
+  regexp-macro:
+    begin: ((\\)regexp)(\{)
+    beginCaptures:
+      '1':
+        name: support.function.regex.latex
+      '2':
+        name: punctuation.definition.keyword.latex
+      '3':
+        name: punctuation.definition.arguments.begin.latex
+    end: (?<!\\)\}
+    endCaptures:
+      '0':
+        name: punctuation.definition.arguments.end.latex
+    contentName: string.regexp.find.perl
+    name: meta.function.regex.latex
+    patterns:
+      - include: '#braces-verbatim'
   all-other-macro:
     patterns:
     - match: \\(?:newline|pagebreak|clearpage|linebreak|pause)(?:\b)
@@ -1093,6 +1124,7 @@ repository:
     - include: '#citation-macro'
     - include: '#references-macro'
     - include: '#label-macro'
+    - include: '#regexp-macro'
     - include: '#verb-macro'
     - include: '#inline-code-macro'
     - include: '#all-other-macro'
