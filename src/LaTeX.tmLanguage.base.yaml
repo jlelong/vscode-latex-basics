@@ -69,7 +69,7 @@ repository:
           - include: '#macro-with-args-tokenizer'
       name: meta.function.end-document.latex
   input-macro:
-    begin: ((\\)(?:include|input))(\{)
+    begin: ((\\)(?:includeonly|include|input))(\{)
     beginCaptures:
       '1':
         name: keyword.control.include.latex
