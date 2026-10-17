@@ -469,235 +469,259 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "providecommand",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "Lenv",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.end.latex"
 	},
 	{
 		"c": "[",
-		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.begin.latex"
 	},
 	{
 		"c": "1",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex"
 	},
 	{
 		"c": "]",
-		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "textsf",
-		"t": "text.tex.doctex support.function.general.tex"
-	},
-	{
-		"c": "{#1}}",
-		"t": "text.tex.doctex"
-	},
-	{
-		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
-	},
-	{
-		"c": "providecommand",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.tex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.begin.latex"
+	},
+	{
+		"c": "#1",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.group.braces.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.end.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "providecommand",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "Lopt",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.end.latex"
 	},
 	{
 		"c": "[",
-		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.begin.latex"
 	},
 	{
 		"c": "1",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex"
 	},
 	{
 		"c": "]",
-		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "textsf",
-		"t": "text.tex.doctex support.function.general.tex"
-	},
-	{
-		"c": "{#1}}",
-		"t": "text.tex.doctex"
-	},
-	{
-		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
-	},
-	{
-		"c": "providecommand",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.tex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.begin.latex"
+	},
+	{
+		"c": "#1",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.group.braces.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.end.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "providecommand",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "pkg",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.end.latex"
 	},
 	{
 		"c": "[",
-		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.begin.latex"
 	},
 	{
 		"c": "1",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex"
 	},
 	{
 		"c": "]",
-		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "texttt",
-		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.function.texttt.latex support.function.texttt.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
 	},
 	{
 		"c": "#1",
-		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.function.texttt.latex markup.raw.texttt.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "providecommand",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "file",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.end.latex"
 	},
 	{
 		"c": "[",
-		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.begin.latex"
 	},
 	{
 		"c": "1",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex"
 	},
 	{
 		"c": "]",
-		"t": "text.tex.doctex punctuation.definition.brackets.tex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.function.texttt.latex support.function.texttt.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "texttt",
-		"t": "text.tex.doctex meta.function.texttt.latex support.function.texttt.latex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.function.texttt.latex support.function.texttt.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.function.texttt.latex punctuation.definition.texttt.begin.latex"
 	},
 	{
 		"c": "#1",
-		"t": "text.tex.doctex meta.function.texttt.latex markup.raw.texttt.latex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.function.texttt.latex markup.raw.texttt.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex meta.function.texttt.latex punctuation.definition.texttt.end.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex"
+		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",

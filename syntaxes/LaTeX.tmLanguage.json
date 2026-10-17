@@ -149,7 +149,7 @@
             ]
         },
         "input-macro": {
-            "begin": "((\\\\)(?:include|input))(\\{)",
+            "begin": "((\\\\)(?:includeonly|include|input))(\\{)",
             "beginCaptures": {
                 "1": {
                     "name": "keyword.control.include.latex"
@@ -3871,7 +3871,7 @@
             ]
         },
         "newcommand-macro": {
-            "begin": "((\\\\)(?:newcommand|renewcommand|(?:re)?newrobustcmd|DeclareRobustCommand)\\*?)(\\{)?((\\\\)[\\p{Alphabetic}@]+\\*?)(\\})?(?:(\\[)[^\\]]*(\\])){0,2}(\\{)",
+            "begin": "((\\\\)(?:newcommand|renewcommand|providecommand|(?:re)?newrobustcmd|DeclareRobustCommand)\\*?)(\\{)?((\\\\)[\\p{Alphabetic}@]+\\*?)(\\})?(?:(\\[)[^\\]]*(\\])){0,2}(\\{)",
             "beginCaptures": {
                 "1": {
                     "name": "storage.type.function.latex"
