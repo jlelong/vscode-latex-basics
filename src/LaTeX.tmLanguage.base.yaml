@@ -853,7 +853,7 @@ repository:
       patterns:
       - include: $self
   newcommand-macro:
-    begin: ((\\)(?:newcommand|renewcommand|providecommand|(?:re)?newrobustcmd|DeclareRobustCommand)\*?)(\{)?((\\)[\p{Alphabetic}@]+\*?)(\})?(?:(\[)[^\]]*(\])){0,2}(\{)
+    begin: ((\\)(?:newcommand|renewcommand|providecommand|(?:re)?newrobustcmd|DeclareRobustCommand|newenvironment|renewenvironment)\*?)(\{)?((\\)?[\p{Alphabetic}@]+\*?)(\})?(?:(\[)[^\]]*(\])){0,2}(\{)
     beginCaptures:
       '1':
         name: storage.type.function.latex
