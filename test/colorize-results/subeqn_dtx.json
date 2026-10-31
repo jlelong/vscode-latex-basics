@@ -2513,15 +2513,27 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newenvironment",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex"
 	},
 	{
-		"c": "{subequations}{",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "subequations",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "%",
@@ -3237,59 +3249,51 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newcommand",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex storage.type.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "thesubequation",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "themainequation",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "alph",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
 	},
 	{
-		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
-	},
-	{
-		"c": "equation",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex variable.parameter.function.latex"
-	},
-	{
-		"c": "}}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+		"c": "{equation}}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
 		"c": "%",
@@ -3389,15 +3393,27 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newenvironment",
-		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex"
 	},
 	{
-		"c": "{subeqnarray}{",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.begin.latex"
+	},
+	{
+		"c": "subeqnarray",
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.end.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "%",
@@ -3685,71 +3701,59 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newcommand*",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex storage.type.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex storage.type.function.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.begin.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "@lab@subeqnarray",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.end.latex"
 	},
 	{
 		"c": "[",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.optional.begin.latex"
 	},
 	{
 		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
 		"c": "]",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.optional.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.optional.end.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
-		"c": "#1",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex"
-	},
-	{
-		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.begin.latex"
-	},
-	{
-		"c": "#2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex meta.group.braces.latex"
-	},
-	{
-		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex meta.group.braces.latex punctuation.group.end.latex"
+		"c": "#1{#2}",
+		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex punctuation.definition.function.tex"
 	},
 	{
 		"c": "eqnarray",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex support.function.general.tex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.general.tex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
 		"c": "%",
@@ -4009,23 +4013,23 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.doctex meta.function.begin-document.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "document",
-		"t": "text.tex.doctex meta.function.begin-document.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
@@ -4133,111 +4137,71 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "equation",
-		"t": "text.tex.doctex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "label",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "a",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex variable.parameter.definition.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
-		"c": "  a",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "^",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
-	},
-	{
-		"c": " ",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "+",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": " b",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "^",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
-	},
-	{
-		"c": " = c",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "^",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+		"c": "  a^2 + b^2 = c^2",
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "equation",
-		"t": "text.tex.doctex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "Now we start sub-numbering.",
@@ -4265,611 +4229,483 @@
 	},
 	{
 		"c": "  ",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+	},
+	{
+		"c": "label",
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "b",
+		"t": "text.tex.doctex meta.definition.label.latex variable.parameter.definition.label.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "  ",
 		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
-	},
-	{
-		"c": "label",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex keyword.control.label.latex"
-	},
-	{
-		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
-	},
-	{
-		"c": "b",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex variable.parameter.definition.label.latex"
-	},
-	{
-		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
-	},
-	{
-		"c": "  ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
-	},
-	{
-		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "equation",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "label",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "b1",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex variable.parameter.definition.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
-		"c": "    d",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "^",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
-	},
-	{
-		"c": " ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "+",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": " e",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "^",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
-	},
-	{
-		"c": " = f",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "^",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+		"c": "    d^2 + e^2 = f^2",
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "equation",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  We can refer to equation~",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "ref",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "a",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+		"t": "text.tex.doctex meta.reference.label.latex constant.other.reference.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": ", ",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "ref",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "b",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+		"t": "text.tex.doctex meta.reference.label.latex constant.other.reference.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": " and~",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "ref",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "b1",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+		"t": "text.tex.doctex meta.reference.label.latex constant.other.reference.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": ".",
+		"t": "text.tex.doctex"
+	},
+	{
+		"c": "  ",
 		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
-		"c": "  ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
-	},
-	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "equation",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "label",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "b2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex variable.parameter.definition.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
-		"c": "    g",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "^",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
-	},
-	{
-		"c": " ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "+",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": " h",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "^",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
-	},
-	{
-		"c": " = i",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "^",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex constant.numeric.math.tex"
+		"c": "    g^2 + h^2 = i^2",
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "equation",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  This was equation~",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "ref",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "b2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+		"t": "text.tex.doctex meta.reference.label.latex constant.other.reference.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": ".",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "eqnarray",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "    ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "label",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "c",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex variable.parameter.definition.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
-		"c": "    x ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "&",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
-	},
-	{
-		"c": "=",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "&",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
-	},
-	{
-		"c": " y",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "+",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "z",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"c": "    x &=& y+z",
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "label",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "c1",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex variable.parameter.definition.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.newline.latex"
+		"t": "text.tex.doctex keyword.control.newline.tex"
 	},
 	{
-		"c": "    u ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "&",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
-	},
-	{
-		"c": "=",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "&",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
-	},
-	{
-		"c": " v",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "+",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "w",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"c": "    u &=& v+w",
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "label",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "c2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex variable.parameter.definition.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "eqnarray",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  This was expression~",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "ref",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "c",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+		"t": "text.tex.doctex meta.reference.label.latex constant.other.reference.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": ", consisting of parts~",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "ref",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "c1",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+		"t": "text.tex.doctex meta.reference.label.latex constant.other.reference.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  and~",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "ref",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex keyword.control.ref.latex"
+		"t": "text.tex.doctex meta.reference.label.latex keyword.control.ref.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "c2",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex constant.other.reference.label.latex"
+		"t": "text.tex.doctex meta.reference.label.latex constant.other.reference.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.reference.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": ". ",
-		"t": "text.tex.doctex meta.function.environment.general.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
@@ -4917,167 +4753,119 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "subeqnarray",
-		"t": "text.tex.doctex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "  ",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "label",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "d",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex variable.parameter.definition.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
-		"c": "  x ",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "&",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
-	},
-	{
-		"c": "=",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "&",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
-	},
-	{
-		"c": " y",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "+",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "z",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"c": "  x &=& y+z",
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "label",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "d1",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex variable.parameter.definition.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.newline.latex"
+		"t": "text.tex.doctex keyword.control.newline.tex"
 	},
 	{
-		"c": "  u ",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "&",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
-	},
-	{
-		"c": "=",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "&",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
-	},
-	{
-		"c": " v",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
-	},
-	{
-		"c": "+",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex punctuation.math.operator.tex"
-	},
-	{
-		"c": "w",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"c": "  u &=& v+w",
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex punctuation.definition.keyword.latex"
 	},
 	{
 		"c": "label",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex keyword.control.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex keyword.control.label.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "d2",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex variable.parameter.definition.label.latex"
+		"t": "text.tex.doctex meta.definition.label.latex variable.parameter.definition.label.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex meta.definition.label.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.definition.label.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "subeqnarray",
-		"t": "text.tex.doctex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "This was equation~",
@@ -5157,23 +4945,23 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.doctex meta.function.end-document.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "document",
-		"t": "text.tex.doctex meta.function.end-document.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "%</sample>",
