@@ -27,7 +27,7 @@ function assertUnchangedTokens(testFixurePath, done) {
             if (fs.existsSync(resultPath)) {
                 let previousData = JSON.parse(fs.readFileSync(resultPath).toString())
                 try {
-                    assert.deepEqual(data, previousData)
+                    assert.deepStrictEqual(data, previousData)
                 } catch (e) {
                     // fs.writeFileSync(resultPath, JSON.stringify(data, null, '\t'), { flag: 'w' })
                     if (Array.isArray(data) && Array.isArray(previousData)) {
@@ -41,7 +41,7 @@ function assertUnchangedTokens(testFixurePath, done) {
                             }
                         }
                         throw e
-                        // different but no tokenization ot color change: no failure
+                        // different but no tokenization or color change: no failure
                     } else {
                         throw e
                     }
