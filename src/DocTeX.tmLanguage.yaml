@@ -40,7 +40,9 @@ repository:
       end: ^(%)    (\\end\{macrocode\})
       patterns:
       - include: '#guards'
-      - include: text.tex.latex
+      - include: '#newcommand-header-only'
+      - include: '#basic-unbalanced-latex-rules'
+      - include: text.tex
   comments:
     patterns:
     - match: (^[ \t]*)%?%
@@ -49,6 +51,28 @@ repository:
       name: comment.line.percentage.tex
     - match: (?<=[^%\\])%
       name: invalid
+  newcommand-header-only:
+    patterns:
+    - match: ((\\)(?:newcommand|renewcommand|providecommand|(?:re)?newrobustcmd|DeclareRobustCommand|newenvironment|renewenvironment)\*?)(\{)?((\\)?[\p{Alphabetic}@]+\*?)(\})?(?:(\[)[^\]]*(\])){0,2}(\{)
+      captures:
+        '1':
+          name: storage.type.function.latex
+        '2':
+          name: punctuation.definition.function.latex
+        '3':
+          name: punctuation.definition.begin.latex
+        '4':
+          name: support.function.general.latex
+        '5':
+          name: punctuation.definition.function.latex
+        '6':
+          name: punctuation.definition.end.latex
+        '7':
+          name: punctuation.definition.arguments.optional.begin.latex
+        '8':
+          name: punctuation.definition.arguments.optional.end.latex
+        '9':
+          name: punctuation.definition.arguments.begin.latex
   latexSource:
     patterns: []
 scopeName: text.tex.doctex
