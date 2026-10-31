@@ -3910,61 +3910,7 @@
             "name": "meta.parameter.newcommand.latex",
             "patterns": [
                 {
-                    "include": "#documentclass-usepackage-macro"
-                },
-                {
-                    "include": "#unbalanced-env"
-                },
-                {
-                    "include": "#input-macro"
-                },
-                {
-                    "include": "#sections-macro"
-                },
-                {
-                    "include": "#hyperref-macro"
-                },
-                {
-                    "include": "#text-font-macro"
-                },
-                {
-                    "include": "#citation-macro"
-                },
-                {
-                    "include": "#references-macro"
-                },
-                {
-                    "include": "#label-macro"
-                },
-                {
-                    "include": "#regexp-macro"
-                },
-                {
-                    "include": "#verb-macro"
-                },
-                {
-                    "include": "#inline-code-macro"
-                },
-                {
-                    "include": "#macro-with-args-tokenizer"
-                },
-                {
-                    "include": "#all-other-macro"
-                },
-                {
-                    "include": "#display-math"
-                },
-                {
-                    "include": "#inline-math"
-                },
-                {
-                    "include": "#column-specials"
-                },
-                {
-                    "include": "#braces"
-                },
-                {
-                    "include": "text.tex"
+                    "include": "#newcommand-definition-rules"
                 }
             ]
         },
@@ -4351,52 +4297,19 @@
             "comment": "Do not look for balanced expressions, ie environments, inside a command argument",
             "patterns": [
                 {
-                    "include": "#documentclass-usepackage-macro"
-                },
-                {
-                    "include": "#input-macro"
-                },
-                {
-                    "include": "#sections-macro"
-                },
-                {
-                    "include": "#hyperref-macro"
-                },
-                {
                     "include": "#newcommand-macro"
-                },
-                {
-                    "include": "#text-font-macro"
-                },
-                {
-                    "include": "#citation-macro"
-                },
-                {
-                    "include": "#references-macro"
-                },
-                {
-                    "include": "#label-macro"
                 },
                 {
                     "include": "#regexp-macro"
                 },
                 {
-                    "include": "#verb-macro"
-                },
-                {
                     "include": "#inline-code-macro"
                 },
                 {
-                    "include": "#all-other-macro"
-                },
-                {
-                    "include": "#display-math"
-                },
-                {
-                    "include": "#inline-math"
-                },
-                {
                     "include": "#column-specials"
+                },
+                {
+                    "include": "#basic-unbalanced-latex-rules"
                 },
                 {
                     "include": "#braces"
@@ -4510,6 +4423,68 @@
                 },
                 {
                     "include": "$self"
+                }
+            ]
+        },
+        "newcommand-definition-rules": {
+            "patterns": [
+                {
+                    "include": "#regexp-macro"
+                },
+                {
+                    "include": "#macro-with-args-tokenizer"
+                },
+                {
+                    "include": "#basic-unbalanced-latex-rules"
+                },
+                {
+                    "include": "#braces"
+                },
+                {
+                    "include": "text.tex"
+                }
+            ]
+        },
+        "basic-unbalanced-latex-rules": {
+            "patterns": [
+                {
+                    "include": "#documentclass-usepackage-macro"
+                },
+                {
+                    "include": "#unbalanced-env"
+                },
+                {
+                    "include": "#input-macro"
+                },
+                {
+                    "include": "#sections-macro"
+                },
+                {
+                    "include": "#hyperref-macro"
+                },
+                {
+                    "include": "#text-font-macro"
+                },
+                {
+                    "include": "#citation-macro"
+                },
+                {
+                    "include": "#references-macro"
+                },
+                {
+                    "include": "#label-macro"
+                },
+                {
+                    "include": "#verb-macro"
+                },
+                {
+                    "include": "#all-other-macro"
+                },
+                {
+                    "include": "#display-math"
+                },
+                {
+                    "include": "#inline-math"
                 }
             ]
         }
