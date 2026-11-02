@@ -225,31 +225,27 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newcommand",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex"
+		"t": "text.tex.doctex storage.type.function.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "hello@a",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex"
+		"t": "text.tex.doctex support.function.general.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex punctuation.definition.arguments.begin.latex"
 	},
 	{
-		"c": "xxx",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex"
-	},
-	{
-		"c": "}",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+		"c": "xxx}",
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "%",
@@ -265,31 +261,27 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex storage.type.function.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "newcommand",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex storage.type.function.latex"
+		"t": "text.tex.doctex storage.type.function.latex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex support.function.general.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "hello@c",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex support.function.general.latex"
+		"t": "text.tex.doctex support.function.general.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex punctuation.definition.arguments.begin.latex"
 	},
 	{
-		"c": "zzz",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex"
-	},
-	{
-		"c": "}",
-		"t": "text.tex.doctex meta.parameter.newcommand.latex punctuation.definition.arguments.end.latex"
+		"c": "zzz}",
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "%",
@@ -317,59 +309,59 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "equation",
-		"t": "text.tex.doctex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "abc",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+		"t": "text.tex.doctex comment.line.percentage.tex punctuation.definition.comment.tex"
 	},
 	{
 		"c": " abc",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex"
+		"t": "text.tex.doctex comment.line.percentage.tex"
 	},
 	{
 		"c": "^^A abc",
-		"t": "text.tex.doctex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+		"t": "text.tex.doctex"
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.doctex meta.function.environment.math.latex support.function.be.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "equation",
-		"t": "text.tex.doctex meta.function.environment.math.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex meta.function.environment.general.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "%",
@@ -465,15 +457,15 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex comment.line.percentage.tex punctuation.definition.comment.tex"
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex comment.line.percentage.doctex"
 	},
 	{
 		"c": " abc",
-		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex comment.line.percentage.tex"
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex"
 	},
 	{
 		"c": "^^A abc",
-		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex"
+		"t": "text.tex.doctex meta.math.block.tex support.class.math.block.tex comment.line.percentage.tex"
 	},
 	{
 		"c": "$",

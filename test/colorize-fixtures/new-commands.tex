@@ -1,0 +1,36 @@
+\newcommand{\Correction}[2]{%
+  \par
+  #1%
+  {\unskip\nobreak\hfil\penalty50
+  \hskip2em\hbox{}\nobreak\hfil（#2）%
+  \parfillskip=0pt \finalhyphendemerits=0 \par}%
+}
+
+\newcommand{\test}{Test}
+\newcommand\test{Test}
+
+\makeatletter
+\newcommand{\@test}{Test}
+\newcommand\@test{Test}
+\makeatother
+
+\renewcommand{\test}{Test}
+\renewcommand\test{Test}
+
+\makeatletter
+\renewcommand{\@test}{Test}
+\renewcommand\@test{Test}
+\makeatother
+
+\newenvironment{subeqnarray}{%
+  \subequations
+  \@ifnextchar\label{\@lab@subeqnarray}{\eqnarray}
+  }{%
+  \endeqnarray\endsubequations
+  }
+
+\NewDocumentCommand\chapter{s o m} {%
+\IfBooleanTF{#1}%
+{\typesetstarchapter{#3}}%
+{\typesetnormalchapter{#2}{#3}}%
+}
