@@ -37,6 +37,9 @@
             "include": "#newcommand-macro"
         },
         {
+            "include": "#new-document-command-macro"
+        },
+        {
             "include": "#text-font-macro"
         },
         {
@@ -3871,7 +3874,7 @@
             ]
         },
         "newcommand-macro": {
-            "begin": "((\\\\)(?:newcommand|renewcommand|providecommand|(?:re)?newrobustcmd|DeclareRobustCommand|newenvironment|renewenvironment)\\*?)(\\{)?((\\\\)?[\\p{Alphabetic}@]+\\*?)(\\})?(?:(\\[)[^\\]]*(\\])){0,2}(\\{)",
+            "begin": "((\\\\)(?:newcommand|renewcommand|providecommand|(?:re)?newrobustcmd|DeclareRobustCommand|newenvironment|renewenvironment)\\*?)(\\{)?((\\\\)?[\\p{Alphabetic}@]+\\*?)(\\})?(?:(\\[)[^\\]]*(\\])){0,2}\\s*(\\{)",
             "beginCaptures": {
                 "1": {
                     "name": "storage.type.function.latex"
@@ -3896,6 +3899,50 @@
                 },
                 "8": {
                     "name": "punctuation.definition.arguments.optional.end.latex"
+                },
+                "9": {
+                    "name": "punctuation.definition.arguments.begin.latex"
+                }
+            },
+            "end": "\\}",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.arguments.end.latex"
+                }
+            },
+            "name": "meta.parameter.newcommand.latex",
+            "patterns": [
+                {
+                    "include": "#newcommand-definition-rules"
+                }
+            ]
+        },
+        "new-document-command-macro": {
+            "begin": "((\\\\)(?:(?:New|ReNew|Provide|Declare)Document(?:Command|Environment)))(\\{)?((\\\\)?[\\p{Alphabetic}@]+\\*?)(\\})?(\\{)[^}]*(\\})\\s*(\\{)",
+            "beginCaptures": {
+                "1": {
+                    "name": "storage.type.function.latex"
+                },
+                "2": {
+                    "name": "punctuation.definition.function.latex"
+                },
+                "3": {
+                    "name": "punctuation.definition.begin.latex"
+                },
+                "4": {
+                    "name": "support.function.general.latex"
+                },
+                "5": {
+                    "name": "punctuation.definition.function.latex"
+                },
+                "6": {
+                    "name": "punctuation.definition.end.latex"
+                },
+                "7": {
+                    "name": "punctuation.definition.arguments.begin.latex"
+                },
+                "8": {
+                    "name": "punctuation.definition.arguments.end.latex"
                 },
                 "9": {
                     "name": "punctuation.definition.arguments.begin.latex"
