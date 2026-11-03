@@ -437,23 +437,23 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.tex.doctex meta.function.begin-document.latex support.function.be.latex"
+		"t": "text.tex.doctex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "document",
-		"t": "text.tex.doctex meta.function.begin-document.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
@@ -737,23 +737,23 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.doctex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.tex.doctex meta.function.end-document.latex support.function.be.latex"
+		"t": "text.tex.doctex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.doctex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.doctex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "document",
-		"t": "text.tex.doctex meta.function.end-document.latex variable.parameter.function.latex"
+		"t": "text.tex.doctex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.doctex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.doctex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "%</driver>",
@@ -5001,10 +5001,10 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.doctex support.function.general.tex punctuation.definition.function.tex"
+		"t": "text.tex.doctex keyword.control.input.tex punctuation.definition.keyword.tex"
 	},
 	{
 		"c": "endinput",
-		"t": "text.tex.doctex support.function.general.tex"
+		"t": "text.tex.doctex keyword.control.input.tex"
 	}
 ]
