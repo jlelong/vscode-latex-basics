@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.19.0] XXXX-XX-XX
+
+### Fixed
+
+- (#138) Syntax hightlighting and `\regexp`
+- (#141) Consider `\includeonly` as `\include` and `\input`
+
+### Changed
+
+- (#140) Consider `\newenvironment` as `\newcommand` and similarly for all the variants.
+- (#142) Consider everything after `\endinput` or `\end{document}` as a comment
+
 ## [1.18.0] 2026-08-24
 
 ### Fixed
