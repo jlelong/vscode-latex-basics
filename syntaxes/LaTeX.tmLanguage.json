@@ -133,12 +133,11 @@
                             ]
                         }
                     },
-                    "comment": "These two patterns match the \\begin{document} and \\end{document} commands, so that the environment matching pattern following them will ignore those commands.",
-                    "name": "meta.function.begin-document.latex"
+                    "comment": "These two patterns match the \\begin{document} and \\end{document} commands, so that the environment matching pattern following them will ignore those commands."
                 },
                 {
-                    "match": "(\\s*\\\\end\\{document\\})",
-                    "captures": {
+                    "begin": "^\\s*(\\\\end{document})",
+                    "beginCaptures": {
                         "1": {
                             "patterns": [
                                 {
@@ -147,7 +146,8 @@
                             ]
                         }
                     },
-                    "name": "meta.function.end-document.latex"
+                    "end": "(?!)",
+                    "contentName": "comment.line.percentage.tex"
                 }
             ]
         },

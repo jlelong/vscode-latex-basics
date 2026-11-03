@@ -14,6 +14,9 @@
             "include": "#comments"
         },
         {
+            "include": "#doctex-document-env"
+        },
+        {
             "include": "#latexSource"
         }
     ],
@@ -53,6 +56,35 @@
                         }
                     },
                     "name": "meta.function.verb.latex"
+                }
+            ]
+        },
+        "doctex-document-env": {
+            "patterns": [
+                {
+                    "match": "(\\s*\\\\begin\\{document\\})",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#macro-with-args-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "comment": "These two patterns match the \\begin{document} and \\end{document} commands, so that the environment matching pattern following them will ignore those commands. We override the '#document-env' entry from the LaTeX grammar because \\end{document} does not end a dtx file."
+                },
+                {
+                    "match": "(\\s*\\\\end\\{document\\})",
+                    "captures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "#macro-with-args-tokenizer"
+                                }
+                            ]
+                        }
+                    }
                 }
             ]
         },
@@ -272,12 +304,11 @@
                             ]
                         }
                     },
-                    "comment": "These two patterns match the \\begin{document} and \\end{document} commands, so that the environment matching pattern following them will ignore those commands.",
-                    "name": "meta.function.begin-document.latex"
+                    "comment": "These two patterns match the \\begin{document} and \\end{document} commands, so that the environment matching pattern following them will ignore those commands."
                 },
                 {
-                    "match": "(\\s*\\\\end\\{document\\})",
-                    "captures": {
+                    "begin": "^\\s*(\\\\end{document})",
+                    "beginCaptures": {
                         "1": {
                             "patterns": [
                                 {
@@ -286,7 +317,8 @@
                             ]
                         }
                     },
-                    "name": "meta.function.end-document.latex"
+                    "end": "(?!)",
+                    "contentName": "comment.line.percentage.tex"
                 }
             ]
         },
