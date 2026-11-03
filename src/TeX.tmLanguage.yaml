@@ -10,8 +10,18 @@ patterns:
 - match: \\\\
   name: keyword.control.newline.tex
 - include: '#ifnextchar'
+- include: '#endinput'
 - include: '#macro-general'
 repository:
+  endinput:
+    begin: ^\s*((\\)endinput)
+    beginCaptures:
+      '1':
+        name: keyword.control.input.tex
+      '2':
+        name: punctuation.definition.keyword.tex
+    end: (?!)
+    contentName: comment.line.percentage.tex
   catcode:
     match: ((\\)catcode)`(?:\\)?.(=)(\d+)
     captures:

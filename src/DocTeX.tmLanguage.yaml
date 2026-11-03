@@ -4,6 +4,7 @@ patterns:
 - include: '#macrocode'
 - include: '#guards'
 - include: '#comments'
+- include: '#doctex-document-env'
 - include: '#latexSource'
 repository:
   guards:
@@ -29,6 +30,22 @@ repository:
         '3':
           name: punctuation.definition.verb.latex
       name: meta.function.verb.latex
+  doctex-document-env:
+    patterns:
+    - match: (\s*\\begin\{document\})
+      captures:
+        '1':
+          patterns:
+          - include: '#macro-with-args-tokenizer'
+      comment: These two patterns match the \begin{document} and \end{document} commands,
+        so that the environment matching pattern following them will ignore those commands.
+        We override the '#document-env' entry from the LaTeX grammar because \end{document}
+        does not end a dtx file.
+    - match: (\s*\\end\{document\})
+      captures:
+        '1':
+          patterns:
+          - include: '#macro-with-args-tokenizer'
   macrocode:
     patterns:
     - begin: ^(%)    (\\begin\{macrocode\})

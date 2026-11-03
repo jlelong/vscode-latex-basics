@@ -21,23 +21,23 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "begin",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.begin-document.latex support.function.be.latex"
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "document",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.begin-document.latex variable.parameter.function.latex"
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "\\",
@@ -93,23 +93,23 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
 		"c": "end",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.end-document.latex support.function.be.latex"
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
 		"c": "document",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.end-document.latex variable.parameter.function.latex"
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.latex punctuation.definition.arguments.end.latex"
 	},
 	{
 		"c": "```",
