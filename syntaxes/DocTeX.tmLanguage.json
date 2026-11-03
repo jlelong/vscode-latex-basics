@@ -2,6 +2,12 @@
     "name": "DocTeX",
     "patterns": [
         {
+            "include": "#doctex-document-env"
+        },
+        {
+            "include": "#doctex-verbatim-env"
+        },
+        {
             "include": "#verb"
         },
         {
@@ -12,9 +18,6 @@
         },
         {
             "include": "#comments"
-        },
-        {
-            "include": "#doctex-document-env"
         },
         {
             "include": "#latexSource"
@@ -56,6 +59,28 @@
                         }
                     },
                     "name": "meta.function.verb.latex"
+                }
+            ]
+        },
+        "doctex-verbatim-env": {
+            "patterns": [
+                {
+                    "begin": "^(%)(\\s*\\\\begin\\{((?:fboxv|boxedv|V|v|spv)erbatim\\*?)\\})",
+                    "end": "^(%)(\\s*\\\\end\\{\\3\\})",
+                    "captures": {
+                        "1": {
+                            "name": "comment.line.percentage.doctex"
+                        },
+                        "2": {
+                            "patterns": [
+                                {
+                                    "include": "#macro-with-args-tokenizer"
+                                }
+                            ]
+                        }
+                    },
+                    "contentName": "markup.raw.verbatim.latex",
+                    "name": "meta.function.verbatim.latex"
                 }
             ]
         },

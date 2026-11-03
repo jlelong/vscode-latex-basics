@@ -1937,7 +1937,7 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex comment.line.percentage.doctex"
+		"t": "text.tex.doctex meta.function.verbatim.latex comment.line.percentage.doctex"
 	},
 	{
 		"c": "\\",
@@ -1965,7 +1965,7 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+		"t": "text.tex.doctex meta.function.verbatim.latex comment.line.percentage.doctex"
 	},
 	{
 		"c": "\\",
@@ -2013,7 +2013,7 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex comment.line.percentage.doctex"
+		"t": "text.tex.doctex meta.function.verbatim.latex comment.line.percentage.doctex"
 	},
 	{
 		"c": "\\",
@@ -2041,7 +2041,7 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+		"t": "text.tex.doctex meta.function.verbatim.latex comment.line.percentage.doctex"
 	},
 	{
 		"c": "\\",
@@ -2073,7 +2073,7 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex comment.line.percentage.doctex"
+		"t": "text.tex.doctex meta.function.verbatim.latex comment.line.percentage.doctex"
 	},
 	{
 		"c": "\\",
@@ -2105,7 +2105,7 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+		"t": "text.tex.doctex meta.function.verbatim.latex comment.line.percentage.doctex"
 	},
 	{
 		"c": "\\",
@@ -2137,7 +2137,7 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex comment.line.percentage.doctex"
+		"t": "text.tex.doctex meta.function.verbatim.latex comment.line.percentage.doctex"
 	},
 	{
 		"c": "\\",
@@ -2169,7 +2169,7 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+		"t": "text.tex.doctex meta.function.verbatim.latex comment.line.percentage.doctex"
 	},
 	{
 		"c": "\\",
@@ -2249,7 +2249,7 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex comment.line.percentage.doctex"
+		"t": "text.tex.doctex meta.function.verbatim.latex comment.line.percentage.doctex"
 	},
 	{
 		"c": "\\",
@@ -2277,7 +2277,7 @@
 	},
 	{
 		"c": "%",
-		"t": "text.tex.doctex meta.function.verbatim.latex markup.raw.verbatim.latex"
+		"t": "text.tex.doctex meta.function.verbatim.latex comment.line.percentage.doctex"
 	},
 	{
 		"c": "\\",
