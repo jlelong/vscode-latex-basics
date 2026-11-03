@@ -1,11 +1,12 @@
 # Change Log
 
-## [1.19.0] XXXX-XX-XX
+## [1.19.0] 2026-11-03
 
 ### Fixed
 
 - (#138) Syntax hightlighting and `\regexp`
 - (#141) Consider `\includeonly` as `\include` and `\input`
+- (#143) Fix wrong highlighting of `%` when closing verbatim envs in doctex
 
 ### Changed
 
